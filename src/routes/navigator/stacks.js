@@ -3,6 +3,7 @@ import { Image } from 'react-native'
 import { createStackNavigator } from 'react-navigation-stack'
 import { DrawerActions } from 'react-navigation-drawer'
 import FontIcon from 'react-native-vector-icons/FontAwesome5'
+import { Signup } from '../../scenes/auth'
 import Home from '../../scenes/home'
 import Profile from '../../scenes/profile'
 import Details from '../../scenes/details'
@@ -26,6 +27,20 @@ const renderLogo = () => (
     style={{ width: 32, height: 32 }}
   />
 )
+
+export const authNavigator = createStackNavigator({
+  Signup: {
+    screen: Signup,
+    navigationOptions: () => ({
+      title: 'Sign up',
+      headerTintColor: 'white',
+      headerStyle: { backgroundColor: colors.darkPurple },
+      headerTitleStyle: { fontSize: 18 },
+      headerTitle: renderLogo()
+    }),
+  },
+})
+
 
 export const homeNavigator = createStackNavigator({
   Home: {

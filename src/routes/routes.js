@@ -4,6 +4,7 @@ import { Text } from 'react-native'
 import { createAppContainer } from 'react-navigation'
 import drawerNavigator from './navigator/drawer'
 import Connector from '../utils/connector'
+import { authNavigator } from './navigator/stacks'
 
 class Routes extends Component {
   componentWillMount() {
@@ -19,7 +20,8 @@ class Routes extends Component {
     // TODO: switch router by loggedIn state
     console.log('[##] loggedIn', loggedIn)
 
-    const Router = createAppContainer(drawerNavigator)
+    // const Router = createAppContainer(drawerNavigator)
+    const Router = createAppContainer(authNavigator)
     return <Router />
   }
 }
