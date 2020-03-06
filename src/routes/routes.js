@@ -9,19 +9,18 @@ import { authNavigator } from './navigator/stacks'
 class Routes extends Component {
   componentWillMount() {
     // authentication
-    const { actions } = this.props
-    actions.authenticate()
+    // const { actions } = this.props
+    // actions.authenticate()
   }
 
   render() {
     const { checked, loggedIn } = this.props
     if (!checked) return <Text>Loading...</Text>
 
-    // TODO: switch router by loggedIn state
-    console.log('[##] loggedIn', loggedIn)
-
-    // const Router = createAppContainer(drawerNavigator)
-    const Router = createAppContainer(authNavigator)
+    // const Router = 
+    const Router = loggedIn
+      ? createAppContainer(drawerNavigator)
+      : createAppContainer(authNavigator)
     return <Router />
   }
 }

@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { StyleSheet, Text, View, StatusBar } from 'react-native'
+import { StyleSheet, Text, View, StatusBar, Image } from 'react-native'
 import Button from '../../components/Button'
 import { colors } from '../../styles'
+import Connector from '../../utils/connector'
 
 const styles = StyleSheet.create({
   root: {
@@ -16,15 +17,25 @@ const styles = StyleSheet.create({
     fontSize: 24,
     marginBottom: 20,
   },
+  image: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    marginBottom: 20,
+  }
 })
 
 class Home extends Component {
   render() {
-    const { navigation } = this.props
+    const { navigation, me } = this.props
     return (
       <View style={styles.root}>
         <StatusBar barStyle="light-content" />
-        <Text style={styles.title}>Home</Text>
+        <Image
+          style={styles.image}
+          source={{ uri: me.picture }}
+        />
+        <Text style={styles.title}>{`Hello ${me.nickname}`}</Text>
         <Button
           title="Go to Details"
           color="white"
@@ -38,6 +49,20 @@ class Home extends Component {
   }
 }
 
+const ConnectedHome = props => (
+  <Connector>
+    {
+      ({ actions, state: { app: { me } } }) => (
+        <Home
+          actions={actions.app}
+          me={me}
+          {...props}
+        />
+      )
+    }
+  </Connector>
+)
+
 Home.propTypes = {
   navigation: PropTypes.object,
 }
@@ -46,4 +71,4 @@ Home.defaultProps = {
   navigation: {},
 }
 
-export default Home
+export default ConnectedHome

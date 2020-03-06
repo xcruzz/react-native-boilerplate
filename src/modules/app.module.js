@@ -1,13 +1,13 @@
+
 // ------------------------------------
 // Constants
 // ------------------------------------
-
-const SAVE_ME = 'SAVE_ME'
 const LOGGED_IN = 'LOGGED_IN'
 
 const initialState = {
-  checked: false,
+  checked: true,
   loggedIn: false,
+  accessToken: null,
   me: {},
 }
 
@@ -16,20 +16,16 @@ const initialState = {
 // ------------------------------------
 
 // TODO: check the user's login state
-export const authenticate = () => dispatch => dispatch({
+export const authenticate = (accessToken, me) => dispatch => dispatch({
   type: LOGGED_IN,
   loggedIn: true,
   checked: true,
-})
-
-export const saveMe = me => dispatch => dispatch({
-  type: SAVE_ME,
+  accessToken,
   me,
 })
 
 export const actions = {
   authenticate,
-  saveMe,
 }
 
 // ------------------------------------
@@ -37,13 +33,11 @@ export const actions = {
 // ------------------------------------
 
 const ACTION_HANDLERS = {
-  [LOGGED_IN]: (state, { loggedIn, checked }) => ({
+  [LOGGED_IN]: (state, { loggedIn, checked, accessToken, me }) => ({
     ...state,
     loggedIn,
     checked,
-  }),
-  [SAVE_ME]: (state, { me }) => ({
-    ...state,
+    accessToken,
     me,
   }),
 }
