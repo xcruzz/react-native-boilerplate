@@ -9,9 +9,13 @@ export const svgs = {
 
 // png/jpeg
 export const images = {
-  logo_sm: require('../../assets/images/logo-sm.png'),
-  logo_lg: require('../../assets/images/logo-lg.png'),
+  logo_blanco: require('../../assets/images/mvcLogoBlanco.png'),
+  logo_negro: require('../../assets/images/mvcLogoNegro.png'),
+  logo_arcoiris: require('../../assets/images/L.png'),
+  spinner_arcoiris: require('../../assets/images/spinnerL.gif'),
 }
 
 // image preloading
-export const imageAssets = Object.keys(images).map((key) => Asset.fromModule(images[key]).downloadAsync())
+export const imageAssets = Object.keys(images).map((key) =>
+  Asset.fromModule(images[key]).downloadAsync(),
+)

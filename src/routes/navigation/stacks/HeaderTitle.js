@@ -9,7 +9,9 @@ const styles = StyleSheet.create({
   },
 })
 
-const HeaderTitle = () => <Image source={images.logo_sm} style={styles.logo} />
+const HeaderTitle = () => (
+  <Image source={images.logo_blanco} style={styles.logo} />
+)
 
 HeaderTitle.propTypes = {}
 HeaderTitle.defaultProps = {}

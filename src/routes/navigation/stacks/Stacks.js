@@ -9,7 +9,7 @@ import HeaderTitle from './HeaderTitle'
 
 const navigationProps = {
   headerTintColor: 'white',
-  headerStyle: { backgroundColor: colors.darkPurple },
+  headerStyle: { backgroundColor: colors.darkGris },
   headerTitleStyle: { fontSize: 18 },
 }
 
