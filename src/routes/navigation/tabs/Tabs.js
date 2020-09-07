@@ -28,7 +28,7 @@ const TabNavigator = createBottomTabNavigator(
             return (
               <FontIcon
                 name="home"
-                color={focused ? colors.lightPurple : colors.gray}
+                color={focused ? colors.doradoVictoria : colors.gray}
                 size={20}
                 solid
               />
@@ -37,7 +37,7 @@ const TabNavigator = createBottomTabNavigator(
             return (
               <FontIcon
                 name="user"
-                color={focused ? colors.lightPurple : colors.gray}
+                color={focused ? colors.doradoVictoria : colors.gray}
                 size={20}
                 solid
               />
@@ -48,10 +48,10 @@ const TabNavigator = createBottomTabNavigator(
       },
       initialRouteName: 'Home',
       tabBarOptions: {
-        activeTintColor: colors.lightPurple,
+        activeTintColor: colors.doradoVictoria,
         inactiveTintColor: colors.gray,
         style: {
-          // backgroundColor: 'white',
+          backgroundColor: 'black',
           // borderTopColor: 'gray',
           // borderTopWidth: 1,
           // paddingBottom: 5,
