@@ -37,7 +37,7 @@ const Photo = ({ navigation }) => (
   <View style={styles.container}>
     <StatusBar barStyle="light-content" />
     <ActiveDisplay
-      title="El Auditor"
+      title="EL AUDITOR"
       activityDisplay={images.logo_mono}
       onPress={() => {}}
     />

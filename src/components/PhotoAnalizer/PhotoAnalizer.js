@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import BrowsePhoto from './BrowsePhoto'
-import { TouchableOpacity, Text, View, Image } from 'react-native'
+import { View } from 'react-native'
 
 const mvcStyles = {
   container: {

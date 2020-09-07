@@ -49,7 +49,7 @@ const TabNavigator = createBottomTabNavigator(
           case 'PhotoTab':
             return (
               <FontIcon
-                name="user"
+                name="camera"
                 color={focused ? colors.doradoVictoria : colors.gray}
                 size={20}
                 solid
