@@ -14,9 +14,9 @@ expo start
 
 ## Usage
 
-![MVC HOME](https://raw.githubusercontent.com/xcruzz/react-native-boilerplate/fa96a2b0f3355a9b2e5d218399a9f57a7a0e66db/assets/images/ScreenShots/Inicio.png)
+![MVC HOME](https://raw.githubusercontent.com/xcruzz/react-native-boilerplate/mvcApp3/assets/images/ScreenShots/Inicio.png)
 
-![MVC AUDITOR](https://raw.githubusercontent.com/xcruzz/react-native-boilerplate/fa96a2b0f3355a9b2e5d218399a9f57a7a0e66db/assets/images/ScreenShots/Auditor.png)
+![MVC AUDITOR](https://raw.githubusercontent.com/xcruzz/react-native-boilerplate/mvcApp3/assets/images/ScreenShots/Auditor.png)
 
 
 
