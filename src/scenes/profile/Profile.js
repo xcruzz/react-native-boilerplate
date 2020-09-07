@@ -12,11 +12,24 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.lightGrayPurple,
+    backgroundColor: colors.darkGris,
   },
   title: {
     fontSize: 24,
     marginBottom: 20,
+    color: 'white',
+  },
+  text: {
+    fontSize: 16,
+    marginBottom: 20,
+    color: 'white',
+    alignContent: 'center',
+  },
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'black',
   },
 })
 
@@ -27,7 +40,7 @@ const Profile = ({ navigation }) => (
     <Button
       title="Go to Details"
       color="white"
-      backgroundColor={colors.lightPurple}
+      backgroundColor={colors.gray}
       onPress={() => {
         navigation.navigate('Details', { from: 'Profile' })
       }}

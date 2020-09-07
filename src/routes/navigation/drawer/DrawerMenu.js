@@ -30,7 +30,7 @@ const DrawerMenu = ({ navigation }) => (
         name="times"
         size={20}
         color={colors.gray}
-        backgroundColor="white"
+        backgroundColor={colors.blanco} //"white"
         onPress={() => {
           navigation.dispatch(DrawerActions.closeDrawer())
         }}
