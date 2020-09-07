@@ -14,7 +14,11 @@ expo start
 
 ## Usage
 
-![MVC APP](https://raw.githubusercontent.com/xcruzz/mvc/mvc_ImageRecognition/rncamera/assets/screenShot.png)
+![MVC HOME](https://raw.githubusercontent.com/xcruzz/react-native-boilerplate/fa96a2b0f3355a9b2e5d218399a9f57a7a0e66db/assets/images/ScreenShots/Inicio.png)
+
+![MVC AUDITOR](https://raw.githubusercontent.com/xcruzz/react-native-boilerplate/fa96a2b0f3355a9b2e5d218399a9f57a7a0e66db/assets/images/ScreenShots/Auditor.png)
+
+
 
 ## Contributing
 
