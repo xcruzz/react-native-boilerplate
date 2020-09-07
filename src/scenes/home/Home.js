@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  StyleSheet, Text, View, StatusBar,
-} from 'react-native'
+import { StyleSheet, Text, View, StatusBar } from 'react-native'
 import Button from 'components/Button'
+import ActiveDisplay from 'components/ActiveDisplay'
 import { colors } from 'theme'
+import { images } from 'theme'
 
 const styles = StyleSheet.create({
   root: {
@@ -23,7 +23,11 @@ const styles = StyleSheet.create({
 const Home = ({ navigation }) => (
   <View style={styles.root}>
     <StatusBar barStyle="light-content" />
-    <Text style={styles.title}>Home</Text>
+    <ActiveDisplay
+      title="MOVIMIENTO VICTORIA CIUDADANA"
+      activityDisplay={images.spinner_arcoiris}
+      onPress={() => {}}
+    />
     <Button
       title="Go to Details"
       color="white"

@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  StyleSheet, Text, View, StatusBar,
-} from 'react-native'
+import { StyleSheet, Text, View, StatusBar } from 'react-native'
 import Button from 'components/Button'
+import ActiveDisplay from 'components/ActiveDisplay'
 import { colors } from 'theme'
+import { images } from 'theme'
 
 const styles = StyleSheet.create({
   root: {
@@ -34,9 +34,17 @@ const styles = StyleSheet.create({
 })
 
 const Profile = ({ navigation }) => (
-  <View style={styles.root}>
+  <View style={styles.container}>
     <StatusBar barStyle="light-content" />
-    <Text style={styles.title}>Profile</Text>
+    <ActiveDisplay
+      title="El Auditor"
+      activityDisplay={images.logo_mono}
+      onPress={() => {}}
+    />
+    <Text style={styles.text}>
+      Sube una foto a ver si el auditor le encuentra algo...
+    </Text>
+    <Text style={styles}></Text>
     <Button
       title="Go to Details"
       color="white"
