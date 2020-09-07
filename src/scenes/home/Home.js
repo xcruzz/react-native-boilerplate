@@ -25,7 +25,7 @@ const Home = ({ navigation }) => (
     <StatusBar barStyle="light-content" />
     <ActiveDisplay
       title="MOVIMIENTO VICTORIA CIUDADANA"
-      activityDisplay={images.spinner_arcoiris}
+      activityDisplay={images.logo_blanco}
       onPress={() => {}}
     />
     <Button
