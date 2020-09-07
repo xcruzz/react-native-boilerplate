@@ -11,7 +11,7 @@ const TabNavigator = createBottomTabNavigator(
   {
     HomeTab: {
       screen: HomeNavigator,
-      navigationOptions: { title: 'Home' },
+      navigationOptions: { title: 'Inicio' },
     },
     // ProfileTab: {
     //   screen: ProfileNavigator,

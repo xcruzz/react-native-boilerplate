@@ -29,11 +29,14 @@ const Home = ({ navigation }) => (
       onPress={() => {}}
     />
     <Button
-      title="Go to Details"
+      title="Agenda Urgente"
       color="white"
-      backgroundColor={colors.lightPurple}
+      backgroundColor={colors.darkGris}
       onPress={() => {
-        navigation.navigate('Details', { from: 'Home' })
+        navigation.navigate('Details', {
+          from: 'Inicio',
+          articleKey: 'agenda_urgente',
+        })
       }}
     />
   </View>

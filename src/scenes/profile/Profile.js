@@ -46,7 +46,7 @@ const Profile = ({ navigation }) => (
     </Text>
     <Text style={styles}></Text>
     <Button
-      title="Go to Details"
+      title="Buscar mis fotos"
       color="white"
       backgroundColor={colors.gray}
       onPress={() => {
