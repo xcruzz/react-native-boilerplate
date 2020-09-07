@@ -1,10 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StyleSheet, Text, View, StatusBar } from 'react-native'
-import Button from 'components/Button'
-import ActiveDisplay from 'components/ActiveDisplay'
+import { StyleSheet, View, StatusBar } from 'react-native'
 import PhotoAnalizer from 'components/PhotoAnalizer'
-import { colors, images } from 'theme'
+import { colors } from 'theme'
 
 const styles = StyleSheet.create({
   root: {
@@ -36,15 +34,6 @@ const styles = StyleSheet.create({
 const Photo = ({ navigation }) => (
   <View style={styles.container}>
     <StatusBar barStyle="light-content" />
-    <ActiveDisplay
-      title="EL AUDITOR"
-      activityDisplay={images.logo_mono}
-      onPress={() => {}}
-    />
-
-    <Text style={styles.text}>
-      Sube una foto a ver si el auditor le encuentra algo...
-    </Text>
     <PhotoAnalizer />
   </View>
 )

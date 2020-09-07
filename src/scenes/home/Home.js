@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StyleSheet, Text, View, StatusBar } from 'react-native'
+import { StyleSheet, View, StatusBar } from 'react-native'
 import Button from 'components/Button'
 import ActiveDisplay from 'components/ActiveDisplay'
 import { colors } from 'theme'
@@ -29,9 +29,9 @@ const Home = ({ navigation }) => (
       onPress={() => {}}
     />
     <Button
-      title="Agenda Urgente"
+      title="AGENDA URGENTE!"
       color="white"
-      backgroundColor={colors.darkGris}
+      backgroundColor={colors.gray}
       onPress={() => {
         navigation.navigate('Details', {
           from: 'Inicio',
