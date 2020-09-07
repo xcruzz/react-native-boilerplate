@@ -1,65 +1,111 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import BrowsePhoto from './BrowsePhoto'
-import { View } from 'react-native'
+import Button from 'components/Button'
+import { colors } from 'theme'
+import { StyleSheet } from 'react-native'
 
-const mvcStyles = {
+import * as CognitiveService from './LogoPredictionService'
+import * as ImagePicker from 'expo-image-picker'
+
+const tolerance = 0.78
+export default class PhotoAnalizer extends React.Component {
+  handlePredictionResponse = (response) => {
+    console.log(`LOG: [FILTERING PREDICTIONS T - ${tolerance}]`)
+
+    let definiteMatches = response.predictions.filter(
+      (match) => match.probability > tolerance,
+    )
+
+    let parties = definiteMatches.map((p) => {
+      return { party: p.tagName, probability: p.probability }
+    })
+    if (parties.length > 0) {
+      let mostProbable = parties[0]
+      let max_prob = 0
+      parties.map((pty) => {
+        if (pty.probability > max_prob) mostProbable = pty
+      })
+      console.log(`LOG: [${parties.length} PARTIES MATCHED T - ${tolerance}]`)
+      console.log(`[INTERESANTE: ${parties.length} PARTIDO(S)]`)
+      console.log(`[MÁS PROBABLE: ${mostProbable.party}]`)
+      return mostProbable.party
+    } else {
+      console.log(`NADA INTERESANTE :(`)
+      return `NADA INTERESANTE :(`
+    }
+  }
+
+  constructor(props) {
+    console.log(`constructor BrowsePhoto`)
+    console.log(JSON.stringify(props))
+    super(props)
+    this.state = {
+      predictedResults: {},
+    }
+  }
+
+  componentDidMount() {
+    this.selectPhotoFromLibrary = async () => {
+      let permissionResult = await ImagePicker.requestCameraRollPermissionsAsync()
+
+      if (permissionResult.granted === false) {
+        alert('Permission to access camera roll is required!')
+        return
+      }
+      console.log(`LOG: [OPENING IMAGE LIBRARY]`)
+      let result = await ImagePicker.launchImageLibraryAsync()
+      return result
+    }
+  }
+
+  render() {
+    return (
+      <Button
+        style={styles.baseText}
+        title="BUSCAR MIS FOTOS"
+        color="white"
+        backgroundColor={colors.gray}
+        onPress={({ props }) => {
+          this.selectPhotoFromLibrary()
+            .then((selectedImg) => {
+              console.log(`LOG: [IMAGE - RESIZE]`)
+              console.log(`LOG: [${props}]`)
+              //console.log(`${JSON.stringify(selectedImg)}`);
+              //Resize
+              let predictionResponse = CognitiveService.PredictLogoSvc(
+                selectedImg,
+              )
+              predictionResponse.then((predictionResponse) => {
+                console.log(`LOG: [PREDICTIONS - RECEIVED])}`)
+                let mProbable = this.handlePredictionResponse(
+                  predictionResponse,
+                )
+                if (mProbable) {
+                  alert(mProbable)
+                }
+              })
+            })
+            .catch((error) => {
+              if (
+                error.message.includes(
+                  "undefined is not an object (evaluating 'localUri.split')",
+                )
+              ) {
+                console.log(`LOG: [CATCH - CANCEL PHOTO LIBRARY]`)
+              } else {
+                console.log(`LOG: [CATCH - ${error.message}]`)
+              }
+            })
+        }}
+      />
+    )
+  }
+}
+
+const styles = StyleSheet.create({
   container: {
-    flex: 0,
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    textDecorationColor: '#fff',
   },
-  baseText: {
-    color: '#fff',
-  },
-  headerText: {
-    color: '#fff',
-    fontSize: 20,
-  },
-  logo: {
-    width: 108,
-    height: 120,
-  },
-  root: {
-    paddingVertical: 8,
-    paddingHorizontal: 16,
-    borderRadius: 5,
-  },
-  text: {
-    // button style
-    textAlign: 'center',
-    fontSize: 16,
-  },
-}
-
-const PhotoAnalizer = ({}) => (
-  <View style={mvcStyles.container}>
-    <BrowsePhoto />
-  </View>
-)
-
-PhotoAnalizer.propTypes = {
-  title: PropTypes.string,
-  activityDisplay: PropTypes.number,
-  width: PropTypes.string,
-  height: PropTypes.string,
-  color: PropTypes.string,
-  backgroundColor: PropTypes.string,
-  onPress: PropTypes.func,
-  textStyle: PropTypes.shape({}),
-  style: PropTypes.shape({}),
-}
-
-PhotoAnalizer.defaultProps = {
-  title: null,
-  activityDisplay: null,
-  width: 'auto',
-  height: 'auto',
-  color: 'black',
-  backgroundColor: '#cacaca',
-  onPress: () => {},
-  textStyle: {},
-  style: {},
-}
-
-export default PhotoAnalizer
+})
