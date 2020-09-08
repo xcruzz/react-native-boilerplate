@@ -6,7 +6,7 @@ function timeoutPromise(timeout, err, promise) {
     setTimeout(reject.bind(null, err), timeout)
   })
 }
-const timeOut = 36000
+const timeOut = 20000
 const imgSize = 0
 export function PredictLogoSvc(selectedImg) {
   const prediction = '1a377b443688419985e29b42d65923f8'

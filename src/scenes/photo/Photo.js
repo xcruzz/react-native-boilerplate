@@ -31,12 +31,14 @@ const styles = StyleSheet.create({
   },
 })
 
-const Photo = ({ navigation }) => (
-  <View style={styles.container}>
-    <StatusBar barStyle="light-content" />
-    <PhotoAnalizer />
-  </View>
-)
+const Photo = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <StatusBar barStyle="light-content" />
+      <PhotoAnalizer />
+    </View>
+  )
+}
 
 Photo.propTypes = {
   navigation: PropTypes.shape({ navigate: PropTypes.func }),

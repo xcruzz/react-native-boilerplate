@@ -33,25 +33,6 @@ export const HomeNavigator = createStackNavigator({
   },
 })
 
-export const ProfileNavigator = createStackNavigator({
-  Profile: {
-    screen: Profile,
-    navigationOptions: ({ navigation }) => ({
-      title: 'Profile',
-      headerLeft: <HeaderLeft navigation={navigation} />,
-      headerTitle: <HeaderTitle />,
-      ...navigationProps,
-    }),
-  },
-  Details: {
-    screen: Details,
-    navigationOptions: () => ({
-      title: 'Details',
-      ...navigationProps,
-    }),
-  },
-})
-
 export const PhotoNavigator = createStackNavigator({
   Photo: {
     screen: Photo,

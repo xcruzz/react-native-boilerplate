@@ -5,22 +5,22 @@ import { ScrollView } from 'react-native-gesture-handler'
 import AgendaUrgente from 'components/AgendaUrgente'
 import { colors } from 'theme'
 
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.blanco,
+  },
+  title: {
+    fontSize: 24,
+    marginBottom: 20,
+  },
+})
+
 const Details = ({ navigation }) => {
   const { from } = navigation.state.params
-  const styles = StyleSheet.create({
-    root: {
-      flex: 1,
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      backgroundColor: colors.blanco,
-    },
-    title: {
-      fontSize: 24,
-      marginBottom: 20,
-    },
-  })
-
   return (
     <View style={styles.root}>
       <StatusBar barStyle="light-content" />
