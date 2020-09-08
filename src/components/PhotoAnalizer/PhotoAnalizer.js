@@ -141,7 +141,7 @@ export default class PhotoAnalizer extends React.Component {
 
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <ActiveDisplay
           title={this.state.title}
           activityDisplay={this.state.activityDisplay}
@@ -182,12 +182,15 @@ export default class PhotoAnalizer extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 0,
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    textDecorationColor: '#fff',
+    textDecorationColor: 'black',
   },
   text: {
-    textDecorationColor: '#fff',
+    fontSize: 16,
+    marginBottom: 20,
+    color: 'white',
+    alignContent: 'center',
   },
 })
