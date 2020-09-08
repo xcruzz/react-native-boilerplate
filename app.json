@@ -3,7 +3,11 @@
     "name": "VictoriaCiudadana",
     "slug": "victoriaciudadana",
     "privacy": "public",
-    "platforms": ["ios", "android", "web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,13 +19,23 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
-    }
+      "sourceExts": [
+        "js",
+        "jsx",
+        "svg",
+        "ts",
+        "tsx"
+      ]
+    },
+    "description": "This app render static content for the 'Movimiento Victoria Ciudadana' This and provides a feature to submit a photo from device library to analize and provide prediction on political imagery content",
+    "githubUrl": "https://github.com/xcruzz/react-native-boilerplate"
   }
 }
