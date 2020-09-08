@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  StyleSheet, Text, View, StatusBar,
-} from 'react-native'
+import { StyleSheet, Text, View, StatusBar } from 'react-native'
 import Button from 'components/Button'
+import ActiveDisplay from 'components/ActiveDisplay'
 import { colors } from 'theme'
+import { images } from 'theme'
 
 const styles = StyleSheet.create({
   root: {
@@ -12,22 +12,43 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.lightGrayPurple,
+    backgroundColor: colors.darkGris,
   },
   title: {
     fontSize: 24,
     marginBottom: 20,
+    color: 'white',
+  },
+  text: {
+    fontSize: 16,
+    marginBottom: 20,
+    color: 'white',
+    alignContent: 'center',
+  },
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'black',
   },
 })
 
 const Profile = ({ navigation }) => (
-  <View style={styles.root}>
+  <View style={styles.container}>
     <StatusBar barStyle="light-content" />
-    <Text style={styles.title}>Profile</Text>
+    <ActiveDisplay
+      title="El Auditor"
+      activityDisplay={images.logo_mono}
+      onPress={() => {}}
+    />
+    <Text style={styles.text}>
+      Sube una foto a ver si el auditor le encuentra algo...
+    </Text>
+    <Text style={styles}></Text>
     <Button
-      title="Go to Details"
+      title="Buscar mis fotos"
       color="white"
-      backgroundColor={colors.lightPurple}
+      backgroundColor={colors.gray}
       onPress={() => {
         navigation.navigate('Details', { from: 'Profile' })
       }}

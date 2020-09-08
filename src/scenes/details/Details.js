@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  StyleSheet, Text, View, StatusBar,
-} from 'react-native'
-import Button from 'components/Button'
+import { StyleSheet, Text, View, StatusBar } from 'react-native'
+import { ScrollView } from 'react-native-gesture-handler'
+import AgendaUrgente from 'components/AgendaUrgente'
 import { colors } from 'theme'
 
 const styles = StyleSheet.create({
@@ -12,7 +11,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.lightGrayPurple,
+    backgroundColor: colors.blanco,
   },
   title: {
     fontSize: 24,
@@ -25,15 +24,10 @@ const Details = ({ navigation }) => {
   return (
     <View style={styles.root}>
       <StatusBar barStyle="light-content" />
-      <Text style={styles.title}>{`Details (from ${from})`}</Text>
-      <Button
-        title="Go Back"
-        color="white"
-        backgroundColor={colors.pink}
-        onPress={() => {
-          navigation.goBack()
-        }}
-      />
+      <Text style={styles.title}>{`AGENDA URGENTE`}</Text>
+      <ScrollView>
+        <AgendaUrgente />
+      </ScrollView>
     </View>
   )
 }

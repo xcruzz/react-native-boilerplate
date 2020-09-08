@@ -5,17 +5,21 @@ import FontIcon from 'react-native-vector-icons/FontAwesome5'
 import { colors } from 'theme'
 
 // stack navigators
-import { HomeNavigator, ProfileNavigator } from '../stacks'
+import { HomeNavigator, PhotoNavigator } from '../stacks'
 
 const TabNavigator = createBottomTabNavigator(
   {
     HomeTab: {
       screen: HomeNavigator,
-      navigationOptions: { title: 'Home' },
+      navigationOptions: { title: 'Inicio' },
     },
-    ProfileTab: {
-      screen: ProfileNavigator,
-      navigationOptions: { title: 'Profile' },
+    // ProfileTab: {
+    //   screen: ProfileNavigator,
+    //   navigationOptions: { title: 'Profile' },
+    // },
+    PhotoTab: {
+      screen: PhotoNavigator,
+      navigationOptions: { title: 'Foto' },
     },
   },
   {
@@ -28,16 +32,16 @@ const TabNavigator = createBottomTabNavigator(
             return (
               <FontIcon
                 name="home"
-                color={focused ? colors.lightPurple : colors.gray}
+                color={focused ? colors.doradoVictoria : colors.gray}
                 size={20}
                 solid
               />
             )
-          case 'ProfileTab':
+          case 'PhotoTab':
             return (
               <FontIcon
-                name="user"
-                color={focused ? colors.lightPurple : colors.gray}
+                name="camera"
+                color={focused ? colors.doradoVictoria : colors.gray}
                 size={20}
                 solid
               />
@@ -48,10 +52,10 @@ const TabNavigator = createBottomTabNavigator(
       },
       initialRouteName: 'Home',
       tabBarOptions: {
-        activeTintColor: colors.lightPurple,
+        activeTintColor: colors.doradoVictoria,
         inactiveTintColor: colors.gray,
         style: {
-          // backgroundColor: 'white',
+          backgroundColor: 'black',
           // borderTopColor: 'gray',
           // borderTopWidth: 1,
           // paddingBottom: 5,

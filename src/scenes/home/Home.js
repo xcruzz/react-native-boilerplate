@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  StyleSheet, Text, View, StatusBar,
-} from 'react-native'
+import { StyleSheet, View, StatusBar } from 'react-native'
 import Button from 'components/Button'
+import ActiveDisplay from 'components/ActiveDisplay'
 import { colors } from 'theme'
+import { images } from 'theme'
 
 const styles = StyleSheet.create({
   root: {
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.lightGrayPurple,
+    backgroundColor: colors.negro,
   },
   title: {
     fontSize: 24,
@@ -23,13 +23,20 @@ const styles = StyleSheet.create({
 const Home = ({ navigation }) => (
   <View style={styles.root}>
     <StatusBar barStyle="light-content" />
-    <Text style={styles.title}>Home</Text>
+    <ActiveDisplay
+      title="MOVIMIENTO VICTORIA CIUDADANA"
+      activityDisplay={images.logo_blanco}
+      onPress={() => {}}
+    />
     <Button
-      title="Go to Details"
+      title="AGENDA URGENTE!"
       color="white"
-      backgroundColor={colors.lightPurple}
+      backgroundColor={colors.gray}
       onPress={() => {
-        navigation.navigate('Details', { from: 'Home' })
+        navigation.navigate('Details', {
+          from: 'Inicio',
+          articleKey: 'agenda_urgente',
+        })
       }}
     />
   </View>
