@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { View, SafeAreaView, Text } from 'react-native'
+import { TouchableOpacity, View, SafeAreaView, Text } from 'react-native'
 import { DrawerActions } from 'react-navigation-drawer'
 import FontIcon from 'react-native-vector-icons/FontAwesome5'
 import { colors } from 'theme'
@@ -37,7 +37,16 @@ const DrawerMenu = ({ navigation }) => (
       />
     </View>
     <View style={styles.main}>
-      <Text>Drawer Menu</Text>
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('Details', {
+            from: 'Inicio',
+            articleKey: 'agenda_urgente',
+          })
+        }}
+      >
+        <Text>AGENDA URGENTE!</Text>
+      </TouchableOpacity>
     </View>
   </SafeAreaView>
 )
