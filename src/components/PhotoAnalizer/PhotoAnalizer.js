@@ -9,42 +9,32 @@ import * as ImagePicker from 'expo-image-picker'
 
 const tolerance = 0.78
 export default class PhotoAnalizer extends React.Component {
-  handlePredictionResponse = (response) => {
-    console.log(`LOG: [FILTERING PREDICTIONS T - ${tolerance}]`)
-
-    let definiteMatches = response.predictions.filter(
-      (match) => match.probability > tolerance,
-    )
-
-    let parties = definiteMatches.map((p) => {
-      return { party: p.tagName, probability: p.probability }
-    })
-    if (parties.length > 0) {
-      let mostProbable = parties[0]
-      let max_prob = 0
-      parties.map((pty) => {
-        if (pty.probability > max_prob) mostProbable = pty
-      })
-      console.log(`LOG: [${parties.length} PARTIES MATCHED T - ${tolerance}]`)
-      console.log(`[INTERESANTE: ${parties.length} PARTIDO(S)]`)
-      console.log(`[MÁS PROBABLE: ${mostProbable.party}]`)
-      return mostProbable.party
-    } else {
-      console.log(`NADA INTERESANTE :(`)
-      return `NADA INTERESANTE :(`
-    }
-  }
-
-  constructor(props) {
-    super(props)
-    this.state = {
-      predictedResults: {},
-      props: props,
-      activityDisplay: images.logo_mono,
-    }
-  }
-
   componentDidMount() {
+    this.breakdownPredictions = (response) => {
+      console.log(`LOG: [FILTERING PREDICTIONS T - ${tolerance}]`)
+
+      let definiteMatches = response.predictions.filter(
+        (match) => match.probability > tolerance,
+      )
+
+      let parties = definiteMatches.map((p) => {
+        return { party: p.tagName, probability: p.probability }
+      })
+      if (parties.length > 0) {
+        let mostProbable = parties[0]
+        let max_prob = 0
+        parties.map((pty) => {
+          if (pty.probability > max_prob) mostProbable = pty
+        })
+        console.log(`LOG: [${parties.length} PARTIES MATCHED T - ${tolerance}]`)
+
+        let result = { parties: parties, mostProbable: mostProbable }
+        return result
+      } else {
+        return null
+      }
+    }
+
     this.selectPhotoFromLibrary = async () => {
       let permissionResult = await ImagePicker.requestCameraRollPermissionsAsync()
 
@@ -62,7 +52,7 @@ export default class PhotoAnalizer extends React.Component {
       let filename = localUri.split('/').pop()
       Alert.alert(
         'EL AUDITOR',
-        `Tu imagen ${filename} no se va a guardar en nuestro sistema 😉`,
+        `Tu imagen no se va a guardar en nuestro sistema 😉`,
         [
           {
             text: 'CONFIRMAR',
@@ -70,7 +60,8 @@ export default class PhotoAnalizer extends React.Component {
               console.log(JSON.stringify(this.state))
               this.setState({
                 ...this.state,
-                activityDisplay: images.spinner_arcoiris,
+                activityDisplay: images.loader_blancoiris,
+                title: 'VIENDO A VER...',
               })
               console.log(`LOG: [IMAGE UPLOAD - CONFIRMED BY USER]`)
               console.log(`LOG: [IMAGE - RESIZE]`)
@@ -81,11 +72,46 @@ export default class PhotoAnalizer extends React.Component {
 
               predictionResponse.then((predictionResponse) => {
                 console.log(`LOG: [PREDICTIONS - RECEIVED])}`)
-                let mProbable = this.handlePredictionResponse(
+                let predictionBreakdown = this.breakdownPredictions(
                   predictionResponse,
                 )
-                if (mProbable) {
-                  alert(mProbable)
+                if (predictionBreakdown) {
+                  console.log(`LOG: [ANALYSIS - COMPLETE]`)
+                  console.log(`${JSON.stringify(predictionBreakdown)}`)
+
+                  let activityDisplay = images.logo_arcoiris
+                  let activityText = 'NO ENCONTRAMOS MUCHO'
+                  let mParty = predictionBreakdown.mostProbable.party
+                  console.log(JSON.stringify(mParty))
+                  if (mParty == 'pnp_logo') {
+                    activityDisplay = images.logo_azul
+                    activityText = 'LA ESTADITUD...?'
+                  } else if (mParty == 'ppd_logo') {
+                    activityDisplay = images.logo_rojo
+                    activityText = 'EL ELA...?'
+                  } else if (mParty == 'pip_logo') {
+                    activityDisplay = images.logo_verde
+                    activityText = 'PR LIBRE...?'
+                  } else if (mParty == 'mvc_logo') {
+                    activityDisplay = images.logo_oro
+                    activityText = 'VICTORIA CIUDADANA!!'
+                  }
+
+                  setTimeout(() => {
+                    this.setState({
+                      ...this.state,
+                      activityDisplay: activityDisplay,
+                      title: activityText,
+                    })
+                  }, 0)
+
+                  setTimeout(() => {
+                    this.setState({
+                      ...this.state,
+                      activityDisplay: images.logo_blanco,
+                      title: 'EL AUDITOR',
+                    })
+                  }, 5000)
                 }
               })
             },
@@ -103,11 +129,21 @@ export default class PhotoAnalizer extends React.Component {
     }
   }
 
+  constructor(props) {
+    super(props)
+    this.state = {
+      predictedResults: {},
+      props: props,
+      activityDisplay: images.logo_blanco,
+      title: 'EL AUDITOR',
+    }
+  }
+
   render() {
     return (
       <View>
         <ActiveDisplay
-          title="EL AUDITOR"
+          title={this.state.title}
           activityDisplay={this.state.activityDisplay}
           onPress={() => {}}
         />
@@ -115,15 +151,16 @@ export default class PhotoAnalizer extends React.Component {
           Sube una foto a ver si el auditor le encuentra algo...
         </Text>
         <Button
-          style={styles.baseText}
+          style={styles}
           title="BUSCAR MIS FOTOS"
           color="white"
           backgroundColor={colors.gray}
-          onPress={({ props }) => {
+          onPress={() => {
             this.selectPhotoFromLibrary()
               .then((selectedImg) => {
                 if (!selectedImg.cancelled)
                   this.confirmPhotoUseAlert(selectedImg)
+                else console.log(`LOG: [CANCEL PHOTO LIBRARY]`)
               })
               .catch((error) => {
                 if (
@@ -145,9 +182,12 @@ export default class PhotoAnalizer extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 0,
     alignItems: 'center',
     justifyContent: 'center',
+    textDecorationColor: '#fff',
+  },
+  text: {
     textDecorationColor: '#fff',
   },
 })
