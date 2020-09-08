@@ -19,14 +19,21 @@ const styles = StyleSheet.create({
   },
 })
 
+const Articles = { agenda_urgente: <AgendaUrgente /> }
+
 const Details = ({ navigation }) => {
-  const { from } = navigation.state.params
+  const { articleKey } = navigation.state.params
+
   return (
     <View style={styles.root}>
       <StatusBar barStyle="light-content" />
       <Text style={styles.title}>{`AGENDA URGENTE`}</Text>
       <ScrollView>
-        <AgendaUrgente />
+        {
+          articleKey == 'agenda_urgente' ? <AgendaUrgente /> : <Text></Text>
+          //You can add more Article components here
+          //Leave the empty <Text> as last always (default)
+        }
       </ScrollView>
     </View>
   )
