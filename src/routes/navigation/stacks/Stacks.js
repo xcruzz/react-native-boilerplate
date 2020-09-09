@@ -27,7 +27,7 @@ export const HomeNavigator = createStackNavigator({
   Details: {
     screen: Details,
     navigationOptions: () => ({
-      title: 'Details',
+      title: 'Artículo',
       ...navigationProps,
     }),
   },
