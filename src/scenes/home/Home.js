@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StyleSheet, View, StatusBar } from 'react-native'
+import { StyleSheet, View, StatusBar, Text } from 'react-native'
 import Button from 'components/Button'
 import ActiveDisplay from 'components/ActiveDisplay'
 import { colors } from 'theme'
@@ -29,6 +29,17 @@ const Home = ({ navigation }) => (
       onPress={() => {}}
     />
     <Button
+      title="EL AUDITOR"
+      color="white"
+      backgroundColor={colors.gray}
+      onPress={() => {
+        navigation.navigate('Photo', {
+          from: 'Inicio',
+        })
+      }}
+    />
+    <Text />
+    <Button
       title="AGENDA URGENTE!"
       color="white"
       backgroundColor={colors.gray}
@@ -36,6 +47,30 @@ const Home = ({ navigation }) => (
         navigation.navigate('Details', {
           from: 'Inicio',
           articleKey: 'agenda_urgente',
+        })
+      }}
+    />
+    <Text />
+    <Button
+      title="Juventud"
+      color="white"
+      backgroundColor={colors.negro}
+      onPress={() => {
+        navigation.navigate('Details', {
+          from: 'Inicio',
+          articleKey: 'juventud',
+        })
+      }}
+    />
+    <Text />
+    <Button
+      title="Diáspora"
+      color="white"
+      backgroundColor={colors.negro}
+      onPress={() => {
+        navigation.navigate('Details', {
+          from: 'Inicio',
+          articleKey: 'diaspora',
         })
       }}
     />

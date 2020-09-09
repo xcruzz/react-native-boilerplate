@@ -40,12 +40,35 @@ const DrawerMenu = ({ navigation }) => (
       <TouchableOpacity
         onPress={() => {
           navigation.navigate('Details', {
-            from: 'Inicio',
+            from: 'Drawer',
             articleKey: 'agenda_urgente',
           })
         }}
       >
         <Text>AGENDA URGENTE!</Text>
+      </TouchableOpacity>
+      <Text />
+      <Text />
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('Details', {
+            from: 'Drawer',
+            articleKey: 'juventud',
+          })
+        }}
+      >
+        <Text>Juventud</Text>
+      </TouchableOpacity>
+      <Text />
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('Details', {
+            from: 'Drawer',
+            articleKey: 'diaspora',
+          })
+        }}
+      >
+        <Text>Diaspora</Text>
       </TouchableOpacity>
     </View>
   </SafeAreaView>
