@@ -3,6 +3,11 @@ import PropTypes from 'prop-types'
 import { TouchableOpacity, View, SafeAreaView, Text } from 'react-native'
 import { DrawerActions } from 'react-navigation-drawer'
 import FontIcon from 'react-native-vector-icons/FontAwesome5'
+import {
+  Collapse,
+  CollapseHeader,
+  CollapseBody,
+} from 'accordion-collapse-react-native'
 import { colors } from 'theme'
 
 const styles = {
@@ -14,14 +19,90 @@ const styles = {
   head: {
     flexDirection: 'row',
     justifyContent: 'flex-end',
+    fontSize: 20,
   },
   main: {
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'left',
+    paddingLeft: 20,
   },
+  collapse: {
+    paddingLeft: 4,
+  },
+  collapseH: {
+    flexDirection: 'row',
+    padding: 0,
+  },
+  collapseB: { backgroundColor: colors.lightGray },
 }
+
+const cands = [
+  {
+    title: 'Alexandra Lúgaro',
+    key: 'lugaro2020',
+  },
+  {
+    title: 'MAnuel Natal Albelo',
+    key: 'natal2020',
+  },
+]
+
+const rdr = [
+  {
+    title: 'Juventud',
+    key: 'juventud',
+  },
+  {
+    title: 'Diáspora',
+    key: 'diaspora',
+  },
+  {
+    title: 'Ecomonomía y Empresarismo',
+    key: 'economia',
+  },
+  {
+    title: 'Género y LGBTTIQ',
+    key: 'lgbttiq',
+  },
+  {
+    title: 'Educación',
+    key: 'educacion',
+  },
+  {
+    title: 'Ecología!',
+    key: 'ecologia',
+  },
+  {
+    title: 'Comunicaciones',
+    key: 'comunicaciones',
+  },
+  {
+    title: 'Cultura',
+    key: 'cultura',
+  },
+  {
+    title: 'Salud',
+    key: 'salud',
+  },
+  {
+    title: 'Gobierno y Administración Pública',
+    key: 'gobierno',
+  },
+  {
+    title: 'Recreación y Deportes',
+    key: 'deportes',
+  },
+  {
+    title: 'Desigualdad y Comunidad',
+    key: 'desigualdad',
+  },
+  {
+    title: 'Sindicatos y Colegiaciones',
+    key: 'sindicatos',
+  },
+]
 
 const DrawerMenu = ({ navigation }) => (
   <SafeAreaView style={styles.root}>
@@ -45,31 +126,64 @@ const DrawerMenu = ({ navigation }) => (
           })
         }}
       >
-        <Text>AGENDA URGENTE!</Text>
+        <Text style={styles.head}> AGENDA URGENTE!</Text>
       </TouchableOpacity>
       <Text />
+      <View style={styles}>
+        <Collapse style={styles.collapse}>
+          <CollapseHeader>
+            <Text style={styles.head}>RED DE REDES</Text>
+          </CollapseHeader>
+          <CollapseBody st>
+            <Text />
+            {rdr.map((i) => {
+              return (
+                <View key={i.key}>
+                  <TouchableOpacity
+                    onPress={() => {
+                      navigation.navigate('Details', {
+                        from: 'Drawer',
+                        articleKey: i.key,
+                      })
+                    }}
+                  >
+                    <Text> {i.title}</Text>
+                    <Text />
+                  </TouchableOpacity>
+                </View>
+              )
+            })}
+          </CollapseBody>
+        </Collapse>
+      </View>
       <Text />
-      <TouchableOpacity
-        onPress={() => {
-          navigation.navigate('Details', {
-            from: 'Drawer',
-            articleKey: 'juventud',
-          })
-        }}
-      >
-        <Text>Juventud</Text>
-      </TouchableOpacity>
-      <Text />
-      <TouchableOpacity
-        onPress={() => {
-          navigation.navigate('Details', {
-            from: 'Drawer',
-            articleKey: 'diaspora',
-          })
-        }}
-      >
-        <Text>Diaspora</Text>
-      </TouchableOpacity>
+      <View style={styles}>
+        <Collapse style={styles.collapse}>
+          <CollapseHeader>
+            <Text style={styles.head}>CANDIDATXS</Text>
+          </CollapseHeader>
+          <CollapseBody st>
+            <Text />
+            {cands.map((i) => {
+              return (
+                <View key={i.key}>
+                  <TouchableOpacity
+                    onPress={() => {
+                      navigation.navigate('Details', {
+                        from: 'Drawer',
+                        articleKey: i.key,
+                      })
+                    }}
+                  >
+                    <Text> {i.title}</Text>
+                    <Text />
+                  </TouchableOpacity>
+                </View>
+              )
+            })}
+          </CollapseBody>
+        </Collapse>
+      </View>
     </View>
   </SafeAreaView>
 )
