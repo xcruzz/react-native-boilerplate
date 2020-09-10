@@ -3,8 +3,7 @@ import PropTypes from 'prop-types'
 import { StyleSheet, Text, View, StatusBar } from 'react-native'
 import { ScrollView } from 'react-native-gesture-handler'
 import AgendaUrgente from 'components/AgendaUrgente'
-import Diaspora from 'components/Diaspora'
-import Juventud from 'components/Juventud'
+import * as RDR from 'components/RedDeRedes'
 import { colors } from 'theme'
 
 const styles = StyleSheet.create({
@@ -21,8 +20,6 @@ const styles = StyleSheet.create({
   },
 })
 
-const Articles = { agenda_urgente: <AgendaUrgente /> }
-
 const Details = ({ navigation }) => {
   const { articleKey } = navigation.state.params
 
@@ -31,10 +28,32 @@ const Details = ({ navigation }) => {
       <StatusBar barStyle="light-content" />
       <ScrollView>
         {
-          articleKey == 'juventud' ? (
-            <Juventud />
+          articleKey == 'sindicatos' ? (
+            <RDR.Sindicatos />
+          ) : articleKey == 'deportes' ? (
+            <RDR.Deportes />
+          ) : articleKey == 'desigualdad' ? (
+            <RDR.Desigualdad />
+          ) : articleKey == 'gobierno' ? (
+            <RDR.Gobierno />
+          ) : articleKey == 'salud' ? (
+            <RDR.Salud />
+          ) : articleKey == 'cultura' ? (
+            <RDR.Cultura />
+          ) : articleKey == 'comunicaciones' ? (
+            <RDR.Comunicaciones />
+          ) : articleKey == 'ecologia' ? (
+            <RDR.Ecologia />
+          ) : articleKey == 'educacion' ? (
+            <RDR.Educacion />
+          ) : articleKey == 'lgbttiq' ? (
+            <RDR.LGBTTIQ />
+          ) : articleKey == 'economia' ? (
+            <RDR.Economia />
+          ) : articleKey == 'juventud' ? (
+            <RDR.Juventud />
           ) : articleKey == 'diaspora' ? (
-            <Diaspora />
+            <RDR.Diaspora />
           ) : articleKey == 'agenda_urgente' ? (
             <AgendaUrgente />
           ) : (
