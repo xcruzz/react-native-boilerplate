@@ -9,10 +9,13 @@ export const svgs = {
 
 // png/jpeg
 export const images = {
-  logo_blanco: require('../../assets/images/mvcLogoBlanco.png'),
-  logo_negro: require('../../assets/images/mvcLogoNegro.png'),
-  logo_arcoiris: require('../../assets/images/L.png'),
+  logo_negro: require('../../assets/images/mvclogo/mvcLogoNegro.png'),
+  logo_oro: require('../../assets/images/mvclogo/mvcLogoOro.png'),
+  logo_blanco: require('../../assets/images/mvclogo/blancoiris7.png'),
+  logo_arcoiris: require('../../assets/images/mvclogo/blancoiris1.png'),
+
   spinner_arcoiris: require('../../assets/images/spinnerL.gif'),
+  loader_blancoiris: require('../../assets/images/loader_blancoiris.gif'),
 }
 
 // image preloading

@@ -1,27 +1,12 @@
+import globalStyles from '../../../theme/styles'
 import React from 'react'
 import PropTypes from 'prop-types'
-import { View, SafeAreaView, Text } from 'react-native'
+import { TouchableOpacity, View, SafeAreaView, Text } from 'react-native'
 import { DrawerActions } from 'react-navigation-drawer'
 import FontIcon from 'react-native-vector-icons/FontAwesome5'
 import { colors } from 'theme'
 
-const styles = {
-  root: {
-    flex: 1,
-    flexDirection: 'column',
-    paddingHorizontal: 10,
-  },
-  head: {
-    flexDirection: 'row',
-    justifyContent: 'flex-end',
-  },
-  main: {
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-}
+const styles = globalStyles.drawerMenu
 
 const DrawerMenu = ({ navigation }) => (
   <SafeAreaView style={styles.root}>
@@ -37,7 +22,17 @@ const DrawerMenu = ({ navigation }) => (
       />
     </View>
     <View style={styles.main}>
-      <Text>Drawer Menu</Text>
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('Details', {
+            from: 'Drawer',
+            articleKey: 'agenda_urgente',
+          })
+        }}
+      >
+        <Text style={styles.head}> AGENDA URGENTE!</Text>
+      </TouchableOpacity>
+      <Text />
     </View>
   </SafeAreaView>
 )

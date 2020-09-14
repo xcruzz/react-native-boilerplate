@@ -1,39 +1,28 @@
+import globalStyles from '../../theme/styles'
+import { ScrollView } from 'react-native-gesture-handler'
+import AgendaUrgente from 'components/AgendaUrgente'
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  StyleSheet, Text, View, StatusBar,
-} from 'react-native'
-import Button from 'components/Button'
-import { colors } from 'theme'
+import { Text, View, StatusBar } from 'react-native'
 
-const styles = StyleSheet.create({
-  root: {
-    flex: 1,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.lightGrayPurple,
-  },
-  title: {
-    fontSize: 24,
-    marginBottom: 20,
-  },
-})
+const styles = globalStyles.detailsPage
 
 const Details = ({ navigation }) => {
-  const { from } = navigation.state.params
+  const { articleKey } = navigation.state.params
+
   return (
     <View style={styles.root}>
       <StatusBar barStyle="light-content" />
-      <Text style={styles.title}>{`Details (from ${from})`}</Text>
-      <Button
-        title="Go Back"
-        color="white"
-        backgroundColor={colors.pink}
-        onPress={() => {
-          navigation.goBack()
-        }}
-      />
+      <ScrollView>
+        <Text style={styles.verb} />
+        <Text style={styles.title}>VICTORIA CIUDADANA</Text>
+        {
+          articleKey == 'agenda_urgente' ? <AgendaUrgente /> : <Text></Text>
+          //You can add more Article components here
+          //Leave the empty <Text> as last always (default) and queue new option on top
+          //eg. `articleKey == 'new_key' ? <NewArticleComponent /> :`
+        }
+      </ScrollView>
     </View>
   )
 }

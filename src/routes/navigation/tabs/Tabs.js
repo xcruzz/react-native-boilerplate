@@ -5,17 +5,13 @@ import FontIcon from 'react-native-vector-icons/FontAwesome5'
 import { colors } from 'theme'
 
 // stack navigators
-import { HomeNavigator, ProfileNavigator } from '../stacks'
+import { HomeNavigator } from '../stacks'
 
 const TabNavigator = createBottomTabNavigator(
   {
     HomeTab: {
       screen: HomeNavigator,
-      navigationOptions: { title: 'Home' },
-    },
-    ProfileTab: {
-      screen: ProfileNavigator,
-      navigationOptions: { title: 'Profile' },
+      navigationOptions: { title: 'Inicio' },
     },
   },
   {
@@ -28,16 +24,7 @@ const TabNavigator = createBottomTabNavigator(
             return (
               <FontIcon
                 name="home"
-                color={focused ? colors.doradoVictoria : colors.gray}
-                size={20}
-                solid
-              />
-            )
-          case 'ProfileTab':
-            return (
-              <FontIcon
-                name="user"
-                color={focused ? colors.doradoVictoria : colors.gray}
+                color={focused ? colors.victoryGold : colors.gray}
                 size={20}
                 solid
               />
@@ -48,14 +35,10 @@ const TabNavigator = createBottomTabNavigator(
       },
       initialRouteName: 'Home',
       tabBarOptions: {
-        activeTintColor: colors.doradoVictoria,
+        activeTintColor: colors.victoryGold,
         inactiveTintColor: colors.gray,
         style: {
           backgroundColor: 'black',
-          // borderTopColor: 'gray',
-          // borderTopWidth: 1,
-          // paddingBottom: 5,
-          // paddingTop: 5,
         },
       },
       swipeEnabled: false,
