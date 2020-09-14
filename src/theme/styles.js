@@ -109,4 +109,20 @@ const articlePage = StyleSheet.create({
   },
 })
 
-export default { homePage, detailsPage, drawerMenu, articlePage }
+const activeDisplay = StyleSheet.create({
+  container: {
+    flex: 0,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  headerText: {
+    color: '#fff',
+    fontSize: 20,
+  },
+  logo: {
+    width: 108,
+    height: 120,
+  },
+})
+
+export default { homePage, detailsPage, drawerMenu, articlePage, activeDisplay }

@@ -1,3 +1,4 @@
+import ActiveDisplay from 'components/ActiveDisplay'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import PropTypes from 'prop-types'
@@ -10,12 +11,14 @@ const styles = globalStyles.homePage
 const Home = ({ navigation }) => (
   <View style={styles.root}>
     <StatusBar barStyle="light-content" />
-    <Text style={styles.title}>Inicio</Text>
+    <Text />
+    <ActiveDisplay />
+    <Text />
     <Button
       title="AGENDA URGENTE!"
       color="white"
       style={styles}
-      backgroundColor={colors.gray}
+      backgroundColor={colors.darkGray}
       onPress={() => {
         navigation.navigate('Details', {
           from: 'Home',

@@ -7,7 +7,7 @@ const colors = {
   gray: '#797777',
   black: '#000000',
   white: '#ffffff',
-  darkGray: '#111111',
+  darkGray: '#090909',
   victoryGold: '#cc9933',
 }
 

@@ -38,7 +38,7 @@ const TabNavigator = createBottomTabNavigator(
         activeTintColor: colors.victoryGold,
         inactiveTintColor: colors.gray,
         style: {
-          backgroundColor: 'black',
+          backgroundColor: colors.darkGray,
         },
       },
       swipeEnabled: false,
