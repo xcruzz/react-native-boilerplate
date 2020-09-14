@@ -1,3 +1,4 @@
+import TownInfo from 'components/TownInfo'
 import globalStyles from '../../theme/styles'
 import { ScrollView } from 'react-native-gesture-handler'
 import AgendaUrgente from 'components/AgendaUrgente'
@@ -8,23 +9,31 @@ import { Text, View, StatusBar } from 'react-native'
 const styles = globalStyles.detailsPage
 
 const Details = ({ navigation }) => {
-  const { articleKey } = navigation.state.params
-
-  return (
-    <View style={styles.root}>
-      <StatusBar barStyle="light-content" />
-      <ScrollView>
-        <Text style={styles.verb} />
-        <Text style={styles.title}>VICTORIA CIUDADANA</Text>
-        {
-          articleKey == 'agenda_urgente' ? <AgendaUrgente /> : <Text></Text>
-          //You can add more Article components here
-          //Leave the empty <Text> as last always (default) and queue new option on top
-          //eg. `articleKey == 'new_key' ? <NewArticleComponent /> :`
-        }
-      </ScrollView>
-    </View>
-  )
+  const { articleKey, isTown } = navigation.state.params
+  if (isTown) {
+    return (
+      <View style={styles.root}>
+        <StatusBar barStyle="light-content" />
+        <TownInfo townKey={articleKey}></TownInfo>
+      </View>
+    )
+  } else {
+    return (
+      <View style={styles.root}>
+        <StatusBar barStyle="light-content" />
+        <ScrollView>
+          <Text style={styles.verb} />
+          <Text style={styles.title}>VICTORIA CIUDADANA</Text>
+          {
+            articleKey == 'agenda_urgente' ? <AgendaUrgente /> : <Text></Text>
+            //You can add more Article components here
+            //Leave the empty <Text> as last always (default) and queue new option on top
+            //eg. `articleKey == 'new_key' ? <NewArticleComponent /> :`
+          }
+        </ScrollView>
+      </View>
+    )
+  }
 }
 
 Details.propTypes = {

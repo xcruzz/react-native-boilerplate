@@ -125,4 +125,91 @@ const activeDisplay = StyleSheet.create({
   },
 })
 
-export default { homePage, detailsPage, drawerMenu, articlePage, activeDisplay }
+const mapPage = StyleSheet.create({
+  root: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.darkGris,
+  },
+  title: {
+    fontSize: 24,
+    marginBottom: 20,
+    color: 'white',
+  },
+  text: {
+    fontSize: 16,
+    marginBottom: 20,
+    color: 'white',
+    alignContent: 'center',
+  },
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'black',
+  },
+})
+
+const svgMap = StyleSheet.create({
+  root: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'stretch',
+    justifyContent: 'space-around',
+    backgroundColor: colors.black,
+  },
+  head: {
+    fontSize: 22,
+    marginBottom: 20,
+    height: 45,
+    color: colors.white,
+  },
+  main: {
+    height: 165,
+    backgroundColor: colors.white,
+  },
+  foot: {
+    fontSize: 20,
+    marginTop: 10,
+    height: 90,
+    color: colors.white,
+  },
+  modalView: {
+    margin: 20,
+    backgroundColor: colors.white,
+    borderRadius: 20,
+    padding: 35,
+    alignItems: 'center',
+    shadowColor: colors.black,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  modalImage: {
+    width: 200,
+    height: 200,
+  },
+  canvas: {
+    flex: 0,
+    backgroundColor: colors.black,
+  },
+  view: {
+    backgroundColor: colors.black,
+  },
+})
+
+export default {
+  homePage,
+  detailsPage,
+  drawerMenu,
+  articlePage,
+  activeDisplay,
+  mapPage,
+  svgMap,
+}

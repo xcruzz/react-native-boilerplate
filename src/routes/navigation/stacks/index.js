@@ -1,3 +1,3 @@
-import { HomeNavigator } from './Stacks'
+import { HomeNavigator, MapNavigator } from './Stacks'
 
-export { HomeNavigator }
+export { HomeNavigator, MapNavigator }

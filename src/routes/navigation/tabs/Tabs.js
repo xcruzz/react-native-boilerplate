@@ -5,13 +5,17 @@ import FontIcon from 'react-native-vector-icons/FontAwesome5'
 import { colors } from 'theme'
 
 // stack navigators
-import { HomeNavigator } from '../stacks'
+import { HomeNavigator, MapNavigator } from '../stacks'
 
 const TabNavigator = createBottomTabNavigator(
   {
     HomeTab: {
       screen: HomeNavigator,
       navigationOptions: { title: 'Inicio' },
+    },
+    MapTab: {
+      screen: MapNavigator,
+      navigationOptions: { title: 'Mapa' },
     },
   },
   {
@@ -24,6 +28,15 @@ const TabNavigator = createBottomTabNavigator(
             return (
               <FontIcon
                 name="home"
+                color={focused ? colors.victoryGold : colors.gray}
+                size={20}
+                solid
+              />
+            )
+          case 'MapTab':
+            return (
+              <FontIcon
+                name="map"
                 color={focused ? colors.victoryGold : colors.gray}
                 size={20}
                 solid
