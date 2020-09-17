@@ -26,7 +26,6 @@ export const images = {
   fb_icon: require('../../assets/social/fb_icon.png'),
   twitter_icon: require('../../assets/social/twitter_icon.png'),
   ig_icon: require('../../assets/social/ig_ico.png'),
-  email_icon: require('../../assets/social/email_icon.png'),
 }
 
 // image preloading

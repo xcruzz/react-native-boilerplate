@@ -21,7 +21,6 @@ const ALugaro = ({ navigation }) => {
       <ScrollView>
         <Text style={styles.verb} />
         <Text style={styles.verb} />
-        <Text style={styles.verb} />
         <Text style={styles.title}>{'  '}¡Terminemos lo que empezamos!</Text>
         <Text style={styles.verb} />
         <Image style={styles.display} source={images.lugaro_work}></Image>
