@@ -15,10 +15,10 @@ const Home = ({ navigation }) => (
     <ActiveDisplay />
     <Text />
     <Button
-      title="AGENDA URGENTE!"
-      color="white"
+      title="Agenda Urgente"
+      color="black"
       style={styles}
-      backgroundColor={colors.darkGray}
+      backgroundColor={colors.white}
       onPress={() => {
         navigation.navigate('Details', {
           from: 'Home',

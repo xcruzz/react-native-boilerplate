@@ -15,6 +15,54 @@ const homePage = StyleSheet.create({
     marginBottom: 20,
     color: colors.white,
   },
+  logo: {
+    width: 150,
+    height: 70,
+  },
+  display: {
+    width: 350,
+    height: 140,
+  },
+  icon: {
+    width: 60,
+    height: 30,
+  },
+  icon_landscape: {
+    width: 28,
+    height: 25,
+  },
+})
+
+const alugaro = StyleSheet.create({
+  root: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.black,
+  },
+  title: {
+    fontSize: 24,
+    marginBottom: 20,
+    color: colors.white,
+  },
+  logo: {
+    width: 150,
+    height: 70,
+  },
+  display: {
+    width: 350,
+    height: 140,
+  },
+  icon: {
+    width: 60,
+    height: 30,
+  },
+  backgroundImg: {
+    width: 350,
+    height: 140,
+  },
+  verb: { textDecorationColor: '#fff' },
 })
 
 const detailsPage = StyleSheet.create({
@@ -75,7 +123,7 @@ const articlePage = StyleSheet.create({
     paddingBottom: 25,
   },
   title: {
-    fontSize: 24,
+    fontSize: 23,
     color: colors.black,
   },
   verb: {
@@ -109,6 +157,13 @@ const articlePage = StyleSheet.create({
   },
 })
 
+const navigation = StyleSheet.create({
+  nav_icon: {
+    width: 20,
+    height: 19,
+  },
+})
+
 const activeDisplay = StyleSheet.create({
   container: {
     flex: 0,
@@ -125,4 +180,12 @@ const activeDisplay = StyleSheet.create({
   },
 })
 
-export default { homePage, detailsPage, drawerMenu, articlePage, activeDisplay }
+export default {
+  homePage,
+  detailsPage,
+  drawerMenu,
+  articlePage,
+  activeDisplay,
+  navigation,
+  alugaro,
+}

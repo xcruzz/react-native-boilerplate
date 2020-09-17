@@ -30,7 +30,20 @@ const DrawerMenu = ({ navigation }) => (
           })
         }}
       >
-        <Text style={styles.head}> AGENDA URGENTE!</Text>
+        <Text style={styles.head}>AGENDA URGENTE</Text>
+      </TouchableOpacity>
+
+      <Text />
+    </View>
+    <View style={styles.main}>
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('ALugaro', {
+            from: 'Drawer',
+          })
+        }}
+      >
+        <Text style={styles.head}>LÚGARO 2020</Text>
       </TouchableOpacity>
       <Text />
     </View>

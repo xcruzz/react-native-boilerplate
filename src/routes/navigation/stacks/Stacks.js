@@ -3,6 +3,7 @@ import { createStackNavigator } from 'react-navigation-stack'
 import { colors } from 'theme'
 import Home from 'scenes/home'
 import Details from 'scenes/details'
+import ALugaro from 'scenes/alugaro'
 import HeaderLeft from './HeaderLeft'
 import HeaderTitle from './HeaderTitle'
 
@@ -29,4 +30,23 @@ export const HomeNavigator = createStackNavigator({
       ...navigationProps,
     }),
   },
+})
+
+export const ALugaroNavigator = createStackNavigator({
+  ALugaro: {
+    screen: ALugaro,
+    navigationOptions: ({ navigation }) => ({
+      title: 'LÚGARO 2020',
+      headerLeft: <HeaderLeft navigation={navigation} />,
+      headerTitle: <HeaderTitle />,
+      ...navigationProps,
+    }),
+  },
+  // Details: {
+  //   screen: Details,
+  //   navigationOptions: () => ({
+  //     title: 'Details',
+  //     ...navigationProps,
+  //   }),
+  // },
 })
