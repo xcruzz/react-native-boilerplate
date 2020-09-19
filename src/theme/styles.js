@@ -2,37 +2,6 @@
 import { StyleSheet } from 'react-native'
 import { colors } from 'theme'
 
-const homePage = StyleSheet.create({
-  root: {
-    flex: 1,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.black,
-  },
-  title: {
-    fontSize: 24,
-    marginBottom: 20,
-    color: colors.white,
-  },
-  logo: {
-    width: 150,
-    height: 70,
-  },
-  display: {
-    width: 350,
-    height: 140,
-  },
-  icon: {
-    width: 60,
-    height: 30,
-  },
-  icon_landscape: {
-    width: 28,
-    height: 25,
-  },
-})
-
 const alugaro = StyleSheet.create({
   root: {
     flex: 1,
@@ -181,7 +150,6 @@ const activeDisplay = StyleSheet.create({
 })
 
 export default {
-  homePage,
   detailsPage,
   drawerMenu,
   articlePage,
