@@ -10,23 +10,24 @@ const deviceSize = Dimensions.get('window')
 const styles = globalStyles.svgMap
 
 export default class SVGMap extends React.Component {
-  updateSelection(i) {
+  updateSelection(val, i) {
     let towns = this.state.towns
     let oTown = 'default'
 
-    if (this.state.selectedTownI >= 0) {
+    if (this.state.selectedTownI > 0) {
       //turn off original town
       oTown = this.state.towns[this.state.selectedTownI]
       oTown.activeFill = colors.black
       towns[this.state.selectedTownI] = oTown
     }
-    if (i >= 0) towns[i].activeFill = colors.white
+    if (i > 0) towns[i].activeFill = colors.white
 
     this.setState({
       ...this.state,
       towns: towns,
-      selectedTownK: i >= 0 ? towns[i].key : 'default',
-      selectedTownN: i >= 0 ? 'Ver Candidatos' : '',
+      selectedTownI: i,
+      selectedTownK: i > 0 ? towns[i].key : 'default',
+      selectedTownN: val != 'default' ? 'Ver Candidatos' : '',
     })
 
     return
@@ -39,7 +40,7 @@ export default class SVGMap extends React.Component {
       selectedImageUri: null,
       isDragging: false,
       towns: prtowns.sort((a, b) => (a.name > b.name ? 1 : -1)),
-      selectedTownI: -1,
+      selectedTownI: 0,
       selectedTownK: 'default',
       selectedTownN: '',
       gTownFill: colors.black,
@@ -74,7 +75,7 @@ export default class SVGMap extends React.Component {
                   scale={2.09}
                   key={town.key}
                   onPressIn={() => {
-                    this.updateSelection(i)
+                    this.updateSelection(town.key, i)
                   }}
                 >
                   <Path id={town.key} d={town.d} />
@@ -99,20 +100,7 @@ export default class SVGMap extends React.Component {
             itemStyle={styles.onePickerItem}
             selectedValue={this.state.selectedTownK}
             onValueChange={(val, i) => {
-              // if (val == 'default') {
-              this.setState({
-                ...this.state,
-                selectedTownI: val == 'default' ? -1 : i,
-                // selectedTownK: val,
-              })
-              //} else {
-              // this.setState({
-              //   ...this.state,
-              //   selectedTownI: i,
-              //   // selectedTownK: val,
-              // })
-              // }
-              this.updateSelection(this.state.selectedTownI)
+              this.updateSelection(val, i + 1)
             }}
           >
             <Picker.Item
