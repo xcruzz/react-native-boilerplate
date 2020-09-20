@@ -1,25 +1,36 @@
 import globalStyles from '../../theme/styles'
 import React from 'react'
-import { Path, G } from 'react-native-svg'
-import Button from 'components/Button'
-import SvgPanZoom, { SvgPanZoomElement } from 'react-native-svg-pan-zoom'
+import { Svg, Path, G } from 'react-native-svg'
 import { colors } from 'theme'
 import prtowns from './PRTowns.json'
-
-import {
-  Dimensions,
-  Alert,
-  Modal,
-  Image,
-  StyleSheet,
-  View,
-  Text,
-} from 'react-native'
+import { Dimensions, View, Button, Text } from 'react-native'
+import { Picker } from '@react-native-community/picker'
 
 const deviceSize = Dimensions.get('window')
 const styles = globalStyles.svgMap
 
 export default class SVGMap extends React.Component {
+  updateSelection(i) {
+    let towns = this.state.towns
+    let oTown = 'default'
+
+    if (this.state.selectedTownI >= 0) {
+      //turn off original town
+      oTown = this.state.towns[this.state.selectedTownI]
+      oTown.activeFill = colors.black
+      towns[this.state.selectedTownI] = oTown
+    }
+    if (i >= 0) towns[i].activeFill = colors.white
+
+    this.setState({
+      ...this.state,
+      towns: towns,
+      selectedTownK: i >= 0 ? towns[i].key : 'default',
+      selectedTownN: i >= 0 ? 'Ver Candidatos' : '',
+    })
+
+    return
+  }
   constructor(props) {
     super(props)
     this.state = {
@@ -27,101 +38,115 @@ export default class SVGMap extends React.Component {
       modalVisible: false,
       selectedImageUri: null,
       isDragging: false,
-      towns: prtowns,
+      towns: prtowns.sort((a, b) => (a.name > b.name ? 1 : -1)),
+      selectedTownI: -1,
+      selectedTownK: 'default',
+      selectedTownN: '',
       gTownFill: colors.black,
+      gTownActiveFill: colors.white,
       gTownOutline: colors.white,
-      gStrokeWidth: '.12',
+      gStrokeWidth: '.11',
       gTransform: '0.0 0.0',
       canvasBGColor: colors.black,
       viewBGColor: colors.black,
-      selectedTowns: [],
+      modalVisible: false,
     }
   }
 
   render() {
     return (
       <View style={styles.root}>
-        <Button
-          title="MAPA DE CANDIDATOS"
-          color="white"
-          textStyle={styles.head}
-          backgroundColor={colors.black}
-        />
-        <View style={styles.main}>
-          <SvgPanZoom
-            canvasWidth={deviceSize.width * 0.85}
-            canvasHeight={deviceSize.height * 0.14 - 10}
-            minScale={1}
-            maxScale={3.5}
-            initialZoom={1.15}
-            onZoom={(zoom) => {
-              console.log('onZoom:' + zoom)
-            }}
-            canvasStyle={styles.canvas}
-            viewStyle={styles.view}
+        <View style={styles}>
+          <Svg
+            style={styles.canvas}
+            width={deviceSize.height * 0.8}
+            height={deviceSize.width * 0.8}
           >
-            {this.state.towns.map((town, k) => {
+            {this.state.towns.map((town, i) => {
               return (
-                <SvgPanZoomElement
-                  x={114}
-                  y={-53}
+                <G
+                  transform={`translate(${this.state.gTransform})`}
+                  stroke={this.state.gTownOutline}
+                  stroke-width={this.state.gStrokeWidth * 0.01}
+                  fill={this.state.towns[i].activeFill}
+                  x={233}
+                  y={-65}
+                  scale={2.09}
                   key={town.key}
-                  onDrag={() => {
-                    console.log(`isDraggingOD: ${this.state.isDragging}`)
-                    this.setState({
-                      ...this.state,
-                      isDragging: true,
-                    })
-                  }}
-                  onClickRelease={() => {
-                    let dragStatus = !this.state.isDragging
-                    console.log(`isDraggingOCR: ${this.state.isDragging}`)
-                    this.setState({
-                      ...this.state,
-                      isDragging: false,
-                      selectedTowns: [town.key],
-                    })
-                    if (!dragStatus) {
-                      console.log(`!dragStatus: ${town.key}`)
-                    }
+                  onPressIn={() => {
+                    this.updateSelection(i)
                   }}
                 >
-                  <G
-                    transform={`translate(${this.state.gTransform})`}
-                    stroke={this.state.gTownOutline}
-                    stroke-width={this.state.gStrokeWidth * 0.01}
-                    fill={this.state.gTownFill}
-                  >
-                    <Path id={town.key} d={town.d} />
-                  </G>
-                </SvgPanZoomElement>
+                  <Path id={town.key} d={town.d} />
+                </G>
               )
             })}
-          </SvgPanZoom>
+          </Svg>
         </View>
+
         <View style={styles.foot}>
-          <Text style={styles.foot}>
-            Haz click en tu pueblo, en el mapa. Pincha con dos dedos para
-            hacercar o alejar el mapa...
-          </Text>
-          {this.state.selectedTowns.map((selectedTown) => {
-            return (
-              <Button
-                key={`VER ${selectedTown}`}
-                style={styles}
-                title={selectedTown.toUpperCase()}
-                color="white"
-                backgroundColor={colors.gray}
-                onPress={() => {
-                  this.state.props.pNavigation.navigate('Details', {
-                    from: 'Map',
-                    articleKey: selectedTown,
-                    isTown: true,
-                  })
-                }}
-              />
-            )
-          })}
+          <Button
+            title={'Inicio'}
+            color="white"
+            onPress={() => {
+              this.state.props.pNavigation.navigate('Home', {
+                from: 'Map',
+              })
+            }}
+          />
+          <Picker
+            style={styles.onePicker}
+            itemStyle={styles.onePickerItem}
+            selectedValue={this.state.selectedTownK}
+            onValueChange={(val, i) => {
+              // if (val == 'default') {
+              this.setState({
+                ...this.state,
+                selectedTownI: val == 'default' ? -1 : i,
+                // selectedTownK: val,
+              })
+              //} else {
+              // this.setState({
+              //   ...this.state,
+              //   selectedTownI: i,
+              //   // selectedTownK: val,
+              // })
+              // }
+              this.updateSelection(this.state.selectedTownI)
+            }}
+          >
+            <Picker.Item
+              label="Lista de Pueblos"
+              value="default"
+              key="default"
+            />
+            {this.state.towns.map((town, i) => {
+              if (town.name)
+                return (
+                  <Picker.Item
+                    label={town.name}
+                    value={town.key}
+                    key={town.key}
+                  />
+                )
+            })}
+          </Picker>
+
+          <Button
+            title={this.state.selectedTownN}
+            color="white"
+            disabled={this.state.selectedTownI < 0}
+            onPress={() => {
+              this.state.props.pNavigation.navigate('Details', {
+                from: 'Map',
+                articleKey:
+                  this.state.selectedTownI >= 0
+                    ? this.state.towns[this.state.selectedTownI].key
+                    : '',
+                isTown: true,
+              })
+            }}
+          />
         </View>
       </View>
     )

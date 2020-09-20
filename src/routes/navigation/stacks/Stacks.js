@@ -1,14 +1,17 @@
+import globalStyles from '../../../theme/styles'
 import React from 'react'
 import { createStackNavigator } from 'react-navigation-stack'
-import { colors } from 'theme'
+import { colors, images } from 'theme'
 import Home from 'scenes/home'
 import Details from 'scenes/details'
 import Map from 'scenes/map'
 import HeaderLeft from './HeaderLeft'
 import HeaderTitle from './HeaderTitle'
 
+const styles = globalStyles.stacks
+
 const navigationProps = {
-  headerTintColor: 'white',
+  headerTintColor: colors.white,
   headerStyle: { backgroundColor: colors.darkGray },
   headerTitleStyle: { fontSize: 18 },
 }
@@ -35,17 +38,15 @@ export const HomeNavigator = createStackNavigator({
 export const MapNavigator = createStackNavigator({
   Map: {
     screen: Map,
-    navigationOptions: ({ navigation }) => ({
-      title: 'Mapa',
-      headerLeft: <HeaderLeft navigation={navigation} />,
-      headerTitle: <HeaderTitle />,
+    navigationOptions: () => ({
+      headerShown: false,
       ...navigationProps,
     }),
   },
   Details: {
     screen: Details,
     navigationOptions: () => ({
-      title: 'Details',
+      title: 'Candidatos',
       ...navigationProps,
     }),
   },

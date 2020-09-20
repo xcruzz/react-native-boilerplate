@@ -54,6 +54,7 @@ const TabNavigator = createBottomTabNavigator(
           backgroundColor: colors.darkGray,
         },
       },
+      tabBarVisible: navigation.state.routeName != 'MapTab',
       swipeEnabled: false,
     }),
   },

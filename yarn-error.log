@@ -1,25 +1,30 @@
 Arguments: 
-  /usr/local/bin/node /Users/wmaeda/.yarn/bin/yarn.js run --silent husky-run pre-commit
+  /usr/local/bin/node /usr/local/bin/yarn add react-native-horizontal-scroll-picker
 
 PATH: 
-  /usr/local/Cellar/git/2.21.0/libexec/git-core:/Users/wmaeda/Library/Android/sdk/platform-tools:/Users/wmaeda/google-cloud-sdk/bin:/Users/wmaeda/.yarn/bin:/Users/wmaeda/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Library/Apple/usr/bin
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin
 
 Yarn version: 
-  1.22.4
+  1.17.3
 
 Node version: 
-  12.16.2
+  12.13.0
 
 Platform: 
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/wmaeda/Documents/me/React Native/react-native-boilerplate/package.json: Unexpected token ] in JSON at position 2619
-      at JSON.parse (<anonymous>)
-      at /Users/wmaeda/.yarn/lib/cli.js:1625:59
-      at Generator.next (<anonymous>)
-      at step (/Users/wmaeda/.yarn/lib/cli.js:310:30)
-      at /Users/wmaeda/.yarn/lib/cli.js:321:13
+  Error: https://artifactory.nordstrom.com/artifactory/api/npm/npm/react-native-horizontal-scroll-picker: not_found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66830:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140464:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141436:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
 
 npm manifest: 
   {
@@ -31,10 +36,12 @@ npm manifest:
       "ios": "expo start --ios",
       "web": "expo start --web",
       "eject": "expo eject",
-      "lint": "eslint src/ --fix",
-      "test": "jest --passWithNoTests"
+      "lint": "node_modules/.bin/eslint src/ --fix src/ --fix",
+      "test": "node_modules/.bin/jest --passWithNoTests"
     },
     "dependencies": {
+      "@react-native-community/picker": "^1.8.0",
+      "accordion-collapse-react-native": "^0.3.2",
       "axios": "^0.19.0",
       "expo": "^38.0.0",
       "expo-asset": "~8.1.7",
@@ -50,9 +57,11 @@ npm manifest:
       "react-native-reanimated": "~1.9.0",
       "react-native-screens": "~2.9.0",
       "react-native-svg": "12.1.0",
+      "react-native-svg-pan-zoom": "^0.1.2",
       "react-native-svg-transformer": "^0.14.3",
       "react-native-vector-icons": "^6.6.0",
       "react-native-web": "~0.11.7",
+      "react-native-wheel-picker": "^1.2.0",
       "react-navigation": "^4.0.10",
       "react-navigation-drawer": "^2.2.2",
       "react-navigation-stack": "^1.9.3",
@@ -79,12 +88,9 @@ npm manifest:
       "husky": "^4.2.5",
       "jest-expo": "^38.0.0",
       "lint-staged": "^10.2.0",
-      "mem": ">=4.0.0",
-      "minimist": ">=1.2.3",
       "prettier": "^2.0.5",
       "pretty-quick": "^2.0.1",
-      "react-test-renderer": "^16.13.1",
-      "ws": ">=3.3.1"
+      "react-test-renderer": "^16.13.1"
     },
     "prettier": {
       "trailingComma": "all",
@@ -108,7 +114,7 @@ npm manifest:
       "*.{js,jsx}": [
         "pretty-quick --staged",
         "yarn lint",
-        "yarn test",
+        "yarn test"
       ]
     }
   }
@@ -2503,6 +2509,11 @@ Lockfile:
       sudo-prompt "^9.0.0"
       wcwidth "^1.0.1"
   
+  "@react-native-community/picker@^1.8.0":
+    version "1.8.0"
+    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/@react-native-community/picker/-/picker-1.8.0.tgz#32425321af1e29e3da882fbd627a71ea142c75e4"
+    integrity sha1-MkJTIa8eKePaiC+9Ynpx6hQsdeQ=
+  
   "@react-navigation/core@^3.7.6":
     version "3.7.6"
     resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.7.6.tgz#e0244fcdc22937825b252197f70308bbe5709c58"
@@ -3154,6 +3165,13 @@ Lockfile:
     dependencies:
       mime-types "~2.1.24"
       negotiator "0.6.2"
+  
+  accordion-collapse-react-native@^0.3.2:
+    version "0.3.2"
+    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/accordion-collapse-react-native/-/accordion-collapse-react-native-0.3.2.tgz#66d1a5710d337488f640ab945989694473bea23a"
+    integrity sha1-ZtGlcQ0zdIj2QKuUWYlpRHO+ojo=
+    dependencies:
+      lodash.get "4.4.2"
   
   acorn-globals@^4.3.2:
     version "4.3.4"
@@ -10057,6 +10075,11 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
     integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
   
+  lodash.get@4.4.2:
+    version "4.4.2"
+    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+    integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
+  
   lodash.isobject@^3.0.2:
     version "3.0.2"
     resolved "https://registry.yarnpkg.com/lodash.isobject/-/lodash.isobject-3.0.2.tgz#3c8fb8d5b5bf4bf90ae06e14f2a530a4ed935e1d"
@@ -10259,13 +10282,6 @@ Lockfile:
     dependencies:
       tmpl "1.0.x"
   
-  map-age-cleaner@^0.1.3:
-    version "0.1.3"
-    resolved "https://registry.yarnpkg.com/map-age-cleaner/-/map-age-cleaner-0.1.3.tgz#7d583a7306434c055fe474b0f45078e6e1b4b92a"
-    integrity sha512-bJzx6nMoP6PDLPBFmg7+xRKeFZvFboMrGlxmNj9ClvX53KrmvM5bXFXEWjbz4cz1AFn+jWJ9z/DJSz7hrs0w3w==
-    dependencies:
-      p-defer "^1.0.0"
-  
   map-cache@^0.2.2:
     version "0.2.2"
     resolved "https://registry.yarnpkg.com/map-cache/-/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
@@ -10327,14 +10343,6 @@ Lockfile:
     version "0.3.0"
     resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
     integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
-  
-  mem@>=4.0.0:
-    version "6.1.1"
-    resolved "https://registry.yarnpkg.com/mem/-/mem-6.1.1.tgz#ea110c2ebc079eca3022e6b08c85a795e77f6318"
-    integrity sha512-Ci6bIfq/UgcxPTYa8dQQ5FY3BzKkT894bwXWXxC/zqs0XgMO2cT20CGkOqda7gZNkmK5VP4x89IGZ6K7hfbn3Q==
-    dependencies:
-      map-age-cleaner "^0.1.3"
-      mimic-fn "^3.0.0"
   
   memory-fs@^0.4.1:
     version "0.4.1"
@@ -10698,11 +10706,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
     integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
   
-  mimic-fn@^3.0.0:
-    version "3.1.0"
-    resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-3.1.0.tgz#65755145bbf3e36954b949c16450427451d5ca74"
-    integrity sha512-Ysbi9uYW9hFyfrThdDEQuykN4Ey6BuwPD2kpI5ES/nFTDn/98yxYNLZJcgUAKPT/mcrLLKaGzJR9YVxJrIdASQ==
-  
   mimic-response@^1.0.0, mimic-response@^1.0.1:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
@@ -10746,7 +10749,7 @@ Lockfile:
     dependencies:
       brace-expansion "^1.1.7"
   
-  minimist@>=1.2.3, minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
+  minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
     version "1.2.5"
     resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
     integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
@@ -11597,11 +11600,6 @@ Lockfile:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/p-cancelable/-/p-cancelable-2.0.0.tgz#4a3740f5bdaf5ed5d7c3e34882c6fb5d6b266a6e"
     integrity sha512-wvPXDmbMmu2ksjkB4Z3nZWTSkJEb9lqVdMaCKpZUGJG9TMiNp9XcbG3fn9fPKjem04fJMJnXoyFPk2FmgiaiNg==
-  
-  p-defer@^1.0.0:
-    version "1.0.0"
-    resolved "https://registry.yarnpkg.com/p-defer/-/p-defer-1.0.0.tgz#9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
-    integrity sha1-n26xgvbJqozXQwBKfU+WsZaw+ww=
   
   p-each-series@^2.1.0:
     version "2.1.0"
@@ -12957,8 +12955,8 @@ Lockfile:
   
   react-native-gesture-handler@~1.6.0:
     version "1.6.1"
-    resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.6.1.tgz#678e2dce250ed66e93af409759be22cd6375dd17"
-    integrity sha512-gQgIKhDiYf754yzhhliagLuLupvGb6ZyBdzYzr7aus3Fyi87TLOw63ers+r4kGw0h26oAWTAdHd34JnF4NeL6Q==
+    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/react-native-gesture-handler/-/react-native-gesture-handler-1.6.1.tgz#678e2dce250ed66e93af409759be22cd6375dd17"
+    integrity sha1-Z44tziUO1m6Tr0CXWb4izWN13Rc=
     dependencies:
       "@egjs/hammerjs" "^2.0.17"
       hoist-non-react-statics "^2.3.1"
@@ -12988,6 +12986,11 @@ Lockfile:
     version "2.9.0"
     resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.9.0.tgz#ead2843107ba00fee259aa377582e457c74f1f3b"
     integrity sha512-5MaiUD6HA3nzY3JbVI8l3V7pKedtxQF3d8qktTVI0WmWXTI4QzqOU8r8fPVvfKo3MhOXwhWBjr+kQ7DZaIQQeg==
+  
+  react-native-svg-pan-zoom@^0.1.2:
+    version "0.1.2"
+    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/react-native-svg-pan-zoom/-/react-native-svg-pan-zoom-0.1.2.tgz#d86ff1b25e8dabdd75439d77dc55060bb413d9de"
+    integrity sha1-2G/xsl6Nq911Q5133FUGC7QT2d4=
   
   react-native-svg-transformer@^0.14.3:
     version "0.14.3"
@@ -13036,6 +13039,11 @@ Lockfile:
       normalize-css-color "^1.0.2"
       prop-types "^15.6.0"
       react-timer-mixin "^0.13.4"
+  
+  react-native-wheel-picker@^1.2.0:
+    version "1.2.0"
+    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/react-native-wheel-picker/-/react-native-wheel-picker-1.2.0.tgz#0503e37b3326856724501679bdf5697e0dd247a6"
+    integrity sha1-BQPjezMmhWckUBZ5vfVpfg3SR6Y=
   
   "react-native@https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz":
     version "0.62.2"
@@ -16159,11 +16167,6 @@ Lockfile:
     dependencies:
       mkdirp "^0.5.1"
   
-  ws@>=3.3.1, ws@^7, ws@^7.0.0:
-    version "7.3.1"
-    resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.1.tgz#d0547bf67f7ce4f12a72dfe31262c68d7dc551c8"
-    integrity sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
-  
   ws@^1.1.0, ws@^1.1.5:
     version "1.1.5"
     resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.5.tgz#cbd9e6e75e09fc5d2c90015f21f0c40875e0dd51"
@@ -16187,6 +16190,11 @@ Lockfile:
     integrity sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
     dependencies:
       async-limiter "~1.0.0"
+  
+  ws@^7, ws@^7.0.0:
+    version "7.3.1"
+    resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.1.tgz#d0547bf67f7ce4f12a72dfe31262c68d7dc551c8"
+    integrity sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
   
   xcode@^2.0.0, xcode@^2.1.0:
     version "2.1.0"

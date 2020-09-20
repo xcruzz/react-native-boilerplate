@@ -7,6 +7,11 @@ const styles = StyleSheet.create({
     width: 32,
     height: 32,
   },
+  logo90: {
+    width: 32,
+    height: 32,
+    transform: [{ rotate: '270deg' }],
+  },
 })
 
 const HeaderTitle = () => (

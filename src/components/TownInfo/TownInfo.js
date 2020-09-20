@@ -38,7 +38,9 @@ const TownInfo = ({ townKey }) => {
       <Image style={styles.logo} source={images.logo_negro} />
       <Text style={styles.verb} />
       <Text style={styles.title}>CANDIDATOS</Text>
-      <Text style={styles.verb}>{town.candidatos.alcaldia.nombre}</Text>
+      <Text style={styles.verb}>
+        {town.candidatos ? town.candidatos.alcaldia.nombre : 'TBD'}
+      </Text>
     </View>
   )
 }

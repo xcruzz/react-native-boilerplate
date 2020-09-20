@@ -1,20 +1,17 @@
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Text, View, StatusBar } from 'react-native'
+import { View, StatusBar } from 'react-native'
 import SVGMap from 'components/SVGMap'
 
 const styles = globalStyles.mapPage
 
 const Map = ({ navigation }) => (
-  <View style={styles.container}>
+  <View style={styles.root}>
     <StatusBar barStyle="light-content" />
-    <Text />
     <View style={styles.container}>
       <SVGMap pNavigation={navigation} />
     </View>
-    <Text />
-    <Text />
   </View>
 )
 

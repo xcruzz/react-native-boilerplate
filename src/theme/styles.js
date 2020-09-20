@@ -33,6 +33,18 @@ const detailsPage = StyleSheet.create({
   },
 })
 
+const stacks = StyleSheet.create({
+  logo: {
+    width: 32,
+    height: 32,
+  },
+  logo90: {
+    width: 32,
+    height: 32,
+    transform: [{ rotate: '270deg' }],
+  },
+})
+
 const drawerMenu = StyleSheet.create({
   root: {
     flex: 1,
@@ -128,10 +140,10 @@ const activeDisplay = StyleSheet.create({
 const mapPage = StyleSheet.create({
   root: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.darkGris,
+    backgroundColor: colors.black,
   },
   title: {
     fontSize: 24,
@@ -144,12 +156,6 @@ const mapPage = StyleSheet.create({
     color: 'white',
     alignContent: 'center',
   },
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'black',
-  },
 })
 
 const svgMap = StyleSheet.create({
@@ -157,50 +163,62 @@ const svgMap = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     alignItems: 'stretch',
+    justifyContent: 'center',
+    backgroundColor: colors.black,
+    transform: [{ rotate: '270deg' }],
+  },
+  foot: {
+    flexDirection: 'row',
     justifyContent: 'space-around',
+    flex: 0,
+    alignItems: 'center',
+    backgroundColor: colors.black,
+    height: 45,
+  },
+  canvas: {
     backgroundColor: colors.black,
   },
-  head: {
+  centeredView: {
+    flex: 1,
+    marginTop: 22,
+  },
+  towns: {
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    textAlign: 'center',
     fontSize: 22,
-    marginBottom: 20,
+  },
+  onePicker: {
+    width: 200,
+    height: 44,
+    backgroundColor: colors.darkGray,
+    borderColor: colors.white,
+    borderWidth: 1,
+  },
+  onePickerItem: {
     height: 45,
     color: colors.white,
   },
-  main: {
-    height: 165,
-    backgroundColor: colors.white,
-  },
-  foot: {
-    fontSize: 20,
-    marginTop: 10,
-    height: 90,
-    color: colors.white,
-  },
   modalView: {
-    margin: 20,
-    backgroundColor: colors.white,
-    borderRadius: 20,
-    padding: 35,
+    // height: '100%',
+    // width: '100%',
+    // margin: 10,
+
+    flex: 1,
+    justifyContent: 'center',
+
+    //backgroundColor: colors.pink,
+    // padding: 25,
     alignItems: 'center',
     shadowColor: colors.black,
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 0.5,
     },
     shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
-  },
-  modalImage: {
-    width: 200,
-    height: 200,
-  },
-  canvas: {
-    flex: 0,
-    backgroundColor: colors.black,
-  },
-  view: {
-    backgroundColor: colors.black,
+    shadowRadius: 15,
+    elevation: 15,
+    transform: [{ rotate: '270deg' }],
   },
 })
 
@@ -212,4 +230,5 @@ export default {
   activeDisplay,
   mapPage,
   svgMap,
+  stacks,
 }
