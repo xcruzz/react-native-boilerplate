@@ -28,11 +28,7 @@ const ALugaro = ({ navigation }) => {
         onPressURL="https://www.defiendeelvoto.com/"
       />
       <Text style={styles.verb}>{'\n'}</Text>
-      <AButton
-        title="Voto Ausente"
-        onPressURL="https://www.alexandralugaro2020.com/votoausente"
-      />
-      <Text style={styles.verb}>{'\n'}</Text>
+
       <AButton
         title="Haz tu donación"
         onPressURL="https://secure.qgiv.com/for/cala"

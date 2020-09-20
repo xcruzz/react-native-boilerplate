@@ -14,6 +14,9 @@ export const images = {
   logo_blanco: require('../../assets/images/mvclogo/blancoiris7.png'),
   logo_arcoiris: require('../../assets/images/mvclogo/blancoiris1.png'),
 
+  victoria_icon: require('../../assets/victoria_icon.png'),
+  victoria_icon_gold: require('../../assets/victoria_icon_gold.png'),
+
   spinner_arcoiris: require('../../assets/images/spinnerL.gif'),
   loader_blancoiris: require('../../assets/images/loader_blancoiris.gif'),
 
