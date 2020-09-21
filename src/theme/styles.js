@@ -2,7 +2,7 @@
 import { StyleSheet } from 'react-native'
 import { colors } from 'theme'
 
-const homePage = StyleSheet.create({
+const alugaro = StyleSheet.create({
   root: {
     flex: 1,
     flexDirection: 'column',
@@ -15,6 +15,23 @@ const homePage = StyleSheet.create({
     marginBottom: 20,
     color: colors.white,
   },
+  logo: {
+    width: 150,
+    height: 70,
+  },
+  display: {
+    width: 350,
+    height: 140,
+  },
+  icon: {
+    width: 60,
+    height: 30,
+  },
+  backgroundImg: {
+    width: 350,
+    height: 140,
+  },
+  verb: { textDecorationColor: '#fff' },
 })
 
 const detailsPage = StyleSheet.create({
@@ -87,7 +104,7 @@ const articlePage = StyleSheet.create({
     paddingBottom: 25,
   },
   title: {
-    fontSize: 24,
+    fontSize: 23,
     color: colors.black,
   },
   verb: {
@@ -118,6 +135,13 @@ const articlePage = StyleSheet.create({
     backgroundColor: colors.white,
     paddingBottom: 20,
     paddingTop: 5,
+  },
+})
+
+const navigation = StyleSheet.create({
+  nav_icon: {
+    width: 20,
+    height: 19,
   },
 })
 
@@ -173,11 +197,12 @@ const mapPage = StyleSheet.create({
 })
 
 export default {
-  homePage,
   detailsPage,
   drawerMenu,
   articlePage,
   activeDisplay,
   mapPage,
   stacks,
+  navigation,
+  alugaro,
 }

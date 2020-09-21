@@ -1,12 +1,14 @@
+import globalStyles from '../../../theme/styles'
 import React from 'react'
-import { View } from 'react-native'
+import { View, Image, Linking } from 'react-native'
 import { createBottomTabNavigator } from 'react-navigation-tabs'
 import FontIcon from 'react-native-vector-icons/FontAwesome5'
-import { colors } from 'theme'
+import { colors, images } from 'theme'
 
 // stack navigators
-import { HomeNavigator, MapNavigator } from '../stacks'
+import { HomeNavigator, MapNavigator, ALugaroNavigator } from '../stacks'
 
+const styles = globalStyles.navigation
 const TabNavigator = createBottomTabNavigator(
   {
     HomeTab: {
@@ -16,6 +18,10 @@ const TabNavigator = createBottomTabNavigator(
     MapTab: {
       screen: MapNavigator,
       navigationOptions: { title: 'Mapa' },
+    },
+    ALugaroTab: {
+      screen: ALugaroNavigator,
+      navigationOptions: { title: 'Lúgaro 2020' },
     },
   },
   {
@@ -40,6 +46,15 @@ const TabNavigator = createBottomTabNavigator(
                 color={focused ? colors.victoryGold : colors.gray}
                 size={20}
                 solid
+              />
+            )
+          case 'ALugaroTab':
+            return (
+              <Image
+                style={styles.nav_icon}
+                source={
+                  focused ? images.alugaro_arco_gold : images.alugaro_arco
+                }
               />
             )
           default:
