@@ -7,7 +7,7 @@ import { Dimensions, View, Button, Text } from 'react-native'
 import { Picker } from '@react-native-community/picker'
 
 const deviceSize = Dimensions.get('window')
-const styles = globalStyles.svgMap
+const styles = globalStyles.mapPage
 
 export default class SVGMap extends React.Component {
   updateSelection(val, i) {
@@ -17,10 +17,10 @@ export default class SVGMap extends React.Component {
     if (this.state.selectedTownI > 0) {
       //turn off original town
       oTown = this.state.towns[this.state.selectedTownI]
-      oTown.activeFill = colors.black
+      oTown.activeFill = this.state.gTownFill
       towns[this.state.selectedTownI] = oTown
     }
-    if (i > 0) towns[i].activeFill = colors.white
+    if (i > 0) towns[i].activeFill = this.state.gTownActiveFill
 
     this.setState({
       ...this.state,
@@ -36,9 +36,6 @@ export default class SVGMap extends React.Component {
     super(props)
     this.state = {
       props: props,
-      modalVisible: false,
-      selectedImageUri: null,
-      isDragging: false,
       towns: prtowns.sort((a, b) => (a.name > b.name ? 1 : -1)),
       selectedTownI: 0,
       selectedTownK: 'default',
@@ -48,21 +45,14 @@ export default class SVGMap extends React.Component {
       gTownOutline: colors.white,
       gStrokeWidth: '.11',
       gTransform: '0.0 0.0',
-      canvasBGColor: colors.black,
-      viewBGColor: colors.black,
-      modalVisible: false,
     }
   }
 
   render() {
     return (
-      <View style={styles.root}>
-        <View style={styles}>
-          <Svg
-            style={styles.canvas}
-            width={deviceSize.height * 0.8}
-            height={deviceSize.width * 0.8}
-          >
+      <View style={styles.main}>
+        <View>
+          <Svg width={deviceSize.height * 0.8} height={deviceSize.width * 0.8}>
             {this.state.towns.map((town, i) => {
               return (
                 <G

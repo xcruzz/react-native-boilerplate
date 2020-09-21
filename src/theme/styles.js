@@ -140,26 +140,10 @@ const activeDisplay = StyleSheet.create({
 const mapPage = StyleSheet.create({
   root: {
     flex: 1,
-    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
     backgroundColor: colors.black,
   },
-  title: {
-    fontSize: 24,
-    marginBottom: 20,
-    color: 'white',
-  },
-  text: {
-    fontSize: 16,
-    marginBottom: 20,
-    color: 'white',
-    alignContent: 'center',
-  },
-})
-
-const svgMap = StyleSheet.create({
-  root: {
+  main: {
     flex: 1,
     flexDirection: 'column',
     alignItems: 'stretch',
@@ -175,19 +159,6 @@ const svgMap = StyleSheet.create({
     backgroundColor: colors.black,
     height: 45,
   },
-  canvas: {
-    backgroundColor: colors.black,
-  },
-  centeredView: {
-    flex: 1,
-    marginTop: 22,
-  },
-  towns: {
-    paddingVertical: 8,
-    paddingHorizontal: 16,
-    textAlign: 'center',
-    fontSize: 22,
-  },
   onePicker: {
     width: 200,
     height: 44,
@@ -199,27 +170,6 @@ const svgMap = StyleSheet.create({
     height: 45,
     color: colors.white,
   },
-  modalView: {
-    // height: '100%',
-    // width: '100%',
-    // margin: 10,
-
-    flex: 1,
-    justifyContent: 'center',
-
-    //backgroundColor: colors.pink,
-    // padding: 25,
-    alignItems: 'center',
-    shadowColor: colors.black,
-    shadowOffset: {
-      width: 0,
-      height: 0.5,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 15,
-    elevation: 15,
-    transform: [{ rotate: '270deg' }],
-  },
 })
 
 export default {
@@ -229,6 +179,5 @@ export default {
   articlePage,
   activeDisplay,
   mapPage,
-  svgMap,
   stacks,
 }

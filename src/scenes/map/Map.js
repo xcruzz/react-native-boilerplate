@@ -9,7 +9,7 @@ const styles = globalStyles.mapPage
 const Map = ({ navigation }) => (
   <View style={styles.root}>
     <StatusBar barStyle="light-content" />
-    <View style={styles.container}>
+    <View>
       <SVGMap pNavigation={navigation} />
     </View>
   </View>
