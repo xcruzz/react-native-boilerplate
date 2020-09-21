@@ -1,6 +1,8 @@
 'use-strict'
-import { StyleSheet } from 'react-native'
+import { Dimensions, StyleSheet } from 'react-native'
 import { colors } from 'theme'
+
+const deviceSize = Dimensions.get('window')
 
 const alugaro = StyleSheet.create({
   root: {
@@ -10,6 +12,14 @@ const alugaro = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: colors.black,
   },
+  au_root: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.white,
+  },
+  agenda_urgente: { width: deviceSize.width, height: 4652 },
   title: {
     fontSize: 24,
     marginBottom: 20,
@@ -20,8 +30,12 @@ const alugaro = StyleSheet.create({
     height: 70,
   },
   display: {
-    width: 350,
-    height: 140,
+    width: 300,
+    height: 130,
+  },
+  display_lugaro: {
+    width: deviceSize.width * 0.9,
+    height: 150,
   },
   icon: {
     width: 60,
@@ -31,7 +45,6 @@ const alugaro = StyleSheet.create({
     width: 350,
     height: 140,
   },
-  verb: { textDecorationColor: '#fff' },
 })
 
 const detailsPage = StyleSheet.create({
@@ -141,7 +154,7 @@ const articlePage = StyleSheet.create({
 const navigation = StyleSheet.create({
   nav_icon: {
     width: 20,
-    height: 19,
+    height: 22,
   },
 })
 

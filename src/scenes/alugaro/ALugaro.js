@@ -14,8 +14,8 @@ const ALugaro = ({ navigation }) => {
 
       <Text style={styles.verb}>{'\n'}</Text>
       <Text style={styles.title}>{'  '}¡Terminemos lo que empezamos!</Text>
-      <Text style={styles.verb} />
-      <Image style={styles.display} source={images.lugaro_work}></Image>
+      <Text style={styles.verb}>{'\n'}</Text>
+      <Image style={styles.display_lugaro} source={images.lugaro_work}></Image>
       <Text style={styles.verb}>{'\n'}</Text>
       <ImgButton
         styles={styles.logo}

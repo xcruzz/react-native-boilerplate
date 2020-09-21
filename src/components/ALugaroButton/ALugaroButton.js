@@ -7,7 +7,15 @@ import { View, TouchableOpacity, Text, Linking } from 'react-native'
 const styles = {
   button: {
     backgroundColor: colors.white,
-    paddingVertical: 8,
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    borderRadius: 20,
+    width: 200,
+    alignItems: 'center',
+  },
+  disabled: {
+    backgroundColor: colors.gray,
+    paddingVertical: 10,
     paddingHorizontal: 16,
     borderRadius: 20,
     width: 200,
@@ -20,6 +28,10 @@ const styles = {
     justifyContent: 'center',
     backgroundColor: colors.black,
   },
+  verb: {
+    color: '#000',
+    fontSize: 18,
+  },
 }
 
 const ALugaroButton = ({
@@ -27,22 +39,28 @@ const ALugaroButton = ({
   onPressURL,
   onPressNavigate,
   navigationProps,
+  isDisabled,
 }) => {
   return (
     <View style={styles.root}>
       <TouchableOpacity
         onPress={() => {
-          NetInfo.fetch().then((state) => {
-            if (state.isConnected || !onPressNavigation) {
-              Linking.openURL(onPressURL)
+          if (!isDisabled)
+            if (onPressURL) {
+              NetInfo.fetch().then((state) => {
+                if (state.isConnected || !onPressNavigation) {
+                  Linking.openURL(onPressURL)
+                } else {
+                  onPressNavigation.navigate(onPressNavigate, navigationProps)
+                }
+              })
             } else {
-              onPressNavigation.navigate(onPressNavigate, navigationProps)
+              onPressNavigate.navigate(navigationProps.to, navigationProps)
             }
-          })
         }}
-        style={styles.button}
+        style={isDisabled ? styles.disabled : styles.button}
       >
-        <Text style={styles.center}>{title}</Text>
+        <Text style={styles.verb}>{title}</Text>
       </TouchableOpacity>
     </View>
   )
@@ -50,16 +68,18 @@ const ALugaroButton = ({
 
 ALugaroButton.propTypes = {
   title: PropTypes.string,
-  onPress: PropTypes.func,
+  onPressURL: PropTypes.string,
   onPressNavigate: PropTypes.object,
   navigationProps: PropTypes.object,
+  isDisabled: PropTypes.bool,
 }
 
 ALugaroButton.defaultProps = {
   title: null,
-  onPress: () => {},
+  onPressURL: null,
   onPressNavigate: null,
   navigationProps: null,
+  isDisabled: false,
 }
 
 export default ALugaroButton

@@ -17,6 +17,8 @@ export const images = {
   victoria_icon: require('../../assets/victoria_icon.png'),
   victoria_icon_gold: require('../../assets/victoria_icon_gold.png'),
 
+  agenda_urgente: require('../../assets/images/agenda_urgente_blanco.png'),
+  agenda_urgente_dark: require('../../assets/images/agenda_urgente.png'),
   spinner_arcoiris: require('../../assets/images/spinnerL.gif'),
   loader_blancoiris: require('../../assets/images/loader_blancoiris.gif'),
 

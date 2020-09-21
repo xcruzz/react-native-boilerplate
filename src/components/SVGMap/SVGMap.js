@@ -1,3 +1,4 @@
+import AButton from '../../components/ALugaroButton'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import { Svg, Path, G } from 'react-native-svg'
@@ -8,11 +9,17 @@ import { Picker } from '@react-native-community/picker'
 
 const deviceSize = Dimensions.get('window')
 const styles = globalStyles.mapPage
+const x = 265
+const y = -105
+const scale = 2.25
+const width = deviceSize.height * 0.92
+const height = deviceSize.width * 0.7
+const defaultTown = 'Presiona un Pueblo'
 
 export default class SVGMap extends React.Component {
   updateSelection(val, i) {
     let towns = this.state.towns
-    let oTown = 'default'
+    let oTown = defaultTown
 
     if (this.state.selectedTownI > 0) {
       //turn off original town
@@ -26,8 +33,8 @@ export default class SVGMap extends React.Component {
       ...this.state,
       towns: towns,
       selectedTownI: i,
-      selectedTownK: i > 0 ? towns[i].key : 'default',
-      selectedTownN: val != 'default' ? 'Ver Candidatos' : '',
+      selectedTownK: val != defaultTown ? towns[i].key : val,
+      selectedTownN: val != defaultTown ? `Ver ${towns[i].name}` : val,
     })
 
     return
@@ -38,8 +45,8 @@ export default class SVGMap extends React.Component {
       props: props,
       towns: prtowns.sort((a, b) => (a.name > b.name ? 1 : -1)),
       selectedTownI: 0,
-      selectedTownK: 'default',
-      selectedTownN: '',
+      selectedTownK: defaultTown,
+      selectedTownN: defaultTown,
       gTownFill: colors.black,
       gTownActiveFill: colors.white,
       gTownOutline: colors.white,
@@ -51,40 +58,8 @@ export default class SVGMap extends React.Component {
   render() {
     return (
       <View style={styles.main}>
-        <View>
-          <Svg width={deviceSize.height * 0.8} height={deviceSize.width * 0.8}>
-            {this.state.towns.map((town, i) => {
-              return (
-                <G
-                  transform={`translate(${this.state.gTransform})`}
-                  stroke={this.state.gTownOutline}
-                  stroke-width={this.state.gStrokeWidth * 0.01}
-                  fill={this.state.towns[i].activeFill}
-                  x={233}
-                  y={-65}
-                  scale={2.09}
-                  key={town.key}
-                  onPressIn={() => {
-                    this.updateSelection(town.key, i)
-                  }}
-                >
-                  <Path id={town.key} d={town.d} />
-                </G>
-              )
-            })}
-          </Svg>
-        </View>
-
+        <Text></Text>
         <View style={styles.foot}>
-          <Button
-            title={'Inicio'}
-            color="white"
-            onPress={() => {
-              this.state.props.pNavigation.navigate('Home', {
-                from: 'Map',
-              })
-            }}
-          />
           <Picker
             style={styles.onePicker}
             itemStyle={styles.onePickerItem}
@@ -95,8 +70,8 @@ export default class SVGMap extends React.Component {
           >
             <Picker.Item
               label="Lista de Pueblos"
-              value="default"
-              key="default"
+              value={defaultTown}
+              key={defaultTown}
             />
             {this.state.towns.map((town, i) => {
               if (town.name)
@@ -109,23 +84,52 @@ export default class SVGMap extends React.Component {
                 )
             })}
           </Picker>
-
-          <Button
+        </View>
+        <View>
+          <Svg width={width} height={height}>
+            {this.state.towns.map((town, i) => {
+              return (
+                <G
+                  transform={`translate(${this.state.gTransform})`}
+                  stroke={this.state.gTownOutline}
+                  stroke-width={this.state.gStrokeWidth * 0.01}
+                  fill={this.state.towns[i].activeFill}
+                  x={x}
+                  y={y}
+                  scale={scale}
+                  key={town.key}
+                  onPressIn={() => {
+                    this.updateSelection(town.key, i)
+                  }}
+                >
+                  <Path id={town.key} d={town.d} />
+                </G>
+              )
+            })}
+          </Svg>
+        </View>
+        <View style={styles.foot}>
+          <AButton
+            title="Regresar"
+            onPressNavigate={this.state.props.pNavigation}
+            navigationProps={{
+              to: 'Home',
+              from: 'Map',
+            }}
+          />
+          <AButton
             title={this.state.selectedTownN}
-            color="white"
-            disabled={this.state.selectedTownI < 0}
-            onPress={() => {
-              this.state.props.pNavigation.navigate('Details', {
-                from: 'Map',
-                articleKey:
-                  this.state.selectedTownI >= 0
-                    ? this.state.towns[this.state.selectedTownI].key
-                    : '',
-                isTown: true,
-              })
+            onPressNavigate={this.state.props.pNavigation}
+            isDisabled={this.state.selectedTownK == defaultTown}
+            navigationProps={{
+              to: 'Details',
+              from: 'Map',
+              isTown: true,
+              articleKey: this.state.selectedTownK,
             }}
           />
         </View>
+        <Text></Text>
       </View>
     )
   }

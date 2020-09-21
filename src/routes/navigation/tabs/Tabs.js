@@ -1,6 +1,6 @@
 import globalStyles from '../../../theme/styles'
 import React from 'react'
-import { View, Image, Linking } from 'react-native'
+import { View, Image } from 'react-native'
 import { createBottomTabNavigator } from 'react-navigation-tabs'
 import FontIcon from 'react-native-vector-icons/FontAwesome5'
 import { colors, images } from 'theme'
@@ -11,17 +11,17 @@ import { HomeNavigator, MapNavigator, ALugaroNavigator } from '../stacks'
 const styles = globalStyles.navigation
 const TabNavigator = createBottomTabNavigator(
   {
+    ALugaroTab: {
+      screen: ALugaroNavigator,
+      navigationOptions: { title: 'Lúgaro 2020' },
+    },
     HomeTab: {
       screen: HomeNavigator,
-      navigationOptions: { title: 'Inicio' },
+      navigationOptions: { title: 'Agenda Urgente' },
     },
     MapTab: {
       screen: MapNavigator,
       navigationOptions: { title: 'Mapa' },
-    },
-    ALugaroTab: {
-      screen: ALugaroNavigator,
-      navigationOptions: { title: 'Lúgaro 2020' },
     },
   },
   {
@@ -30,13 +30,22 @@ const TabNavigator = createBottomTabNavigator(
       tabBarIcon: ({ focused }) => {
         const { routeName } = navigation.state
         switch (routeName) {
+          case 'ALugaroTab':
+            return (
+              <Image
+                style={styles.nav_icon}
+                source={
+                  focused ? images.alugaro_arco_gold : images.alugaro_arco
+                }
+              />
+            )
           case 'HomeTab':
             return (
-              <FontIcon
-                name="home"
-                color={focused ? colors.victoryGold : colors.gray}
-                size={20}
-                solid
+              <Image
+                style={styles.nav_icon}
+                source={
+                  focused ? images.victoria_icon_gold : images.victoria_icon
+                }
               />
             )
           case 'MapTab':
@@ -48,20 +57,11 @@ const TabNavigator = createBottomTabNavigator(
                 solid
               />
             )
-          case 'ALugaroTab':
-            return (
-              <Image
-                style={styles.nav_icon}
-                source={
-                  focused ? images.alugaro_arco_gold : images.alugaro_arco
-                }
-              />
-            )
           default:
             return <View />
         }
       },
-      initialRouteName: 'Home',
+      initialRouteName: 'HomeTab',
       tabBarOptions: {
         activeTintColor: colors.victoryGold,
         inactiveTintColor: colors.gray,

@@ -32,16 +32,9 @@ const DrawerMenu = ({ navigation }) => (
       <TouchableOpacity
         onPress={() => {
           NetInfo.fetch().then((state) => {
-            if (state.isConnected) {
-              Linking.openURL(
-                'https://www.alexandralugaro2020.com/agendaurgente',
-              )
-            } else {
-              navigation.navigate('Details', {
-                from: 'Home',
-                articleKey: 'agenda_urgente',
-              })
-            }
+            navigation.navigate('Home', {
+              from: 'DrawerMenu',
+            })
           })
         }}
       >
@@ -53,11 +46,21 @@ const DrawerMenu = ({ navigation }) => (
       <TouchableOpacity
         onPress={() => {
           navigation.navigate('ALugaro', {
-            from: 'Drawer',
+            from: 'DrawerMenu',
           })
         }}
       >
         <Text style={styles.head}>LÚGARO 2020</Text>
+      </TouchableOpacity>
+      <Text />
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('Map', {
+            from: 'DrawerMenu',
+          })
+        }}
+      >
+        <Text style={styles.head}>MAPA DE CANDIDATXS</Text>
       </TouchableOpacity>
       <Text />
     </View>
