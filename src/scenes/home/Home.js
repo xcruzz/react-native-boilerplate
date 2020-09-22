@@ -1,6 +1,3 @@
-import ImgButton from '../../components/ImgButton'
-import AButton from '../../components/ALugaroButton'
-import ActiveDisplay from 'components/ActiveDisplay'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import PropTypes from 'prop-types'

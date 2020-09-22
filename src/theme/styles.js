@@ -3,6 +3,7 @@ import { Dimensions, StyleSheet } from 'react-native'
 import { colors } from 'theme'
 
 const deviceSize = Dimensions.get('window')
+const orientation = '90deg'
 
 const alugaro = StyleSheet.create({
   root: {
@@ -71,7 +72,7 @@ const stacks = StyleSheet.create({
   logo90: {
     width: 32,
     height: 32,
-    transform: [{ rotate: '270deg' }],
+    transform: [{ rotate: orientation }],
   },
 })
 
@@ -186,7 +187,7 @@ const mapPage = StyleSheet.create({
     alignItems: 'stretch',
     justifyContent: 'center',
     backgroundColor: colors.black,
-    transform: [{ rotate: '270deg' }],
+    transform: [{ rotate: orientation }],
   },
   foot: {
     flexDirection: 'row',
