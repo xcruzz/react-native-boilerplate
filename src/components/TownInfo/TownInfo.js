@@ -24,14 +24,16 @@ const TownInfo = ({ townKey }) => {
   return (
     <View style={styles.container}>
       <Text />
-      <Text style={styles.title}>{town.name}</Text>
-      <Image style={styles.logo} source={images['logo_negro']} />
-      <Text />
-      <Text style={styles.title}>
-        {`Distrito : ` + districtSen
-          ? districtSen.map((d) => d.name + '\n')
-          : town.distritosS}
-      </Text>
+      <View style={styles.header}>
+        <Text style={styles.title}>{town.name}</Text>
+        <Image style={styles.logo} source={images['logo_negro']} />
+        <Text />
+        <Text style={styles.title}>
+          {`Distrito : ` + districtSen
+            ? districtSen.map((d, i) => (i > 0 ? ' - ' : '') + d.name)
+            : town.distritosS}
+        </Text>
+      </View>
       <ScrollView>
         {districtSen[0] && districtSen[0].content && districtSen[0].content ? (
           <Image

@@ -213,10 +213,11 @@ const mapPage = StyleSheet.create({
 const townInfo = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  header: {
     alignItems: 'center',
     justifyContent: 'center',
-    textDecorationColor: '#fff',
-    paddingLeft: 6,
+    height: 140,
   },
   title: {
     fontSize: 22,
