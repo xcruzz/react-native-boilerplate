@@ -210,6 +210,30 @@ const mapPage = StyleSheet.create({
   },
 })
 
+const townInfo = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    textDecorationColor: '#fff',
+    paddingLeft: 6,
+  },
+  title: {
+    fontSize: 22,
+    marginBottom: 20,
+  },
+  verb: {
+    fontSize: 18,
+    marginBottom: 20,
+  },
+  logo: {
+    width: 54,
+    height: 60,
+  },
+  content: {
+    width: deviceSize.width * 0.98,
+  },
+})
 export default {
   detailsPage,
   drawerMenu,
@@ -219,4 +243,5 @@ export default {
   stacks,
   navigation,
   alugaro,
+  townInfo,
 }

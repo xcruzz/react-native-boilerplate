@@ -9,12 +9,13 @@ import { Text, View, StatusBar } from 'react-native'
 const styles = globalStyles.detailsPage
 
 const Details = ({ navigation }) => {
-  const { articleKey, isTown } = navigation.state.params
-  if (isTown) {
+  const { articleKey, townKey } = navigation.state.params
+
+  if (townKey) {
     return (
       <View style={styles.root}>
         <StatusBar barStyle="light-content" />
-        <TownInfo townKey={articleKey}></TownInfo>
+        <TownInfo townKey={townKey} />
       </View>
     )
   } else {

@@ -1,46 +1,50 @@
+import globalStyles from '../../theme/styles'
 import React from 'react'
-import { Image, StyleSheet, Text, View } from 'react-native'
+import { Image, Text, View, Dimensions } from 'react-native'
 import { images } from 'theme'
-import prtowns from '../SVGMap/PRTowns.json'
+import prtowns from '../../../assets/candidatxs/PRTowns.json'
+import { ScrollView } from 'react-native-gesture-handler'
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    textDecorationColor: '#fff',
-    paddingLeft: 6,
-  },
-  title: {
-    fontSize: 22,
-    marginBottom: 20,
-  },
-  verb: {
-    fontSize: 18,
-    marginBottom: 20,
-  },
-  logo: {
-    width: 108,
-    height: 120,
-  },
-})
+const deviceSize = Dimensions.get('window')
+const distritosS = prtowns.distritosS
+const pueblos = prtowns.pueblos
+const styles = globalStyles.townInfo
 
 const TownInfo = ({ townKey }) => {
-  console.log(townKey)
-
-  let town = prtowns.find((x) => {
+  const town = pueblos.find((x) => {
     return x.key == townKey
   })
+
+  const districtSen = distritosS.filter((x) => {
+    if (town.distritoS.length == 2)
+      return x.number == town.distritoS[0] || x.number == town.distritoS[1]
+    else return x.number == town.distritoS[0]
+  })
+
   return (
     <View style={styles.container}>
-      <Text style={styles.verb} />
-      <Text style={styles.title}>{townKey.toUpperCase()}</Text>
-      <Image style={styles.logo} source={images.logo_negro} />
-      <Text style={styles.verb} />
-      <Text style={styles.title}>CANDIDATOS</Text>
-      <Text style={styles.verb}>
-        {town.candidatos ? town.candidatos.alcaldia.nombre : 'TBD'}
+      <Text />
+      <Text style={styles.title}>{town.name}</Text>
+      <Image style={styles.logo} source={images['logo_negro']} />
+      <Text />
+      <Text style={styles.title}>
+        {`Distrito : ` + districtSen
+          ? districtSen.map((d) => d.name + '\n')
+          : town.distritosS}
       </Text>
+      <ScrollView>
+        {districtSen[0] && districtSen[0].content && districtSen[0].content ? (
+          <Image
+            style={{
+              width: deviceSize.width * 0.98,
+              height: districtSen[0].content.imgHeight,
+            }}
+            source={images[districtSen[0].content.image]}
+          />
+        ) : (
+          <Text />
+        )}
+      </ScrollView>
     </View>
   )
 }

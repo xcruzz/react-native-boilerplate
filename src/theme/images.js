@@ -31,6 +31,8 @@ export const images = {
   fb_icon: require('../../assets/social/fb_icon.png'),
   twitter_icon: require('../../assets/social/twitter_icon.png'),
   ig_icon: require('../../assets/social/ig_ico.png'),
+
+  distritoS7: require('../../assets/candidatxs/distritoS_7.png'),
 }
 
 // image preloading
