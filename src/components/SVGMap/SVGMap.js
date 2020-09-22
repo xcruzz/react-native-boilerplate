@@ -3,8 +3,8 @@ import globalStyles from '../../theme/styles'
 import React from 'react'
 import { Svg, Path, G } from 'react-native-svg'
 import { colors } from 'theme'
-import prtowns from './PRTowns.json'
-import { Dimensions, View, Button, Text } from 'react-native'
+import prtowns from '../../../assets/candidatxs/PRTowns.json'
+import { Dimensions, View, Text } from 'react-native'
 import { Picker } from '@react-native-community/picker'
 
 const deviceSize = Dimensions.get('window')
@@ -17,24 +17,36 @@ const height = deviceSize.width * 0.7
 const defaultTown = 'Presiona un Pueblo'
 
 export default class SVGMap extends React.Component {
-  updateSelection(val, i) {
+  updateSelection(key) {
+    if (key == this.state.selectedTownK) return
     let towns = this.state.towns
-    let oTown = defaultTown
-
-    if (this.state.selectedTownI > 0) {
-      //turn off original town
-      oTown = this.state.towns[this.state.selectedTownI]
-      oTown.activeFill = this.state.gTownFill
-      towns[this.state.selectedTownI] = oTown
+    if (this.state.selectedTownK != defaultTown) {
+      towns.map((t) => {
+        if (t.key == this.state.selectedTownK) {
+          t.activeFill = this.state.gTownFill
+        }
+      })
     }
-    if (i > 0) towns[i].activeFill = this.state.gTownActiveFill
 
+    let newIndex = 1
+    if (key != defaultTown) {
+      newIndex = towns
+        .map((t, i) => {
+          if (t.key == key) {
+            t.activeFill = this.state.gTownActiveFill
+            return i
+          }
+        })
+        .find((x) => {
+          return x != null
+        })
+    }
     this.setState({
       ...this.state,
       towns: towns,
-      selectedTownI: i,
-      selectedTownK: val != defaultTown ? towns[i].key : val,
-      selectedTownN: val != defaultTown ? `Ver ${towns[i].name}` : val,
+      selectedTownI: key != defaultTown ? newIndex : 0,
+      selectedTownK: key,
+      selectedTownN: key != defaultTown ? `Ver ${towns[newIndex].name}` : key,
     })
 
     return
@@ -43,8 +55,8 @@ export default class SVGMap extends React.Component {
     super(props)
     this.state = {
       props: props,
-      towns: prtowns.sort((a, b) => (a.name > b.name ? 1 : -1)),
-      selectedTownI: 0,
+      towns: prtowns.pueblos.sort((a, b) => (a.name > b.name ? 1 : -1)),
+      selectedTownI: 1,
       selectedTownK: defaultTown,
       selectedTownN: defaultTown,
       gTownFill: colors.black,
@@ -124,8 +136,7 @@ export default class SVGMap extends React.Component {
             navigationProps={{
               to: 'Details',
               from: 'Map',
-              isTown: true,
-              articleKey: this.state.selectedTownK,
+              townKey: this.state.selectedTownK,
             }}
           />
         </View>
