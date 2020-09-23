@@ -19,9 +19,11 @@ const NewsFeed = ({ navigation }) => {
       <ScrollView>
         {previews.map((o, j) => {
           return (
-            <View>
-              <Text style={styles.header}>{o.header}</Text>
-              <Text />
+            <View key={`jv${j}`}>
+              <Text key={`1j${j}`} style={styles.header}>
+                {o.header}
+              </Text>
+              <Text key={`2j${j}`} />
               {o.content.map((n, i) => {
                 let bullet = n.bullet ? '- ' : ''
                 return (
@@ -31,6 +33,7 @@ const NewsFeed = ({ navigation }) => {
                 )
               })}
               <Image
+                key={`Ij${j}`}
                 style={{
                   width: deviceSize.width,
                   height: o.image.height,
@@ -39,9 +42,13 @@ const NewsFeed = ({ navigation }) => {
                   uri: o.image.url,
                 }}
               />
-              <AButton title="Ver mas detalles" onPressURL={o.sourceURL} />
-              <View style={styles.separator} />
-              <Text />
+              <AButton
+                key={`Aj${j}`}
+                title="Ver mas detalles"
+                onPressURL={o.sourceURL}
+              />
+              <View key={`jvD${j}`} style={styles.separator} />
+              <Text key={`3j${j}`}>{'\n'}</Text>
             </View>
           )
         })}

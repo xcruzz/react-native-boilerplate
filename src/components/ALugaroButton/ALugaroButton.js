@@ -26,7 +26,6 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.black,
   },
   verb: {
     color: '#000',
