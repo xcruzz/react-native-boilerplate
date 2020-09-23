@@ -2,23 +2,82 @@
   "previews": [
     {
       "rank": 0,
-      "header": "",
-      "content": [{ "bullet": false, "text": "" }],
-      "image": { "Key": "", "desc": "" },
+      "header": "La Reforma Expedita sobre Corrupción, Administración y Transparencia Estatal (RESCATE)",
+      "content": [
+        {
+          "bullet": false,
+          "text": "El nepotismo en el Gobierno, es decir, el atornillamiento de familiares de políticos en puestos gubernamentales."
+        },
+        {
+          "bullet": false,
+          "text": "Esta práctica se ha generalizado por: (1) el abuso de poder de muchos políticos y (2) un marco legal débil que lo permite. Por eso, el proyecto RESCATE hace lo siguiente:"
+        },
+        {
+          "bullet": true,
+          "text": "Elimina la discreción de los presidentes legislativos para permitir que familiares de legisladores/as trabajen en la Rama Legislativa."
+        },
+        {
+          "bullet": true,
+          "text": "Añade requisitos más rigurosos para la otorgación de dispensas en Ética Gubernamental cuando se pretenda contratar a familiares de políticos en el Gobierno"
+        }
+      ],
+      "image": {
+        "Key": "nf_rescate_pv",
+        "url": "https://tinyurl.com/yxemtpb3",
+        "desc": "",
+        "height": 320
+      },
       "bigNews": true,
-      "articleKey": ""
+      "articleKey": "rescate",
+      "sourceURL": "https://static1.squarespace.com/static/5f0db072e9641e63d8cc5cc5/t/5f68ef1ef3ddd601c42af9d5/1600712480404/RESCATE.pdf",
+      "renderLayout": ""
+    },
+    {
+      "rank": 0,
+      "header": "2da Reforma Expedita sobre Corrupción, Administración y Transparencia Estatal (RESCATE)",
+      "content": [
+        {
+          "bullet": false,
+          "text": "El nepotismo en el Gobierno, es decir, el atornillamiento de familiares de políticos en puestos gubernamentales."
+        },
+        {
+          "bullet": false,
+          "text": "Esta práctica se ha generalizado por: (1) el abuso de poder de muchos políticos y (2) un marco legal débil que lo permite. Por eso, el proyecto RESCATE hace lo siguiente:"
+        },
+        {
+          "bullet": true,
+          "text": "Elimina la discreción de los presidentes legislativos para permitir que familiares de legisladores/as trabajen en la Rama Legislativa."
+        },
+        {
+          "bullet": true,
+          "text": "Añade requisitos más rigurosos para la otorgación de dispensas en Ética Gubernamental cuando se pretenda contratar a familiares de políticos en el Gobierno"
+        }
+      ],
+      "image": {
+        "Key": "nf_rescate_pv",
+        "url": "https://tinyurl.com/yxemtpb3",
+        "desc": "",
+        "height": 320
+      },
+      "bigNews": true,
+      "articleKey": "rescate2",
+      "sourceURL": "https://static1.squarespace.com/static/5f0db072e9641e63d8cc5cc5/t/5f68ef1ef3ddd601c42af9d5/1600712480404/RESCATE.pdf",
+      "renderLayout": ""
     }
   ],
   "articles": [
     {
-      "articleKey": "",
-      "title": "",
+      "articleKey": "rescate",
+      "title": "Presentan medida de RESCATE para detener la corrupción gubernamental",
       "intro": "",
-      "image": { "Key": "", "desc": "" },
-      "author": { "photoKey": "", "name": "" },
-      "datetime": null,
+      "image": { "Key": "nf_rescate_pv", "desc": "" },
+      "author": { "photoKey": "", "name": "Jose Bernardo Marquez" },
+      "datetime": "Sep 21",
       "content": [""],
-      "sourceURL": ""
+      "sourceURL": [
+        "https://static1.squarespace.com/static/5f0db072e9641e63d8cc5cc5/t/5f68ef1ef3ddd601c42af9d5/1600712480404/RESCATE.pdf"
+      ],
+      "renderLayout": ""
     }
   ]
 }

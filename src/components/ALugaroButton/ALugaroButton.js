@@ -30,6 +30,7 @@ const styles = {
   },
   verb: {
     color: '#000',
+    fontFamily: 'HelveticaNeue-Light',
     fontSize: 18,
   },
 }

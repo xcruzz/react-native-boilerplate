@@ -13,7 +13,6 @@ const ALugaro = ({ navigation }) => {
       <StatusBar barStyle="light-content" />
       <Text style={styles.verb}>{'\n'}</Text>
       <Text style={styles.title}>{'  '}¡Terminemos lo que empezamos!</Text>
-      <Text style={styles.verb}>{'\n'}</Text>
       <Image style={styles.display_lugaro} source={images.lugaro_work}></Image>
       <Text style={styles.verb}>{'\n'}</Text>
       <ImgButton
@@ -21,6 +20,8 @@ const ALugaro = ({ navigation }) => {
         onPressURL="https://www.alexandralugaro2020.com/"
         imgSource={images.alugaro_2020}
       />
+      <Text style={styles.verb}>{'\n'}</Text>
+
       <AButton
         title="Defiende el voto"
         onPressURL="https://www.defiendeelvoto.com/"
@@ -37,6 +38,8 @@ const ALugaro = ({ navigation }) => {
           from: 'ALugaro',
         }}
       />
+      <Text style={styles.verb}>{'\n'}</Text>
+
       <View style={{ flex: 0, flexDirection: 'row' }}>
         <ImgButton
           styles={styles.icon}

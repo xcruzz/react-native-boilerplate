@@ -1,0 +1,140 @@
+{
+  "article": "Nuestra Agenda Urgente",
+  "intro": [
+    "Victoria Ciudadana nace para atender tres deberes urgentes de nuestro tiempo: "
+  ],
+  "itemsCollapse": [
+    {
+      "title": "I. Rescate de las instituciones públicas",
+      "prologue": null,
+      "numbered": [
+        {
+          "head": "Combatir la corrupción",
+          "list": [
+            "Procesamiento oportuno y contundente de actos de corrupción",
+            "Ley Anti-Puertas Giratorias",
+            "Financiamiento público de campañas que elimine el inversionismo político"
+          ]
+        },
+        {
+          "head": "Cambio del sistema electoral",
+          "list": [
+            "Representación proporcional",
+            "Segunda vuelta",
+            "Iniciativa ciudadana",
+            "Referéndum revocatorio",
+            "Candidaturas coaligadas"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "II. Reconstrucción social, económica y fiscal",
+      "prologue": false,
+      "numbered": [
+        {
+          "head": "Derechos",
+          "list": [
+            "Restituir y ampliar los derechos laborales recortados por pasados gobiernos.",
+            "Reconocer el derecho al trabajo en condiciones dignas (salario, jornada, licencias).",
+            "Un salario mínimo que permita vivir por encima del nivel de pobreza.",
+            "Cumplimiento y ampliación de las políticas contra el discrimen y hostigamiento.",
+            "Salario base mayor al mínimo en industrias cuya capacidad económica lo permita."
+          ]
+        },
+        {
+          "head": "Organización",
+          "list": [
+            "Incentivar la organización sindical de personas que trabajan, públicos y privados.",
+            "Eliminar trabas, incluyendo las existentes en la Rama Judicial y los municipios.",
+            "Promover la organización comunitaria, estudiantil, gremial y profesional, como aspecto esencial de una sociedad democrática."
+          ]
+        },
+        {
+          "head": "Defensa de bienes y servicios públicos",
+          "list": [
+            "Rechazamos las políticas de privatización de servicios esenciales y bienes públicos, que los someten a la lógica de la competencia y el lucro privado.",
+            "Reforma gubernamental con participación laboral y ciudadana, para alcanzar mejores servicios y eficiencia."
+          ]
+        },
+        {
+          "head": "Educación pública",
+          "list": [
+            "Revertir la privatización y los recortes y proveer el presupuesto adecuado a la educación pública.",
+            "Reforma educativa desde la comunidad escolar.",
+            "Educación con perspectiva de género y la educación en derechos humanos.",
+            "Fomentar las artes y los deportes, parte vital de nuestro desarrollo cultural.",
+            "Respetar la fórmula del presupuesto de la Universidad de Puerto Rico.",
+            "Reforma universitaria que garantice la autonomía y democratización de la UPR."
+          ]
+        },
+        {
+          "head": "Pensiones",
+          "list": [
+            "Reconocer la pensión como un derecho adquirido",
+            "Anteponer el pago de pensiones a otros desembolsos de fondos públicos."
+          ]
+        },
+        {
+          "head": "Salud",
+          "list": [
+            "Seguro universal que permita acceso a los servicios de salud a todos y todas.",
+            "Acercamiento salubrista a la adicción."
+          ]
+        },
+        {
+          "head": "Sistema contributivo",
+          "list": ["Conforme al principio de quien más tenga, más aporte."]
+        },
+        {
+          "head": "Desarrollo económico",
+          "list": [
+            "Implantar políticas energéticas, urbanas, de transportación y de infraestructura dirigidas a proteger el ambiente.",
+            "Protección de cuencas hidrográficas, terrenos agrícolas y costas.",
+            "Transición acelerada a la energía renovable y cierre de plantas de carbón.",
+            "Política basura cero bajo el principo de reducción, reuso y reciclaje."
+          ]
+        },
+        {
+          "head": "Ambiente",
+          "list": [
+            "Concebimos la protección del ambiente como aspecto central de todo proyecto económico, urbano, industrial o agrícola o de infraestructura.",
+            "Implantar políticas energéticas, urbanas, de transportación y de infraestructura dirigidas a proteger el ambiente.",
+            "Protección de cuencas hidrográficas, terrenos agrícolas y costas.",
+            "Transición acelerada a la energía renovable y cierre de plantas de carbón.",
+            "Política basura cero bajo el principo de reducción, reuso y reciclaje."
+          ]
+        },
+        {
+          "head": "El Pueblo antes que la deuda",
+          "list": [
+            "Definir constitucionalmente los servicios esenciales y garantías sociales y anteponerlas al pago de la deuda.",
+            "Auditoría ciudadana y moratoria al pago hasta que se complete auditoria.",
+            "Cancelación de la deuda ilegal o ilegítima.",
+            "Renegociación priorizando servicios esenciales y garantías sociales."
+          ]
+        },
+        {
+          "head": "La Junta de Control Fiscal",
+          "list": [
+            "Rechazamos a la JCF y sus políticas de austeridad, que atentan contra nuestras necesidades sociales y de recuperación económica.",
+            "Detendremos el desembolso de fondos del pueblo para la operación de la JCF."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "III. Descolonización",
+      "prologue": false,
+      "numbered": [
+        {
+          "head": false,
+          "list": [
+            "Proponemos un proceso que garantice la participación equitativa de opciones descolonizadoras, entiéndase: estadidad, independencia y libre asociación.",
+            "Asamblea Constitucional de Estatus como medio para lograr tal proceso."
+          ]
+        }
+      ]
+    }
+  ]
+}

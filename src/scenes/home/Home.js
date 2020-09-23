@@ -1,3 +1,4 @@
+import AgendaUrgente from '../../components/AgendaUrgente'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import PropTypes from 'prop-types'
@@ -17,15 +18,10 @@ const Home = ({ navigation }) => (
     <StatusBar barStyle="light-content" />
     <Text style={styles.verb} />
     <ScrollView style={{ flex: 1 }}>
-      <View style={{ flex: 0 }}>
-        <ImageBackground
-          style={styles.agenda_urgente}
-          source={images.agenda_urgente}
-        />
-      </View>
+      <AgendaUrgente />
+      <Text />
+      <ImageBackground style={styles.display} source={images.victoria_final} />
     </ScrollView>
-    <Text />
-    <ImageBackground style={styles.display} source={images.victoria_final} />
   </View>
 )
 

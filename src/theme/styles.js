@@ -24,6 +24,7 @@ const alugaro = StyleSheet.create({
   title: {
     fontSize: 24,
     marginBottom: 20,
+    fontFamily: 'HelveticaNeue-Light',
     color: colors.white,
   },
   logo: {
@@ -31,8 +32,8 @@ const alugaro = StyleSheet.create({
     height: 70,
   },
   display: {
-    width: 300,
-    height: 130,
+    width: deviceSize.width,
+    height: 157,
   },
   display_lugaro: {
     width: deviceSize.width * 0.9,
@@ -210,6 +211,114 @@ const mapPage = StyleSheet.create({
   },
 })
 
+const agendaUrgente = StyleSheet.create({
+  holder: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.white,
+  },
+  header: {
+    fontFamily: 'HelveticaNeue-Light',
+    textAlign: 'center',
+    //fontWeight: 'bold',
+    fontSize: 45,
+    //color: colors.pink,
+    paddingLeft: 10,
+    paddingRight: 10,
+  },
+  title: {
+    fontFamily: 'HelveticaNeue-Light',
+    textAlign: 'center',
+    fontSize: 22,
+    //color: 'green',
+    paddingLeft: 12,
+    paddingRight: 12,
+  },
+  content: {
+    //color: 'red',
+    paddingRight: 10,
+    paddingLeft: 10,
+    fontSize: 18,
+    fontFamily: 'HelveticaNeue-Light',
+  },
+  center: {
+    //color: 'blue',
+    paddingRight: 10,
+    paddingLeft: 10,
+    fontSize: 18,
+    textAlign: 'center',
+    fontFamily: 'HelveticaNeue-Medium',
+  },
+  topic: {
+    //color: 'purple',
+    paddingRight: 10,
+    paddingLeft: 10,
+    fontSize: 18,
+    textAlign: 'left',
+    fontWeight: 'bold',
+    fontFamily: 'HelveticaNeue-Medium',
+  },
+})
+
+const newsFeed = StyleSheet.create({
+  holder: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.white,
+  },
+  header: {
+    fontFamily: 'HelveticaNeue-Light',
+    fontWeight: 'bold',
+    fontSize: 28,
+    color: colors.black,
+    paddingLeft: 10,
+    paddingRight: 10,
+  },
+  content: {
+    paddingRight: 10,
+    paddingLeft: 10,
+    fontSize: 18,
+    fontFamily: 'HelveticaNeue-Light',
+  },
+  center: {
+    alignSelf: 'center',
+    paddingTop: 5,
+    paddingRight: 10,
+    paddingLeft: 10,
+    paddingBottom: 5,
+    fontSize: 20,
+    fontFamily: 'HelveticaNeue-Light',
+  },
+  title: {
+    fontSize: 22,
+    marginBottom: 20,
+    color: colors.white,
+  },
+  logo: {
+    width: 150,
+    height: 70,
+  },
+  image: {
+    alignItems: 'center',
+    width: deviceSize.width,
+    height: 320,
+  },
+  backgroundImg: {
+    width: 350,
+    height: 140,
+  },
+  separator: {
+    alignSelf: 'center',
+    height: 1,
+    width: '95%',
+    backgroundColor: colors.victoryGold,
+  },
+})
+
 const townInfo = StyleSheet.create({
   container: {
     flex: 1,
@@ -245,4 +354,6 @@ export default {
   navigation,
   alugaro,
   townInfo,
+  newsFeed,
+  agendaUrgente,
 }

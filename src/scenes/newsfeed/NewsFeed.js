@@ -1,19 +1,51 @@
-import TownInfo from 'components/TownInfo'
 import globalStyles from '../../theme/styles'
 import { ScrollView } from 'react-native-gesture-handler'
-// import AgendaUrgente from '../articulo/node_modules/components/AgendaUrgente'
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Text, View, StatusBar } from 'react-native'
+import { Text, View, StatusBar, Dimensions, Image } from 'react-native'
+import newsfeed from '../../../assets/newsfeed/NewsFeed.json'
+import AButton from '../../components/ALugaroButton'
 
-const styles = globalStyles.detailsPage
+const styles = globalStyles.newsFeed
+const previews = newsfeed.previews
+
+const deviceSize = Dimensions.get('window')
 
 const NewsFeed = ({ navigation }) => {
   return (
-    <View style={styles.root}>
+    <View style={styles.holder}>
       <StatusBar barStyle="light-content" />
+      <Text />
       <ScrollView>
-        <Text>News Feed</Text>
+        {previews.map((o, j) => {
+          return (
+            <View>
+              <Text style={styles.header}>{o.header}</Text>
+              <Text />
+              {o.content.map((n, i) => {
+                let bullet = n.bullet ? '- ' : ''
+                return (
+                  <Text key={`it${i}`} style={styles.content}>
+                    {bullet + n.text + '\n'}
+                  </Text>
+                )
+              })}
+              <Image
+                style={{
+                  width: deviceSize.width,
+                  height: o.image.height,
+                }}
+                source={{
+                  uri: o.image.url,
+                }}
+              />
+              <AButton title="Ver mas detalles" onPressURL={o.sourceURL} />
+              <View style={styles.separator} />
+              <Text />
+            </View>
+          )
+        })}
+        <Text style={styles.center}>Fin</Text>
       </ScrollView>
     </View>
   )

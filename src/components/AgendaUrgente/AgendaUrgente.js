@@ -1,4 +1,4 @@
-import content from './content.json'
+import content from './agendaurgente.json'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import { Image, Text, View } from 'react-native'
@@ -9,45 +9,40 @@ import {
 } from 'accordion-collapse-react-native'
 import { images } from 'theme'
 
-const styles = globalStyles.articlePage
+const styles = globalStyles.agendaUrgente
 
 const AgendaUrgente = ({}) => {
   return (
     <View>
-      <View style={styles.container}>
-        <Image style={styles.logo} source={images.logo_negro} />
-        <Text style={styles.verb} />
-        <Text style={styles.articleTitle}>{content.article.toUpperCase()}</Text>
-        <Text style={styles.verb}>
-          {content.intro.map((i) => {
-            return i + '\n\n'
-          })}
-        </Text>
-      </View>
-      <View style={styles.collapse}>
-        {content.itemsCollapse.map((i, j) => {
+      <View style={styles.holder}>
+        <Text />
+        <Text style={styles.header}>{content.article}</Text>
+        <Text>{'\n'}</Text>
+        <Text style={styles.center}>{content.intro}</Text>
+        <Text>{'\n\n\n'}</Text>
+        {content.itemsCollapse.map((i, k) => {
           return (
-            <Collapse key={`i${j}`} style={styles.collapse}>
-              <CollapseHeader style={styles.collapseH}>
-                <Text style={styles.title}>{i.title + ' >>'}</Text>
-              </CollapseHeader>
-              <CollapseBody style={styles.collapseB}>
-                {i.prologue ? (
-                  <Text style={styles.verb}>{'\n' + i.prologue}</Text>
-                ) : null}
-                <Text style={styles.head}>{i.head}</Text>
-                {i.numbered.map((m, o) => {
-                  return (
-                    <Text key={`m${o}`} style={styles.list}>
-                      {m.head ? m.head + '\n\n' : null}
-                      {m.list.map((l, n) => {
-                        return `  ${n + 1}. ${l}\n`
-                      })}
+            <View key={`kv${k}`}>
+              <Text key={`kt${k}`} style={styles.title}>
+                {i.title + '\n'}
+              </Text>
+              {i.numbered.map((n, p) => {
+                return (
+                  <View key={`pv${p}`}>
+                    <Text key={`pt${p}`} style={styles.topic}>
+                      {n.head ? n.head + '\n' : ''}
                     </Text>
-                  )
-                })}
-              </CollapseBody>
-            </Collapse>
+                    {n.list.map((l, c) => {
+                      return (
+                        <Text key={`c${c}`} style={styles.content}>{`${
+                          c + 1
+                        }. ${l} \n`}</Text>
+                      )
+                    })}
+                  </View>
+                )
+              })}
+            </View>
           )
         })}
       </View>
