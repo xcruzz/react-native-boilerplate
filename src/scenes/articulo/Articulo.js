@@ -7,7 +7,7 @@ import { Text, View, StatusBar } from 'react-native'
 
 const styles = globalStyles.detailsPage
 
-const Details = ({ navigation }) => {
+const Articulo = ({ navigation }) => {
   const { articleKey } = navigation.state.params
 
   return (
@@ -27,7 +27,7 @@ const Details = ({ navigation }) => {
   )
 }
 
-Details.propTypes = {
+Articulo.propTypes = {
   navigation: PropTypes.shape({
     state: PropTypes.shape({
       params: PropTypes.shape({
@@ -38,7 +38,7 @@ Details.propTypes = {
   }),
 }
 
-Details.defaultProps = {
+Articulo.defaultProps = {
   navigation: {
     state: {
       params: {
@@ -49,4 +49,4 @@ Details.defaultProps = {
   },
 }
 
-export default Details
+export default Articulo

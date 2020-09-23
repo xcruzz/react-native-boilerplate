@@ -6,22 +6,31 @@ import FontIcon from 'react-native-vector-icons/FontAwesome5'
 import { colors, images } from 'theme'
 
 // stack navigators
-import { HomeNavigator, MapNavigator, ALugaroNavigator } from '../stacks'
+import {
+  HomeNavigator,
+  MapNavigator,
+  ALugaroNavigator,
+  NewsFeedNavigator,
+} from '../stacks'
 
 const styles = globalStyles.navigation
 const TabNavigator = createBottomTabNavigator(
   {
-    ALugaroTab: {
-      screen: ALugaroNavigator,
-      navigationOptions: { title: 'Lúgaro 2020' },
-    },
     HomeTab: {
       screen: HomeNavigator,
       navigationOptions: { title: 'Agenda Urgente' },
     },
+    ALugaroTab: {
+      screen: ALugaroNavigator,
+      navigationOptions: { title: 'Lúgaro 2020' },
+    },
     MapTab: {
       screen: MapNavigator,
-      navigationOptions: { title: 'Mapa' },
+      navigationOptions: { title: 'Candidatxs' },
+    },
+    NewsFeedTab: {
+      screen: NewsFeedNavigator,
+      navigationOptions: { title: 'Noticias' },
     },
   },
   {
@@ -35,7 +44,7 @@ const TabNavigator = createBottomTabNavigator(
               <Image
                 style={styles.nav_icon}
                 source={
-                  focused ? images.alugaro_arco_gold : images.alugaro_arco
+                  focused ? images.alugaro_arco_white : images.alugaro_arco
                 }
               />
             )
@@ -44,7 +53,7 @@ const TabNavigator = createBottomTabNavigator(
               <Image
                 style={styles.nav_icon}
                 source={
-                  focused ? images.victoria_icon_gold : images.victoria_icon
+                  focused ? images.victoria_icon_white : images.victoria_icon
                 }
               />
             )
@@ -55,6 +64,15 @@ const TabNavigator = createBottomTabNavigator(
                 color={focused ? colors.victoryGold : colors.gray}
                 size={20}
                 solid
+              />
+            )
+          case 'NewsFeedTab':
+            return (
+              <Image
+                style={styles.nav_icon}
+                source={
+                  focused ? images.newsfeed_icon_white : images.newsfeed_icon
+                }
               />
             )
           default:

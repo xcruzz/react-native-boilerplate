@@ -16,6 +16,7 @@ export const images = {
 
   victoria_icon: require('../../assets/victoria_icon.png'),
   victoria_icon_gold: require('../../assets/victoria_icon_gold.png'),
+  victoria_icon_white: require('../../assets/victoria_icon_white.png'),
 
   agenda_urgente: require('../../assets/images/agenda_urgente_blanco.png'),
   agenda_urgente_dark: require('../../assets/images/agenda_urgente.png'),
@@ -24,6 +25,7 @@ export const images = {
 
   alugaro_arco: require('../../assets/alugaro/arco_icon.png'),
   alugaro_arco_gold: require('../../assets/alugaro/arco_icon_gold.png'),
+  alugaro_arco_white: require('../../assets/alugaro/arco_icon_white.png'),
   alugaro_2020: require('../../assets/alugaro/Lugaro2020.png'),
   victoria_final: require('../../assets/alugaro/victoria_final.png'),
   lugaro_work: require('../../assets/alugaro/lugaro_work.jpg'),
@@ -31,6 +33,9 @@ export const images = {
   fb_icon: require('../../assets/social/fb_icon.png'),
   twitter_icon: require('../../assets/social/twitter_icon.png'),
   ig_icon: require('../../assets/social/ig_ico.png'),
+
+  newsfeed_icon: require('../../assets/newsfeed/newsfeed_icon.png'),
+  newsfeed_icon_white: require('../../assets/newsfeed/newsfeed_icon_white.png'),
 
   distritoS7: require('../../assets/candidatxs/distritoS_7.png'),
 }

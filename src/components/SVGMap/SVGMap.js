@@ -134,7 +134,7 @@ export default class SVGMap extends React.Component {
             onPressNavigate={this.state.props.pNavigation}
             isDisabled={this.state.selectedTownK == defaultTown}
             navigationProps={{
-              to: 'Details',
+              to: 'Candidaturas',
               from: 'Map',
               townKey: this.state.selectedTownK,
             }}

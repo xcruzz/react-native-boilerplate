@@ -2,12 +2,15 @@ import globalStyles from '../../../theme/styles'
 import React from 'react'
 import { createStackNavigator } from 'react-navigation-stack'
 import { colors } from 'theme'
+import HeaderLeft from './HeaderLeft'
+import HeaderTitle from './HeaderTitle'
 import Home from 'scenes/home'
 import Details from 'scenes/details'
 import Map from 'scenes/map'
 import ALugaro from 'scenes/alugaro'
-import HeaderLeft from './HeaderLeft'
-import HeaderTitle from './HeaderTitle'
+import NewsFeed from 'scenes/newsfeed'
+import Candidaturas from 'scenes/candidaturas'
+import Articulo from 'scenes/articulo'
 
 const styles = globalStyles.stacks
 
@@ -30,7 +33,7 @@ export const HomeNavigator = createStackNavigator({
   Details: {
     screen: Details,
     navigationOptions: () => ({
-      title: 'Artículo',
+      title: 'Detalles',
       ...navigationProps,
     }),
   },
@@ -44,8 +47,8 @@ export const MapNavigator = createStackNavigator({
       ...navigationProps,
     }),
   },
-  Details: {
-    screen: Details,
+  Candidaturas: {
+    screen: Candidaturas,
     navigationOptions: () => ({
       title: 'Candidatos',
       ...navigationProps,
@@ -60,6 +63,25 @@ export const ALugaroNavigator = createStackNavigator({
       title: 'LÚGARO 2020',
       headerLeft: <HeaderLeft navigation={navigation} />,
       headerTitle: <HeaderTitle />,
+      ...navigationProps,
+    }),
+  },
+})
+
+export const NewsFeedNavigator = createStackNavigator({
+  NewsFeed: {
+    screen: NewsFeed,
+    navigationOptions: ({ navigation }) => ({
+      title: 'Noticias',
+      headerLeft: <HeaderLeft navigation={navigation} />,
+      headerTitle: <HeaderTitle />,
+      ...navigationProps,
+    }),
+  },
+  Articulo: {
+    screen: Articulo,
+    navigationOptions: () => ({
+      title: 'Artículo',
       ...navigationProps,
     }),
   },

@@ -1,2 +1,7 @@
-import { ALugaroNavigator, HomeNavigator, MapNavigator } from './Stacks'
-export { ALugaroNavigator, HomeNavigator, MapNavigator }
+import {
+  ALugaroNavigator,
+  HomeNavigator,
+  MapNavigator,
+  NewsFeedNavigator,
+} from './Stacks'
+export { ALugaroNavigator, HomeNavigator, MapNavigator, NewsFeedNavigator }

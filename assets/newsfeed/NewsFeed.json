@@ -1,0 +1,24 @@
+{
+  "previews": [
+    {
+      "rank": 0,
+      "header": "",
+      "content": [{ "bullet": false, "text": "" }],
+      "image": { "Key": "", "desc": "" },
+      "bigNews": true,
+      "articleKey": ""
+    }
+  ],
+  "articles": [
+    {
+      "articleKey": "",
+      "title": "",
+      "intro": "",
+      "image": { "Key": "", "desc": "" },
+      "author": { "photoKey": "", "name": "" },
+      "datetime": null,
+      "content": [""],
+      "sourceURL": ""
+    }
+  ]
+}
