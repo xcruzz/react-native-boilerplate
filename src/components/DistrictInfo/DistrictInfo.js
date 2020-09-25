@@ -53,9 +53,6 @@ const DistrictInfo = (props) => {
                     })}
                   </Text>
                 </View>
-                {/* <Text key={`t4${i}`} />
-              <Text key={`t5${i}`} /> */}
-
                 <View key={`pdtv${i}`} style={styles.box}>
                   <Text key={`pdt${i}`} style={styles.boxTB}>
                     Plan de Trabajo {'\n'}
@@ -79,8 +76,6 @@ const DistrictInfo = (props) => {
             )
           })}
         </ScrollView>
-
-        {/* <Text style={styles.verb}>{title}</Text> */}
       </View>
     )
   } else if (currentDistrict.content != null) {
@@ -102,6 +97,17 @@ const DistrictInfo = (props) => {
             source={images[currentDistrict.content.image]}
           />
         </ScrollView>
+      </View>
+    )
+  } else {
+    return (
+      <View style={styles.holder}>
+        <View style={styles.center}>
+          <Text style={styles.content}>
+            {`Distrito Senatorial ` + currentDistrict.name}
+          </Text>
+        </View>
+        <View style={styles.separator} />
       </View>
     )
   }
