@@ -1,3 +1,4 @@
+import SocialBar from '../../components/SocialBar'
 import ImgButton from '../../components/ImgButton'
 import AButton from '../../components/ALugaroButton'
 import globalStyles from '../../theme/styles'
@@ -39,24 +40,11 @@ const ALugaro = ({ navigation }) => {
         }}
       />
       <Text style={styles.verb}>{'\n'}</Text>
-
-      <View style={{ flex: 0, flexDirection: 'row' }}>
-        <ImgButton
-          styles={styles.icon}
-          onPressURL="https://www.facebook.com/alugaro/"
-          imgSource={images.fb_icon}
-        />
-        <ImgButton
-          styles={styles.icon}
-          onPressURL="https://twitter.com/alexandralugaro"
-          imgSource={images.twitter_icon}
-        />
-        <ImgButton
-          styles={styles.icon}
-          onPressURL="https://www.instagram.com/alexandralugaro/"
-          imgSource={images.ig_icon}
-        />
-      </View>
+      <SocialBar
+        fbHandle="alugaro"
+        twitterHandle="alexandralugaro"
+        igHandle="alexandralugaro"
+      />
       <Text style={styles.verb}>{'\n'}</Text>
     </View>
   )

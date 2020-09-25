@@ -39,10 +39,6 @@ const alugaro = StyleSheet.create({
     width: deviceSize.width * 0.9,
     height: 150,
   },
-  icon: {
-    width: 60,
-    height: 30,
-  },
   backgroundImg: {
     width: 350,
     height: 140,
