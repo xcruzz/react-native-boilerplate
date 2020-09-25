@@ -1,0 +1,222 @@
+{
+  "porDistritoSenatorial": [
+    { "number": 1, "name": "I : San Juan", "population": 462035 },
+    { "number": 2, "name": "II : Bayamón", "population": 459805 },
+    { "number": 3, "name": "III : Arecibo", "population": 470250 },
+    { "number": 4, "name": "IV : Mayagüez - Aguadilla", "population": 478194 },
+    {
+      "number": 5,
+      "name": "V - Ponce",
+      "candidatxs": [
+        {
+          "key": "andresacostamer",
+          "pueblo": null,
+          "candidatura": "Representante para el distrito 21",
+          "nombre": "Andrés Acosta",
+          "contacto": {
+            "email": "andresacostamvc@gmail.com",
+            "fb": "andresacostamer",
+            "ig": "andresacostamer",
+            "twitter": "AndresAcostaMer"
+          },
+          "planDeTrabajo": [
+            "Lleno de oportunidades laborales con un salario digno.",
+            "Energéticamente autosuficiente",
+            "Con servicios de salud accesibles a todos.",
+            "Con servicios de transporte eficientes y vías correctamente pavimentadas."
+          ],
+          "biografia": [
+            "Nació en Lajas el 8 de octubre del 1991. A los seis años, fue trasladado a los Estados Unidos para recibir tratamiento médico. Se crió en el estado de la Florida y en el 2012 regresó a la isla para cuidar a sus abuelos junto a su familia. En esta etapa, comenzó su bachillerato en química en la Universidad Interamericana, Recinto de San Germán. En su carrera universitaria fue presidente de la Asociación de Química y asistió por tres años consecutivos a la Conferencia Nacional de Química. Tras graduarse, y en medio de la emergencia del huracán María, comenzó su carrera en la Agencia Federal para el Manejo de Emergencias (FEMA, en inglés).",
+            "Al presente, labora en un programa de recuperación de desastre a largo plazo para Puerto Rico.",
+            "Desde su adolescencia, sentía interés por servir desde la legislatura, y la campaña de Alexandria Ocasio-Cortez del 2018 lo inspiró a dar el paso. Consiente de que el Distrito 21 tiene tres de los cinco pueblos más pobres de la isla, tomó la decisión de postularse como candidato a representante de dicho distrito por el Movimiento Victoria Ciudadana (MVC)."
+          ]
+        },
+        {
+          "key": "saimefigueroa",
+          "pueblo": null,
+          "candidatura": "Representante para el distrito 23",
+          "nombre": "Saimé Figueroa",
+          "contacto": {
+            "email": "saimefigueroapr@gmail.com",
+            "fb": "saimefigueroapr",
+            "ig": "saimefigueroapr",
+            "twitter": "SaimeFigueroa23"
+          },
+          "planDeTrabajo": [
+            "Promover el desarrollo económico y social del Distrito 23 y la Región Sur de Puerto Rico, mediante un aumento significativo en el salario mínimo, la restitución de derechos laborales en la empresa privada, la asignación de fondos a entidades sin fines de lucro que promueven herramientas de autogestión y empoderamiento, en igualdad de condiciones con las asignaciones realizadas a otras regiones de la Isla y la defensa de las propuestas presentadas por la Red de Redes.",
+            "Promover una reforma educativa desde las comunidades escolares, con mayor autonomía fiscal y curricular a tono con las necesidades de los estudiantes y la comunidad en la que se promueva el cooperativismo, empresarismo, la sustentabilidad alimentaria y el reconocimiento de los derechos humanos de nuestros alumnos, así como el cumplimiento y fortalecimiento del Programa de Educación Especial.",
+            "Garantizar que nuestros ancianos tengan una vejez digna, sin recortes en sus pensiones, ni   aumentos en los servicios básicos. Fortalecer la gestión del Programa de Trabajo Social del Departamento de la Familia para atender a los ancianos que se encuentran solos y promover que los jóvenes y adultos no tengan que emigrar, proveyéndole las herramientas, empleos, sueldos y costos en la calidad de vida adecuados para que puedan quedarse en la Isla."
+          ],
+          "biografia": [
+            "Saimé Figueroa Rodríguez es una profesora e historiadora guayanillense. Nació en Ponce el 19 de noviembre de 1978 y es hija del Sr. Rogelio Figueroa Muñoz y de la Sra. Ada R. Rodríguez Centeno. Sus primeros años escolares los cursó en el Colegio Inmaculada Concepción de Guayanilla y finalizó en la Escuela Superior Asunción Rodríguez de Sala. Está casada con el Sr. Luis A. Rosado Bultés y es madre de Fátima Isabel y Diego, dos adolescentes que son su inspiración y principal motivo para aspirar a servirle al país desde la Legislatura.",
+            "En el año 2000 se graduó de la Universidad de Puerto Rico, Recinto de Río Piedras con un bachillerato en Comunicación Pública con concentración en Periodismo. Completó una Maestría en Historia de Puerto Rico y el Caribe, del Centro de Estudios Avanzados de Puerto Rico y el Caribe; actualmente es doctoranda en Historia de Puerto Rico y el Caribe. En adición posee una Certificación en Educación Secundaria con Concentración en Historia, un diplomado en Construcción de cursos virtuales de la Universidad San Martín de Porres, en Perú; Certificación en Aplicación de redes sociales a la enseñanza de la Universidad Politécnica de Madrid y en Tecnologías Educativas de la Universidad Politécnica de Valencia.",
+            "Inició su carrera laboral con el Estudio Continuo de Salud Pública del Departamento de Bioestadística y Epidemiología del Recinto de Ciencias Médicas, teniendo a su cargo durante cinco años las entrevistas de campo en los pueblos de la Región Sur de Puerto Rico. Durante los últimos 18 años Saimé ha laborado como profesora de historia en el Departamento de Educación, ofreciendo cursos en las escuelas José Onofre Torres de Yauco, Julio Víctor Guzmán en San Germán, Áurea E. Quiles Claudio en Guánica y Asunción Rodríguez de Sala en Guayanilla.",
+            "Durante su trayectoria ha sido reconocida como Docente Innovadora por la Organización de Estados Iberoamericanos y como Educador Experto Latinoamericano, representando a Puerto Rico en el Foro Mundial de Educadores en el 2015.",
+            "Fue miembro y posteriormente presidió la Junta de Directores de la Banda Escolar SUM Guayanilla, Inc. Actualmente realiza labor comunitaria como asesora en la redacción de propuestas para entidades sin fines de lucro y brinda apoyo a mujeres interesadas en desarrollarse dentro del comercio electrónico. Saimé Figueroa se ha destacado como miembro de Educamos, organización sindical de la que ha sido una voz contundente en defensa de la Educación Pública y los derechos de los trabajadores. Además, ha sido una fiel creyente del movimiento cooperativista como base del desarrollo económico de la región Sur, promoviendo el desarrollo de cooperativas juveniles."
+          ]
+        },
+        {
+          "key": "reinaldocolon",
+          "pueblo": null,
+          "candidatura": "Representante para el distrito 24",
+          "nombre": "Reinaldo Colón",
+          "contacto": { "email": "rcolon3459@gmail.com", "fb": "rcolonmvc" },
+          "planDeTrabajo": [
+            "Presentar legislación que rescate los derechos que le fueron arrebatados a los trabajadores.",
+            "Legislar igualdad salarial para la mujer trabajadora y jefa de la familia.",
+            "Legislar para crear seis regiones de bancos de leche maternal con la participación de organizaciones sin fines de lucro en beneficio de los nacidos y madres lactantes.",
+            "Lucharé en beneficio de la ciudad de Ponce para rescatar el Parque Monagas y la Guancha de Ponce como eje turístico. "
+          ],
+          "biografia": [
+            "Nació en Ponce un 19 de noviembre de 1961. Hijo de Ramón Colón Vargas y Genoveva Vega Vázquez. El más pequeño de nueve hermanos, quienes fueron educados y criados por su madre luego de la muerte de su padre. Genoveva Vega, a sus 40 años, educó a sus hijos lleno de valores y amor al prójimo. “Rei” (como sus allegados lo nombran), estudió en la escuela elemental Lizzie Graham, Federico Degetau y S.U. Comunidad Rural Canas De El Tuque. La escuela intermedia la cursó en la Hemeterio Colón y se graduó de la escuela superior Dr. Pila en el 1980. Su pasión hacia la historia de Puerto Rico lo motivaron a estudiar educación con concentración en historia en la Pontificia Universidad Católica, Recinto de Ponce graduándose en el 1985.",
+            "Desde la década de los 70, vive en la comunidad de El Tuque. Sector en el oeste de Ponce con muchos retos sociales y económicos, que hasta el presente Reinaldo sigue abogando por ellos. No se pierde ningún deporte donde esté la bandera de la isla. También es amante a la cultura puertorriqueña. En 1985, comenzó a laborar en el servicio público en el mantenimiento físico del Departamento de Educación hasta el 1998. En ese momento tuvo la oportunidad de comenzar con el Sindicato Puertorriqueño de Trabajadores con el compromiso de defender el derecho de los trabajadores del sector público y privado en Puerto Rico. Hoy se presenta como candidato a representante por el Distrito 24 de Ponce junto al Movimiento Victoria Ciudadana con el deseo de seguir colaborando con el desarrollo de una sociedad más justa, solidaria y participativa en el sur, y en todo Puerto Rico."
+          ]
+        },
+        {
+          "key": "maikelgonzalez",
+          "pueblo": null,
+          "candidatura": "Senador por distrito de Ponce",
+          "nombre": "Maikel A. González",
+          "contacto": {
+            "email": "m.gonzalez.mvc@gmail.com",
+            "fb": "maikelgonzalezpr",
+            "ig": "MaikelMVC",
+            "twitter": "MaikelMVC"
+          },
+          "planDeTrabajo": [
+            "Procurar una Vivienda digna para nuestra gente con especial atención al problema de los toldos azules.",
+            "Rediseñar la educación, teniendo en cuenta destrezas fundamentales e innovadoras, así como un currículo vocacional enfocado en la diversidad funcional.",
+            "Maximizar las capacidades económicas de cada pueblo del distrito, fomentar la agricultura y la agilización de permisos. "
+          ],
+          "biografia": [
+            "Maikel González Alvarado nació en Ponce, Puerto Rico el 26 de septiembre de 1986. Hijo de una maestra ponceña, creció y se educó dentro del sistema público en el sur. Fue estudiante de las escuelas Ángela Cordero Bernard, Hemeterio Colón y Warens. Cursó su escuela superior en Betzaida Velázquez Andújar, donde fue distinguido con el Premio de Liderazgo y la Copa de Ciencias.",
+            "Estudió en la Universidad de Puerto Rico recinto de Ponce, la cual tuvo que dar pausa ante el diagnóstico de cáncer de su madre. Trabajó en un restaurante local como cocinero y luego mesero para contribuir económicamente con su familia. Durante este tiempo, se desarrolló como líder en los Boy Scouts of America, organización a la que pertenece desde 1998 y sigue fungiendo como director de campamentos a nivel regional y nacional.",
+            "Retoma sus estudios en la Universidad Interamericana de Puerto Rico, Recinto de Ponce y culmina su bachillerato en Administración de Empresas con especialidad en gerencia de operaciones. En este periodo, tuvo la oportunidad de estudiar en la Fundación José Ortega Gasset en logística en sistemas de turismo en Toledo, España. En adición, participó en el International Youth Leadership Conference en la Republica Checa donde se discutieron aspectos socioeconómicos y políticos para colaboración internacional. Dentro de la vida universitaria, en el 2014, fue parte del Internado José Berrocal que ofrecía el Banco Gubernamental de Fomento. En el internado, formó parte del comité de evaluación del presupuesto de la Universidad de Puerto Rico. Esta experiencia lo expuso a conocer la realidad financiera a la que se enfrenta nuestro sistema universitario y cómo esta situación es actualmente atendida por las agenciasgubernamentales.",
+            "Siguiendo con el compromiso educativo, en el 2015, fue electo Senador Estudiantil, sirviendo a la comunidad universitaria de la Interamericana. Esta posición lo motivó a participar activamente en la marcha contra el Impuesto al Valor Agregado (IVA). El abogó en contra del IVA por que atentaba contra la viabilidad de acceso a la educación superior de Puerto Rico.",
+            "Tras terminar su bachillerato en gerencia de operaciones, se enfrentó a la realidad de muchísimos graduados puertorriqueños; el desempleo y la falta de oportunidades profesionales. Comenzó a trabajar como despachador de taxis en el Aeropuerto Internacional Luis Muñoz Marín hasta que se le presenta la oportunidad de trabajar como analista de crédito en un banco en San Juan. Actualmente culminó su maestría en Administración Internacional de Empresas con especialidad en Logística Global en su alma máter. Tiene la certificación profesional de crédito internacional de The Finance, Credit & International Business Association y conocimiento de programas antilavado de dinero de la agencia reguladora FinCen. Así mismo, pertenece a organizaciones sin fines de lucro para pacientes de cáncer y gremios estudiantiles.",
+            "Sus retos, inquietudes y espíritu de liderazgo lo llevaron a tomar la decisión depertenecer al Movimiento Victoria Ciudadana y asumir la candidatura de Senador por el Distrito V (Ponce). "
+          ]
+        },
+        {
+          "key": "danielortizvargas",
+          "pueblo": null,
+          "candidatura": "Senador por el distrito de Ponce",
+          "nombre": "Dr. Daniel Ortiz",
+          "contacto": {
+            "email": "drdannyortiz.dov@hotmail.com",
+            "fb": "drdanielortizvargas",
+            "ig": "drdannyortiz.dov",
+            "twitter": "DrOrtizVargas"
+          },
+          "planDeTrabajo": [
+            "Implementar un seguro universal de salud con énfasis en medicina primaria y preventiva con enfoque salubrista.",
+            "Reformar el departamento de salud y sus dependencias en colaboración directa con el Consejo Multisectorial de Salud.",
+            "Rediseño de unidades de salud pública en las comunidades con el Desarrollo de gestores de comunidad en áreas sociales de salud.",
+            "Integrar un modelo de salud al deporte y la educación escolar.",
+            "Impulsar el Desarrollo de centros comunales sustentables para primera respuesta en crisis."
+          ],
+          "biografia": [
+            "Yaucano y especialista en medicina de familia. Fue catedrático auxiliar del Recinto de Ciencias Médicas de la Universidad de Puerto Rico y de la escuela de Medicina de Ponce (hoy, Ponce Health Sciences University). Es diplomado por la American Board of Family Phisicians. El doctor Ortiz Vargas cuenta con oficina médica privada y ha sobresalido por su liderazgo, capacidad organizativa y de producción. Tiene experiencia como delegado de la unión de médicos de la Corporación del Fondo del Seguro del Estado y como tesorero de la Academia de Médicos de Familia de Puerto Rico.",
+            "Es amante de los deportes, ex apoderado de los Cafeteros de Yauco del Béisbol AA, promotor del deporte comunitario. Además, es colaborador de entidades y eventos culturales como el Festival del Café en Yauco.",
+            " A lo largo de tres décadas como médico de familia ha mantenido un sentido de responsabilidad, entrega, ética, accesibilidad y humanismo. Además, ha estado comprometido con causas benéficas de la comunidad."
+          ]
+        },
+        {
+          "key": "enidyamillmartinezramos",
+          "pueblo": "guayanilla",
+          "candidatura": "Legisladora Municipal para Guayanilla",
+          "nombre": "Enid Y. Martinez",
+          "contacto": {
+            "email": "enidyamillmartinez@gmail.com",
+            "fb": "enidyamillmartinezramos",
+            "ig": "enidyamillmartinezramos",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Dará prioridad a mejorar la calidad de vida de los adultos de mayor edad. ",
+            "Promoverá la educación vocaciona",
+            "Abogará en esfuerzos para la reconstrucción  y desarrollo económico del casco urbano."
+          ],
+          "biografia": [
+            "La profesora Enid Yamill Martínez Ramos nació el 2 de febrero en el pueblo de Ponce. Es hija de Pascual Martínez y Rosa Ramos Ortiz. Está casada con Alexis Cedeño Román y es madre de dos jóvenes: Andrea Sofía Cedeño Martínez y Ana Camila Cedeño Martínez.",
+            "Se graduó de la escuela superior Asunción Rodríguez de Sala. En el 2001, completo su bachillerato en Educación Secundaria con especialidad en español, de la Universidad Interamericana de Puerto Rico, Recinto de San Germán. ",
+            "Actualmente se dedica a la enseñanza como maestra de español en el pueblo de Guayanilla."
+          ]
+        },
+        {
+          "key": "fabiantorres",
+          "pueblo": "yauco",
+          "candidatura": "Legislador Municipal para Yauco",
+          "nombre": "Fabián Elí Torres",
+          "contacto": {
+            "email": "fabianmvc20@gmail.com",
+            "fb": "FabianTorresPR",
+            "ig": "FabianTorresPR",
+            "twitter": "FabianTorresPR"
+          },
+          "planDeTrabajo": [
+            "Como parte de su plan de trabajo, desea que el pueblo Yaucano tenga acceso a una participación directa de las medidas presentadas en la Legislatura Municipal. ",
+            "Además, con su candidatura aspira a convertirse en un agente fiscalizador del gobierno municipal. "
+          ],
+          "biografia": [
+            "Fabían Elí Torres Ruiz nació el 26 de julio de 1999 en Yauco. De padre Guayanillense y madre Yaucana, fue criado en Yauco por su abuela paterna. Fabián es producto de las escuelas públicas de Yauco, de las que se graduó con honores y fue reconocido por su liderazgo.",
+            "Actualmente, se encuentra en su cuarto año de bachillerato en Psicología Forense en la Universidad de Puerto Rico, Recinto de Ponce. Además, es miembro activo de la directiva de la Pre-Law Society. y otras dirigidas al desarrollo académico y legislativo. Motivado por la falta de representación de jóvenes en los espacios políticos. Fabián tiene como meta completar estudios graduados en Administración Pública y un Juris Doctor. Con su candidatura, espera motivar a otros jóvenes a ser participes en nuestro gobierno; convencido de que todas y todos debemos ser participes directamente en nuestro gobierno y en las decisiones que se tomen."
+          ]
+        },
+        {
+          "key": "jahernandezlazaro",
+          "pueblo": "ponce",
+          "candidatura": "Legislador Municipal para Ponce",
+          "nombre": "José A. Hernández",
+          "contacto": {
+            "email": "jahernandezlazaro@gmail.com",
+            "fb": "jahernandezlazaro",
+            "ig": "jahernandezlazaro",
+            "twitter": "JoseA_Hernandez"
+          },
+          "planDeTrabajo": [
+            "Propiciar la transparencia en la gestión gubernamental municipal, presentando legislación dirigida a evitar el inversionismo político y la corrupción en general. ",
+            "Fomentar la participación ciudadana en la legislatura municipal mediante el uso de recursos disponibles y la creación de organizaciones comunitarias. ",
+            "Viabilizar el acceso equitativo a los servicios municipales. ",
+            "Presentar legislación que propicie el desarrollo de pequeñas y medianas empresas en la ciudad y el aumento en la calidad de vida en el casco urbano."
+          ],
+          "biografia": [
+            "José Alberto Hernández Lázaro nació y se crió en Ponce. A los 17 años se trasladó a Pamplona, España donde completó una Licenciatura en Humanidades en la Universidad de Navarra. En el 2009 comenzó sus estudios de Derecho en la Universidad de Puerto Rico. Tras pasar la reválida en el 2012 y ser admitido a la profesión en febrero de 2013, regresa a Ponce donde trabaja como abogado civilista. Además de su trabajo en la profesión jurídica, ha impartido cursos a nivel de escuela intermedia y superior sobre historia del arte y derecho. Reconociendo la importancia de que los jóvenes conozcan sobre historia de su ciudad, organizó El tesoro ponceño, una competencia sobre conocimiento de la historia y cultura ponceña la cual culminaba con la búsqueda del tesoro por el casco urbano de La Ciudad Señorial. También ha participado en la organización de los actos de conmemoración de los natalicios de don Pedro Albizu Campos y Rafael Cordero Santiago desde el 2013.",
+            "Tras participar en El 25, una organización comunitaria y política dirigida al desarrollo de Ponce, José Alberto se une al Movimiento Victoria Ciudadana con quien aspira a ser legislador municipal, buscando rescatar las instituciones del gobierno municipal."
+          ]
+        },
+        {
+          "key": "ramonrodriguez",
+          "pueblo": "ponce",
+          "candidatura": "Candidato para alcalde de Ponce",
+          "nombre": "Ramón Rodríguez",
+          "contacto": {
+            "email": "r.rodrig711711@gmail.com",
+            "fb": "ramonrodriguez2020",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Ramón propone implementar los principios de l cooperativismo a todos los niveles en Ponce",
+            " Su liderato, experiencia y solidaridad es latente gracias a su lucha en estos últimos 50 años. Él desea una ciudad llena de desarrollo económico y vivo en cultura; una ciudad que merece prosperidad a base del esfuerzo de todos.",
+            "Defenderá el medio ambiente y los derechos humanos a capa y espada",
+            "La violación de los derechos humanos como son: el derecho a la vida, a la salud, a la educación, a la expresión, al alimento, a la vivienda, hoy son un privilegio y quiere luchar por que sea un servicio para todos."
+          ],
+          "biografia": [
+            "Ponceño nacido en la barriada Clausells, el 4 de marzo de 1952. Sus padres fueron Sr. Francisco Rodríguez de San Lorenzo y Sra. Francisca Ramos de Cidra. Ramón fue el sexto de diez hermanos, estudió en Ponce en la escuela elemental Jaime L. Drew, la intermedia Tomás Armstrong Toro y se graduó de la escuela superior Dr. Pila en 1970. Comenzó su bachillerato en ciencias políticas en la Universidad de Puerto Rico, Recinto de Rio Piedras, la cual terminó en 1974. Su pasión en servir a su pueblo lo motivó a estudiar su doctorado en medicina en la Universidad Central del Este en República Dominicana con especialidad en medicina general graduándose en 1980. Ramón lleva más de 40 años de servicio como médico de familia, el cual todavía ejerce en una práctica privada en Coto Laurel, Ponce. La experiencia en presidir varias organizaciones lo han llevado a pulir el líder que es hoy.",
+            "Estas son algunas de organizaciones:",
+            "-Presidente Consejo Comunitario Portugués\n-Portavoz del movimiento VAMOS Ponce\n-Candidato a la alcaldía de Ponce por el PPT en el 2016\n-Presidente Juventud Acción Católica a nivel nacional\n-Presidente Causa Común Independentista\n-Presidente Fraternidad Social Cristiana\n-Presidente de la Cooperativa de Ahorro y Crédito Juan XXIII\n-Presidente de Ahorro y Crédito de Patillas\n-Cofundador consejos regionales de integración cooperativa y su primer presidente\n-Fundador de foro cooperativo\n-Presidente de los criollos de América del béisbol infantil y juvenil\n-Director médico de hospital de Patillas\n-Director de sala de emergencias del Hospital Lafayette\n-Director médico hospital de Culebras"
+          ]
+        }
+      ]
+    },
+    { "number": 6, "name": "VI : Guayama", "population": 462202 },
+    {
+      "number": 7,
+      "name": "VII : Humacao - Caguas",
+      "population": 462914,
+      "content": { "image": "distritoS7", "imgHeight": 3476 }
+    },
+    { "number": 8, "name": "VIII : Carolina", "population": 465427 }
+  ]
+}
