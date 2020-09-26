@@ -75,6 +75,7 @@ const DistrictInfo = (props) => {
               </View>
             )
           })}
+          <Text style={styles.center}>Fin</Text>
         </ScrollView>
       </View>
     )

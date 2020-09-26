@@ -210,7 +210,190 @@
         }
       ]
     },
-    { "number": 6, "name": "VI : Guayama", "population": 462202 },
+    {
+      "number": 6,
+      "name": "VI : Guayama",
+      "candidatxs": [
+        {
+          "key": "efrainnegron",
+          "pueblo": "naranjito",
+          "candidatura": "Legislador Municipal Naranjito",
+          "nombre": "Efrain Negron",
+          "contacto": {
+            "email": "sepiapr2004@yahoo.com",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Fiscal del pueblo en la asamblea municipal para el mejor uso de los fondos del municipio.",
+            "Promover el desarrollo economico local y regional en consorcio con otros pueblos de la montaña para crear empleos.",
+            "Atender las necesidades de los mas vulnerables: envegecientes, mujeres jefas de familia y la drogadiccion en los jovenes. Proteccion animales realengos."
+          ],
+          "biografia": [
+            "73 años, nacido y criado en el Barrio Cedro Abajo, casado. Estudio UPR, economia. Dueño negocio de construccion especializado en estructuras de acero. Resido en Cedro Abajo."
+          ]
+        },
+        {
+          "key": "cristiangonzalez",
+          "pueblo": "comerio",
+          "candidatura": "Alcalde de Comerío",
+          "nombre": "Cristian González",
+          "contacto": {
+            "email": "cristiangonzalezpr@gmail.com",
+            "fb": "cristiangonzalez2020",
+            "ig": "cristiangonzalez.pr",
+            "twitter": "cristiangonzpr"
+          },
+          "planDeTrabajo": [
+            "Evolución de la agricultura, turismo, deporte y seguridad",
+            "Desarrollo económico autosustentable",
+            "Equidad social, ciudadana y ambiental"
+          ],
+          "biografia": [
+            "Cristian González López nació el 29 de julio de 1989 en la ciudad de Chicago de, Illinois. Es él mayor de 3 hermanos, que toda su vida vivieron solos con su madre. A los 5 años su madre y sus 2 hermanos parten un viaje hacia Puerto Rico donde se ubican en el Barrio Piñas Arriba de Comerío, desde ese entonces comienzó su crianza y vivencias en el pueblo que lo vería desarrollarse, emprender muchos retos y sobre todo vivir orgulloso de ser comerieño.",
+            "De niño se destacó en la Escuela de la Comunidad Piñas Arriba con mucho talento en las artes (dibujo) y en la música siguiendo los pasos de su abuelo en la guitarra. Participó de varias ligas deportivas como el béisbol y el baloncesto. Curso la escuela intermedia en la Escuela Luis Muñoz Marín y luego sus estudios superiores en la Escuela Superior Juana Colón, destacándose como líder de su clase graduanda, líder comunitario y voluntario en trabajar con jóvenes de escasos recursos y educativos.",
+            "Su paso por el nivel universitario lo llevó a completar un Grado Asociado en Producción de Cinematografía y Televisión en el Colegio de Cinematografía, Artes y TV (CCAT) en Bayamón. Durante esos años de estudios, trabajó en un internado en la Oficina de Informes Especiales del Contralor. Luego de su graduación, por 7 años estuvo a cargo de administrar una oficina de manejo de artistas y producción de eventos",
+            "En estos momentos se encuentra en su último semestre de Bachillerato en Administración de Empresas con concentración en Gerencia en la Universidad Ana G. Méndez donde continuará sus estudios de maestría en Mercadeo Internacional.",
+            "Actualmente es socio de un restaurante en el pueblo de Comerío, convirtiéndose así parte del comercio local. También se destaca por colaborar en las organizaciones deportivas, eventos culturales y religiosos."
+          ]
+        },
+        {
+          "key": "tomasflores",
+          "pueblo": null,
+          "candidatura": "Senador por el Distrito de Guayama",
+          "nombre": "Tomás Flores Torres",
+          "contacto": {
+            "email": "",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Contribuir a la lucha por mejorar la calidad y preservación del ambiente.",
+            "Trabajar para fortalecer el movimiento cooperativista.",
+            "Hacer de la agricultura una actividad económica viable para el individuo y el país, para que la misma sea el medio en que Puerto Rico obtenga Soberanía Alimentaria."
+          ],
+          "biografia": [
+            "Tomás Flores Torres, aspira a una candidatura como Senador por el distrito de Guayama en el Movimiento Victoria Ciudadana.",
+            "Él es del pueblo de Cayey, donde nació y ha vivido toda su vida. Siempre ha estado envuelto en las luchas comunitarias y sociales con el único propósito de hacer a Puerto Rico un gran país.",
+            "En el Colegio Universitario de Cayey (ahora UPR- Cayey) estudió Ciencias Naturales y obtuvo una certificación como maestro, a lo que se dedicó 12 años. El resto de su vida laboral mayormente se desempeñó como Perito Electricista. En cuyo Colegio ocupó varias posiciones directivas y en la comisión de ética.",
+            "El Movimiento Victoria Ciudadana es el vehículo apropiado para que Puerto Rico salga de la situación de estancamiento socioeconómico en que se encuentra. La motivación que siempre a tenido por su país es lo que lo dirige a ser perteneciente activo de este."
+          ]
+        },
+        {
+          "key": "EmmaRodzGuz",
+          "pueblo": "cayey",
+          "candidatura": "Legislatura Municipal en Cayey",
+          "nombre": "Prof. Emmanuel Rodríguez Guzmán",
+          "contacto": {
+            "email": "erodriguezmvc@gmail.com",
+            "fb": "emmanuel.r.guzman",
+            "ig": "proferodriguezmath",
+            "twitter": "EmmaRodzGuz"
+          },
+          "planDeTrabajo": [
+            "Convertirse en la voz que represente todos los sectores de nuestra sociedad, siguiendo los Principio Éticos y la Agenda Urgente de nuestro Movimiento.",
+            "Servir de enlace de todas las comunidades y organizaciones de Cayey con énfasis en las comunidades marginadas, para garantizar la transparencia y fiscalización en toda acción y gestión municipal.",
+            "Impulsar una democracia participativa donde todos los líderes comunitarios y comerciantes puedan sentirse atendidos y entendidos, pero principalmente, crear un espacio de empoderamiento comunitario."
+          ],
+          "biografia": [
+            "Emmanuel Rodríguez Guzmán, natural de Ponce, posee un bachillerato en Matemáticas Aplicadas y una maestría en Educación en Matemáticas de la Universidad Interamericana de Puerto Rico, obteniendo la medalla con el promedio más alto de su concentración. Actualmente cursa estudios conducentes al grado doctoral en Educación Superior.",
+            "Durante su carrera profesional ha colaborado en el desarrollo intelectual de la juventud. Hoy día se desempeña como profesor de matemáticas de CeDIn – Escuela Laboratorio de la Inter Metro, trabajando en proyectos que brindan espacios para estudiantes talentosos en matemáticas. Esta experiencia lo motivó a establecer, en colaboración con un grupo de profesores y profesoras, la Puerto Rico Interscholastic Mathematics League la cual presidió durante el año académico 2017-18. Dentro de su experiencia comunitaria, Emmanuel es el presidente y miembro del comité de crédito de la Cooperativa Inter Metro desde octubre de 2018.",
+            "Además, en su tiempo libre disfruta del deporte, las bellas artes y la gastronomía local. Emmanuel se caracteriza por ser un hombre honesto, comprensivo y trabajador. Ante la necesidad de justicia, transparencia en los procesos y fiscalización que existe en nuestro país ha decidido incursionar en la política como candidato a la Legislatura Municipal de Cayey por el Movimiento Victoria Ciudadana y demostrar que el poder de cambio está en la gente."
+          ]
+        },
+        {
+          "key": "AlejandroLopez",
+          "pueblo": "aibonito",
+          "candidatura": "Candidato a Legislador Municipal de Aibonito",
+          "nombre": "Alejandro López Cruz",
+          "contacto": {
+            "email": "zepol22a@gmail.com",
+            "fb": "alejandrolopezmvc",
+            "ig": "Alex._220",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Fiscalización",
+            "Accesibilidad",
+            "Representación de la Juventud"
+          ],
+          "biografia": [
+            "Nació el 22 de diciembre de 2001 en el pueblo de Aibonito. Es el menor del núcleo familiar, junto a su hermana, mamá y papá. Su niñez tuvo como escenario el Barrio Dajaos de Villalba. Comenzó sus estudios en la escuela Montessori del sector el Coquí en Aibonito. Tras varios años de viajar desde Villalba hasta Aibonito, su familia decidió mudarse al barrio Llanos de Aibonito.",
+            "Su formación académica continuó en la Escuela Carmen Delia Colón Martínez, en el sector el Juicio. Junto a sus compañeros y compañeras de clase llevaron a cabo una investigación sobre la escuela , su historia y desarrollo. Como resultado la investigación se donó a la biblioteca de la escuela. Estudió sus grados intermedios en la Escuela de Idiomas Llanos Carretera. Desde entonces, como estudiante y joven presentó gran preocupación por la situación del sistema educativo.",
+            "Sus grados superiores los estudió en University Of Puerto Rico at Cayey Preparatory High School por dos años. Esta escuela sirvió como una alianza entre la Universidad de Puerto Rico recinto de Cayey y la escuela de idiomas en Aibonito. En esta escuela desarrolló distintas iniciativas junto a sus profesores.",
+            "Culminó sus estudios en la Escuela especializada en Idiomas Rafael Pont Flores. Durante su undécimo grado aplicó a la Escuela del Futuro. Alejandro envío dos ensayos para la admisión a la escuela. Dentro de los 41 estudiantes, Alejandro, fue admitido en la Escuela del Futuro fundado por la Lcda. Alexandra Lúgaro. Además, trabajó en la Cámara de Representantes en la oficina de Manuel Natal Albelo. Actualmente, es estudiante de la universidad de Puerto Rico, Recinto de Río Piedras en la facultad de Humanidades. Estudia un Bachillerato en Artes con concentración en Historia de las Américas."
+          ]
+        },
+        {
+          "key": "vicjeanluis",
+          "pueblo": "cidra",
+          "candidatura": "Legislador Municipal de Cidra",
+          "nombre": "Víctor Jean Luis Burgos Díaz",
+          "contacto": {
+            "email": "victorjeanluis15@gmail.com",
+            "fb": "VictorJeanLuis",
+            "ig": "vicjeanluis",
+            "twitter": "vicjeanluis"
+          },
+          "planDeTrabajo": [
+            "Una voz fuerte y clara: He decidido dar el paso al frente para ser esa voz representativa del pueblo, que luche y grite por aquellas y aquellos que no han podido ser representados en nuestro municipio.",
+            "El ojo fiscalizador: Velaré por todas los asuntos que se discutan en la asamblea municipal. Fiscalizaré el presupuesto del municipio, y que este llegue a los lugares correspondientes.",
+            "Educación y transparencia: Es mi compromiso convertirme en el transmisor de todos los trabajos que se lleven a cabo en la legislatura municipal. Por otro lado, mediante la tecnología, demostraré cada acción que se lleve a cabo dentro del municipio siempre educando a nuestra ciudadanos cidreños."
+          ],
+          "biografia": [
+            "Víctor Jean Luis Burgos Díaz, Candidato a la Legislatura Municipal de Cidra, nació en San Juan el 8 de febrero de 2001. Cursó sus estudios desde “pre-kinder” hasta cuarto año en la Escuela Daskalos. Fue seleccionado junto a otros 41 estudiantes de entre 1,600 solicitudes aproximadamente, para formar parte de la Escuela del Futuro fundada por la Lcda. Alexandra Lúgaro.",
+            "Trabajó junto al Representante Manuel Natal mientras hacía un internado durante el verano de 2018; en este pudo llegar a conocer y ayudar a comunidades que han sido marginadas y que actualmente sufren por un proceso de gentrificación. Fue parte de una representación de una asamblea municipal y aprendió el proceso de redacción sobre proyectos legislativos. Es amante de la literatura, la economía, el derecho y la política.",
+            "Desde muy pequeño, sus padres le inculcaron el sentimiento de luchar por los derechos civiles y la Patria; desde ese entonces Víctor Jean Luis es solidario con muchas luchas en Puerto Rico. Actualmente estudia un bachillerato en la facultad de Ciencias Sociales con concentración en Economía en la Universidad de Puerto Rico.",
+            "El pasado marzo se unió al Movimiento Victoria Ciudadana y se encuentra trabajando y colaborando con él desde sus inicios; por consiguiente, también es miembro de la Juventud del Movimiento Victoria Ciudadana. Con su candidatura se compromete a ser una persona del pueblo para el pueblo, defenderá los intereses del municipio y velará por aquellos que no han podido ser representados. Juntos construiremos un mejor Puerto Rico desde la Ciudad de la Eterna Primavera."
+          ]
+        },
+        {
+          "key": "carmeloperezvega",
+          "pueblo": "comerio",
+          "candidatura": "Legislador Municipal Comerío",
+          "nombre": "Carmelo Pérez Vega",
+          "contacto": {
+            "email": "",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": ["Empleo", "Cooperativismo", "Educación"],
+          "biografia": [
+            "Si alguien ha dedicado la vida a Comerío, ese ha sido Carmelo Pérez Vega. No podía ser de otra manera porque nació en nuestros campos, estudió en la escuela pública y lo que es mas importante: durante toda su vida ha hecho trabajo voluntario en favor de nuestra gente y al servicio del pueblo. La historia es clara. Se destaca como líder cultural en la dirección del Centro Cultural Cirilo W. Meijers de Comerío. Trabajó afanosamente desde los comienzos del Fes􏰀val Jíbaro Comerieño, así como en los orígenes de la Escuela de Bellas Artes de Comerío, la Cumbre Ambiental de la Montaña y las ac􏰀vidades por la excarcelación de Oscar López Rivera. Ha hecho trabajo voluntario para la Coopera􏰀va La Comerieña, la Coopera􏰀va Industrial, diferentes organizaciones magisteriales, varias organizaciones polí􏰀cas, el Servicio de Extensión Agrícola y en Municipio de Comerío, entre otras.",
+            "Pero su trabajo por la gente no se limita al ámbito local. Carmelo ha sido parte de numerosos grupos a nivel nacional como por ejemplo: las dis􏰀ntas luchas estudian􏰀les, el ac􏰀vo Comité Nacional Para la Excarcelación de los Presos Políticos, la lucha por la paz de Vieques, las movilizaciones en defensa del ambiente como fueron la lucha contra el superpuerto, contra el tubo de la muerte, contra el depósito de cenizas tóxicas, entre muchos otros.",
+            "Como presidente entonces del Centro Cultural, dirigió el reclamo de todo un pueblo para que se diera el nombre de Juana Colón a nuestra escuela superior. En dicha ocasión, supo unificar bajo ese reclamo a numerosas en􏰀dades nacionales y locales. Por eso hoy tenemos el nombre de la comerieña mas destacada de nuestra historia al frente de nuestro primer centro docente: la Escuela Superior Juana Colón de Comerío. Como parte de su trabajo, recordamos además su esfuerzo para el rescate de los enterramientos indígenas en nuestro pueblo.",
+            "Ha dicho presente en cada una de las luchas obreras locales y nacionales. En Comerío lo recordamos por su decidido apoyo a las luchas del magisterio, contra el cierre de escuelas y durante las manifestaciones en apoyo al reclamo del estudiantado y las comunidades escolares. Lo conocemos por su decidido y desinteresado respaldo a las luchas de las trabajadoras de las fábricas en Pasarell y de los trabajadores y trabajadoras de la salud en nuestro hospital.",
+            "Conocedor y estudioso de nuestra realidad económica, polí􏰀ca y social a todos los niveles. Conocido por esa di􏰁cil combinación de amplitud en la defensa de las causas justas, de los principios democráticos, profundo y fogoso en el debate y una capacidad de trabajo y sacrificio ligado a las necesidades reales de nuestra gente. Su vida ha sido la vida de su pueblo, honesto a carta cabal, siempre ha hecho su vida con el sudor de su frente, ha conocido las privaciones del país en carne propia ya que su mayor riqueza ha sido precisamente su capacidad de trabajo y sacrificio.",
+            "Pero Carmelo no se queda ahí, posee amplios conocimientos en el trabajo de imprenta, producción de publicaciones, locutor por excelencia, domina el arte de la declamación y hasta le da serenatas a la vida pues también canta. Así como ha sabido enfrentarse a la vida sabemos que realizará el mejor trabajo como legislador municipal. Militante y defensor inclaudicable de todas y cada una de las causas justas. Estamos seguros de que sabrá encarnar, como siempre la voz y el reclamo del pueblo de Comerío. Ese es Carmelo y nuestra gente lo sabe de memoria."
+          ]
+        },
+        {
+          "key": "armandoberrortiz",
+          "pueblo": null,
+          "candidatura": "",
+          "nombre": "Armando L. Berríos Ortíz",
+          "contacto": {
+            "email": "selcorp@hotmail.com",
+            "fb": "CapitalDelCentro",
+            "ig": "CapitalDelCentro",
+            "twitter": "CapitalDelCentro"
+          },
+          "planDeTrabajo": [
+            "Limpieza de terrenos fértiles para la agricultura de alimentos inocuos.",
+            "Desarrollo de comunidades autónomas energética y económicamente",
+            "Prioridad de calidad de vida ante la mala administración."
+          ],
+          "biografia": [
+            "Nacido el 3 de Marzo de 1975 en San Juan por falta de buenas facilidades de salud en Comerío donde vivió la emigración de su núcleo familiar hacia el área metropolitana en busca de #CalidadDeVida, muy contradictorio a la realidad actual.",
+            "Con una preparación académica y más de 20 años de experiencia en el area de comunicaciones y mercadeo en Puerto Rico Armando “Andy” Berríos Ortíz es candidato a legislador municipal por el municipio de Comerío.",
+            "Activista, comerciante y productor con una visión de sentido común que a corto plazo trabajaremos para nuestro pueblo y país."
+          ]
+        }
+      ]
+    },
     {
       "number": 7,
       "name": "VII : Humacao - Caguas",
