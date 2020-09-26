@@ -438,18 +438,214 @@
       "name": "II : Bayamón",
       "candidatxs": [
         {
-          "key": "",
+          "key": "myrnaconty",
+          "pueblo": null,
+          "candidatura": "Senadora Distrito II Bayamón",
+          "nombre": "Myrna Conty",
+          "contacto": {
+            "email": "myrnacontymvc2020@gmail.com",
+            "fb": "MContyMVC2020",
+            "ig": "myrnaconty",
+            "twitter": "MContyMVC"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Myrna Conty nació en San Juan, se crió en Aguadilla y actualmente vive en Guaynabo. Obtuvo su bachillerato en Biología, con concentración en Zoología, en el Recinto Universitario de Mayagüez de la UPR, y un grado en Tecnología Médica del Recinto de Ciencias Médicas-UPR, profesión que ejerció con mucha satisfacción en el Centro Médico de Río Piedras.",
+            "Por los últimos 30 años ha participado y liderado muchas luchas ambientales en nuestro País, promoviendo la protección de nuestros recursos naturales y nuestra salud. Ha luchado en contra del incinerador de Arecibo, la Planta de carbón AES en Guayama, contra la privatización de nuestras playas y el cambio climático. En el presente participa activamente de la propuesta QUEREMOS SOL y de la Alianza Energía Renovable Ahora (AERA), que promueven transformar el sistema energético del país con energía renovable, con enfoque principal en placas fotovoltaicas en techos, en lugar de continuar el uso de combustibles fósiles contaminantes.",
+            "Luego de tantos años de luchas comunitarias, innumerables visitas a legisladores, defendiendo propuestas de legislación para proteger nuestro ambiente, e infinidad de participaciones en vistas públicas, se dio cuenta de que para los legisladores de la vieja política los intereses privados estaban por encima de los intereses del pueblo. Por esto, quiere llevar su experiencia a la Legislatura para representar a nuestras comunidades, fiscalizar y contribuir al rescate del proceso legislativo que ha sido secuestrado por los partidos PNP/PPD ya por décadas.",
+            "Decidió ser candidata para conseguir cambios verdaderos en nuestro País, para enfrentar la corrupción y a los partidos que han estado en el poder por décadas, defendiendo los intereses de las grandes corporaciones y no los del pueblo de Puerto Rico.",
+            "'Quiero un futuro mejor para las presentes y futuras generaciones. Quiero que se garantice la protección de nuestros recursos naturales, una verdadera transparencia y acceso a la información en los procesos gubernamentales y que las comunidades participen verdaderamente en las decisiones que les afectan su calidad de vida.'"
+          ]
+        },
+        {
+          "key": "cjpagan",
           "pueblo": "",
-          "candidatura": "",
-          "nombre": "",
+          "candidatura": "Representante Distrito 7",
+          "nombre": "Carmen Pagán Cabrera",
+          "contacto": {
+            "email": "cjpagan08@gmail.com",
+            "fb": "LaReve2020",
+            "ig": "",
+            "twitter": "LaReve2020"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Carmen Pagán es una orgullosa Bayamonesa que se graduó de la Escuela Superior Dr. Agustín Stahl. Obtuvo un Bachillerato en Química del Recinto de Río Piedras de la Universidad",
+            "de Puerto Rico en 1977. Trabajó por 10 años en la compañía farmacéutica Roche Products, en Manatí, desde analista químico, hasta supervisora de los laboratorios ambientales y de materia prima.",
+            "Recibe llamado al ministerio y ordenación como ministra del evangelio por las Iglesias Bautistas de Puerto Rico. Ha sido pastora en iglesias de Bayamón, Coamo, Trujillo Alto y San Juan. En 1987 obtiene su Maestría en Divinidad del Seminario Evangélico y en 1995 un Doctorado en Educación y Religión del programa conjunto entre Union Theological Seminary y Teachers College Columbia University, de la ciudad de Nueva York.",
+            "Se retiró como Catedrática de la Escuela de Teología de la Universidad Interamericana de Puerto Rico, para la cual trabajó por más de 20 años.",
+            "Tiene un historial amplio y es reconocida como una luchadora ambiental, por la justicia hacia la mujer y los derechos de los más indefensos."
+          ]
+        },
+        {
+          "key": "moraimarod",
+          "pueblo": null,
+          "candidatura": "Representante Distrito 8",
+          "nombre": "Moraima Rodríguez Vélez",
+          "contacto": {
+            "email": "moraimarodriguez2020@gmail.com",
+            "fb": "moraima2020",
+            "ig": "MVCMoraima",
+            "twitter": "MoraimaMVC"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Moraima Rodríguez Vélez nació en Santurce y fue criada en Bayamón. Orgullosa madre de 3 hijos y abuela de 3 nietos maravillosos que emigraron a la Florida buscando una mejor calidad de vida y un buen trabajo. Obtuvo el grado de Maestría en el Currículo en Ciencias Naturales. En el 2014, se retiró del magisterio luego de 30 años de servicio en el Departamento de Educación de Puerto Rico.",
+            "Fue parte de diferentes movimientos magisteriales por la buena educación y por condiciones laborables decentes y justas para los maestros. Siempre inculca en sus alumnos la protección del ambiente para conservarlo limpio y seguro para vivir, así como la conservación de las especies de animales y plantas.",
+            "Por estas razones nació en ella el interés de representar su comunidad y otras de Bayamón en la Cámara de Representantes.",
+            "'Creo en un movimiento político diferente basado en un gobierno transparente dirigido a encaminar tres puntos importantes que son: el rescate de las Instituciones públicas, la reconstrucción social, económica, ambiental y fiscal de Puerto Rico, al igual que la descolonización. Por eso, vamos hacia la Victoria.'"
+          ]
+        },
+        {
+          "key": "RuthieArroyo",
+          "pueblo": null,
+          "candidatura": "Senadora Distrito II Bayamón",
+          "nombre": "Ruthie Arroyo",
+          "contacto": {
+            "email": "mvcruthiearroyo@gmail.com",
+            "fb": "RuthieArroyo2020",
+            "ig": "ruthie_arroyomvc",
+            "twitter": "RuthieArroyoMVC"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Ruthie Arroyo obtuvo su Bachillerato de UMASS Amherst en 1985. Completó su Juris Doctor con el grado Summa Cum Laude en la Escuela de Derecho de la Universidad Interamericana en 2003. Desde el 2004, ha representado a organizaciones de servicios dirigidos a mujeres y a trabajadores de sindicatos, a estudiantes de la UPR en procesos disciplinarios por la defensa de la educación pública y a comunidades en luchas ambientales.",
+            "Actualmente es abogada y notaria en la práctica privada. Su mejor carta de presentación es su activismo por alrededor de cuatro décadas. Su activismo comenzó en la Huelga de Estudiantes de la UPR en 1981. Fue co- fundadora y organizadora del Grupo Pro Derechos Reproductivos en los 1990’s. Participa actualmente de la Mesa de Trabajo de Campaña por Aborto Libre, Seguro y Accesible de Puerto Rico. En el 2009, impulsó la creación de la Coalición 8 de Marzo (C8M), una coalición de mujeres y de organizaciones que promueven los derechos de las mujeres en nuestra sociedad.",
+            "En la década de los 1990 fue líder y portavoz en la Unión Nacional de Trabajadores de la Salud (UNTS) en la campaña contra la privatización de salud y la venta de hospitales. Participó en la organización de intensas jornadas de protesta y en foros educativos contra las privatizaciones de servicios esenciales como salud, educación, AEE, AAA.",
+            "'Estoy convencida de que necesitamos en el Gobierno a personas comprometidas y que hayan sudado las luchas sociales para levantar a Puerto Rico. Solo con un pueblo convencido y movilizado lograremos implementar la Agenda Urgente, y promover los principios éticos de nuestro Movimiento'"
+          ]
+        },
+        {
+          "key": "williamcastro",
+          "pueblo": "bayamon",
+          "candidatura": "Legislador Municipal Bayamón",
+          "nombre": "William Castro Martínez",
+          "contacto": {
+            "email": "wrcastro007@gmail.com",
+            "fb": "WRCM2020",
+            "ig": "William_MVC20",
+            "twitter": "MvcCastro2020"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "William Rafael Castro Martínez nació en Bayamón en el 1998. En su núcleo familiar es el menor de 5 hermanos. Cursó sus estudios primarios entre las escuelas públicas Diego de Torres Vargas y Bernardo Huyke en Bayamón. Luego cursaría su educación intermedia en la ya cerrada escuela, Padre Rufo M. Fernández. Posteriormente se graduó de la Escuela Superior Miguel de Cervantes Saavedra en Bayamón con excelencia académica. Actualmente estudia Historia y Ciencias de Cómputos en la Universidad de Puerto Rico en Río Piedras.",
+            "Desde su adolescencia desarrollo una conciencia colectiva social sobre su país. Esto lo movió a involucrarse en múltiples luchas sociales dentro de organizaciones estudiantiles y sindicales por un mejor país. El Magisterio y la educación fueron poco a poco convirtiéndose en dos de esos puntos focales por los cuales luchar y desde donde impulsar ese activismo. Así que decidió educar a los jóvenes sobre la situación económica, política y social de Puerto Rico. En el transcurso de sus años escolares fue descubriendo su pasión por la escritura de poesía, prosa y prosa poética entre otros estilos; y, de la misma forma, fue desarrollando su talento y empleándolo para escribir, así como llevar a cabo discursos y oratorias.",
+            "Su deseo es fiscalizar, informar y servir de voz al pueblo dentro de la Legislatura Municipal de Bayamón. Además, busca desarrollar y fomentar el deporte, darle visibilidad a la legislatura municipal mediante la tecnología y reducir la burocracia.",
+            "'Me comprometo a ser una figura enérgica a la hora de defender los intereses del pueblo y no ser indiferente ante las injusticias.''"
+          ]
+        },
+        {
+          "key": "vmartinezcotti",
+          "pueblo": null,
+          "candidatura": "Legisladora Municipal Toa Baja",
+          "nombre": "Valery Martínez Cotti",
+          "contacto": {
+            "email": "vmartinezcotti.mvc@gmail.com",
+            "fb": "vmartinezcotti",
+            "ig": "vmartinezcotti",
+            "twitter": "vmc_mvc"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Valery Martínez Cotti estudió desde la escuela elemental hasta la superior en escuelas de Levittown. Obtuvo su bachillerato en Psicología con Ciencias Políticas y su Juris Doctor en el estado de Florida. Ella tiene una gran conexión con Toa Baja porque es natural de este pueblo y la mayoría de su familia reside allí.",
+            "Es una joven abogada que ha trabajado casos de familia, herencias, contratos, derechos corporativos, penales e inmigración. En el 2011, formó parte de la diáspora de jóvenes profesionales puertorriqueños que partieron hacia la Florida. Sin embargo, decidió regresar porque sentía un gran deber de trabajar por Puerto Rico y echarlo hacia delante.",
+            "Valery se ha destacado en la comunidad siendo miembro del Club de Leones Roberto Clemente en Levittown y embajadora del club representando a Toa Baja delante a otros Clubes de Leones alrededor de Puerto Rico. Ha participado en recaudación de fondos para fundaciones como March of Dimes y Muscular Dystrophy Association. Así como, en recolección de suministros durante los huracanes Irma y María para enviar desde Florida a Puerto Rico.",
+            "En el ámbito político, ha trabajado para la Congresista del Distrito 14 en Florida donde atendía directamente a los constituyentes con sus asuntos de seguro social, IRS, Departamento de Trabajo en inmigración y los problemas de sus comunidades.",
+            "'Quiero seguir sirviendo a Puerto Rico porque tengo un compromiso con su pueblo de proveerles una mejor calidad de vida poniendo las necesidades de los residentes por encima de los intereses partidistas y acabar con la corrupción que estancó el progreso del pueblo.'"
+          ]
+        },
+        {
+          "key": "ednavazquez",
+          "pueblo": null,
+          "candidatura": "Representante Distrito 9",
+          "nombre": "Edna Vázquez Díaz",
+          "contacto": {
+            "email": "ednavazquezMVC@gmail.com",
+            "fb": "",
+            "ig": "",
+            "twitter": "ednavazquez_m"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Edna Vázquez Díaz, es nacida y criada en Bayamón, es candidata a la Cámara de Representantes por el Distrito #9 (Precintos 12 Bayamón y 13 Toa Alta).",
+            "Posee un Grado Asociado en Educación Especial y es asistente de estudiantes con necesidades especiales para el Departamento de Educación en la región de Bayamón.",
+            "Es una luchadora del Sindicato Puertorriqueño de Trabajadores y Trabajadoras (SPT). Ha ocupado puestos de liderato desde la base hasta integrar su Comisión de Revisión de Finanzas y ocupar un puesto en la Junta Directiva de la Cooperativa de Ahorro y Crédito SPTCoop. Actualmente, en licencia sindical es coordinadora del área Metro (sector público y privado) del SPT."
+          ]
+        },
+        {
+          "key": "alexrdzrdz",
+          "pueblo": "",
+          "candidatura": "Representante Distrito 6",
+          "nombre": "Alex Rodríguez Rodríguez",
+          "contacto": {
+            "email": "mvc.dr6@gmail.com",
+            "fb": "arrmvc",
+            "ig": "",
+            "twitter": "arrmvc"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Alex Rodríguez nació en Mayagüez, Puerto Rico. Desde los 15 años comenzó a coordinar esfuerzos de voluntariado desde la iglesia para entidades sin fines de lucro y asumir roles de liderazgo en distintos grupos enfocados al bienestar de la juventud. Siempre le ha movido ayudar a otras personas y causas que lo ameriten con el servicio como norte.",
+            "Realizó un bachillerato en Administración de Empresas en el Colegio de Mayagüez y una maestría en Gerencia de Recursos Humanos en la Universidad Ana G. Méndez. Por varios años fue atleta aficionado de las carreras de obstáculos (OCR). A nivel profesional ha trabajado en empresas privadas en Recursos Humanos, Servicio al Cliente y Administración.",
+            "Lo mueve su amor por la naturaleza y la diversidad de espacios que posee nuestro archipiélago. Por tanto, ha liderado proyectos para atender a las personas sin techo y colaborado en esfuerzos para la conservación del ambiente. Además, lleva ya casi dos años practicando el veganismo en armonía con su salud, el ambiente y los animales.",
+            "'Como cualquier persona, he vivido momentos buenos y malos, pero todos han servido de aprendizaje y de aliento para no perder la esperanza y tomar acción.'",
+            "'Tenemos que reformar un sistema que provea para que las familias puedan criar a sus hijos; permita que las escuelas puedan educar sin adoctrinar en favor de unos y en contra de otros; para que nuestros mayores puedan tener calidad de vida; y para que la clase política vuelva a servirle al pueblo y no a servirse del pueblo. El cambio es posible. Déjame llevar tu voz a la Cámara de Representantes.'"
+          ]
+        },
+        {
+          "key": "NormaJimenez",
+          "pueblo": "toaalta",
+          "candidatura": "Legisladora Municipal Toa Alta",
+          "nombre": "Norma I. Jiménez",
+          "contacto": {
+            "email": "normajimenezsanchezmvc@gmail.com",
+            "fb": "normajimenezvc",
+            "ig": "NormaJimenezMVC",
+            "twitter": "NormaJimenezMVC"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Norma Jiménez nació el 20 de mayo 1967 en Toa Alta. Cursó estudios en las escuelas Violanta Jiménez, en la intermedia José Pablo Morales y la superior Nicólas Sevilla. Completó un bachillerato en Sistemas de Oficina en la American University de Bayamón.",
+            "Fue secretaria del Dr. José L. Nieves Vélez en Toa Alta. También trabajó en la escuela pública Secundino Díaz y en la oficina del Superintendente de Toa Alta, Departamento de Educación. Fue cesanteada del Departamento de Educación por la nefasta Ley 7. Además, trabajó en la oficina de Finanzas del municipio. Actualmente, es la asistente del director de Operaciones del Sindicato Puertorriqueño de Trabajadores y Trabajadoras (SPT).",
+            "Es activista sindical del SPT y se ha desarrollado como líder ocupando puestos desde la base hasta llegar a puestos en la directiva nacional y es la secretaria de Actas del comité ejecutivo."
+          ]
+        },
+        {
+          "key": "HildaSantana",
+          "pueblo": "bayamon",
+          "candidatura": "Legisladora Municipal Bayamón",
+          "nombre": "Hilda Santana García",
+          "contacto": {
+            "email": "hhsantana@coqui.net",
+            "fb": "HildaSantana2020",
+            "ig": "",
+            "twitter": "HilSan_Bay"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "La Sra. Hilda Santana García, nació en el pueblo de Comerío y actualmente es residente en la Ciudad de Bayamón. Posee un Bachillerato en Psicología de la UPR de Cayey, un Bachillerato en Administración de Empresas en Gerencia y Recursos Humanos de la UPR en Bayamón y una Maestría en Justicia Criminal Universidad Interamericana en San Juan.",
+            "Es una servidora pública retirada, quién por más de 35 años, se desempeñó en las áreas de planificación, administración y supervisión de servicios educativos, de salud física y salud mental en la ciudad capital de Puerto Rico.",
+            "Su experiencia profesional incluye la investigación científica social, planificación, educación y organización de trabajo comunitario en sectores de pobreza y desigualdad económica. Además, trabajó en la implementación y supervisión de programas de rehabilitación a personas con abuso del alcohol, personas sin hogar y personas con condiciones de salud mental. En el área administrativa, trabajó en la preparación y evaluación de propuestas federales y de presupuestos operacionales, en la selección y evaluación de recursos humanos, en la gerencia de proyectos de administración, en el control y manejo de inventarios, en la adquisición de materiales y equipos, y en la preparación de subastas públicas.",
+            "'Creo firmemente en la justicia social, la organización comunitaria y en Victoria Ciudadana como instrumento de cambio para el País. Sin duda ella es de las que no se quitan.'"
+          ]
+        },
+        {
+          "key": "AramisFernandez",
+          "pueblo": "catano",
+          "candidatura": "Legislador Municipal Cataño",
+          "nombre": "Aramis Fernández",
           "contacto": {
             "email": "",
-            "fb": "",
+            "fb": "Aramis2020",
             "ig": "",
             "twitter": ""
           },
-          "planDeTrabajo": [""],
-          "biografia": [""]
+          "planDeTrabajo": null,
+          "biografia": [
+            "Aramis Fernández es un comerciante nacido y criado en el pueblo de Cataño. Cursó toda su vida escolar en el sistema publica de Cataño, graduándose de la escuela superior Francisco Oller. Estudio un bachillerato en administración de empresas de la Universidad Interamericana de Puerto Rico y posteriormente hizo una especialización en banca en el Instituto de Banca y Comercio.",
+            "Toda su vida a sido defensor del medio ambiente y ha estado envuelto en un sinnúmero de causas sociales como el rescate de terrenos en Toa Baja. Además, estuvo activamente involucrado en la huelga de la telefónica y en las manifestaciones para sacar la marina del municipio de Vieques. Siguió desarrollando su activismo en las décadas posteriores, siempre luchando por un cambio social para su comunidad y su país.",
+            "Toda la vida a sido un aficionado a los deportes y ha organizado actividades deportivas comunitarias y torneos para ayudar a los más jóvenes y a los jóvenes de corazón, mayormente de baloncesto y beísbol."
+          ]
         }
       ]
     },
@@ -458,18 +654,291 @@
       "name": "III : Arecibo",
       "candidatxs": [
         {
-          "key": "",
-          "pueblo": "",
-          "candidatura": "",
-          "nombre": "",
+          "key": "ezequielberrios",
+          "pueblo": "ciales",
+          "candidatura": "Legislador Municipal en Ciales",
+          "nombre": "Ezequiel Berríos Reyes",
           "contacto": {
-            "email": "",
+            "email": "ezequiel.victoriaporpr@gmail.com",
+            "fb": "EzequielPorPR",
+            "ig": "ezequiel_berrios_reyes ",
+            "twitter": "Ezequiel_PorPR"
+          },
+          "planDeTrabajo": [
+            "Desarrollo sostenible: Implementar un proceso para profesionalizar nuestro programa de reciclaje. Proveer la información y espacios específicos para que las personas puedan llevar el reciclaje.",
+            "Transparencia en la administración municipal: Legislar un debido proceso para efectuar los nombramientos en las agencias municipales. Información accesible a la ciudadanía.",
+            "Participación ciudadana: Organizar las comunidades y realizar asambleas comunitarias. Convertir decisiones de las asambleas en legislación a favor del pueblo.",
+            "Ayuda al necesitado/a: La creación de una comisión especial para identificar casos de pobreza y establecer alianzas para atender el abandono de animales"
+          ],
+          "biografia": [
+            "Reside en el barrio Pozas de Ciales y tiene 21 años de edad. Actualmente cursa su último semestre de bachillerato en Educación Física de la Universidad de Puerto Rico en Arecibo. En agosto del 2020 aspira a comenzar una maestría en Administración Pública de la Universidad de Puerto Rico en Rio Piedras. Cree en el servicio público como método para organizar una sociedad de modo que sus individuos aspiren a cada día ser mejores seres humanos. Ama el servicio comunitario y ha puesto en práctica esta pasión en diferentes organizaciones sin fines de lucro en las que ha participado.",
+            "Se incorporó al Movimiento Victoria Ciudadana por el hecho de que cree que la unidad es lo que llevará a Puerto Rico a desarrollarse como sociedad y país.",
+            "Es importante que en los próximos años nuestra administración municipal elabore presupuestos priorizando los servicios que se proveen a la ciudadanía y que estén destinados a mejorar la salud fiscal de nuestro municipio para así establecer un desarrollo financiero en las distintas agencias municipales y lograr mejorar los servicios que estas proveen al pueblo.",
+            "En nuestro pueblo hay una gran cantidad de agricultores y agricultoras que necesitan del apoyo de la administración pública. Es necesario que en la legislatura municipal se trabajen proyectos para brindarle espacios al agricultor cialeño para que puedavender y promocionar sus productos",
+            "Desea legislar proyectos para el desarrollo cultural de nuestro pueblo teniendo como objetivo principal el apoyo local a organizaciones o personasque representen a nuestro pueblo en distintos escenarios."
+          ]
+        },
+        {
+          "key": "yamiracolon",
+          "pueblo": null,
+          "candidatura": "Senadora Distrito 3 Arecibo",
+          "nombre": "Yamira Colón Rosa",
+          "contacto": {
+            "email": "yamira2020mvc@gmail.com",
+            "fb": "yamiracolonrosa",
+            "ig": "yamiracolonrosa",
+            "twitter": "ColonYamira"
+          },
+          "planDeTrabajo": [
+            "Me enfocare en 4 grupos prioritarios: Niños, adolescentes y jóvenes, Mujeres, Personas mayores de 60 años y la Comunidad LGBTTQ.",
+            "Promover la educación con perspectiva de género y en derechos humanos desde la base.",
+            "Erradicar losfeminicidios.",
+            "Promover el emprendimiento, el empresarismo y el comercio local en mujeres.",
+            "Defender cabalmente las pensiones de los retirados estableciendo que es un derecho adquirido.",
+            "Impulsar la equidad, la igualdad y la diversidad.",
+            "Rescate de las instituciones públicas, reconstrucción social, económica y fiscal, entre otros proyectos vitales."
+          ],
+          "biografia": [
+            "Natural del pueblo de Dorado, madre, esposa y profesional. Sus padres son Luis Colón Rodríguez y Carmen J. Rosa Rivera. Tiene tres hermanos mayores y una hermana menor. Es producto del sistema de educación público en Dorado, Toa Alta y Bayamón. Yamira es feminista y defensora de los derechos de las mujeres, de los niños y adolescentes, de las personas mayores de 60 años y de la comunidad LGTTBQ+. Además, es amante de los deportes, especialmente fanática del béisbol.",
+            "Actualmente es Candidata Doctoral en Liderazgo en Organizaciones Educativas de la Facultad de Educación en la Universidad de Puerto Rico Recinto de Río Piedras. Además, posee una Maestría en Administración Pública y un Bachillerato en Administración de Sistemas de Oficina de la misma Universidad.",
+            "Es también Profesora en una institución post-secundaria impartiendo cursos especializados en Educación Comercial. Ha trabajado por 14 años en el servicio público y 8 años en el sector privado.",
+            "Formó parte de la Asociación de Estudiantes de la Escuela Graduada de Administración Pública (AEEGAP). Además, fue la investigadora principal del estudio: 'El Impacto del Proyecto de Justicia para la Niñez en la Región Judicial de Bayamón' como parte de la tesis de Maestría. De igual manera, ha realizado trabajos de investigación de diversos temas enfocados en la gestión, administración pública, educación y liderazgo educativo. Ha sido ganadora de varios Awards luego de crear, desarrollar e implementar planes de negocios o propuestas de distintas convocatorias.",
+            "Como trabajo voluntario y comunitario preside el Consejo de Política Normativa de los Early Head Start and Head Start de Dorado y Toa Alta.",
+            "Finalmente, defendió su propuesta de disertación doctoral titulada: El Líder Educativo y el Proceso de Inducción en una Institución Educativa Universitaria."
+          ]
+        },
+        {
+          "key": "edwinmarrero",
+          "pueblo": null,
+          "candidatura": "Representante del distrito 12",
+          "nombre": "Edwin 'Win' Marrero Santiago",
+          "contacto": {
+            "email": "edwinmarreropr@gmail.com",
+            "fb": "emarrero.pr",
+            "ig": "edwinmarrerosantiago ",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Justicia Social",
+            "Recuperación y empoderamiento de comunidades",
+            "Renovarinfraestructuras de servicios esenciales",
+            "Seguridad",
+            "Fiscalización",
+            "Educación dirigida a las necesidades individuales del estudiante",
+            "Desarrollo intelectual",
+            "Empresarismo para comunidades",
+            "Plan de Salud Universal",
+            "Auditoría de deuda",
+            "Solucionar problema de servicios de agua y luz en nuestro distrito implementando energías renovables"
+          ],
+          "biografia": [
+            "Joven emprendedor y líder comunitario de 29 años, residente de Almirante Sur, Vega Baja. Comienza su formación académica en la Universidad de Este Recinto de Arecibo, pero culmina su bachillerato en Justicia Criminal en la American University Recinto de Bayamón. Cuenta con créditos de educación continúa en administración de empresas por la SBA, conocido por sus siglas en inglés como Small Business Administration. En el 2015 nace Edwin Auto Air, empresa que al día de hoy administra exitosamente con el lema 'honestidad en todo momento', lo cual siempre ha sido su carta de presentación.",
+            "En el 2012 funda la organización sin fines de lucro Almirante Da La Mano, donde logró recaudar aproximadamente veinte mil dólares para la Sociedad Americana contra el Cáncer. Durante este período reconoce su talento como líder comunitario. Comienza a reenfocar Almirante Da La Mano como una base comunitaria.",
+            "Edwin Marrero Santiago se ha convertido en símbolo de empoderamiento comunitario,voluntarismo, empresarismo y liderazgo juvenil. Sumeta es impactar el país de la misma manera queimpactó su pueblo de residencia."
+          ]
+        },
+        {
+          "key": "anniejanet",
+          "pueblo": "manati",
+          "candidatura": "Legisladora Municipal en Manatí",
+          "nombre": "Annie Janet Estades Hérnandez",
+          "contacto": {
+            "email": "anniejestades@yahoo.com",
+            "fb": "estades2020",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Ofrecer alternativas de sana administración",
+            "Fiscalizar el uso del presupuesto",
+            "Asegurar que cada centavo se invierta en servicios de calidad para todos por igual"
+          ],
+          "biografia": [
+            "Hija de Jose L. Estades Velez y Maria Hernandez Pujols. Natural de Arecibo y hermana mayor de siete. Casada con Jose E. Quintero por treinta cinco años y madre de tres: Cristina, Jose Alberto y Patricia. Graduada del Recinto de Ciencias Medicas de Bachillerato en Terapia Ocupacional. Actualmente residente de Manatí.",
+            "Cuenta con amplia experiencia laboral en el área de servicios de salud mental, trabajando en los centros psiquiátricos más importantes del país. Durante ese tiempo ha sido testigo de cómo los servicios de salud mental no son una prioridad para el gobierno de nuestro país. Esta falta de atención hace que nuestros hermanos mas desaventajados económicamente tengan un difícil acceso a servicios de prevención, educación e intervención temprana.",
+            "En el campo político, participó y apoyó la lucha a favor de la salida de la marina en Vieques, visitando y apoyando los campamentos de desobediencia civil ubicados en los terrenos usados como campos de tiro.",
+            "Durante las elecciones del 2012 participó en el Movimiento Union Soberanista como candidata a Representante. Esa experiencia le hizo ganar más conciencia de que nuestro país necesita un cambio urgente. En el camino aprendió que los que queremos a este país y estamos orgullosos de ser puertorriqueños no estamos donde nos corresponde: al frente.",
+            "El ser humano necesita salud física y mental para desarrollarse a plenitud. Un país donde sus ciudadanos no este saludables físicamente y mentalmente es un país que no prospera. El sistema de salud de nuestro país no llena las necesidades de nuestros hermanos."
+          ]
+        },
+        {
+          "key": "josecintron",
+          "pueblo": null,
+          "candidatura": "Representante del Distrito 13",
+          "nombre": "José F. Cintrón",
+          "contacto": {
+            "email": "mvcjosecintron@gmail.com",
+            "fb": "mvcjosecintron",
+            "ig": "",
+            "twitter": "JoseFCintron2"
+          },
+          "planDeTrabajo": [
+            "Combatir la corrupción",
+            "Cambio al sistema electoral",
+            "Derechos laborales",
+            "Educación pública",
+            "Desarrollo económico",
+            "Protección ambiental"
+          ],
+          "biografia": [
+            "Reside en el pueblo de Arecibo. Es padre, esposo, hijo, hermano y maestro. Aspirante a representante para los pueblos de Arecibo, Barceloneta, Ciales, Florida y Manatí.",
+            "Estudió en la Pontificia Universidad Catolica de Puerto Rico en Arecibo. Es maestro de inglés en la Escuela Superior Luis Muñoz Rivera en Utuado. Lleva 15 años dando clases en diferentes pueblos y estados. Cuando trabajó en Houston, Texas, trabajó con jóvenes de minorias. Durante las reunions con dichos estudiantes pudo ayudar a algunos estudiantes a mejorar su conducta y notas. Tambien fue reconocido varias veces por su desempeño en la escuela.",
+            "Decidió aspirar al cargo de representante confiado en que puede ser un cambio. Nuestros hijos merecen vivir en un mejor Puerto Rico. A todo el país le hace falta gente honesta en posiciones en el gobierno.",
+            "Tenemos que crear un gobierno de pueblo y no de partidos. Está comprometido conlas comunidades y aspiraa realizar visitas yreuniones regulares durante el año."
+          ]
+        },
+        {
+          "key": "dakshamontalvo",
+          "pueblo": "arecibo",
+          "candidatura": "Legisladora Municipal en Arecibo",
+          "nombre": "Daksha Montalvo Martinez",
+          "contacto": {
+            "email": "dakshamontalvomvc@gmail.com",
+            "fb": "Daksha-Montalvo-Martinez-105362597689548",
+            "ig": "dakshamontalvo",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Defender la UPR",
+            "Crear iniciativas de transporte público",
+            "Cero tolerancia a la gentrificacion",
+            "Fiscalizar la ausencia de currículos de perspectiva de género en ambientes laborales",
+            "Rehabilitación de personas deambulantes",
+            "Incentivar la creación de planes para combatir los embates del cambio climático y sus consecuencias en comunidades adyacentes a las costas",
+            "Protección del Caño Tiburones",
+            "Crear y apoyar la creación de espacios seguros para minorías"
+          ],
+          "biografia": [
+            "Residente de Arecibo y actual candidata a la legislatura municipal del municipio a través del Movimiento Victoria Ciudadana (MVC).",
+            "Cursa un bachillerato de Biología en la Universidad Interamericana de Arecibo. Al momento milita en una organización que trabaja en la defensa de los derechos humanos y esta es su primera vez insertándose en la política electoral.",
+            "Le interesó Movimiento Victoria Ciudadana porque ansiaba ver como se hacía política y ser testigo de ello en primera fila.",
+            "Es defensora de los derechos de la comunidad LGBTTQ+ y otras minorías, cree que Puerto Rico merece una justicia ambiental verdadera, ya que nos debemos a una narrativa eco amigable, productiva y humana.",
+            "Como mujer y parte de la comunidad LGBTTQ+ siente que es imperativo resguardar y defender los derechos e identidad del pueblo puertorriqueño de los grandes intereses políticos y económicos."
+          ]
+        },
+        {
+          "key": "Berliam",
+          "pueblo": "vegabaja",
+          "candidatura": "Legisladora Municipal en Vega Baja",
+          "nombre": "Belitzabel Alago Salgado",
+          "contacto": {
+            "email": "alagoberli@yahoo.com",
             "fb": "",
             "ig": "",
             "twitter": ""
           },
-          "planDeTrabajo": [""],
-          "biografia": [""]
+          "planDeTrabajo": [
+            "Trabajar con las siguientes poblaciones: Envejecientes, Jóvenes y Niños",
+            "Desarrollar más actividades de deportes, talleres y otros programas para la comunidad.",
+            "Recuperar estructuras abandonadas para habilitarlas para entidades sin fines de lucro que puedan establecerse en esos lugares para ayudar a más personas."
+          ],
+          "biografia": [
+            "Natural del Almirante Sur, en Vega Baja. Hija de Ramón Alago Ramos y Ana Salgado Torres. Tiene dos hermanos mayores, Ruthdaly y José L., y es madre de tres hermosos hijos: Christian (24), Joaliz (20) y Keniel (11), y es abuela de Berliannies (8 meses).",
+            "Comenzó sus estudios primarios en la escuela Federico Degetau, en Almirante Sur en Vega Baja. En 1993 se graduó de la escuela superior Juan Quirondongo Morell. Cursó estudios en Ciencias en Computadoras y Facturación a Planes Médicos, en Globelle Institute de Vega Baja.",
+            "Desde 2005 labora como asistente administrativo en el área pediátrica del Hospital Wilma Vázquez en Vega Baja.",
+            "Es una líder comunitaria de la organización sin fines de lucro Almirante Da La Mano desde 2013 y en el 2019 fue reconocida como héroe en la categoría de impacto a la comunidad en el hospital donde labora",
+            "Es una persona muy alegre, dinámica y emprendedora, que se lanza anuevos retos sin importar los obstáculos que se le puedanpresentar en el camino."
+          ]
+        },
+        {
+          "key": "LousifNevarez",
+          "pueblo": null,
+          "candidatura": "Representante del Distrito 11",
+          "nombre": "Lousif A. Nevárez de Gracia",
+          "contacto": {
+            "email": "lousifnevarezmvc2020@gmail.com",
+            "fb": "LousifNevarezPR",
+            "ig": "LousifNevarezPR",
+            "twitter": "LousifNevarezPR"
+          },
+          "planDeTrabajo": [
+            "Identificar nuevos líderes comunitarios que trabajen en conjunto con su representante.",
+            "Promover fuentes alternas de energía, protección y control de animales, y programas de reciclaje.",
+            "Defensa del litoral marítimo.",
+            "Desarrollar comunidades de apoyo para personas mayores de 60 años. Restitución y ampliación de los derechos eliminados en la Reforma Laboral.",
+            "El pueblo por encima de la Junta de Control Fiscal y la deuda.",
+            "Defender leyes que ayuden a combatir la violencia de género, el machismo, la homofobia y transfobia."
+          ],
+          "biografia": [
+            "Residente de Vega Alta y actual candidato a la Cámara de Representantes por el distrito 11 (Dorado, Vega Alta y Vega Baja) a través del Movimiento Victoria Ciudadana (MVC).",
+            "Posee un bachillerato en Comunicación General con una concentración menor en Periodismo en la Universidad del Sagrado Corazón.",
+            "Mientras cursaba su grado universitario, fue voluntario en un programa enfocado en la prevención del VIH e infecciones de transmisión sexual, donde colaboró en la organización de actividades y reclutamiento.",
+            "Actualmente trabaja en un programa de educación y prevención en una organización sin fines de lucro, donde brinda servicios de orientación, pruebas de VIH y enlace clínico, entre otros.",
+            "También tiene experiencia como reportero en uno de los principales medios de comunicacióndel país, donde también fue manejador de redessociales."
+          ]
+        },
+        {
+          "key": "ismael.rodriguez",
+          "pueblo": null,
+          "candidatura": "Representante del Distrito 14",
+          "nombre": "Ismael Rodríguez Medina",
+          "contacto": {
+            "email": "ismael.rodriguez.mvc@gmail.com",
+            "fb": "HechoEnArecibo",
+            "ig": "HechoEnArecibo",
+            "twitter": "HechoEnArecibo"
+          },
+          "planDeTrabajo": [
+            "Reconstrucción de comunidades e Infraestructura.",
+            "Re-establecer y extender los Derechos Laborales.",
+            "Reducción de sueldos a legisladores.",
+            "Incentivar iniciativas de concepto 'Reduce, Reúsa, Recicla, y Repara', y a la 'Autogestión Sustentable'.",
+            "Auditoría de la Deuda."
+          ],
+          "biografia": [
+            "Nacido y criado en Arecibo, Puerto Rico. Es graduado en Antropología, en la UPR, Recinto de Río Piedras, donde desarrolló perspectivas socio-culturales, económicas y ambientales – herramientas que entiende necesarias para un desempeño efectivo como delegado del pueblo en la Cámara de Representantes.",
+            "Veterano, destacado como mecánico de aviación, operador de equipo de construcción, e ingeniero de combate. Competente en labores complejas, que requieren toma de decisiones espontáneas y efectivas. Es un trabajador profesional, diestro en múltiples vocaciones, desde la industria hasta la autogestión. Ha realizado múltiples tareas y proyectos, de distintas índoles y escalas, tales como la ingeniería, ebanistería, soldadura, arqueología, albañilería, cartería, arte, y carpintería.",
+            "Uno de sus principios es la Autogestión. Ha emprendido pequeños negocios en la industria de multi-medios, y ha creado iniciativas, tales como #HechoEnArecibo, donde impulsó una línea de bolsas reusables, con el propósito de crear alternativas a las infames bolsas de plástico desechable.",
+            "Está capacitado para la reconstrucción. En la Industria privada realizó trabajos de reconstrucción en la infraestructura del sistema educativo de las Islas Vírgenes, tras la destrucción que dejaron los huracanes Irma y María. Realizó trabajos en la instalación de vagones y edificios “Sprung”, que actualmente se usan como planteles escolares seguros y útiles. Como Manejador de Caso en Desastre en las regiones de Arecibo y Utuado, realizó labor social comprensiva, holística, inter-agencial, de reconstrucción, en el cual orientaba a ciudadanos, damnificados por el huracán María, sobre programas de distintas agencias públicas, privadas y sin fines de lucro, que le puedan ser de servicio. Se hacía la gestión para la reconstrucción de hogares afectados por estos desastres."
+          ]
+        },
+        {
+          "key": "demyarturo",
+          "pueblo": "dorado",
+          "candidatura": "Legislador Municipal en Dorado",
+          "nombre": "Dr. Demy Arturo de Jesús",
+          "contacto": {
+            "email": "",
+            "fb": "demydorado2020",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Desarrollo económico: Buscar Incentivos para facilitar que se creen nuevos negocios y empleos BIEN PAGOS a las/os Doradeñas/os.",
+            "Desarrollo comunitario: Brindar recursos de desarrollo económico para que las comunidades se activen en su propio desarrollo económico, de justicia social y seguridad.",
+            "Fiscalización ambiental: Evaluar que los proyectos de desarrollo y construcción que se aprueben en Dorado promuevan un desarrollo equitativo, sustentable y coherente con los recursos naturales. Asegurar que las compañías reciclen todos los materiales que se puedan.",
+            "Desarrollo agrícola: Promover que el parque agro- turístico de Dorado y otros espacios sean fuente de alimentos y empleo para las/os Doradeñas/os.",
+            "Respeto a la diversidad: Promover la equidad de género y respeto a todas las comunidades, evitando el discrimen religioso, económico, social, étnico, racial, y a la comunidad LGBTTQ.",
+            "Fiscalización económica: Asegurar que el beneficio económico de los permisos de construcción y el nuevo impuesto a propiedades de alto valor le llegue a los más necesitados."
+          ],
+          "biografia": [
+            "Natural de Carolina, casado hace 25 años, padre de 2 hijas y residente de Dorado desde el 2005. Su esposa es natural y criada en Dorado. Hijo de padres divorciados, criado por su madre, empleada gubernamental. Estudió en el Colegio Calasanz en Rio Piedras y graduado de Carvin School en Carolina. Viene de una familia de educadores y humanistas.Su tío abuelo el Dr. Carlos Hernández fue uno de los primeros psicólogos en Puerto Rico y su abuelo Arturo Hernández fue conciliador obrero patronal del Departamento del Trabajo. Desde muy joven le fueron inculcados los valores de justicia social y laboral. Sirvió también en la Reserva de la Infantería de Marina de los Estados Unidos, de la cual fue pensionado.",
+            "Cursó estudios universitarios en la UPR RP, hasta completar su Doctorado en psicología clínica en el 2005. Fue consejero en reeducación de agresores de violencia doméstica. Como psicólogo, labora atendiendo a pacientes de la reforma de salud, en su mayoría personas de escasos recursos.",
+            "Ha estado involucrado en la lucha comunitaria-ambiental en Dorado desde que fue necesario sacar al presidente de la junta de la Asociación de Residentes de Dorado del Mar (DDM), que estaba patrocinado por los grandes intereses, en especial el desarrollador Cleofe Rubí. Fue presidente de la Asociación de Residentes de Dorado del Mar por 7 términos consecutivos y uno adicional no consecutivo. Durante esos términos, logró aprobar el control de acceso, garantizando el libre acceso a la playa de Dorado del Mar y el uso de las facilidades recreativas para todo el Municipio de Dorado. Logró sacar la asociación deun déficit de $100,000 a llevarla a una organización económicamente estable.Lideró la lucha contra el ahora convicto Ramón Orta, exsecretario delDepartamento de Recreación yDeportes, por la expropiación del parque de DDM para un Club Privado de Futbol.",
+            "Al presente supervisa la clínica de servicios de salud mental del Centro Integrarte en el Barrio Maguayode Dorado, auspiciado por la Iglesia Luterana Bethel,donde se ofrecen servicios de salud mental a la comunidad."
+          ]
+        },
+        {
+          "key": "annettecollet",
+          "pueblo": null,
+          "candidatura": "Senadora Distrito 3 Arecibo",
+          "nombre": "Annette Jímenez Collet",
+          "contacto": {
+            "email": "annette2020mvc@gmail.com",
+            "fb": "annette2020mvc",
+            "ig": "annette2020mvc",
+            "twitter": "ColletMVC"
+          },
+          "planDeTrabajo": [
+            "Despolitización de todas las agencias del Gobierno, investigación de puestos de “confianza”, acceso total a la información pública.",
+            "Educación basada en la equidad y en los derechos humanos, sistema de salud universal basado en la prevención y orientado al paciente.",
+            "Auditoría de la deuda y la suspensión de los pagos a la Junta de Control Fiscal. Definición de los servicios esenciales.",
+            "Asamblea Constitucional de Estatus como instrumento serio, inclusivo y vinculante de descolonización, que incluya una transición planificada y orientada a la reconciliación nacional."
+          ],
+          "biografia": [
+            "Nació el 5 de agosto de 1968, oriunda de Vega Baja, pueblo del “Melao-Melao”. Producto del sistema de educación pública puertorriqueño, completó su bachillerato en Ciencias Naturales en la UPR Río Piedras en 1990. Luego de una exitosa carrera profesional de veinte años, especializada en los variados procesos de manufactura y calidad de la industria farmacéutica local, decide seguir su pasión de promover la actividad física.",
+            "Estableció en 2010 la corporación VidaSalud Inc., bajo la cual ofrece sus servicios de consultoría en estrategias de promoción de actividad física, además de ser conferenciante en temas de ciencias del ejercicio. Mantiene sus acreditaciones como instructora grupal y entrenadora personal del Colegio Americano de Medicina Deportiva (“ACSM”), instructora de acondicionamiento en el agua de la Asociación de Ejercicio Acuático de EU (“AEA”) e instructora licenciada de aptitud física del Departamento de Recreación y Deportes (DRD) de Puerto Rico."
+          ]
         }
       ]
     },
