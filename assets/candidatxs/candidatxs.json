@@ -1119,18 +1119,393 @@
       "name": "IV : Mayagüez - Aguadilla",
       "candidatxs": [
         {
-          "key": "",
-          "pueblo": "",
-          "candidatura": "",
-          "nombre": "",
+          "key": "christiansantiago",
+          "pueblo": "anasco",
+          "candidatura": "Alcalde Municipio Añasco",
+          "nombre": "Christian Santiago",
+          "website": "http://www.christiansantiago.net/",
           "contacto": {
-            "email": "",
+            "email": "comite.christian@gmail.com",
+            "fb": "christiansantiago2020",
+            "ig": "christiansantiago2020",
+            "twitter": "chsantiago2020"
+          },
+          "planDeTrabajo": [
+            "Comunidades Empoderadas: otorgar autonomía a las comunidades a través de programas que potencien las aportaciones de los individuos cuando se organizan.",
+            "Transformación Administrativa: observar la fórmula de eficiencia y eficacia en todas las labores y decisiones de la administración municipal.",
+            "Conciencia Ambiental: promover a través de la educación desde los primeros grados la importancia de conservar y de utilizar adecuadamente nuestros recursos naturales. Promover el uso de energía renovable."
+          ],
+          "biografia": [
+            "Christian Ismael Santiago Orsini nace el 5 de agosto de 1986 (33 años) en Mayagüez. Es criado dentro de un núcleo familiar humilde en el barrio La Playa de nuestro bello pueblo de Añasco. Durante los primeros años demostró gran interés en todo a su alrededor, logrando aprender a leer a los 4 años utilizando los rotativos del país. Su niñez y adolescencia fue marcada por un sinnúmero de eventos, necesidades y enfermedad, pero a pesar de esto no se dejó amedrentar. Su vida continuó y decidió tomar riendas de ella. A los 19 años concluye su primer grado académico, un diploma en Tecnología de Computadoras. Estos estudios lo catapultan de inmediato al mundo del trabajo, dedicándose de lleno al servicio al cliente en restaurantes, tiendas por departamentos y en la industria de las telecomunicaciones. En el 2016 se le fue conferido el grado de bachillerato en Administración de Empresas en Gerencia y en el 2019 el grado de maestría en Gerencia y Liderazgo estratégico de la Universidad Ana G. Méndez. Actualmente Christian labora como Coordinador bajo la dirección de la Oficina de Asuntos Estudiantiles en ICPR Junior College, recinto de Mayagüez. Durante más de 15 años se ha desempeñado en distintos sectores e industrias de la empresa privada. En todas, Christian ha demostrado sentido de pertenencia, modelado valores y destacándose como líder. Hoy como otros cientos de personas en Puerto Rico, ha decidido dar un paso adelante y colocarse a la disposición del pueblo que le regaló los mejores años. 'Hemos dado un paso valiente, hemos salido de nuestra zona de comodidad- hemos decidido luchar por lo que nos ha arrebatado- es tiempo de devolverle a nuestro pueblo el resplandor que perdió'."
+          ]
+        },
+        {
+          "key": "teresa.perez",
+          "pueblo": "caborojo",
+          "candidatura": "Legisladora Municipal Cabo Rojo",
+          "nombre": "Teresa Pérez Vázquez",
+          "contacto": {
+            "email": "terearte518@gmail.com",
+            "fb": "teresa.perez.56614",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Fiscalizar que los procesos municipales se lleven de la manera correcta y más transparente posible.",
+            "Velar que se le brinden los servicios básicos con igualdad a todos los residentes de Cabo Rojo.",
+            "Mantener al pueblo informado de la toma decisiones en el municipio.",
+            "Rescatar y revitalizar el balneario de Boquerón.",
+            "Promover la identidad cultural."
+          ],
+          "biografia": [
+            "Nacida en la ciudad de Nueva York, en el año 1965. Criada en Cabo Rojo en el cual cursó sus estudios de nivel elemental. En la adolescencia se traslada nuevamente a la ciudad de Nueva York y termina sus estudios. Aunque labore en distintas áreas en la urbe, al regresar a su amado terruño, se dedicó a preservar la cultura puertorriqueña a través de la talla de madera, pirograbado y la pintura.",
+            "Posee las certificaciones del instituto de cultura y fomento. Amante de los perros, luego del huracán María se reinvento y se certificó a través del International Professional Groomers. Actualmente se dedica a preservar la cultura puertorriqueña."
+          ]
+        },
+        {
+          "key": "ramonjohnny",
+          "pueblo": "moca",
+          "candidatura": "Legislador Municipal Moca",
+          "nombre": "Ramón Nieves Acevedo",
+          "website": "http://www.ramonjohnny.com/",
+          "contacto": {
+            "email": "ramonjohnny2020@aol.com",
+            "fb": "ramonjohnnymoca",
+            "ig": "ramonjohnnymoca",
+            "twitter": "johnny_1297"
+          },
+          "planDeTrabajo": [
+            "Economía: Crear adiestramientos, incentivos y fomentar las ayudas para que los ciudadanos tengan la oportunidad de crecer en el comercio brindando a su vez nuevas oportunidades de empleo. Llamar la atención de industrias innovadoras que ocupen los establecimientos abandonados dándole paso a nuevas fronteras comerciales. Por ejemplo, escuelas y fabricas abandonadas.",
+            "Fiscalización: Investigar gastos y diversas operaciones municipales que posee Moca actualmente. Denunciar cualquier gasto que no sea conveniente y/o necesario para el municipio.",
+            "Cultura: Crear nuevas actividades que promuevan el mundillo a nivel local como por igual a toda la isla. Buscar la manera de promocionar nuestros artesanos locales, promover su trabajo para que resalte y sea reconocido dándole a su vez una nueva rama a nuestro comercio."
+          ],
+          "biografia": [
+            "Nacido en Aguadilla y criado en Moca, el mismo desde su temprana edad comenzó como líder en diferentes áreas. Con tan solo 22 años consta ya de una certificación de Técnico de Colisión, un Bachillerato en Administración de Empresas con concentración en Sistema de Información, adicional extensas certificaciones en el área de finanzas, empresas y liderazgo. Además, ha logrado obtener varias becas por la capacidad de liderazgo en diferentes comunidades, logrado en varias ocasiones como finalista a nivel nacional en competencia de emprendimiento.",
+            "A sus 18 años decidió comenzar a tener relación con la política convirtiéndose en funcionario en las elecciones del 2016 por la entonces candidata independiente Alexandra Lugaro en donde por ese medio obtuvo los conocimientos necesarios sobre la comisión electoral. En estas elecciones logro convertirse en el candidato de legislador municipal por el Movimiento Victoria Ciudadana en donde espera lograr convertir a Moca en una gran ciudad y lograr obtener nuevos cambios en la política actual."
+          ]
+        },
+        {
+          "key": "waltergarcia",
+          "pueblo": "mayaguez",
+          "candidatura": "Legislador Municipal Mayagüez",
+          "nombre": "Walter García",
+          "contacto": {
+            "email": "altergarcialegislatura@gmail.com",
+            "fb": "waltergarcia2020",
+            "ig": "waltergarcia_pr",
+            "twitter": "walgarcia2020"
+          },
+          "planDeTrabajo": [
+            "Trabajar junto a Movimientos Sociales y grupos comunitarios.",
+            "Transparencia Municipal.",
+            "Recuperación Económica."
+          ],
+          "biografia": [
+            "Nací en el pueblo de Mayagüez hace 26 años. Me criaron en los pueblos de Moca, Aguadilla e Isabela y por razones de estudios hice de Mayagüez mi hogar hace 6 años. Estudié educación musical en la Inter Americana de San Germán. Soy activista, músico, maestro y papá. En los pasados años he dedicado la mayor parte de mi tiempo en distintas iniciativas y luchas que nos acerquen a un Puerto Rico más justo y renovado."
+          ]
+        },
+        {
+          "key": "hectoroo",
+          "pueblo": "anasco",
+          "candidatura": "Legislador Municipal Añasco",
+          "nombre": "Héctor Ortíz Ortíz",
+          "contacto": {
+            "email": "hectorcigar@gmail.com",
             "fb": "",
             "ig": "",
             "twitter": ""
           },
-          "planDeTrabajo": [""],
-          "biografia": [""]
+          "planDeTrabajo": [
+            "Servir con transparencia, ser la voz de todos",
+            "Proveer ayuda a las comunidades, y el bien colectivo,",
+            "Desarrollo de planes comunitarios en prevención de toda índole."
+          ],
+          "biografia": [
+            "Mi nombre es Héctor J. Ortiz Ortiz, nací el 19 de junio de 1982 en Mayagüez Puerto Rico, de padre Añasqueño y de madre Sangermeña, criado en Cabo Rojo y vivo actualmente con mi compañera en Añasco. Con un grado bachiller en Criminología e Investigación Criminal con una menor en Psicología Clínica y una maestría en Sociología de Pontificia Universidad Católica de Puerto Rico."
+          ]
+        },
+        {
+          "key": "roberto_diazdiaz",
+          "pueblo": "anasco",
+          "candidatura": "Legislador Municipal Añasco",
+          "nombre": "Roberto Díaz Díaz",
+          "contacto": {
+            "email": "roberto_diazdiaz@yahoo.com",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Educación pública: identificar las prioridades de las escuelas de Añasco y aportar ideas para mejorar la calidad de enseñanza de nuestros jóvenes",
+            "Reconstrucción social derecho de animales concientizar sobre el maltrato y protección animal (cómo puede ayudar el municipio de Añasco a las personas que actualmente cuentan con albergues en la creación de un santuario municipal)",
+            "Desarrollo económico: Ayudar en la creación de nuevos proyectos que estén dirigidos al turismo del Añasco.",
+            "Ambiente: Creación proyectos agroecológicos autosustentables y fomentar el reciclaje"
+          ],
+          "biografia": [
+            "Mi nombre es Roberto L. Díaz Díaz. Nací el 3 de agosto de 1972 en Caguas y criado en Aguas Buenas. Resido en Añasco desde el 2003 donde, desde el 2002, me desempeño como maestro de matemáticas en la Escuela Bilingüe Alcides Figueroa (antes conocida como Sergio Ramírez de Arellano- Hostos). Tengo un bachillerato en Matemáticas Puras, maestría en Enseñanza de las Matemáticas y actualmente me encuentro terminando un doctorado en Currículo y Enseñanza."
+          ]
+        },
+        {
+          "key": "ei.rivera",
+          "pueblo": "anazco",
+          "candidatura": "Legisladora Municipal Añasco",
+          "nombre": "Elba Rivera Rodríguez",
+          "contacto": {
+            "email": "ei.rivera@hotmail.com",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Fortaleciendo el sistema de enseñanza a uno más moderno, aclimatado a los nuevos tiempos. Necesitamos currículos de inclusión, educación especializada a nuestra comunidad de jóvenes con autismo y síndrome de Aspergerse.",
+            "Necesitamos que se incluya la agricultura, la sustentabilidad, y el auto empresarismo. Mientras unimos las artes, los deportes, la música y las artes dramáticas y escénicas.",
+            "Nuestras escuelas han sido pioneras en la educación bilingüe y el teatro. Sigamos con esta tradición mientras le añadimos, nunca restando a la fortaleza de nuestros jóvenes. Dónde está el futuro de nuestro amado pueblo."
+          ],
+          "biografia": [
+            "Nacida en Fajardo y criada en mi amado pueblo de Añasco la mayor parte de mi vida. Cuento con ocho años de experiencia en el área de las comunicaciones y manejo de centros de llamadas, con estudios concentrados en Administración de Empresas.",
+            "Mi decisión de entrar a la carrera política con el Movimiento Victoria Ciudadana viene a raíz de tener fuertes convicciones en salir a la calle a protestar con mis compañeros y compañeras en contra del bipartidismo, la junta de control fiscal y defender los derechos de nuestros y nuestras trabajadores. Ahora, cuento con un movimiento que encierra todas mis luchas juntas y con una plataforma para continuar el trabajo desde otras trincheras. Por eso me uno, para luchar por nuestra patria, nuestros derechos, por la igualdad. Me uno para defender nuestro patrimonio mientras hacemos camino hacia un mejor futuro.",
+            "Comienzo este camino desde abajo, desde la raíz, desde mi comunidad apoyando nuestro equipo de trabajo en conjunto con nuestro candidato por la alcaldía de mi amado pueblo. Para de esa forma traer un refrescante y nuevo futuro. Dónde estoy segura trabajaremos duro y sin descanso hasta alcanzar el éxito, no de nosotres como movimiento en unas elecciones, sino de nuestra gente y nuestras comunidades."
+          ]
+        },
+        {
+          "key": "diana_drosas",
+          "pueblo": "anasco",
+          "candidatura": "Legisladora Municipal Añasco",
+          "nombre": "Diana Rosas Morales",
+          "contacto": {
+            "email": "",
+            "fb": "",
+            "ig": "drosas morales",
+            "twitter": "diana_drosas"
+          },
+          "planDeTrabajo": [
+            "Derechos laborales",
+            "Economía Sustentable",
+            "Desarrollo del medio ambiente"
+          ],
+          "biografia": [
+            "Nace en Chicago de madre añasqueña, curso estudios de escuela elemental y superior en Añasco, trabajo en varias empresas privadas del área oeste, trabajo con el Departamento de Educación, en el área de Educación Especial, se traslada al área metropolitana donde trabajó como líder líder sindical hasta el presente, labora como líder sindical en el Sindicato Puertorriqueño de Trabajadores."
+          ]
+        },
+        {
+          "key": "NoeRamirez",
+          "pueblo": null,
+          "candidatura": "Representante Distrito 20",
+          "nombre": "Noe Ramírez Ramírez",
+          "contacto": {
+            "email": "noeramirezdistrito20mvc@gmail.com",
+            "fb": "NoeRamirezMVC",
+            "ig": "noe_ramirez_2020_mvc",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Con La Energía NO Se Juega: Voy a promover los cambios administrativos en la A.E.E. que son posibles solo con despolitizarle",
+            "Compartir instrucciones coherentes , durante años hice propuestas como empleado y tímidamente implantaron algunas con magníficos resultados. La energía eléctrica es la base del desarrollo y estabilidad económica de cualquier país. Otras políticas y decisiones son posibles para lograr tener un sistema estable a un costo razonable.",
+            "El Desarrollo Personal y Socio Emocional es otra propuesta, tenemos un sistema educativo dedicado a fabricar empleados, la Resiliencia no se dan desde un vacío, los principios y las bases para ciudadanos, luchadores, equilibrados, empáticos y respetuosos es posible. Ya en muchos países de Europa están mejorando mucho sus relaciones sociales, salud, felicidad, evitando así suicidios, violencia de género, problemas de salud, violencia y criminalidad en general. ",
+            "Propongo se enseñe a todos los niveles escolares hasta grados universitarios."
+          ],
+          "biografia": [
+            "Vecino del pueblo de Cabo Rojo, 31 años en el servicio público, 30 de ellos en la A.E.E. en múltiples puestos y directorados, líder sindical, participante y miembro en distintas organizaciones como la UTIER, FASyL Mayagüez, Pueblo Unido, COHEMIS - UPR, Partido del Pueblo Trabajador. Conocimientos en procedimientos parlamentarios, energía renovable, organización sindical y comunitaria, otros.",
+            "Como parte de mi plan de propuestas propongo: Organización Comunitaria, tal y como promueve nuestro plan organizativo Red de Redes para lograr trabajar necesidades o problemas de las comunidades, ahora más que nunca es necesario organizar los voluntarios, talentos, para lograr enfrentar eventos naturales como Terremotos, Huracanes, Inundaciones, Fuegos, Crisis Alimentaria, Pandemias, etcétera. Ya han quedado demostradas nuestras capacidades como pueblo cuando nos organizamos y colaboramos en causas de bienestar común."
+          ]
+        },
+        {
+          "key": "marisolvega",
+          "pueblo": null,
+          "candidatura": "Senadora Distrito Mayagüez",
+          "nombre": "Marisol Vega Muñiz",
+          "contacto": {
+            "email": "marisol2020sd4mvc@gmail.com",
+            "fb": "marisolvega2020",
+            "ig": "marisolvegamuniz2020",
+            "twitter": "marisol2020"
+          },
+          "planDeTrabajo": [
+            "Descentralizar el servicio energético llevando a cabo la transición a energía renovable iniciando por las áreas aisladas y fortalecer el alumbrado urbano.",
+            "Reconstrucción de un sistema educativo de excelencia que se ajuste a las necesidades del país en todos los niveles académicos, profesionales, técnicos y vocacionales.",
+            "Fomentar y fortalecerla agricultura agroecológica que generen productos alimenticios y suelos sanos y sostenibles promoviendo la sustentabilidad alimenticia de la región y el país.",
+            "Desarrollo del turismo con muy claras y dirigidas estrategias que harán de la Región Oeste un Pilar Turístico en la Isla"
+          ],
+          "biografia": [
+            "Nací el 7 de marzo de 1956 en Caguas Borinken. Estudie en el sistema público, graduándome en 1974 de la que fue la Escuela Superior Eugenio María de Hostos de Mayagüez. Me gradúe de enfermería del Recinto Universitario de Mayagüez. Complete el bachillerato en el Recinto de Ciencias Medicas y luego la Maestría en Salud Publica con Especialidad en Partería para Enfermeras de la Escuela Graduada de Salud Publica del mismo RCM en San Juan. Me encontré con calidad de Maestros y me crecí en funciones de planificación estratégica, cabildeo ciudadano, desarrollo de política publica, investigación, creación, innovación, análisis estadísticos, evaluación, oratoria, redacción y tanto más. Con el cierre del programa escogí regresar a mi hogar y ser agricultora por herencia, ver nacer los frutos, las flores, la vida. Luego del impacto de María ya estaba sana y fortalecida ansiosa por aportar a la reconstrucción del país desde una estrategia abarcadora del bien común. Los recientes “jamaqueos” fueron la señal para despertar del letargo y permisión a los del poder otorgado que van al fin sin retorno. Llego el tiempo de limpiar ruinas de los desastres y construir lo nuevo, con respeto a la dignidad humana, a la tierra, conectados a la vida con sentido, mas justos y claros. Y es aquí, en el Movimiento de VICTORIA CIUDADANA donde encontré la estructura de Gobernanza Ciudadana que nos permitirá a todos unidos utilizar nuestras fortalezas para la transformación de un país arruinado a uno PROSPERO Y PLENO. Me conocerás y te conoceré mejor en este nuevo camino del equipo de los que NO SE DEJAN y toman la acción del cambio muy en serio."
+          ]
+        },
+        {
+          "key": "carmenmalave",
+          "pueblo": "",
+          "candidatura": "Legisladora Municipal Añasco",
+          "nombre": "Carmen Malavé Solares",
+          "contacto": {
+            "email": "camille02759x@gmail.com",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "La educación pública",
+            "Desarrollo económico",
+            "La agricultura."
+          ],
+          "biografia": [
+            "Soy Carmen M. Malavé Solares del pueblo de Añasco y canditada a graduación de la Universidad de Puerto Rico, recinto de Mayagüez del Departamento de Estudios Hispanicos. Tengo 27 años y soy aspirante para el puesto de asambleísta municipal del pueblo de Añasco.",
+            "He trabajado varias investigaciones de lingüística y sociales junto a varios profesores como Gilbran Delgado, Alexandra Morales, Hilton Alers, entre otros. Algunos de los proyectos a enfocarme sería: la agricultura, proyectos pro ambientes, desarrollo económico, folclor y la educación pública del pueblo de Añasco. Creo firmemente en la visión del Movimiento de Victoria Ciudadana y sé que unidos podemos tener un mejor Puerto Rico para todos."
+          ]
+        },
+        {
+          "key": "pedroacevedo",
+          "pueblo": null,
+          "candidatura": "Representante Distrito 18",
+          "nombre": "Pedro G. Acevedo",
+          "contacto": {
+            "email": "pgacv2@gmail.com",
+            "fb": "pedroacevedogov",
+            "ig": "pedroacevedogov",
+            "twitter": "pedroacevedogov"
+          },
+          "planDeTrabajo": [
+            "Tecnología: Reducir el papeleo y las visitas a las oficinas del gobierno a través de sistemas de información integrados y transacciones en línea.",
+            "Transparencia: Permitir que el pueblo mismo fiscalice al gobierno a través de datos abiertos de las diferentes ramas y agencias del gobierno.",
+            "Reforma de justicia criminal: Más esclarecimiento y prevención mediante un reenfoque de nuestros recursos en las áreas de mayor impacto y rehabilitación."
+          ],
+          "biografia": [
+            "Posee un bachillerato en ciencias de computadoras y maestría en gerencia de proyectos de informática. Su primer empleo después de graduarse fue en la Oficina de Servicios Legislativos, lo cual nutre su pasión por mejorar los sistemas de información del gobierno. Ha trabajado como programador, scrum master y gerente de proyectos de informática. También sirvió dos años a tiempo completo como misionero voluntario de su iglesia."
+          ]
+        },
+        {
+          "key": "luisferrerriv",
+          "pueblo": "",
+          "candidatura": "Senador Distrito Mayagüez",
+          "nombre": "Luis A. Ferrer Rivera",
+          "contacto": {
+            "email": "comiteluisferrer2020@gmail.com",
+            "fb": "ferrer2020",
+            "ig": "luis_ferrer_2020",
+            "twitter": "@luisferrer2020"
+          },
+          "planDeTrabajo": [
+            "Combatir la corrupción",
+            "Reestructurar la educación pública",
+            "Desarrollar la economía",
+            "Rescatar las instituciones públicas",
+            "Sobre todo y no menos importante establecer la auditoría de la deuda",
+            "Poner fin a la colonización a través de una Asamblea Constitucional de Estatus."
+          ],
+          "biografia": [
+            "Mi nombre es Luis Antonio Ferrer Rivera. Nacido en los Estados Unidos y criado desde los once años en el municipio de Aguadilla y actualmente residente del municipio de Moca. Me desempeño como abogado en la litigación civil, criminal y corporativa y Notario. Soy un joven trabajador, padre de familia, líder de las comunidades desventajas que desde mi infancia he venido forjándome para instruirme, crecer personal y profesionalmente. Poseo un Bachillerato en Justicia Criminal, Maestría en Ciencias Sociales, Juris Doctor y actualmente me encuentro cursando una Maestría en Derecho anglosajón en la Universidad de Washington. He impartido cursos de Derecho en la Universidad de Puerto Rico Recinto de Ponce y en EDP University.",
+            "Durante mi trayecto y desarrollo profesional, he colaborado en proyectos sociales dirigidos a niños y jóvenes los cuales considero que es parte de mi vocación. Dentro del Movimiento Victoria Ciudadana mi candidatura tiene un enfoque dirigido a rescatar a nuestro Puerto Rico. Por tanto, mi candidatura va dirigida y fundamentada en los valores que hasta el día de hoy me distinguen, teniendo como fin impactar tres sectores que considero indispensable para cualquier sociedad, la educación, seguridad pública y fiscal económica y salud, los cuales están enmarcado en instituciones públicas."
+          ]
+        },
+        {
+          "key": "yadiravazquez",
+          "pueblo": null,
+          "candidatura": "Representante Distrito 19",
+          "nombre": "Yadira Vázquez Rivera",
+          "contacto": {
+            "email": "dravazquezrivera@gmail.com",
+            "fb": "drayadiravazquez",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "SALUD como un derecho y no una mercancía.",
+            "Dignidad pa’l campo, respeto y experiencia pa’l casco.",
+            "Eco-Vida y Eco-Turismo.",
+            "Dandole PRESENTE a nuestros jóvenes.",
+            "Respetemos nuestros ríos, caños y quebradas."
+          ],
+          "biografia": [
+            "Nacida en San Juan por azar y adoptada por Mayagüez en el 2018 después de vivir toda su vida en la ciudad de las aguas puras. Medico de profesión, salubrista por vocación, se entrena desde pequeña en el trabajo comunitario, siempre buscando el bien común. Hija de “Chino” Vázquez Báez y Nora Rivera Carrasquillo y madre de un adolescente.",
+            "Producto de las escuelas públicas del área Estudia en la Theodore Roosevelt la primaria, la intermedia en la Manuel A Barreto y se gradúa de escuela Superior en la desaparecida José de Diego. COLEGIAL de sangre verde que tras completar premédica se entrena para su profesión médica en Guadalajara, Jalisco México para regresar a ejercer en su casa, en Mayagüez. Lleva trabajando como proveedor medico especialmente del plan de salud del gobierno los pasados 26 años, Dirige la clínica de Salud de la Jornada a Betances y es parte de su junta directiva. Trabajo varios años en instituciones de Fondos 330 especialmente en el periodo del Huracán María, el la que se convierte en líder de los esfuerzos de ayuda a la gente de su pueblo. Al momento ejerce en oficina personal y da asistencia medica a los confinados varias veces en la semana.",
+            "Hostosiana desde su nacimiento que participa activamente en los inicios del Movimiento Unión Soberanista, sin participación electoral en el pasado y quien da un pie al frente para rescatar el país."
+          ]
+        },
+        {
+          "key": "carlosgarcia",
+          "pueblo": "aguada",
+          "candidatura": "Legislatura Municipal Aguada",
+          "nombre": "Carlos García Varela",
+          "contacto": {
+            "email": "carloslgarcia2060@gmail.com",
+            "fb": "luis.varela.3304",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Fomentar el deporte en lascategorías menores.",
+            "Desarrollo de la costaaguadeña para ampliar elturismo.",
+            "Lograr mayortransparencia en losprocesos administrativos y fiscales.",
+            "Impulsar la creación de unaescuela vocacional quebrinde alternativas queeviten el abandono escolar."
+          ],
+          "biografia": [
+            "Nací el 23 de mayo de 1960. Fui maestro y directorde escuela. Además, fui legislador municipal yComisionado Electoral en Aguada.Cursó estudios conducentes a bachillerato enEducación Secundaria en Matemática de laUniversidad Interamericana de San German ymaestría en Educación con Administración ySupervisión de la Universidad de Phoenix. Durantesus más de 30 años de servicio público se adesempeñado en distintas facetas, entre ellasdirector de escuela y asambleísta municipalpor Aguada en los años 1992-1996 y 2008-2012."
+          ]
+        },
+        {
+          "key": "edwinjcornier",
+          "pueblo": "aguadilla",
+          "candidatura": "Legislador Municipal Aguadilla",
+          "nombre": "Edwin J. Cornier",
+          "contacto": {
+            "email": "ejcornier@gmail.com",
+            "fb": "EdwinCornier",
+            "ig": "edwinjcornier",
+            "twitter": "cornier_2020"
+          },
+          "planDeTrabajo": [
+            "Transparencia municipal.",
+            "Conservación ambiental.",
+            "Ayudar a los necesitados.",
+            "Mejorar nuestra economía.",
+            "Recreación y deportes",
+            "Mejoras a nuestra infraestructura municipal."
+          ],
+          "biografia": [
+            "Mi nombre es Edwin J. Cornier, tengo 18 años de edad y soy candidato a legislador municipalpor el Movimiento Victoria Ciudadana.",
+            "Actualmente, termine mi cuarto año de escuela superior y soy atleta del equipo nacional de Stand Up Paddle Boarding. Desde muy joven tengo un interés en la política y la justicia.",
+            "Como legislador, trabajaré para fiscalizar al alcalde electo deeste municipio para prevenir actos de corrupción. Presentare medidas que beneficien a nuestro pueblo Aguadillano y le devolveré el orgullo a nuestro municipio con meta final de sacar a Aguadilla de las ruinas. Entiendo que es muy importante devolverle la confianza a el gobiernoy que realmente se trabaje para su gente en vez de perjudicarlos. Todo esto es posible, peronecesitare tu confianza para lograrlo. Seré la voz ciudadana dentro de la Legislatura Municipalpara asegurar que nuestros ciudadanos no se vean atropellados por medidas dañinas.",
+            "Trabajaré estas ideas y defenderé la agenda urgente del Movimiento Victoria Ciudadana que se encuentra al final de este documento. "
+          ]
+        },
+        {
+          "key": "geraldoacosta",
+          "pueblo": "sangerman",
+          "candidatura": "Legislador Municipal San Germán",
+          "nombre": "Dr. Geraldo Acosta",
+          "contacto": {
+            "email": "geraldojerryacosta@gmail.com",
+            "fb": "GJacosta2020",
+            "ig": "GJacosta2020",
+            "twitter": "GJacosta2020"
+          },
+          "planDeTrabajo": [
+            "Brindarle absoluta representatividad y participación a la gente buena de San Germán en la gestión pública del Municipio.",
+            "Fiscalizar con mano firme a favor del Pueblo y junto al Pueblo y dar visibilidad y transparencia en la gestión de toma de decisiones del Municipio de San Germán.",
+            "Legislaré para devolverle a San Germán la gloria perdida por la nefasta administración del bipartidismo y juntos le devolveremos la esperanza y la confianza a nuestra gente en que un mejor San Germán lo construímos entre todxs."
+          ],
+          "biografia": [
+            "Nacido y criado en San Germán, natural del Barrio Maresúa. Completé un Bachillerato en Biología en la Universidad Interamericana de San Germán y completé un Doctorado en Medicina en la Universidad Iberoamericana de Santo Domingo, República Dominicana. Todas las etapas de mi niñez y mi juventud me han llevado a desarrollar empatía y vocación de servicio a la sociedad Puertorriqueña. ¿Porque corro al puesto de Legislador Municipal de San Germán? Según fuí creciendo y desarrollando un juicio crítico entendí que nuestros lideres estaban desconectados de nuestra gente y estaban enfocadxs en servirse ellxs antes de servirle al Pueblo. Comprendí que nuestro Puerto Rico necesita un cambio de sistema de gobernanza de manera urgente pero no veía opción de cambio en ninguna de las alternativas que ofrece la vieja política, jugandose el poder entre el bipartidismo el futuro de la patria y dejando en simbolísmo lo que debe ser la inclusión del Pueblo en los procesos democráticos. Entonces analizé y comprendí que tenía que ser parte de un Movimiento de Pueblo donde el protagonista de los procesos y la toma de decisiones tiene que ser el Pueblo mismo y no mafiosos ni corruptos. En San Germán por años hemos visto la falta de representatividad en esa Legislatura Municipal, donde la mayoría de nuestro pueblo no conoce tan siquiera quienes son sus Legisladores y Legisladoras Municipales. San Germán ha carecido de una voz fiscalizadora que vele y que luche por el pueblo ya que sus legisladores municipales solo sirven de sello de goma para las propuestas de un alcalde porque responden a una maquinaria donde no existe la democracia participativa que Victoria Ciudadana quiere brindarle al Pueblo."
+          ]
+        },
+        {
+          "key": "cristianmercado",
+          "pueblo": "sansebastian",
+          "candidatura": "Legislador Municipal San Sebastián",
+          "nombre": "Cristian Mercado",
+          "contacto": {
+            "email": "mercadocristian383@gmail.com",
+            "fb": "Cristian-Mercado-102649844591532/",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Fiscalizar y asegurar que todo los procesos se lleven conforme a la ley.",
+            "Rescatar escuelas abandonadas y brindárselas a entidades sin fines de lucro, como por ejemplo: albergue para animales.",
+            "Crear una entidad o un proyecto sin fines de lucro municipal para rehabilitar deambulantes, ciudadanos sin hogar y adictos.",
+            "Impulsar un proyecto para que los ciudadanos que deseen abrir un negocio o pequeña empresa sea de una manera mas sencilla."
+          ],
+          "biografia": [
+            "Mi nombre es Cristian Mercado soy de San Sebastián. Nací el 23 de septiembre de 1999 en Aguadilla, aunque toda mi vida en vivido en San Sebastián. Siempre e querido entrar en la política para resolver algunos asuntos de comunidad. Actualmente, estudio justicia criminal para luego estudiar derecho y ejercer como abogado."
+          ]
         }
       ]
     },
@@ -1492,9 +1867,8 @@
           },
           "planDeTrabajo": ["Empleo", "Cooperativismo", "Educación"],
           "biografia": [
-            "Si alguien ha dedicado la vida a Comerío, ese ha sido Carmelo Pérez Vega. No podía ser de otra manera porque nació en nuestros campos, estudió en la escuela pública y lo que es mas importante: durante toda su vida ha hecho trabajo voluntario en favor de nuestra gente y al servicio del pueblo. La historia es clara. Se destaca como líder cultural en la dirección del Centro Cultural Cirilo W. Meijers de Comerío. Trabajó afanosamente desde los comienzos del Fes􏰀val Jíbaro Comerieño, así como en los orígenes de la Escuela de Bellas Artes de Comerío, la Cumbre Ambiental de la Montaña y las ac􏰀vidades por la excarcelación de Oscar López Rivera. Ha hecho trabajo voluntario para la Coopera􏰀va La Comerieña, la Coopera􏰀va Industrial, diferentes organizaciones magisteriales, varias organizaciones polí􏰀cas, el Servicio de Extensión Agrícola y en Municipio de Comerío, entre otras.",
-            "Pero su trabajo por la gente no se limita al ámbito local. Carmelo ha sido parte de numerosos grupos a nivel nacional como por ejemplo: las dis􏰀ntas luchas estudian􏰀les, el ac􏰀vo Comité Nacional Para la Excarcelación de los Presos Políticos, la lucha por la paz de Vieques, las movilizaciones en defensa del ambiente como fueron la lucha contra el superpuerto, contra el tubo de la muerte, contra el depósito de cenizas tóxicas, entre muchos otros.",
-            "Como presidente entonces del Centro Cultural, dirigió el reclamo de todo un pueblo para que se diera el nombre de Juana Colón a nuestra escuela superior. En dicha ocasión, supo unificar bajo ese reclamo a numerosas en􏰀dades nacionales y locales. Por eso hoy tenemos el nombre de la comerieña mas destacada de nuestra historia al frente de nuestro primer centro docente: la Escuela Superior Juana Colón de Comerío. Como parte de su trabajo, recordamos además su esfuerzo para el rescate de los enterramientos indígenas en nuestro pueblo.",
+            "Si alguien ha dedicado la vida a Comerío, ese ha sido Carmelo Pérez Vega. No podía ser de otra manera porque nació en nuestros campos, estudió en la escuela pública y lo que es mas importante: durante toda su vida ha hecho trabajo voluntario en favor de nuestra gente y al servicio del pueblo. La historia es clara. Se destaca como líder cultural en la dirección del Centro Cultural Cirilo W. Meijers de Comerío. Trabajó afanosamente desde los comienzos del Fes􏰀val Jíbaro Comerieño, así como en los orígenes de la Escuela de Bellas Artes de Comerío, la Cumbre Ambiental de la Montaña y las ac􏰀vidades por la excarcelación de Oscar López Rivera. Ha hecho trabajo voluntario para la Coopera􏰀va La Comerieña, la Coopera􏰀va Industrial, diferentes organizaciones magisteriales, varias organizaciones polí􏰀cas, el Servicio de Extensión Agrícola y en Municipio de Comerío, entre otras. Pero su trabajo por la gente no se limita al ámbito local. Carmelo ha sido parte de numerosos grupos a nivel nacional como por ejemplo: las dis􏰀ntas luchas estudian􏰀les, el ac􏰀vo Comité Nacional Para la Excarcelación de los Presos Políticos, la lucha por la paz de Vieques, las movilizaciones en defensa del ambiente como fueron la lucha contra el superpuerto, contra el tubo de la muerte, contra el depósito de cenizas tóxicas, entre muchos otros. Como presidente entonces del Centro Cultural, dirigió el reclamo de todo un pueblo para que se diera el nombre de Juana Colón a nuestra escuela superior. En dicha ocasión, supo unificar bajo ese reclamo a numerosas en􏰀dades nacionales y locales. Por eso hoy tenemos el nombre de la comerieña mas destacada de nuestra historia al frente de nuestro primer centro docente: la Escuela Superior Juana Colón de Comerío.",
+            "Como parte de su trabajo, recordamos además su esfuerzo para el rescate de los enterramientos indígenas en nuestro pueblo.",
             "Ha dicho presente en cada una de las luchas obreras locales y nacionales. En Comerío lo recordamos por su decidido apoyo a las luchas del magisterio, contra el cierre de escuelas y durante las manifestaciones en apoyo al reclamo del estudiantado y las comunidades escolares. Lo conocemos por su decidido y desinteresado respaldo a las luchas de las trabajadoras de las fábricas en Pasarell y de los trabajadores y trabajadoras de la salud en nuestro hospital.",
             "Conocedor y estudioso de nuestra realidad económica, polí􏰀ca y social a todos los niveles. Conocido por esa di􏰁cil combinación de amplitud en la defensa de las causas justas, de los principios democráticos, profundo y fogoso en el debate y una capacidad de trabajo y sacrificio ligado a las necesidades reales de nuestra gente. Su vida ha sido la vida de su pueblo, honesto a carta cabal, siempre ha hecho su vida con el sudor de su frente, ha conocido las privaciones del país en carne propia ya que su mayor riqueza ha sido precisamente su capacidad de trabajo y sacrificio.",
             "Pero Carmelo no se queda ahí, posee amplios conocimientos en el trabajo de imprenta, producción de publicaciones, locutor por excelencia, domina el arte de la declamación y hasta le da serenatas a la vida pues también canta. Así como ha sabido enfrentarse a la vida sabemos que realizará el mejor trabajo como legislador municipal. Militante y defensor inclaudicable de todas y cada una de las causas justas. Estamos seguros de que sabrá encarnar, como siempre la voz y el reclamo del pueblo de Comerío. Ese es Carmelo y nuestra gente lo sabe de memoria."
