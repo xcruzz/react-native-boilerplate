@@ -1,9 +1,498 @@
 {
   "porDistritoSenatorial": [
-    { "number": 1, "name": "I : San Juan", "population": 462035 },
-    { "number": 2, "name": "II : Bayamón", "population": 459805 },
-    { "number": 3, "name": "III : Arecibo", "population": 470250 },
-    { "number": 4, "name": "IV : Mayagüez - Aguadilla", "population": 478194 },
+    {
+      "number": 1,
+      "name": "I : San Juan",
+      "candidatxs": [
+        {
+          "key": "manuelnatal",
+          "pueblo": "sanjuan",
+          "candidatura": "Alcalde San Juan",
+          "nombre": "Manuel Natal Albelo",
+          "contacto": {
+            "email": "",
+            "fb": "ManuelNatalAlbelo",
+            "ig": "manuelnatalpr",
+            "twitter": "manuelnatal"
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Manuel Antonio Natal Albelo es un abogado y político puertorriqueño que desde el año 2013, ocupa un escaño por acumulación en la Cámara de Representantes de Puerto Rico. Graduado de la Universidad de Cornell en Nueva York con un bachillerato en Análisis y Administración de Política Pública con concentración en Asuntos del Consumidor. Completó su Juris Doctor en la Escuela de Derecho de la Universidad de Puerto Rico, donde presidió el Consejo de Estudiantes y se graduó con honor Magna Cum Laude.",
+            "Natal inició su carrera política a los 27 años de edad, tras ganar una elección especial llevada a cabo por el Partido Popular Democrático, luego de que surgiera una vacante en la Cámara de Representantes de Puerto Rico. En el año 2014, Manuel Natal fue el primer funcionario electo en proponer un proceso de moratoria, auditoría y reestructuración de la deuda. En el año 2016, Natal logró la creación de una comisión ciudadana que tendría la responsabilidad de ejecutar un proceso de auditoría de la deuda del Gobierno de Puerto Rico. En el año 2018, tras su desafiliación del Partido Popular, Natal se convirtió en representante independiente. En el presente, es parte del Movimiento Victoria Ciudadana, un nuevo proyecto político que se presenta como una alternativa progresista y de justicia social para combatir la corrupción y el bipartidismo. Natal se desempeña como portavoz de dicho movimiento dentro y fuera de El Capitolio."
+          ]
+        },
+        {
+          "key": "rosasegui",
+          "pueblo": null,
+          "candidatura": "Senadora Distrito San Juan",
+          "nombre": "Rosa Seguí Cordero",
+          "contacto": {
+            "email": "rosaseguimvc@gmail.com",
+            "fb": "rseguicordero",
+            "ig": "rseguicordero",
+            "twitter": "rseguicordero"
+          },
+          "planDeTrabajo": [
+            "Lograremos la justicia social (mujeres, comunidad LGBTTIQA+, diversidad funcional, inmigrantes, afrodescendientes, personas sin techo, privadas de libertad y otras comunidades marginadas) justicia económica, política y ambiental. Asegurar, defender y mejorar los servicios públicos como Salud (incluyendo seguro salud universal, Educación (desde maternal al universitario), Energía y Agua. La defensa de las familias trabajadoras (que incluye a la niñez, a las mujeres, desempleadas y las personas jubiladas)."
+          ],
+          "biografia": [
+            "Rosa Seguí Cordero nació el 7 de diciembre de 1979, en Mayagüez, pero su familia y ella son del pueblo de Isabela. A los 16 años, se graduó de la escuela superior con un IGS de 4.05, y rápidamente fue admitida a la Universidad de Puerto Rico. Comenzó sus estudios universitarios en el Recinto de Bayamón (para ese entonces, el Colegio Universitario Tecnológico) y cursando su segundo año, se trasladó a la Universidad de Puerto Rico, Recinto de Río Piedras, donde completó su Bachillerato en Artes con Concentración en Ciencias Políticas, Magna Cum Laude. Se graduó en el año 2000 e inmediatamente, comenzó sus estudios en la Escuela de Derecho de la UPR. Culminó su Juris Doctor en el 2003, y a partir de entonces se ha dedicado a la abogacía. Como mujer, madre y activista, reconoce la necesidad urgente de formar y elegir un nuevo gobierno que le sirva a Puerto Rico y no a los grandes intereses. Está convencida de que hay que acabar con el bipartidismo diseñado para encubrir a los corruptos que llevan años aprovechándose de nuestra confianza. Su lucha la ha preparado para ser portavoz del Movimiento Victoria Ciudadana. En este espacio, se encarga de promover un mensaje de unión y esperanza; afirma que estas próximas elecciones nos toca a todos y a todas levantar nuestra voz y expresar que merecemos algo mejor de lo que nos han brindado: una victoria donde gane el pueblo y todas sus comunidades, no los mismos de siempre. Este es el compromiso de la Lcda. Rosa Seguí con Puerto Rico."
+          ]
+        },
+        {
+          "key": "MariluGuzman",
+          "pueblo": null,
+          "candidatura": "Senadora Distrito San Juan",
+          "nombre": "Marilú Guzmán Rivera",
+          "contacto": {
+            "email": "",
+            "fb": "MariluGuzman2020",
+            "ig": "mariluguzman2020",
+            "twitter": "mariluguzmansj"
+          },
+          "planDeTrabajo": [
+            "Trabajar con un programa de Basura Cero que trate de reducir, reusar y reciclar los desperdicios sólidos",
+            "Combatir el abandono y maltrato de los animales sin hogar",
+            "Crear el Distrito Cultural de Santurce"
+          ],
+          "biografia": [
+            "Es abogada y notario, madre y abuela. Es amante de los animales. Posee un grado de Bachillerato en Humanidades con concentración en Idiomas del Recinto de Rio Piedras de la Universidad de Puerto Rico en el 1974. En el 1980 obtuvo su grado de juris doctor de la Universidad Interamericana donde fue la presidente de su clase graduanda. Obtuvo su grado de maestría en derecho en la Universidad Católica de Puerto Rico en el año 1987. Fue abogada litigante de la Sociedad Para Asistencia legal desde el 1981 al 1990, donde representó cientos de personas indigentes acusadas de delito. Junto a otros compañeros y compañeras de la institución, fundó la Unión Independiente de Abogados de la Sociedad para Asistencia Legal, la cual presidió durante los años 1986 al 1987.",
+            "Desde el 1990 se dedica a la práctica privada de la profesión de abogada concentrando en casos de familia, casos de naturaleza penal y la práctica apelativa. Durante los años 2006 al 2008 fue 2a vicepresidenta del Colegio de Abogados de Puerto Rico. Se certificó como mediadora de conflictos en la Universidad de Sagrado Corazón de Puerto Rico en el año 2008. En el año 2012, fue candidata a la posición de Comisionada Residente por el Movimiento Unión Soberanista (MUS).",
+            "En el año 2013 fue electa presidenta del MUS, posición que ocupa hoy. Desde esa posición se ha dedicado a trabajar por la descolonización de Puerto Rico y a denunciar las desventajas de mantener el presente estatus colonial. Ha comparecido en innumerables ocasiones ante el Comité de Descolonización de la Organización de Naciones Unidas (ONU), reclamando la pronta descolonización del país. Como presidenta del MUS forma parte del Junte de Mujeres M-18, que tiene como objetivos reclamar la derogación de la Ley Promesa, de las leyes de Cabotaje, la auditoria de la deuda, atención a los problemas recurrentes de las islas municipio de Vieques y Culebra y la descolonización de Puerto Rico.",
+            "Como miembro del Junte de Mujeres ha visitado decenas de oficinas congresionales, llamando la atención a los problemas que sufre Puerto Rico que emanan de nuestra situación colonial, reclamando que el gobierno de los EE. UU. asuma su responsabilidad como potencia administradora. Hasta su ratificación como candidata al Senado por el MVC, formó parte del panel del popular programa radial Fuego Cruzado, que discute y analiza asuntos de la política puertorriqueña y mundial. El 10 de julio de 2019, junto a dos personas más, organizó la primera manifestación que prendió la jornada de Ricky Renuncia."
+          ]
+        },
+        {
+          "key": "albertoderkes",
+          "pueblo": null,
+          "candidatura": "Representante Precinto 1 San Juan",
+          "nombre": "Alberto A. Derkes",
+          "contacto": {
+            "email": "",
+            "fb": "aderkes1",
+            "ig": "aderkes01",
+            "twitter": "ADerkes_1"
+          },
+          "planDeTrabajo": [
+            "Enfrentar el desempleo con un plan de desarrollo local",
+            "Presentar en la legislación a favor de la clase trabajadora",
+            "Mejoras a la Infraestructura"
+          ],
+          "biografia": [
+            "Alberto Derkes de León nace es natural de San Juan. Graduado de la Universidad de PR Recinto de Mayaguez de Administracion de Empresas y Contabilidad. Activista por las luchas sociales en defensa de la clase trabajadora, los derechos humanos , las instituciones publicas y la justicia social. Actualmente reside en Rio Piedras.",
+            "En su vida profesional ha trabajado en firmas de contadores públicos autorizados y ha desarrollado proyectos para educar políticamente al pueblo de Puerto Rico, especialmente a los y las jóvenes ya que el entiende que son estos el futuro de nuestra patria puertorriqueña. También, ha desarrollado proyectos dirigidos a luchar por la restauración y conservación de los recursos naturales y ambientales de Puerto Rico.",
+            "“Aspiro ser Representante por el precinto 1 de San Juan porque creo que la clase trabajadora de nuestro municipio, y de Puerto Rico en general, debe tener verdadera representación por parte de sus dirigentes políticos. Y solo pueden representar genuinamente al pueblo quienes compartimos las mismas necesidades y el sufrimiento día a día. Mi papá y mi mamá se criaron en el precinto 1, en Barrio Obrero y Cantera. Yo nací en San Juan. Yo vivo en San Juan y moriré con las botas puestas defendiendo los intereses de nuestra gente humilde de San Juan.” Es el sentir de Alberto Derkes De León."
+          ]
+        },
+        {
+          "key": "jackiegarcia",
+          "pueblo": "sanjuan",
+          "candidatura": "Legisladora Municipal San Juan",
+          "nombre": "Jackie M. García Flores",
+          "contacto": {
+            "email": "jackiemar27@gmail.com",
+            "fb": "Jackie-Garcia-2020-105670647669580",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": ["Salud", "Seguridad", "Deportes(Juventud)"],
+          "biografia": [
+            "Nacida el 1ro de junio de 1983 en San Juan, Puerto Rico. Criada por su abuela paterna Carmen Julia Vega en el Barrio Capetillo de Río Piedras. En sus inicios de vida, su crianza fue enmarcada por altos y estrictos valores. Su amor por el prójimo y al bien comunitario definen su enfoque a tomar iniciativas enfocadas a lo correcto y al bien común. Educada por el sistema público donde inicia su crecimiento académico en la Escuela Elemental Luis Muñoz Rivera de Río Piedras. Allí tuvo la oportunidad de tener unos educadores comprometidos a la enseñanza. Fue entonces donde conoció a la profesora Lourdes Borrero quien le sirvió como ejemplo y mentora creando una pasión por servicio público encaminada a lograr un cambio positivo en sus futuros desempeños. En 2019 se da la oportunidad bajo la Plataforma del Partido Movimiento Victoria Ciudadana en Asamblea mediante voto, endoso y ratificación de la comunidad es electa para representar la Zona 10 de San Juan. Con este paso desea poner a la disposición su experiencia representativa que permitirá y dará paso inminente a un verdadero cambio político. Un cambio real que redundé positivamente a los desmedidos excesos y al abuso de poderes que solo responden a los grandes intereses particulares que satisfacen solo a los estilos de vida de las clases sociales más aventajadas de este país. Así como también legislar a favor de las diferentes políticas públicas existentes y hacerlas valer correctamente, trabajando eficaz en la verdadera raíz del problema."
+          ]
+        },
+        {
+          "key": "carlosavila",
+          "pueblo": null,
+          "candidatura": "Representante Precinto 5 San Juan",
+          "nombre": "Carlos Ávila Pacheco",
+          "contacto": {
+            "email": "carlosavilapr5@gmail.com",
+            "fb": "carlosavilap5",
+            "ig": "carlosavilap5",
+            "twitter": "carlosavilap5"
+          },
+          "planDeTrabajo": [
+            "Promover la organización comunitaria, estudiantil, gremial y profesional como aspecto esencial de una Sociedad Democrática y de Participación Directa en los asuntos del País.",
+            "Luchar y legislar para una soberanía alimentaria por que ese es el derecho de todas y todos a controlar nuestros alimentos, políticas agrarias y ambientales y asegurarnos de la calidad adecuada de nuestros productos y el derecho a definir su productividad.",
+            "Trabajar para que la deuda fiscal se audite y se renegocie, teniendo como prioridad los servicios esenciales y garantías sociales."
+          ],
+          "biografia": [
+            "Nace en San Juan PR el 2 de agosto de 1982. Natural del Barrio Caimito, Río Piedras. Estudió en la Escuela Elemental e Intermedia Inés María Mendoza de Muñoz Marín de Caimito y en la Escuela Superior Esc. Ramon Vila Mayo en Río Piedras. Fue en la Universidad de Puerto Rico en Cayey que adquirió su Grado de Bachillerato en Artes y Ciencias Sociales. Desde joven se desarrolló como Líder Comunitario, gracias a las enseñanzas y experiencias vividas en el Centro Sor Isolina Ferré en Caimito. Aquí aprendió y conoció el valor de Servir, Amar a su Gente y a su Patria. Colaboró directamente en la implantación del Presupuesto Participativo llevado a cabo por primera vez en la Historia de Puerto Rico en su Comunidad natal, Caimito, cambiando con este proyecto la forma de hacer política e implantando una nueva forma de gobernar. Fue legislador Municipal y Vicepresidente de la Legislatura Municipal de San Juan desde enero 2013 hasta febrero de 2019. Colaboró directamente en la implantación del Presupuesto Participativo llevado a cabo por primera vez en la Historia de Puerto Rico en su Comunidad natal, Caimito, cambiando con este proyecto la forma de hacer política e implantando una nueva forma de gobernar."
+          ]
+        },
+        {
+          "key": "",
+          "pueblo": "",
+          "candidatura": "Representante Precinto 3 San Juan",
+          "nombre": "Eva Prados Rodríguez",
+          "contacto": {
+            "email": "evapradospr@gmail.com",
+            "fb": "evapradospr",
+            "ig": "evapradospr",
+            "twitter": "evapradospr"
+          },
+          "planDeTrabajo": [""],
+          "biografia": [
+            "Eva Prados-Rodríguez, abogada feminista y consultora en temas de derechos humanos, equidad de género y participación ciudadana. Inició su carrera jurídica en la Unión Americana de Libertades Civiles (ACLU) como investigadora principal sobre las condiciones de las cárceles de Puerto Rico y la respuesta de la Policía en los casos de violencia doméstica y sexual desde una perspectiva de derechos humanos. Ha representado legalmente a comunidades y víctimas individuales de desahucios y expropiaciones, como Villas del Sol y, más recientemente, da asistencia legal en casos de violencia de género. Formó parte del equipo de trabajo para las tres audiencias e informes sobre el estado de situación de los derechos humanos en Puerto Rico en la Comisión Interamericana de Derechos Humanos de la Organización de Estados Americanos. La licenciada Prados cuenta con un Juris Doctor, Magna Cum Laude, de la Universidad de Puerto Rico, es candidata a Maestría (L.L.M.) en Derecho Internacional con una especialización en Derechos Humanos y Género de la American University en Washington, D.C. y un postítulo de Derechos Humanos y Mujeres de la Universidad de Chile. Por su compromiso social y luchas comunitarias ha recibido varios reconocimientos como la Medalla del Gobernador (2006) por su valor y servicio a la comunidad, el Premio Thurgood Marshall (2007) de la Comisión Derechos Civiles, y la Medalla Juan Santiago Nieves (2018) del Colegio de Abogados y Abogadas de Puerto Rico por su compromiso con la defensa de derechos humanos, civiles y constitucionales."
+          ]
+        },
+        {
+          "key": "angiemillel",
+          "pueblo": "sanjuan",
+          "candidatura": "Legisladora Municipal San Juan",
+          "nombre": "Angiemille Latorre Nieves",
+          "contacto": {
+            "email": "angie@seriouslycreative.com",
+            "fb": "angiemille2020",
+            "ig": "angiemillel",
+            "twitter": "angiemillel"
+          },
+          "planDeTrabajo": [
+            "Una ciudad donde la gente se sienta y esté SEGURA (Iluminación, Policía Municipal y Medidas Criminalidad)",
+            "Una ciudad donde la gente quiera HACER NEGOCIOS, VIVIR Y VISITAR (Desarrollo Económico, Acceso, Movilidad y Transportación)",
+            "Una ciudad ORGANIZADA, RESPONSABLE Y QUE FUNCIONE COMO DEBE (Administración Eficiente y Transparente para sus Ciudadanos, Negocios y Visitantes.)"
+          ],
+          "biografia": [
+            "Empresaria con más de 20 años de experiencia en innovación, planificación, manejo de proyectos y comunicaciones. Es co-fundadora de la firma líder en “design thinking” en Puerto Rico llamada “SeriouslyCreative”. Desde ese rol se dedica a ayudar a empresas locales y multinacionales en el proceso de re- pensar y re-diseñar sus productos, experiencias y servicios. Durante su trayectoria, Angiemille ha sido distinguida como “Women to Watch” por el Caribbean Business, Persona de Año en Negocios por la Cámara de Comercio de Puerto Rico y la publicación IQ Latino la incluyó en su lista de 6 Puertorriqueños para Seguir en 2016.",
+            "Fue miembro de la Junta de Directores del Boys and Girls Club de Puerto Rico y la Fundación Ismael Rivera. Actualmente forma parte grupos asesores para fundaciones y organizaciones sin fines de lucro en áreas relacionadas a la juventud, educación, activismo e innovación social y el ecosistema de emprendimiento en Puerto Rico. Inconforme con la situación del país y optimista en que un mejor Puerto Rico sí es posible, Angiemille aplica su conocimiento y experiencia para impulsar cambio mediante proyectos de activismo ciudadano tales como investigaciones, manejo de proyectos de impacto social y talleres de innovación."
+          ]
+        },
+        {
+          "key": "camilopunsoda",
+          "pueblo": "sanjuan",
+          "candidatura": "Legislador Municipal San Juan",
+          "nombre": "Camilo Punsoda Rodríguez",
+          "contacto": {
+            "email": "capunsoda@gmail.com",
+            "fb": "camilopunsoda2020",
+            "ig": "camilopunsoda2020",
+            "twitter": "CamiloPunsoda"
+          },
+          "planDeTrabajo": [
+            "Mi pilar principal para la campaña será trabajar de la mano con las comunidades de Hato Rey, para que sean ellas mismas quienes identifiquen las posibles soluciones a los problemas que enfrentan. Es decir, devolverle la Legislatura Municipal a la gente de San Juan.",
+            "De igual manera serán pilares de mi campaña la defensa del medio ambiente y de las instituciones públicas, y la defensa de los derechos de la clase trabajadora, las mujeres, comunidad LGBTTIQ+, y velar por los mejores intereses de la juventud."
+          ],
+          "biografia": [
+            "Es un estudiante de bachillerato en la facultad de Ciencias Sociales en el Recinto de Río Piedras de la Universidad de Puerto Rico. Comenzó su trayectoria política en el 2016 en la Juventud Trabajadora del Partido del Pueblo Trabajador, donde posteriormente, en el año 2017, pasaría a ser el representante de esa Juventud en el Comité Central del Partido. Además de su desempeño dentro del Partido del Pueblo Trabajador, a Camilo Punsoda Rodríguez le distingue su trayectoria de activismo en contra de la Junta de Control Fiscal, en defensa de la Universidad de Puerto Rico y de los derechos de la comunidad LGBTTIQ+, y en defensa del medio ambiente entre otros espacios de lucha y resistencia.",
+            "En la actualidad, Camilo Punsoda Rodríguez es parte del Movimiento Victoria Ciudadana donde ha participado activamente desde sus comienzos. Junto con otros compañeros, compañeras y compañeres, ayudó a formar una juventud del Movimiento Victoria Ciudadana (“La Jota”) con el propósito de que más jóvenes se integren al Movimiento, y para buscar impulsar candidaturas, ya que la juventud es uno de los sectores más afectados por el bi- partidismo y las medidas de austeridad, a pesar de que está sub-representado. De cara a las elecciones del 2020, Punsoda Rodríguez se presenta como candidato a la Legislatura Municipal de San Juan."
+          ]
+        },
+        {
+          "key": "fernandovillaespesa",
+          "pueblo": null,
+          "candidatura": "Representante Precinto 2 San Juan",
+          "nombre": "Fernando Villaespesa",
+          "contacto": {
+            "email": "",
+            "fb": "fernandovillaespesa2020",
+            "ig": "fernandovillaespesa2020",
+            "twitter": "fernandovillaespesa"
+          },
+          "planDeTrabajo": [
+            "Auditoría de la deuda",
+            "Cero reducciones a las pensiones",
+            "Incentivar la industria del cáñamo y la creación de empleos a través de ella"
+          ],
+          "biografia": [
+            "Fernando Villaespesa Zalduondo es un abogado y activista social puertorriqueño que incursiona por primera vez en la política de Puerto Rico. Se graduó de la Universidad del Sagrado Corazón en Puerto Rico con un bachillerato en Ciencias Sociales con concentración en Psicología Clínica. Completo su Juris Doctor en la Facultad de Derecho de la Universidad Interamericana de Puerto Rico en donde formó parte de la Asociación Nacional de Estudiantes de Derecho. Como parte de sus estudios conducentes al Juris Doctor, estudió cursos de Derecho Internacional Público y Privado en Communications University of China en Beijing, China, Universita CA Foscari en Venecia, Italia, London University, School of Economics en Londres, Inglaterra y en la Universidad Complutense de Madrid en España. En la actualidad, Fernando combina su carrera como abogado, trabajando en hogares de ancianos, labor que ha realizado durante los últimos veinticinco años. Adicional ha fungido como juez para The Louis Brown and Forrest S. Mosten, International Client Consultation Competition.",
+            " Enemigo de las injusticias y los atropellos, Fernando ha dado un paso adelante para trabajar y defender desde la legislatura, todas las causas por las que siempre ha trabajado en su carácter privado. Actualmente es candidato a Representante por el Precinto 2 de San Juan por el Movimiento Victoria Ciudadana."
+          ]
+        },
+        {
+          "key": "edomenech",
+          "pueblo": "sanjuan",
+          "candidatura": "Legisladora Municipal San Juan",
+          "nombre": "Eileen Domenech Rodríguez",
+          "contacto": {
+            "email": "",
+            "fb": "eileendomenech2020",
+            "ig": "eileendomenech2020",
+            "twitter": "e_domenech2020"
+          },
+          "planDeTrabajo": [
+            "Reconstruir San Juan",
+            "Disminución de animales realengos",
+            "Evaluar empleos y capacitar"
+          ],
+          "biografia": [
+            "Eileen M. Domenech Rodríguez una ejecutiva altamente exitosa en el área Gerencial; utiliza un liderazgo interactivo y motivador que estimula a las personas a brindar voluntariamente un 110% de esfuerzo y lealtad. Graduada de la Universidad del Sagrado Corazón donde obtiene su BA en Comunicaciones y Publicidad, en el 1987. Nació en Santurce, Puerto Rico el 25 de enero de 1966. Es la tercera de cuatro hijos de Don Ramón Domenech, natural de Isabela y Doña Rosa Rodríguez, natural de Ponce. Una familia humilde, luchadora, haciendo todo lo posible por darle la mejor educación y los mejores valores a sus hijos. Comprometida con crear consciencia con relación al cambio climático, como lograr que Puerto Rico pueda moverse a una economía completamente sustentable comenzando con la ciudad capital de San Juan. Es momento de transformarnos generando menos basura, educando a nuestros estudiantes, padres y abuelos a entender de que se trata el “zero waste” creando hábitos y poniéndolos en práctica. De esta manera contribuiremos con nuestras futuras generaciones a que no sufran los problemas de un planeta destruído por nosotros mismos."
+          ]
+        },
+        {
+          "key": "jankycurbelo",
+          "pueblo": "sanjuan",
+          "candidatura": "Legislador Municipal San Juan",
+          "nombre": "Jean C. Curbelo Rodríguez",
+          "contacto": {
+            "email": "jeancarlos.curbelo@gmail.com",
+            "fb": "JankyCurbelo2020",
+            "ig": "jankycurbelo2020",
+            "twitter": "Curbelo2020"
+          },
+          "planDeTrabajo": [
+            "Reducción de la desigualdad social",
+            "Educación Pública y accesible de calidad",
+            "Sistema de salud universal"
+          ],
+          "biografia": [
+            "Es maestro, facilitador educativo e investigador. Vecino del Residencial Dr. Ramón B. López Sicardó en Río Piedras.",
+            "Estudió en la Escuela Secundaria de la Universidad de Puerto Rico (U.H.S.), donde se destacó tanto por su participación en diversas organizaciones estudiantiles, programas de investigaciones científicas y excelencia académica. Obtuvo un Bachillerato en Biología Integrativa de la Universidad de Puerto Rico Recinto de Río Piedras en el 2012. Durante sus estudios universitarios realizó y publicó una investigación de ecología basada en la interacción planta animal en la Isla Reserva de Mona (2008-2010) bajo el programa UMEB del Instituto de Ecosistemas Tropicales, y participó de varias investigaciones de biología reproductiva y conductiva en el Centro de Investigación de Primates del Caribe en Sabana Seca (2010-2012). Considera que las ciencias y las artes son las herramientas más útiles para entender y expresar nuestra responsabilidad justa como seres humanos en nuestro medio ambiente y la sociedad. Las necesidades de la gente siempre van a sobrepasar a las necesidades del individuo y es algo que continuamente defenderé.",
+            "Actualmente está ejerciendo como maestro de matemáticas superior en una escuela sin fines de lucro de educación alternativa localizada en Río Piedras."
+          ]
+        },
+        {
+          "key": "RafaEsteves",
+          "pueblo": null,
+          "candidatura": "Representante Precinto 4 San Juan",
+          "nombre": "Rafaela Esteves Agramonte",
+          "contacto": {
+            "email": "RafaEsteves2020@gmail.com",
+            "fb": "rafaesteves2020",
+            "ig": "rafaesteves2020",
+            "twitter": "rafaesteves2020"
+          },
+          "planDeTrabajo": [
+            "Capacitación Empresarial Comunitaria",
+            "Educación",
+            "Infraestructura",
+            "Mejoras al Transporte Público",
+            "Implementación Ecológica Comunitaria"
+          ],
+          "biografia": [
+            "Rafaela Francisca Esteves Agramonte nació el 1 de mayo de 1988. Fue criada en el Bronx, NY de madre dominicana y padre puertorriqueño, y por su abuela materna, en un hogar humilde en el área sur del Bronx. En la actualidad, Rafaela es estudiante de Ciencias Políticas en la Universidad Interamericana de Puerto Rico Recinto Metro, con un menor en Finanzas. Al culminar su BA, ingresara a la Escuela de Derecho de la Inter para convertirse en abogada.",
+            "Rafaela tomó la decisión de entrar en la política por primera vez porque piensa que el Movimiento Victoria Ciudadana es el vehículo correcto para corregir las injusticias que se han llevado a cabo por pasadas administraciones. Ella cree en la Agenda Urgente y en los Principios Éticos del Movimiento, y, además, en la capacidad de los todos los candidatos. Se trabaja en conjunto desde diferentes puntos de vista para un fin – llevar a cabo la Agenda Urgente para mejorar el bienestar social, fiscal y económico de Puerto Rico.",
+            "Rafaela Esteves Agramonte se ha hecho disponible para una candidatura para la Cámara de Representantes de Puerto Rico para el Precinto 4 de San Juan.",
+            "Rafaela ha residido en Puerto Rico desde el 2011, es parte de la fuerza laboral de Puerto Rico, vecina del Precinto 4 de San Juan hace más de seis años, y reside con su esposo, César, e hija, Stephanie."
+          ]
+        },
+        {
+          "key": "joelvazrosario",
+          "pueblo": "sanjuan",
+          "candidatura": "Legislador Municipal San Juan",
+          "nombre": "Joel Vázquez Rosario",
+          "contacto": {
+            "email": "",
+            "fb": "Joel-Vázquez-Rosario-2020-105244404323484",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [""],
+          "biografia": [
+            "Nació el 10 de septiembre de 1985, en la ciudad de Bayamón. De madre sanjuanera y padre corozaleño. Es en el pueblo de Corozal donde cursó sus estudios primarios y secundario, en el sistema público de enseñanza del Departamento de Educación. A sus 17 años comenzó estudios universitarios en la Universidad de Puerto Rico en Bayamón, y culminó un bachillerato en Artes en Ciencias Sociales con concentración en Trabajo Social en la Universidad de Puerto Rico en Río Piedras.",
+            "En el 2011, completó su Maestría en Trabajo Social con especialidad en Organización Comunitaria. Además, obtuvo certificaciones mediante cursos y seminarios sobre Violencia de Género y Sexual, Mercadeo Social y campañas educativas.",
+            "En el ámbito laboral ha tenido experiencia: con niños y jóvenes (en proyectos de prevención y desarrollo de la juventud), con personas sin hogar, con personas con adicciones y personas con probatoria del sistema de justicia (en hogares de rehabilitación).",
+            "Al presente, labora como Oficial de Programa y Organizador Comunitario en las comunidades del Caño Martín Peña en San Juan. En su responsabilidad ciudadana, Vázquez Rosario ha sido voluntario como Vocal electo del Colegio de Profesionales del Trabajo Social de Puerto Rico, presidente de la Coalición Comunitaria de Carolina y colaborador en proyectos de la Escuela Beatriz Lassalle de la Universidad de Puerto Rico.",
+            "Ha recibido reconocimientos por su labor como Trabajador Social y Organizador Comunitario. Siendo los reconocimientos más significativos de las organizaciones del Caño Martín Peña y el Premio UBUNTU “Yo Soy, Porque Nosotros Somos” de Agenda Ciudadana."
+          ]
+        },
+        {
+          "key": "susanamonterorivas",
+          "pueblo": "sanjuan",
+          "candidatura": "Legisladora Municipal San Juan",
+          "nombre": "Susana Montero Rivas",
+          "contacto": {
+            "email": "",
+            "fb": "Susana-Montero-Rivas-2020-101163081471228",
+            "ig": "susanamonterorivas",
+            "twitter": ""
+          },
+          "planDeTrabajo": [""],
+          "biografia": [
+            "Atleta de alto rendimiento y volibolista profesional. Jugó en la Liga de Voleibol Superior con las Mets de Guaynabo. Desde el año 2000 ha tenido un propósito fiel y firme en impulsar el desarrollo deportivo puertorriqueño desde una perspectiva integradora, considerando beneficiarios a los niños, niñas y adolescentes, pero priorizando la atención hacia aquellos que se encuentran en condición de desventaja, riesgo, rezago y/o vulnerabilidad económica y social. Desde el 2015 se ha propuesto a contribuir a la disminución de los graves problemas que aquejan a la juventud puertorriqueña y a la sociedad en general, mediante la puesta en marcha de programas formativos, deportivos y de infraestructura, articulados con las comunidades e instituciones públicas y privadas, en el ejercicio de los valores de participación, honestidad y solidaridad, teniendo como premisa fundamental el talento y las potencialidades de los jóvenes. Montero posee un Bachillerato en Comunicaciones de la American University, una Maestría en Recursos Humanos de la Universidad Metropolitana y actualmente se encuentra cursando un Doctorado en Educación en la Universidad Ana G. Méndez. Desde el 2005 al presente se desempeña como Coordinadora de Deportes a nivel universitario. También promueve la eficiencia física y calidad de vida a través del ejercicio.",
+            "Con el mayor de los ánimos y siempre con buena actitud para aportar a la transformación social de Puerto Rico, en enero de 2020 se integra al Movimiento de Victoria Ciudadana, como candidata a la Legislatura Municipal."
+          ]
+        },
+        {
+          "key": "normadevarie",
+          "pueblo": "sanjuan",
+          "candidatura": "Legisladora Municipal San Juan",
+          "nombre": "Norma Devarie Díaz",
+          "contacto": {
+            "email": "",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "En la actualidad preside la Junta de Directores de Cardiocoop desde su fundación en 2010, Cooperativa de la cual es parte de los miembros fundadores y que persigue abaratar costo en el funcionamiento de las oficinas así como mejores condiciones de trabajo para sus socios."
+          ],
+          "biografia": [
+            "Nacida en San Juan, PR el 14 de octubre del 1961, la Dra. Devarie es la sexta de siete hijos del matrimonio entre el Dr. Marcos Devarie Sánchez, retirado del sistema de salud público de Puerto Rico, y la Sra. Clementina Díaz Laboy, ama de casa responsable de la educación en el hogar el cual produjo cinco médicos, una maestra y un experto en sistemas de información. La Dra. Devarie ha ejercido la cardiología por veinticuatro años, obteniendo su especialidad en el Hospital Municipal de San Juan en junio del 1995. Durante su trayectoria como médico ha pertenecido a varias organizaciones relacionadas al campo de la cardiología. Se ha destacado como presidenta de la facultad del Centro Cardiovascular de Puerto Rico y del Caribe y presidenta de la Asociación de Cardiólogas de PR.",
+            "En el Colegio Médico y Cirujanos de Puerto Rico se ha destacado en varios puestos de liderato, incluyendo presidenta del Comité de Planes Médicos, presidenta del Capítulo de Cardiología y vice-presidenta de la Junta de Directores."
+          ]
+        },
+        {
+          "key": "michaeltaule",
+          "pueblo": "sanjuan",
+          "candidatura": "Legislador Municipal San Juan",
+          "nombre": "Michael A. Taulé Pulido",
+          "contacto": {
+            "email": "michaeltaulepulido@gmail.com",
+            "fb": "michaeltaulepulido",
+            "ig": "TauleMichael",
+            "twitter": "TauleMichael"
+          },
+          "planDeTrabajo": [
+            "Toma de decisiones basada en datos científicos, participación ciudadana, representación digna, diversidad y transparencia.",
+            "Inclusión, empoderamiento y protección de sectores marginados tales como la comunidad inmigrante, LGBTQIA+, juventud, mujeres y personas de bajos recursos.",
+            "Protección del medioambiente y batalla contra el cambio climático."
+          ],
+          "biografia": [
+            "Nació el 19 de diciembre de 1996 en San Juan; hijo de una madre colombiana y padre puertorriqueño. Es el menor y único varón de cuatro hermanas. Sus primeros años escolares los cursó en Cupeyville School y luego cursa sus últimos tres años de escuela superior en la Academia del Perpetuo Socorro, donde se gradúa en el 2015.",
+            "Actualmente está cursando una maestría en Administración Pública con concentración en Gobierno y Política Pública en la Escuela Graduada de Administración Pública del Recinto de Río Piedras de la Universidad de Puerto Rico. Como parte del currículo de dicha maestría, Michael ha tomado cursos en ética, derecho administrativo, desarrollo sostenible y métodos de investigación en la administración pública.",
+            "Además, este continuará llevando a cabo estudios que integren el género, conservación ambiental, luchas sociales y comunidades marginadas en la creación y reformulación de políticas públicas. Como parte de sus aspiraciones y llevando su indignación a la acción, Michael se postula para las elecciones del 2020 como candidato a la Legislatura Municipal de San Juan junto al Movimiento Victoria Ciudadana, dónde servirá como voz y oídos para comunidades tales como la juventud, mujeres, personas LGBTQIA+, el medioambiente, inmigrantes y personas de bajos recursos."
+          ]
+        },
+        {
+          "key": "solymarquez",
+          "pueblo": "sanjuan",
+          "candidatura": "Legisladora Municipal San Juan",
+          "nombre": "Solymar Ruiz Márquez",
+          "contacto": {
+            "email": "drasolruiz26@live.com",
+            "fb": "solruiz2020",
+            "ig": "Sol2020",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Comunidades y desigualdad, Violencia de género, Comunidades LGBTT+"
+          ],
+          "biografia": [
+            "Doctora en Psicología Clínica. Cursó su bachillerato en la Universidad de Puerto Rico, Recinto de Río Piedras, donde obtuvo un grado en artes con concentración en Psicología, graduándose Cum Laude. Cursó sus estudios graduados en la Universidad Carlos Albizu, Recinto de San Juan, obteniendo un doctorado en Psicología Clínica (Psy.D), graduándose Magna Cum Laude. En su tesis doctoral investigó el impacto del uso de alcohol y drogas en parejas del mismo sexo y su relación con el prejuicio, discrimen y estigmatización. En el 2014 hizo su inmersión en el trabajo comunitario, mudándose para la isla municipio de Culebra y trabajando con niños, niñas y adolescentes con disturbio emocional severo bajo el Proyecto Iniciativa II de la Administración de Servicios de Salud Mental (ASSMCA).",
+            "Radicada en el municipio de San Juan, Sol continúa trabajando con la Comunidad de Culebra en el Proyecto Launch, ofreciendo servicios a la mujer embarazada, niñez temprana y con su práctica privada a nivel clínico y consultoría."
+          ]
+        },
+        {
+          "key": "naydabobonis",
+          "pueblo": "sanjuan",
+          "candidatura": "Legisladora Municipal San Juan",
+          "nombre": "Nayda Bobonis Cabrera",
+          "contacto": {
+            "email": "",
+            "fb": "naydaboboniscabrera2020",
+            "ig": "naydaboboniscabrera2020",
+            "twitter": ""
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Abogada y líder comunitaria. Nacida y criada en la comunidad Buena Vista Hato Rey. Cursó un Bachillerato en Periodismo en la Universidad de Puerto Rico, Recinto de Río Piedras, y posteriormente, en la misma institución, completó su Grado en Derecho, con honor Magna Cum Laude. Nayda inició su interés por el servicio comunitario desde temprana edad. En su adolescencia fue parte del grupo Líderes Jóvenes en Acción (LIJAC), adscrito al Grupo de las Ocho Comunidades al Caño Martín Peña (G-8). Adentrada en su vida universitaria y posterior a realizar un internado en la Corporación del Proyecto Enlace del Caño Martín Peña, como residente de Buena Vista Hato Rey fue electa a la junta de su comunidad, pasando al poco tiempo a la posición de presidenta. Entonces en el 2013, a sus 23 años, se convirtió en la presidenta más joven de entre los líderes que componen el G-8. Durante ese tiempo, hasta el pasado año, desarrolló iniciativas en su comunidad, así como también trabajó mano a mano con el liderato del G-8, teniendo la oportunidad de representar a su gente en foros como la Parada Puertorriqueña en Nueva York. Como continuación a su labor comunitaria, durante sus estudios en la Escuela de Derecho de la UPR fue miembro del ProBono Servicios de Orientación al Inmigrante, cuyo propósito es educar trabajando directamente con dicha comunidad, y optó por realizar su práctica en la Clínica de Inmigración. Posteriormente se convirtió en ProBonista del Colegio de Abogados y Abogadas de Puerto Rico. Actualmente Nayda es parte de la Junta de Directores de Mentes Puertorriqueñas en Acción (MPA), organización cuyo norte es la creación de jóvenes agentes de cambio, esto luego de haber sido partícipe de uno de sus programas en el 2014."
+          ]
+        },
+        {
+          "key": "maritzaramirez",
+          "pueblo": "sanjuan",
+          "candidatura": "Legisladora Municipal San Juan",
+          "nombre": "Maritza Rámirez Irizarry",
+          "contacto": {
+            "email": "",
+            "fb": "maritzaramirez2020",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Nació en Cabo Rojo en el 1969, y ha sido residente de San Juan por los pasados 25 años. Estudió en el sistema público de Puerto Rico, posee un bachillerato en Ingeniería de Computadoras de la Universidad de Puerto Rico en Mayagüez, y una maestría en Ciencia de Cómputos de Michigan State University. Sus primeras experiencias de trabajo fueron en la industria de telecomunicaciones a partir del 1992, en Bell Communications Research, AT&T Bell Labs y Motorola. También trabajó para Oracle Corporation, en las regiones del Caribe y América Latina, asistiendo empresas y entidades de gobierno en el desarrollo de estrategias de tecnología. En el 2005, recibió una distinción como Ingeniera Distinguida del Instituto de Ingeniería de Computadoras del Colegio de Ingenieros de Puerto Rico. Maritza cree que los problemas de San Juan del siglo 21 no pueden resolverse con soluciones del siglo 20. Como legisladora municipal, impulsará la transición de San Juan hacia una ciudad inteligente, con proyectos innovadores que se transformen en mejor calidad de vida, mayor seguridad, mayor eficiencia, y más ingresos. Se enfocará en el establecimiento de una economía diversificada, que se sostenga a pesar de las altas y bajas de las diferentes industrias. Trabajará en la creación de reglamentaciones y códigos en áreas que no han sido desarrolladas o tienen deficiencias, tales como los de desarrollo económico, construcción, manejo de desastres, y la protección del ambiente."
+          ]
+        },
+        {
+          "key": "marilaurateresa",
+          "pueblo": "sanjuan",
+          "candidatura": "Legisladora Municipal San Juan",
+          "nombre": "Mari Laura Rohena Crúz",
+          "contacto": {
+            "email": "",
+            "fb": "marilaurateresa",
+            "ig": "marilaurateresa",
+            "twitter": ""
+          },
+          "planDeTrabajo": null,
+          "biografia": [
+            "Mari Laura de las Teresas es una mujer puertorriqueña, residente de Santurce. Ella creció en el Barrio Buenaventura, de Carolina, donde todas las mujeres de su familia le inculcaron una ética de trabajo impecable. Estar rodeada de mujeres tan poderosas le dio a Mari una perspectiva feminista desde pequeña. Después de cursar escuela superior en el Colegio San Antonio, de Río Piedras, continuó estudios en Syracuse University. Allí tuvo la oportunidad de trabajar con el New York Public Interest Research Group, donde organizó esfuerzos para activar al pueblo a reclamar sus derechos y participar democráticamente de las decisiones que afectan su entorno social, medio ambiente y cultura. Donó su tiempo a DREAM Project, en la República Dominicana, donde fue tutora de familias dominicanas y haitianas. Familias como estas también viven en Santurce, y ella cree que deben ser consideradas al momento de establecer la política pública que les afecta. Con el propósito de impulsar un desarrollo económico sostenible, cursa una maestría en Administración de Empresas en la Universidad Interamericana, recinto metro. Mientras, ha trabajado de mesera y vendedora, lo cual ha profundizado su interés y compromiso por los asuntos que impactan a la clase trabajadora."
+          ]
+        },
+        {
+          "key": "josecorrea",
+          "pueblo": "sanjuan",
+          "candidatura": "Legislador Municipal San Juan",
+          "nombre": "Joselo Correa Villegas",
+          "contacto": {
+            "email": "",
+            "fb": "joselosj2020",
+            "ig": "Joselo.pr",
+            "twitter": "Pr_joselo"
+          },
+          "planDeTrabajo": [
+            "Organizacion Comunitaria",
+            "Desarrollo Cultural",
+            "Participación Ciudadana y Comunitaria."
+          ],
+          "biografia": [
+            "Líder comunitario del barrio Caimito y presidente de la organización Caimito Echa Pa’lante. Coordinador general del Mercado Agrícola de Caimito Haydée Colón, Representante de la comunidad dentro del Consejo Escolar de la Escuela Segunda Unidad Inés María Mendoza y pequeño comerciante. Joselo desde niño se ha destacado por su liderato e iniciativa. Su educación, entre privada y pública fué marcada por su interés y pasión por las Bellas Artes. La pintura, el teatro y el baile cautivaron su atención, lo que hizo que luego de graduarse de escuela superior, se dedicara a organizar plataformas para que jóvenes pudieran desarrollarse en el baile, esto, de manera voluntaria.",
+            "En el 2013 creó una página de Facebook llamada Caimito Echa Pa’lante, para que ésta se convirtiera en una herramienta de comunicación comunitaria, lo que hace dos años se convirtió en una organización sin fines de lucro dirigida al desarrollo de la comunidad a través de actividades culturales, recreativas y deportivas. Ahora, este joven es parte del Movimiento Victoria Ciudadana y aspira a convertirse en legislador municipal de San Juan en las elecciones del 2020 para representar a los ciudadanos y ciudadanas del sur de la ciudad capital que exigen representación digna y activa dentro del municipio de San Juan. Joselo está listo para utilizar su voz y energía en pro de sus comunidades."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "II : Bayamón",
+      "candidatxs": [
+        {
+          "key": "",
+          "pueblo": "",
+          "candidatura": "",
+          "nombre": "",
+          "contacto": {
+            "email": "",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [""],
+          "biografia": [""]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "III : Arecibo",
+      "candidatxs": [
+        {
+          "key": "",
+          "pueblo": "",
+          "candidatura": "",
+          "nombre": "",
+          "contacto": {
+            "email": "",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [""],
+          "biografia": [""]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "IV : Mayagüez - Aguadilla",
+      "candidatxs": [
+        {
+          "key": "",
+          "pueblo": "",
+          "candidatura": "",
+          "nombre": "",
+          "contacto": {
+            "email": "",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [""],
+          "biografia": [""]
+        }
+      ]
+    },
     {
       "number": 5,
       "name": "V - Ponce",
@@ -400,6 +889,25 @@
       "population": 462914,
       "content": { "image": "distritoS7", "imgHeight": 3476 }
     },
-    { "number": 8, "name": "VIII : Carolina", "population": 465427 }
+    {
+      "number": 8,
+      "name": "VIII : Carolina",
+      "candidatxs": [
+        {
+          "key": "",
+          "pueblo": "",
+          "candidatura": "",
+          "nombre": "",
+          "contacto": {
+            "email": "",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [""],
+          "biografia": [""]
+        }
+      ]
+    }
   ]
 }
