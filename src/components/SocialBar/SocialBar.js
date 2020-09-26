@@ -20,7 +20,7 @@ const styles = {
 const SocialBar = ({ fbHandle, twitterHandle, igHandle, emailAddr }) => {
   return (
     <View style={styles.root}>
-      {fbHandle != null ? (
+      {fbHandle ? (
         <ImgButton
           styles={styles.icon}
           onPressURL={`https://www.facebook.com/${fbHandle}`}
@@ -29,7 +29,7 @@ const SocialBar = ({ fbHandle, twitterHandle, igHandle, emailAddr }) => {
       ) : (
         <Text />
       )}
-      {twitterHandle != null ? (
+      {twitterHandle ? (
         <ImgButton
           styles={styles.icon}
           onPressURL={`https://twitter.com/${twitterHandle}`}
@@ -38,7 +38,7 @@ const SocialBar = ({ fbHandle, twitterHandle, igHandle, emailAddr }) => {
       ) : (
         <Text />
       )}
-      {igHandle != null ? (
+      {igHandle ? (
         <ImgButton
           styles={styles.icon}
           onPressURL={`https://www.instagram.com/${igHandle}`}

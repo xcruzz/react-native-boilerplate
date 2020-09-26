@@ -65,7 +65,7 @@ const DistrictInfo = (props) => {
                     candidate.planDeTrabajo.map((i) => {
                       return (
                         <Text key={`pdtt${i}`} style={styles.boxT}>
-                          {'-' + i + '\n'}
+                          {'• ' + i + '\n'}
                         </Text>
                       )
                     })
@@ -77,7 +77,7 @@ const DistrictInfo = (props) => {
                     fbHandle={candidate.contacto.fb}
                     twitterHandle={candidate.contacto.twitter}
                     igHandle={candidate.contacto.ig}
-                    emailAddr={candidate.contacto.ig}
+                    emailAddr={candidate.contacto.email}
                   />
                   <Text key={`tb1${i}`} />
                 </View>
