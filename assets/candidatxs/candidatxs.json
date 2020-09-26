@@ -1909,18 +1909,224 @@
       "name": "VIII : Carolina",
       "candidatxs": [
         {
-          "key": "",
-          "pueblo": "",
-          "candidatura": "",
-          "nombre": "",
+          "key": "aliceperez",
+          "pueblo": null,
+          "candidatura": "Senadora por Distrito de Carolina",
+          "nombre": "Alice Pérez Fernández",
+          "contacto": {
+            "email": "aliceperezcandidate2020@gmail.com",
+            "fb": "alicesenadora2020",
+            "ig": "alicesenadora2020",
+            "twitter": "alicesenadora2020"
+          },
+          "planDeTrabajo": [
+            "Desarrollar escuelas como centros de comunidades y medios deempoderamientociudadano y eje de acción sobre sus metas",
+            "Mejorar servicios de salud, ampliar hospitales yclínicas con servicios integrales de promoción, prevención e intervención en la salud con enfoque salubrista",
+            "Mantener un sistema educativo comunitariopara que los ciudadanos tengan el conocimiento de detectar la corrupción gubernamental",
+            "Desarrollar el área Este a través del rescate de espacios comercialesvacíos. Promover iniciativas de educación empresarial para desarrollar susnegocios",
+            "Desarrollo sustentable ante problemas en Vieques y Culebra",
+            "Planes de desarrollo sustentable paramunicipios del Este"
+          ],
+          "biografia": [
+            "Es hija de una mujer luchadoraquien siempre fue jefa de familia, quien le ha servido de modelo. Es madre de dos hijos. Posee un bachillerato en Psicología de la UPR de Río Piedras, estudios de maestría y doctorales en Psicología Escolar de la Universidad Interamericana, Recinto Metropolitano. También tiene Maestría en Sexopedagogía de ISEP y Certificaciones profesionales en Autismo, Evaluadora y Terapeuta Educativa, TDAH, Abuso Sexual y Trastornos Específicos de Aprendizaje, entre otros. Es la Coordinadora del Programa de bachillerato en Psicología de la Universidad Interamericana Recinto de Fajardo donde es Catedrática Auxiliar. Se desempeña como profesora de Psicología y de Sexualidad Humana y ofrece servicios privados como psicóloga en oficina privada en Carolina. Es activista de los Derechos Humanos, Brigadista de Paz y voluntaria para diferentes servicios comunitarios.",
+            "Dentro de sus mayores intereses es ayudar a la capacitación de las personas para que a través de su educación desarrollen destrezas, que permitan el empoderamiento para mejorar sus potencialidades, desarrollar sus metas y contribuir a la sociedad. Es una fiel creyente de que la educación es liberadora. Está guiada por los principios de diálogo, reflexión, trabajo y acción como medios de desarrollo.",
+            "Desarrolló el proyecto de Aula Comunitaria, donde probó que usando la escuela como eje central de las comunidades se puede lograr el empoderamiento, el desarrollo de la comunidad haciendosu economía una sustentable y la cohesión de sus ciudadanos para velar y actuar sobre sus necesidadescomunitarias. Sus experiencias de voluntaria comunitaria, como brigadista en escenarios de desastre le han brindado muchas experiencias para trabajar en situaciones de crisis."
+          ]
+        },
+        {
+          "key": "reginaldsmith",
+          "pueblo": null,
+          "candidatura": "Senador por Distrito de Carolina",
+          "nombre": "Reginald Smith Pizarro",
           "contacto": {
             "email": "",
+            "fb": "reggiesmithmvc",
+            "ig": "reggiesmithmvc",
+            "twitter": "reggiesmithjr2"
+          },
+          "planDeTrabajo": [
+            "Establecer política pública de Justicia Social y desarrollo socioeconómico para la eliminación de la pobre vivienda y mejorar la calidad de vida",
+            "Crear Política Pública que convierta al gobierno en facilitador en vez de obstáculo",
+            "Desarrollo de plan socioeconómico y turístico de Vieques, Culebra y la Base Roosevelt Roads",
+            "Municipalización de servicios esenciales",
+            "Sistema de Salud Universal y enfoque salubrista en la lucha contra las drogas",
+            "Rediseño del sistema educativo y el currículo académico",
+            "Rediseño de la estructura gubernamental a uno moderno, tecnológico e interconectado"
+          ],
+          "biografia": [
+            "Nacido el 28 de septiembre del 1985residente del pueblo de Canóvanas, criado, formado y educado en las escuelas públicas del barrio Malpica en Río Grande. Segundo hermano de ocho. Hijo de Julia Pizarro, costurera y traductora, e hijo de Reginald Smith Sr, maestro y bombero. Producto de la Universidad de Puerto Rico, Recinto de Carolina, donde completó un bachillerato en Justicia Criminal con concentración en Psicología Forense. Después de culminar su bachillerato, se enlistó en las fuerzas armadas, en la Guardia Nacional de Puerto Rico, donde actualmente posee el rango de teniente y es comandante de una unidad de Policías Militares en Fort Buchanan.",
+            "Veterano con once años de orgulloso servicio a su Isla y a los Estados Unidos. Su meta está en convertirse en psicólogo militar de la Guardia Nacional y retirarse honorable con más de 25 años de servicio. Durante esos años completó una Maestría en Política Pública y una Maestría en Consejería Psicológica. Actualmente es psicólogo en adiestramiento a nivel doctoral, preparando su disertación y su aceptación en el internado doctoral.",
+            "Reginald es orgulloso producto de la escuela pública, de las comunidades y barrios marginados de Puerto Rico. Líder y miembro de asociaciones de honores estudiantiles, trabajador y contribuyente. Receptor del 'Humanitarian Service Award' por su labor durante la crisis y reconstrucción después del Huracán María. Además de otros reconocimientos por su labor militar.",
+            "Comprometido con mejorar la calidad de vida de la gente del barrio y comunidades marginadas, y comprometido con la justicia social y el desarrollo socioeconómico de todo el distrito de Carolina."
+          ]
+        },
+        {
+          "key": "daniellugo",
+          "pueblo": null,
+          "candidatura": "Representante para distrito 38",
+          "nombre": "Daniel Lugo",
+          "contacto": {
+            "email": "daniellugomvc@gmail.com",
+            "fb": "daniellugopr",
+            "ig": "daniellugopr",
+            "twitter": "daniellugopr"
+          },
+          "planDeTrabajo": [
+            "Reformas profundas al sistema público de educación, incluyendo revisión curricular, métodos de evaluación, fortalecer la escuela de la comunidad",
+            "Rescate de la Administración Pública: medidas anticorrupción, fiscalización de Departamentos Ejecutivos, establecer importancia de la gobernanza ética",
+            "Reducción de la desigualdad social, que atraviesa la vida en todos sus aspectos",
+            "Implementación de procesos de evaluación de programas y leyes, para finalmente saber qué funciona y qué no",
+            "Re descubrimiento de la ruralía mediantemedidas de desarrollo económico, cultural y tecnológico"
+          ],
+          "biografia": [
+            "Oriundo de Carolina,Daniel Lugo ha dedicado sus últimos ocho años a estudiar temas de las Ciencias Sociales, como Ciencia Política, Economía, Sociología, Planificación y Administración Pública. Finalizó un bachillerato en Ciencia Política (2017) con un énfasis en filosofía educativa y teoría política, en la Universidad de Puerto Rico, Recinto de Río Piedras. Actualmente cursa la maestría en Administración Pública de la misma institución, al igual que busca obtener una certificación de maestro en Estudios Sociales a nivel secundario.",
+            "Trabajó como vendedor en dos comercios. Luego, como Apoyo Técnico para el uso del programa ArcGIS, herramienta de Planificación y análisis geoespacial. Actualmente es administrador alterno en un pequeño hotel en Condado.",
+            "Fue integrante de los comités de documentación y planificación de la actividad TEDxUPR en el 2017. Además, fue parte de investigaciones y estudios presentados en varios congresos en la UPR-RP, incluyendo un conversatorio sobre el manejo de desastres de la Network of Schools of Public Policy, Affairs, and Administration (NASPAA). Es miembro de laAsociación de la EscuelaGraduada deAdministración Pública (AEGAP)."
+          ]
+        },
+        {
+          "key": "manuelalonso",
+          "pueblo": null,
+          "candidatura": "Representante para distrito 39",
+          "nombre": "Manuel Alonso",
+          "contacto": {
+            "email": "manuelalonso1399@gmail.com",
+            "fb": "manuelalonso2020",
+            "ig": "manuelalonsopr",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Desarrollo Educativo: crear un Comité Urgente de Reestructuración Educativa",
+            "Desarrollo de un plan socio-económico con la comunidad para mejorar espacios físicos de nuestras escuelas ",
+            "Desarrollo de Comités Comunitarios para el mejoramiento de nuestros espacios públicos "
+          ],
+          "biografia": [
+            "Es un Servidor Público y Analista Político Puertorriqueño graduado de la Universidad de Puerto Rico en Río Piedras con un bachillerato en Ciencia Política con concentración en Política Pública. Continuó sus estudios de Maestría en Economía y luego pasó a estudiar Diplomacia y Relaciones Internacionales en la Universidad Internacional de Florida (FIU).",
+            "Alonso inició su carrera como servidor público al ser escogido por entidades sin fines de lucro para reestructurar sistemas educativos en comunidades sub-desarrolladas en Africa del Sur. Luego de su excelente desempeño como servidor público y obteniendo una Certificación en Diplomacia y Relaciones Internacionales en el Centro de Estudios Avanzados de Puerto Rico y el Caribe, Alonso pasó a trabajar en las Naciones Unidas, específicamente en la rama de Explotación y Abuso Sexual en países menos desarrollados donde su desempeño lo llevó a trabajar en la Asamblea General de las Naciones Unidas.",
+            "Luego de tener la oportunidad de quedarse trabajando en Nueva York, Alonso decidió volver a Puerto Rico y ser escogido por el Movimiento Victoria Ciudadana para correr por el puesto de Representante del Distrito 39."
+          ]
+        },
+        {
+          "key": "tiffanyrohena",
+          "pueblo": null,
+          "candidatura": "Representante para Distrito 40",
+          "nombre": "Tiffany Rohena ",
+          "contacto": {
+            "email": "tiffanyrohena@gmail.com",
+            "fb": "trohena",
+            "ig": "trohena",
+            "twitter": "trohena1"
+          },
+          "planDeTrabajo": [
+            "Rescatar la infraestructura urbana, educativa y de transporte con miras a la construcción de ciudades verdes",
+            "Currículo educativo con perspectiva de género, manejo de finanzas personales e intervenciones de aprendizaje basadas en un modelo ecológico",
+            "Eliminar la burocracia en las agencias de gobierno para facilitar el acceso a los servicios y aumentar la eficiencia laboral de lxs empleadxs",
+            "Incentivar la creación de mercados de reciclaje sin restarle prioridad a las iniciativas de basura cero",
+            "Impulsar la autonomía energética y garantizar acceso de agua limpia para todxs mediante alternativas sostenibles",
+            "Aumentar el salario mínimo, derogar la reforma laboral y combatir las medidas de austeridad que exacerben la pobreza y la desigualdad social",
+            "Combatir la corrupción tomando medidas como auditar la deuda, fiscalizar la retribución de los fondos públicos, y prohibir las puertas giratorias "
+          ],
+          "biografia": [
+            "Joven puertorriqueña nacida un 28 de febrero de 1995 en San Juan. Ha residido toda su vida en el barrio Hoyo Mulas de Carolina, aunque pasó gran parte de su niñez en el barrio Pesas de Ciales. Es la menor de seis hermanxs de lxs cuales cuatro viven en los Estados Unidos. Siguiendo los pasos de su madre, quien es enfermera, se inclinó hacia el campo de la salud desde muy pequeña y aspiraba a ser veterinaria. Mientras estudió en el Colegio María Auxiliadora, se destacó en el deporte de bolos, softbol, el servicio comunitario y con honores académicos, por lo que fue escogida para pertenecer a la Sociedad Nacional de Honor, Capítulo Huellas.",
+            "A la vez que era estudiante en escuela superior, una de sus actividades extracurriculares consistía en ser estudiante de la 'Escuela Pa` Los Duros' de Carolina. Se destacó en su deporte principal de los bolos, representando a Puerto Rico en los Centroamericanos Juveniles de San José, Costa Rica 2010 y en el Torneo de las Américas del 2011 en el estado de la Florida. Su perseverancia en la academia y en el deporte la llevó a ser la primera de sus hermanxs en obtener un bachillerato becado en el campo de la Biología de St. Ambrose University en Davenport, lowa. Se destacó como líder estudiantil de asociaciones universitarias como El Club de Español, Multicultural Affairs Community Action y League of United Latin American Citizens, siendo fundadora y presidenta de este capítulo universitario. Luego de un año, se convirtió en Resident Advisor, teniendo a su cargo velar por la sana convivencia y seguridad, tanto en los hospedajes como alrededor del campus.",
+            "Próximamente, se gradúa de una maestría en Salud Pública con una concentración en Salud Ambiental. Fue durante su maestría que comprendió la importancia de hacer gestiones de gobernanza y política pública basándose en la participación comunitaria. De esta forma, se garantiza la oportunidad de autogestión para alcanzar una salud pública óptima junto con justicia social y ambiental."
+          ]
+        },
+        {
+          "key": "zelidesperdigon",
+          "pueblo": "canovanas",
+          "candidatura": "Legislador municipal para Canóvanas ",
+          "nombre": "Zelides Perdigón",
+          "contacto": {
+            "email": "zelides.enid@gmailcom",
+            "fb": "junta.usubales",
+            "ig": "",
+            "twitter": "ZelidesEnid"
+          },
+          "planDeTrabajo": [
+            "Crear resoluciones para legislar asuntos con prioridad",
+            "Fiscalizar el uso de fondos federales y de las legislaciones sometidas",
+            "La participación amplia de las comunidades en el desarrollo de las propuestas",
+            "Espacios para capacitación y autogestión de las comunidades",
+            "Fomentar el empresarismo",
+            "Reclamar derecho a vivienda digna",
+            "Construcción de una égida para mayores y personas sin hogar y centros de resiliencia para poblaciones de alto riesgo",
+            "Sistema universal de salud"
+          ],
+          "biografia": [
+            "Casada, madre y abuela combativa. Actualmente reside en el municipio de Canóvanas. Su preparación académica incluye grados técnicos en administración de pequeñas empresas, Oficinista, certificada como Law Summoner, Emplazador Legal, certificada en talleres para la mediación de conflictos. Actualmente continúa capacitándose en currículos de educación legal para la transformación de Puerto Rico.",
+            "Fue comerciante con negocio propio antes de María. Actualmente es líder comunitaria comprometida con la justicia social. Recibió un reconocimiento por su labor de parte de la Cámara de Representantes de Puerto Rico y de otras organizaciones. Le apasiona todo lo relacionado a las leyes, a la justicia social, el trabajo comunitario, servir a la gente, para que sea tratada con igualdad de oportunidades dignamente, y para que se se respeten los derechos humanos y constitucionales.",
+            "Posee capacidades para manejar situaciones conflictivas, de carácter fuerte, pero negociable. Sus fortalezas se adaptan, según sus capacidades y situaciones a la hora de tomar decisiones. Trabaja propuestas dirigidas al bienestar social, activa en las luchas por la educación en contra los cierres de escuelas, activa en contra de violencia de género y en apoyo de las luchas de los colectivos a favor de que audite la deuda, luchas en la defensa por la reconstrucción justa, en contra del desplazamiento de las comunidades, luchadora en pro de los derechos humanos, de los derechos de los niños, por los incapacitados, por la educación y por la igualdad de género. Por un nuevo país, por un cambio con visión al progreso, libre de actos corruptibles. Por un nuevo futuro en donde todos estemos enfocados en 'servir y no de ser servidos'"
+          ]
+        },
+        {
+          "key": "elaidadelvalle",
+          "pueblo": "loiza",
+          "candidatura": "Legisladora Municipal para Loíza",
+          "nombre": "Elaida del Valle Carrión",
+          "contacto": {
+            "email": "elaidardelvalle@gmail.com",
+            "fb": "Elaida-Legisladora-Municipal-Loiza-100709161535335",
+            "ig": "elaidar",
+            "twitter": "valleelaida"
+          },
+          "planDeTrabajo": [
+            "Rescate de los sectores en extrema pobreza dándole prioridad a la infraestructura ",
+            "Educación vocacional que permita la inmersión al mundo laboral",
+            "Creación de una policía municipal con enfoque en prevención y servicio a las comunidades",
+            "Creación de un comité comunitario donde puedan reunirse los líderes comunitarios a discutir sus propuestas y establecer planes que afecten directamente sus comunidades "
+          ],
+          "biografia": [
+            "Nació el 21 de abril de 1984 en San Juan y se crio en el barrio San Isidro en Canóvanas. Actualmente reside con su esposo y cuatro hijos en Villas de Loíza, en ese mismo municipio. Se graduó de la escuela superior Luis Hernaiz Veronne con honores y fue admisión temprana en la Facultad de Ciencias Naturales de la Universidad de Puerto Rico, Recinto de Río Piedras donde perteneció al grupo de los 100. Obtuvo un grado de bachillerato en Recursos Humanos y posteriormente estudió Interpretación Bíblica en el Instituto de Enseñanza CAUP en Trujillo Alto.",
+            "Tuvo varios cargos de liderazgo en la iglesia Centro de Adoración Unción y Poder. Entre ellos, Líder y fundadora junto a su esposo del ministerio de jóvenes 'JUMP'. Líder de damas, líder de matrimonios y líder y co-fundadora del ministerio de misiones 'Revolución de Esperanza'. Es en este ministerio donde recibe su llamado a servir y a trabajar con la población más vulnerable y en riesgo. Además, es ahí donde pudo ver de primera mano el manejo negligente del gobierno con las comunidades en extrema pobreza y los sectores en riesgo. Es fiel creyente de la importancia de la unión como pueblo y del poder que tiene la gente cuando se unen y luchan por sus derechos. Por tanto, promueve la autogestión de las comunidades y la lucha activa en las calles de ser necesario."
+          ]
+        },
+        {
+          "key": "israelmunoz",
+          "pueblo": "fajardo",
+          "candidatura": "Legislador municipal para Fajardo ",
+          "nombre": "Israel Muñoz Vargas ",
+          "contacto": {
+            "email": "pj-imv@live.com ",
             "fb": "",
             "ig": "",
             "twitter": ""
           },
-          "planDeTrabajo": [""],
-          "biografia": [""]
+          "planDeTrabajo": [
+            "Crear comités vecinales con líderes de la comunidad que presenten propuestas para resolver los problemas en las comunidades más marginadas",
+            "Búsqueda de unión de los empresarios locales para la creación de empleos y oportunidades de desarrollo de jóvenes emprendedores",
+            "Creación de más actividades recreativas y deportivas, para eliminar el ocio en la ciudadanía, en especial los y las jóvenes, mejorando las instalaciones deportivas existentes y de Bellas Artes",
+            "Búsqueda de beneficios y mejores condiciones para nuestros ancianos "
+          ],
+          "biografia": [
+            "Nació el 12 de diciembre de 1968 en San Juan, criado en Country Club, Carolina. Desde hace trece años vive con su esposa Waleska y sus hijos en Fajardo. Graduado de la Universidad de Puerto Rico, Recinto de Río Piedras de Administración de Empresas con concentración en Contabilidad. Estuvo en el ejército de los Estados Unidos. Trabajó en la industria del libro como gerente de ventas, donde adquirió un gusto por la lectura y se interesó por temas de la comunidad, aprendiendo a buscar la verdad y poder analizar los diferentes asuntos que impactaban nuestro diario vivir, creando un interés en el servicio a la comunidad. Actualmente y desde hace 22 años trabaja en la banca con First Bank, en el área de investigaciones y cobro del departamento de cobro.",
+            "Ha asumido en varias ocaciones la presidencia de la junta del condominio donde vive, desarrollando e implementando las bases que hoy rigen las leyes administrativas del lugar. Perteneció al consejo de seguridad de Alturas de San Pedro, Fajardo, creando vínculos con la vecindad y las comunidades. Cree en la búsqueda de consenso en la ciudadanía, escuchar sus problemas y necesidades, para en conjunto buscar soluciones que puedan resolverlos. "
+          ]
+        },
+        {
+          "key": "jesusdalmau",
+          "pueblo": "carolina",
+          "candidatura": "Legislador municipal para Carolina ",
+          "nombre": "Jesús Dalmau ",
+          "contacto": {
+            "email": "jesusdalmaumvc@gmail.com",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Creación de planes de mitigación para comunidades aledañas a la costa ante los efectos del cambio climático",
+            "Mejoría en infraestructura pública deteriorada",
+            "Manejar la situación con las animales abandonados en las calles ",
+            "Mejoría de servicios esenciales a la ciudadanía como el sistema de reciclaje y desperdicios sólidos",
+            "Mayor inversión en la Escuela de Bellas Artes, Escuela pa' los Duros y Escuela de los Deportes",
+            "Mayor inversión en programas de educación para los adultos"
+          ],
+          "biografia": [
+            "Nacido el 22 de junio del 1999, en San Juan, PR. Criado en Carolina, donde actualmente reside, se gradúa tanto de la escuela superior en el Colegio María Auxiliadora en el 2017, como de la Escuela de Ciencias, Matemáticas, Tecnología y Lenguajes José Aponte De La Torre del municipio de Carolina ese mismo año. Actualmente cursa un bachillerato en Ciencia Política de la Facultad de Ciencias Sociales en la Universidad de Puerto Rico Recinto de Rio Piedras, con miras a ingresar a la Escuela de Derecho de dicha institución.",
+            "Luego de ver de primera mano los recortes a los pensionados y empleados públicos, la inacción gubernamental a resolver problemas esenciales a la ciudadanía, y el deterioro tanto en infraestructura como en servicios a la ciudadanía, decide lanzarse a la política bajo el Movimiento Victoria Ciudadana.",
+            "Mantiene una filosofía donde el estado debe encargarse del bienestar de sus constituyentes, pero a su vez, cree que en momentos donde el estado este incapacitado de operar o proveer sus servicios, se debe promover la autogestión ciudadana como de las comunidades para así lidiar con el vacío que la falta del estado haya provocado. "
+          ]
         }
       ]
     }
