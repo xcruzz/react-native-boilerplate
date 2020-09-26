@@ -1,6 +1,178 @@
 {
   "porDistritoSenatorial": [
     {
+      "number": 0,
+      "name": "Puerto Rico",
+      "candidatxs": [
+        {
+          "key": "alugaro",
+          "pueblo": "nacional",
+          "candidatura": "Candidata a Gobernadora de Puerto Rico",
+          "nombre": "Alexandra Lúgaro",
+          "contacto": {
+            "email": "",
+            "fb": "alugaro",
+            "ig": "alexandralugaro",
+            "twitter": "alexandralugaro"
+          },
+          "planDeTrabajo": [
+            "Rescate de las instituciones públicas",
+            "Reconstrucción social, económica y fiscal",
+            "La descolonización"
+          ],
+          "biografia": [
+            "Alexandra Lúgaro es una abogada, empresaria y política puertorriqueña nacida el 10 de junio de 1981 en San Juan, Pueito Rico. Graduada de la Escuela Secundaria de la Universidad de Puerto Rico a los 15 años, fue admitida a esa edad al Recinto de Río Piedras de dicha universidad, donde obtuvo su bachillerato en Administración de Empresas con triple concentración en Finanzas, Mercadeo y Economía y posteriormente su Juris Doctor.",
+            "En el 2014 completó su Maestría en Derecho (LL.M.) en la Universidad Complutense de Madrid, donde posteriormente cursó estudios doctorales en Derecho Financiero y Tributario",
+            "Por más de una década, Lúgaro se desempeñó como Directora Ejecutiva de las corporaciones América Aponte and Associates y The Metropolitan New School of America, desde donde dirigió decenas de proyectos educativos dirigidos a mejorar el aprovechamiento académico de los estudiantes en el sistema público de enseñanza. Como parte de sus labores, supervisó cientos de empleados y administró con éxito sobre $46 millones en fondos federales y estatales sin recibir señalamiento alguno.",
+            "Ante el notable deterioro en el cuadro social, económico y educativo de la isla, aspiro a la gobernación del país como candidata independiente en las elecciones generales de 2016, convirtiéndose en la primera persona en llegar a la tercera posición de manera independiente en Puerto Rico.",
+            "En el 2020, aspira a regresar, pero bajo la insignia del Movimiento Victoria Ciudadana, convencida que juntos y juntas, se lograra el cambio social y político que Puerto Rico debe aspirar a ser."
+          ]
+        },
+        {
+          "key": "zayirajordan",
+          "pueblo": "nacional",
+          "candidatura": "Comisionada Residente en Washington",
+          "nombre": "Zayira Jordan",
+          "contacto": {
+            "email": "zayira@zayirajordanconde.com",
+            "fb": "jordanccndecomisionada",
+            "ig": "zayirajordanconde",
+            "twitter": "drajordanconde"
+          },
+          "planDeTrabajo": [
+            "Restituir la confianza y la credibilidad en nuestras acciones.",
+            "Asegurar que la utilización de fondos federales se haga de manera transparente y que sean usados de manera responsable y eficaz.",
+            "Capacitar a la nueva generación de fuerza laboral fomentando la educación en idiomas, ciencias y tecnología, manufactura, medicina, ingeniería, agricultura, ambientalismo, artes y cultura. Abogar por el desarrollo económico sostenible.",
+            "Lograr que el gobierno sea un facilitador para las pequeñas y medianas empresas y no un obstáculo.",
+            "Trazar un plan estratégico a largo plazo."
+          ],
+          "biografia": [
+            "Académica, investigadora y empresaria. La doctora Zayira Jordán Conde posee Bachillerato en Periodismo, Maestría en Antropología y Estudios de la Mujer y Doctorado en Interacción Humano Computadora. Fue seleccionada por el Caucus Hispano como recipiente de la beca de Política Pública y como resultado trabajó en el Congreso de los Estados Unidos y en el Centro Latino del Instituto Smithsoniano. La doctora Jordán ha publicado investigaciones sobre tecnología, educación y derechos de los y las sobrevivientes de violencia de género. Ha sido una ferviente promotora de la educación de estudiantes de minoría en Estados Unidos y el derecho a la accesibilidad de las personas con discapacidades. Creó la compañía GuardDV con la misión de atender las necesidades de seguridad de los y las sobrevivientes de violencia de género. Como emprendedora, tiene la meta de promover el empresarismo entre los jóvenes puertorriqueños. La doctora Jordán ha recibido numerosos reconocimientos y premios por su trabajo en tecnología, educación, accesibilidad y violencia de género. Actualmente, enseña ciberseguridad y ciencias de computadoras en la Universidad Politécnica de Puerto Rico.",
+            "La doctora Jordán Conde es natural de Utuado pero criada en Villa Los Santos en Arecibo. Con 54 años es madre de cinco hijos y abuela de cuatro nietos a quienes considera su mayor tesoro. Graduada de la Escuela Trina Padilla de Sanz a sus dieciséis años.",
+            "El sueño de terminar su educación, interrumpida por la crianza de sus hijos y la necesidad de ganarse el sustento, la obligó a abandonar Puerto Rico donde la falta de oportunidades no le permitía hacerlo. Decidió continuar con su educación porque ama el conocimiento pero más porque quería enseñar a sus hijos que la educación es liberadora.'"
+          ]
+        },
+        {
+          "key": "rafaelbernabe",
+          "pueblo": "nacional",
+          "candidatura": "Senador por Acumulación",
+          "nombre": "Rafael Bernabe",
+          "contacto": {
+            "email": "rafael.bernabepr@gmail.com",
+            "fb": "RafaelBernabeSenador2020",
+            "ig": "bernabemvc",
+            "twitter": "BernabeMVC"
+          },
+          "planDeTrabajo": [
+            "Cancelación de la deuda",
+            "Seguro de salud universal",
+            "Restitución de los derechos y protecciones del trabajo Aumento del salario mínimo Un código civil que respeta los derechos humanos de todos y todas",
+            "Transformación del sistema electoral"
+          ],
+          "biografia": [
+            "Rafael Bernabe posee un bachillerato en historia de la Universidad de Princeton, y maestría y doctorado de la Universidad del Estado de Nueva York. A su regreso a Puerto Rico, fue maestro de historia de escuela superior. Lleva 30 años como profesor de literatura e investigador de la Universidad de Puerto Rico, Recinto de Río Piedras. Es historiador, sociólogo y estudioso de la literatura y la cultura. Ha publicado varios libros de historia de Puerto Rico.",
+            "Bernabe fue Presidente, Vicepresidente y miembro de la Junta Directiva de la Asociación Puertorriqueña de Profesores Universitarios a fines de la década del 90. Fue miembro fundador del Partido del Pueblo Trabajador y su candidato a la Gobernación en el 2012 y en el 2016. Más recientemente, fue miembro fundador y miembro de su Comité Coordinador del Movimiento Victoria Ciudadana, y hoy es candidato al Senado por Acumulación de este Movimiento.",
+            "Bernabe se ha solidarizado y participado activamente de muy diversas luchas sociales. Su presencia se ha hecho sentir en luchas sindicales, comunitarias, ambientales, por los derechos de las mujeres, de la comunidad LGBTTIQ, de los derechos de los inmigrantes, de los trabajadores de sectores públicos y privados, contra la pena de muerte, por el derecho a la fianza y por la lucha del pueblo de Vieques, entre muchas otras.",
+            "Ha participado activamente en apoyo a las luchas en defensa de la Universidad de Puerto Rico, en apoyo a las luchas estudiantiles y en la defensa de la educación pública."
+          ]
+        },
+        {
+          "key": "anairma",
+          "pueblo": "nacional",
+          "candidatura": "Senadora por Acumulación",
+          "nombre": "Ana Irma Rivera Lassen",
+          "contacto": {
+            "email": "riveralasensenadora@gmail.com",
+            "fb": "riveralassensenadora",
+            "ig": "riveralasensenadora",
+            "twitter": "RLSenadora"
+          },
+          "planDeTrabajo": [
+            "Fuerza en la diversidad, construcción de un país inclusivo.",
+            "Desarrollo de una economía justa, sustentable, diversa y dinámica.",
+            "Descolonización, impulsar la Asamblea Constitucional de Estatus.",
+            "Sacar a la Junta de Control Fiscal de Puerto Rico.",
+            "Impulsar políticas públicas basadas en derechos humanos.",
+            "Rechazar la exclusión y discrimen."
+          ],
+          "biografia": [
+            "Ana Irma es abogada, activista feminista y defensora de los derechos humanos en general. Se ha destacado en las luchas contra el discrimen hacia las mujeres, contra el racismo y el discrimen por orientación sexual entre otras causas. Es co-fundadora y activista en Puerto Rico de varias organizaciones importantes en estos temas. Tiene un Juris Doctor de la UPR. Es abogada en la práctica privada y profesora adjunta en la Facultad de Derecho de la Universidad Interamericana. Tiene escritos, artículos, ensayos, cuentos y poesía en revistas, antologías y periódicos de Puerto Rico e internacionales.",
+            "Rivera Lassen es co-autora del libro 'Documentos del Feminismo en Puerto Rico: Facsímiles de la Historia; que trata de aportaciones de las mujeres a la historia, y hace aportaciones al estudio de las intersecciones de temas como mujeres, género, orientación sexual, raza, movimientos políticos, justicia social y otros.",
+            "Ana Irma recibió la medalla Capetillo-Roqué del Senado del Estado Libre Asociado de Puerto Rico, una distinción especial por su trabajo y aportaciones excepcionales para lograr la equidad de género y mejorar las condiciones sociales de la mujer puertorriqueña y por sus luchas a favor de los derechos humanos. Ha sido reconocida por sus luchas por los derechos civiles y en contra de la discriminación racial con el premio Martin Luther King/Arturo Alfonso Schomburg. También le fue otorgada la medalla Nilita Vientos Gastón por sus",
+            "luchas a favor de los derechos humanos, su labor como abogada, su labor creativa, su labor como humanista y defensora de las artes.",
+            "Rivera Lassen es considerada como experta en los temas de derechos humanos, género y raza por la Organización de Naciones Unidas"
+          ]
+        },
+        {
+          "key": "mariananogales",
+          "pueblo": "nacional",
+          "candidatura": "Representante por Acumulación",
+          "nombre": "Mariana Nogales Molinelli",
+          "contacto": {
+            "email": "mariana.nogales@gmail.com",
+            "fb": "Nogales2020",
+            "ig": "mariananogales2020",
+            "twitter": "MarianaNM2020 "
+          },
+          "planDeTrabajo": [
+            "Protección del medio ambiente, y el medio ambiente corno base principal del desarrollo social y económico.",
+            "Justicia social, los derechos de todos y todas, como la salud, la educación, al trabajo digno, y la vivienda digna.",
+            "Equidad de género.",
+            "Vivir en un país donde gente tenga sus derechos garantizados, se respeten los derechos humanos, la dignidad del ser humano y la diversidad."
+          ],
+          "biografia": [
+            "Mariana Nogales es oriunda de Cayey. Cursó estudios en Ciencias Ambientales, tiene un bachillerato en psicología, y un grado Juris Doctor de la Universidad de Puerto Rico todos del Recinto de Rio Piedras. Como presidenta del Consejo de Estudiantil de la Escuela de derecho, Mariana se destacó como líder en la huelga del 2010, un evento que tuvo el apoyo de grandes sectores de la población y el estudiantado. Durante su paso por la UPR, Fue Coordinadora General de la Coalición Puertorriqueña contra la Pena de Muerte (un tema que viene trabajando hasta el presente) y presidió la Asociación Internacional de Estudiantes de Derecho de UPR-RP. El mismo año de su graduación, Mariana se graduó con una distinción Magna Cum Laude, recibió el Premio de Derecho Internacional 2010 y el Premio Thurgood Marshall otorgado por la Comisión de Derechos Civiles de Puerto Rico 2010.",
+            "Como abogada, Mariana ha continuado trabajando los temas de pena de muerte (a nivel de PR e internacionalmente.) Se ha distinguido en los temas de las mujeres con organizaciones feministas. Ha cooperado con organizaciones de derechos LGBTTIQ, participado de manifestaciones e iniciativas y cabildeado por legislación favorable. Mariana pertenece también al grupo de abogados y abogadas que prestan servicios a la población de menos recursos a través del Colegio de Abogados y Abogadas de Puerto "
+          ]
+        },
+        {
+          "key": "josebernardopr",
+          "pueblo": "nacional",
+          "candidatura": "Representante por Acumulación",
+          "nombre": "José Bernardo Márquez",
+          "contacto": {
+            "email": "josebernardo.representante@gmail.com",
+            "fb": "josebernardopr",
+            "ig": "josebernardopr",
+            "twitter": "josebernardo_pr"
+          },
+          "planDeTrabajo": [
+            "Fortalecer los procesos democráticos.",
+            "Profesionalizar el servicio público.",
+            "Restaurar la economía.",
+            "Apoyar la juventud.",
+            "Salvar la tierra.",
+            "Acabar con el inversionismo político.",
+            "Despolitizar el Sistema educativo.",
+            "Valorar al trabajador Defender derechos humanos.",
+            "Convocar una asamblea constitucional de estatus."
+          ],
+          "biografia": [
+            "José Bernardo Márquez (11 de septiembre de 1959)  es abogado, educador, y líder comunitario. Obtuvo su bachillerato en Sociología y su Juris Doctor en el Recinto de Río Piedras de la Universidad de Puerto Rico (UPR).",
+            "Como servidor público, José Bernardordo ha sido asesor legal de ramas gubernamentales independientes tales como el Tribunal Supremo de Puerto Rico y el Instituto de Estadísticas de Puerto Rico. Asimismo, ha sido investigador en temas de política pública para organizaciones cívicas y publicaciones jurídicas.",
+            "De otra darle, José Berrees siempre se ha destacado como Mor comunnarb en el barda Pájaros de Tos Paja e través de iriciativas del payado educativo 'No lo dejes caer'. el Maratón Abraham Posa y la Iglesia Sotana Discloulos de Cristo.",
+            "José Bernardo es también educador en temas de socialogía y derecho en calidad de pofesor universitario tallerista y columnista. Sus publicaciones están disponibles en las platafomas electrónicas de El Nuevo Día, y la Revista Jurídica UPR y Microjuris.",
+            "En le actualidad José Bernardo ejerce en la práctica legal privada como miembro-fundador de Dimensión Legal LLC.",
+            "Su familia, la lectura y corridas de 10 kilómetros son constantes de vida "
+          ]
+        },
+        {
+          "key": "",
+          "pueblo": "",
+          "candidatura": "",
+          "nombre": "",
+          "contacto": {
+            "email": "",
+            "fb": "",
+            "ig": "",
+            "twitter": ""
+          },
+          "planDeTrabajo": [""],
+          "biografia": [""]
+        }
+      ]
+    },
+    {
       "number": 1,
       "name": "I : San Juan",
       "candidatxs": [
