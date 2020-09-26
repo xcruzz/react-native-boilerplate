@@ -1,3 +1,4 @@
+import AButton from '../../components/ALugaroButton'
 import SocialBar from '../../components/SocialBar'
 import globalStyles from '../../theme/styles'
 import React from 'react'
@@ -86,6 +87,14 @@ const DistrictInfo = (props) => {
               </View>
             )
           })}
+          <Text />
+          <AButton
+            title="Haz tu donación"
+            onPressURL="https://www.mvcpr.org/donativos/"
+            isDark={true}
+          />
+          <Text />
+          <View style={styles.separator} />
           <Text style={styles.center}>Fin</Text>
         </ScrollView>
         <Text></Text>
