@@ -26,7 +26,7 @@ const DistrictInfo = (props) => {
         <ScrollView>
           {currentDistrict.candidatxs.map((candidate, i) => {
             return (
-              <View key={candidate.key} style={styles.holder}>
+              <View key={candidate.key + i} style={styles.holder}>
                 <Text key={`t0${i}`} />
                 <Text key={`t00${i}`} />
                 <View key={`vn${i}`} style={styles.rightView}>
@@ -54,15 +54,26 @@ const DistrictInfo = (props) => {
                   </Text>
                 </View>
                 <View key={`pdtv${i}`} style={styles.box}>
-                  <Text key={`pdt${i}`} style={styles.boxTB}>
-                    Plan de Trabajo {'\n'}
-                  </Text>
-                  <Text key={`pdtt${i}`} style={styles.boxT}>
-                    {candidate.planDeTrabajo.map((i) => {
-                      return '-' + i + '\n'
-                    })}
-                  </Text>
+                  {candidate.planDeTrabajo ? (
+                    <Text key={`pdt${i}`} style={styles.boxTB}>
+                      {'Plan de Trabajo\n'}
+                    </Text>
+                  ) : (
+                    <View key={`bv1${i}`} style={{ height: 0 }} />
+                  )}
+                  {candidate.planDeTrabajo ? (
+                    candidate.planDeTrabajo.map((i) => {
+                      return (
+                        <Text key={`pdtt${i}`} style={styles.boxT}>
+                          {'-' + i + '\n'}
+                        </Text>
+                      )
+                    })
+                  ) : (
+                    <View key={`bv2${i}`} style={{ height: 0 }} />
+                  )}
                   <SocialBar
+                    key={`SB${i}`}
                     fbHandle={candidate.contacto.fb}
                     twitterHandle={candidate.contacto.twitter}
                     igHandle={candidate.contacto.ig}
@@ -71,12 +82,13 @@ const DistrictInfo = (props) => {
                   <Text key={`tb1${i}`} />
                 </View>
                 <Text />
-                <View style={styles.separator} />
+                <View key={`sp${i}`} style={styles.separator} />
               </View>
             )
           })}
           <Text style={styles.center}>Fin</Text>
         </ScrollView>
+        <Text></Text>
       </View>
     )
   } else if (currentDistrict.content != null) {

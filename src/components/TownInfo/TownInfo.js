@@ -5,7 +5,6 @@ import { Image, Text, View, Dimensions } from 'react-native'
 import { images } from 'theme'
 import prtowns from '../../../assets/candidatxs/PRTowns.json'
 
-const deviceSize = Dimensions.get('window')
 const pueblos = prtowns.pueblos
 const styles = globalStyles.townInfo
 
@@ -19,8 +18,8 @@ const TownInfo = ({ townKey }) => {
         <Text style={styles.title}>{selectedTown.name}</Text>
         <Image style={styles.logo} source={images['logo_negro']} />
       </View>
-      {selectedTown.distritoS.map((dno) => {
-        return <DistrictInfo key={dno} districtNumber={dno} />
+      {selectedTown.distritoS.map((dno, i) => {
+        return <DistrictInfo key={i} districtNumber={dno} />
       })}
     </View>
   )
