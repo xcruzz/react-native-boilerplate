@@ -8,8 +8,9 @@ const styles = {
   root: {
     flex: 0,
     flexDirection: 'row',
-    // alignItems: 'center',
     justifyContent: 'center',
+    paddingTop: 8,
+    paddingBottom: 9,
   },
   icon: {
     width: 60,

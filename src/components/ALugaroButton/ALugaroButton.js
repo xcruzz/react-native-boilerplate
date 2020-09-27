@@ -12,6 +12,7 @@ const styles = {
     borderRadius: 20,
     width: 200,
     alignItems: 'center',
+    marginVertical: 10,
   },
   buttonDark: {
     backgroundColor: colors.black,

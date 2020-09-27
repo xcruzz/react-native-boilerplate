@@ -77,13 +77,16 @@ const alugaro = StyleSheet.create({
   agenda_urgente: { width: deviceSize.width, height: 4652 },
   title: {
     fontSize: 24,
-    marginBottom: 20,
+    marginBottom: 5,
+    paddingTop: 10,
     fontFamily: 'HelveticaNeue-Light',
     color: colors.white,
   },
   logo: {
     width: 150,
     height: 70,
+    marginVertical: 10,
+    marginBottom: 20,
   },
   display: {
     width: deviceSize.width,
@@ -92,6 +95,8 @@ const alugaro = StyleSheet.create({
   display_lugaro: {
     width: deviceSize.width * 0.9,
     height: 150,
+    marginVertical: 5,
+    marginBottom: 10,
   },
   backgroundImg: {
     width: 350,
@@ -246,7 +251,6 @@ const mapPage = StyleSheet.create({
     flex: 0,
     alignItems: 'center',
     backgroundColor: colors.black,
-    height: 45,
   },
   onePicker: {
     width: 200,

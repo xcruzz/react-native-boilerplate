@@ -1,13 +1,7 @@
 import content from './agendaurgente.json'
 import globalStyles from '../../theme/styles'
 import React from 'react'
-import { Image, Text, View } from 'react-native'
-import {
-  Collapse,
-  CollapseHeader,
-  CollapseBody,
-} from 'accordion-collapse-react-native'
-import { images } from 'theme'
+import { Text, View } from 'react-native'
 
 const styles = globalStyles.agendaUrgente
 
