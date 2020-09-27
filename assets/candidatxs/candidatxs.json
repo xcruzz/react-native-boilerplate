@@ -155,20 +155,6 @@
             "En le actualidad José Bernardo ejerce en la práctica legal privada como miembro-fundador de Dimensión Legal LLC.",
             "Su familia, la lectura y corridas de 10 kilómetros son constantes de vida "
           ]
-        },
-        {
-          "key": "",
-          "pueblo": "",
-          "candidatura": "",
-          "nombre": "",
-          "contacto": {
-            "email": "",
-            "fb": "",
-            "ig": "",
-            "twitter": ""
-          },
-          "planDeTrabajo": [""],
-          "biografia": [""]
         }
       ]
     },
@@ -1902,7 +1888,225 @@
       "number": 7,
       "name": "VII : Humacao - Caguas",
       "population": 462914,
-      "content": { "image": "distritoS7", "imgHeight": 3476 }
+      "candidatxs": [
+        {
+          "key": "xandertorres",
+          "pueblo": "",
+          "candidatura": "Senador de Distrito Humacao",
+          "nombre": "Xander Torres",
+          "contacto": {
+            "email": "xandertorressenador@gmail.com ",
+            "fb": "xandertorressenador",
+            "ig": "xandertorresmvc",
+            "twitter": ""
+          },
+          "planDeTrabajo": [
+            "Ayudar al pequeño y mediano comerciante con medidas para agilizar la otorgación de permisos ",
+            "Fiscalizar agresivamente todas las ramas del gobierno para velar que el dinero del pueblo se gaste correctamente ",
+            "Apoyar aumentos salariales para empleados públicos, en especial, para la policía, el magisterio y los profesionales de la salud ",
+            "Aumentar el salario mínimo para todos los trabajadores por entender que con $7.25 no se logra vivir dignamente "
+          ],
+          "biografia": [
+            "Xander es natural y residente de Caguas, y padre soltero de un niño de 9 años. Posee grados asociados en justicia criminal, y en producción y dirección de T.V.; y un bachillerato en gerencia. Años atrás, Xander produjo y animó programas de T.V. y radio y participó en películas cortometrajes. Hoy es comerciante y dueño de una exitosa empresa dedicada a la fabricación de cortinas de interiores.",
+            "Para las elecciones 2008, preocupado por la crisis social y económica que veía en el país, Xander comenzó en la política activa cuando se postuló para representante a la Cámara por el Distrito 32 de Caguas por el PPR. Durante los años siguientes, canalizó su deseo de servir colaborando con distintas organizaciones comunitarias tales como albergues y rescatistas de animales, y, llevando entretenimiento a pacientes en hospitales y a niños en comunidades rurales especialmente en las navidades.",
+            "En 2019, al fundarse el Movimiento Victoria Ciudadana, Xander se entusiasma con la agenda urgente y los principios éticos del nuevo Movimiento y decide entrar de nuevo al campo político. Convencido de que Puerto Rico puede cambiar y mejorar y que MVC es el instrumento para lograrlo, Xander aspira servirle al país como senador por su Distrito Senatorial de Humacao-Caguas.",
+            "Entre sus distintos intereses, Xander disfruta del buen cine y de viajar para conocer otras culturas, y también, es un diestro jugador y competidor de dominó."
+          ]
+        },
+        {
+          "key": "mayravicil",
+          "pueblo": "",
+          "candidatura": "Senadora Distrito Humacao",
+          "nombre": "Mayra Vicil Bernier",
+          "contacto": {
+            "email": "mayraviciI2020@gmail.com",
+            "fb": "VicilBernier2020",
+            "ig": "mayravicil",
+            "twitter": "2020vicil"
+          },
+          "planDeTrabajo": [
+            "Crear, promover y viabilizar proyectos de desarrollo sustentable de economía social y solidaridad para rehabilitar los cascos urbanos de manera que sean el eje central y el núcleo económico y cultural de los pueblos ",
+            "Crear política pública ambiental que promueva proyectos de agroecología, y de conservación y regeneración del ambiente para revertir la contaminación ",
+            "Establecer políticas de salud pública encaminadas a promover la salud mental y prevenir los trastornos mentales y con acción horizontal a través de diferentes sectores públicos tales como: ambiente, vivienda, bienestar social, educación y justicia penal ",
+            "Promover proyectos de derechos humanos en pos de erradicar la pobreza y cerrar la brecha de desigualdad social y económica "
+          ],
+          "biografia": [
+            "Mayra nació en Arroyo, se crió entre los municipios de Guayama y Patillas, y actualmente vive en Caguas. Posee un bachillerato en Biología en la UPR, Recinto de Río Piedras, y una maestría en Salud Pública con concentración en Salud Ambiental en el Recinto de Ciencias Médicas. Años después, completó un Iris Doctor en la Escuela de Derecho de la Pontificia Universidad Católica de Ponce. Actualmente es abogada civil y criminal en las cortes estatales y federales y tiene su oficina en Bayamón. ",
+            "Trabajó en la industria de implementos médicos por 17 años donde ocupó diversas posiciones llegando a dirigir los Departamentos de Salud Ambiental y Seguridad Ocupacional, Control deDocumentos y el Laboratorio de Microbiología. Mientras estudiaba derecho, estableció durante 4 años un centro de educación suplementaria para niños y jóvenes en las disciplinas de matemáticas, inglés, español y ciencias en el cual evaluaba las lagunas de sus estudiantes y suplementaba estas deficiencias para que continuaran su corriente regular, poniendo especial énfasis en la mejora de su autoestima, premiando el esfuerzo y los resultados. ",
+            "Del 2011-2012 fue editora en jefe de la Revista de Derecho Puertorriqueño ganando el Premio Charles Mascareñas por sus ejecutorias en la Revista. Al graduarse, recibió además el Premio en Litigación Civil. En la primavera de 2013, estableció su oficina privada legal en Guayama donde trabajó hasta el paso del Huracán María. Debido a daños serios a su oficina, tuvo que mudar su práctica a Bayamón. ",
+            "Siendo madre soltera de una hija, Mayra lideró girl scouts del nivel Brownie por 7 años. También, fungió como tesorera del Club de Balompié femenino de Guayama por 6 años apoyando a las jóvenes a independizarse y desarrollarse físicamente. Actualmente, Mayra litiga activamente en el campo civil y criminal, y cónsono a sus valores, funge como abogada de personas de escasos recursos defendiendo casos de oficio en el ámbito criminal y atendiendo casos civiles a través de Pro-bono, Inc."
+          ]
+        },
+        {
+          "key": "cesaraugust",
+          "pueblo": "",
+          "candidatura": "Representante Distrito 31 Caguas-Gurabo",
+          "nombre": "Cesar August García Martínez ",
+          "contacto": {
+            "email": "cesarenvictoria2020@gmail.com",
+            "fb": "cesargarciamartínez",
+            "ig": "",
+            "twitter": "cesarenvictoria"
+          },
+          "planDeTrabajo": [
+            "Compromiso 100% con la Agenda Urgente de MVC",
+            "Solidaridad sindical, y mejores condiciones de empleo para toda la fuerza laboral ",
+            "Derogación de la mal llamada reforma laboral que maltrata y margina a los trabajadores del sector privado ",
+            "Compromiso con el deporte, en especial con las pequeñas ligas ",
+            "Mejores ayudas para los menos afortunados y los centros para necesidades básicas ",
+            "Rehabilitación de los cascos urbanos "
+          ],
+          "biografia": [
+            "César Augusto nació el 1 de octubre de 1968 en Fajardo y se crió en el barrio Celada de Gurabo. Estudió sus grados primarios y secundarios en las escuelas públicas en Gurabo, y al graduarse ingresó a la UPR en el Recinto de Cayey, donde perteneció al círculo de química y fue líder estudiantil participando activamente en el Consejo General de Estudiantes.",
+            "Durante 30 años ha trabajado para la Autoridad de los Puertos (hoy Autoridad de Transporte Marítimo) en las lanchas de Cataño. Fue tesorero de la Unión de Empleados de Transporte de Cataño (UETC) y portavoz en la discusión de seis convenios colectivos. Hoy, César preside la UETC, y además, ocupa una silla en la directiva nacional del Sindicato Puertorriqueño de Trabajadores (SPT).",
+            "César es y ha sido siempre promotor del deporte. Fue apoderado de la franquicia de los Halcones de Gurabo del Béisbol Superior Doble A y dirigente de los Halconcitos en pequeñas ligas. Es también el orgulloso padre de una niña volibolista a quien apoya en todas sus actividades atléticas.",
+            "Aspira a ser representante por el Distrito 31 de Gurabo por entender que su experiencia de vida, semejante a la del pueblo trabajador, le ofrece la perspectiva perfecta para saber lo que se necesita cambiar y mejorar en el país. No se puede legislar para el pueblo si no se conoce desde adentro lo que realmente ese pueblo necesita. César será un líder transparente e inquebrantable, siempre luchando por el pueblo trabajador y la unidad nacional."
+          ]
+        },
+        {
+          "key": "maritzamaymi",
+          "pueblo": "",
+          "candidatura": "Representante Distrito 32 Caguas",
+          "nombre": "Maritza Maymí Hernández ",
+          "contacto": {
+            "email": "maritzamaymi20204mail.com",
+            "fb": "maritzamaymimvc",
+            "ig": "mmaymih",
+            "twitter": "maritzamaymi"
+          },
+          "planDeTrabajo": [
+            "Restitución y ampliación de las protecciones laborales para empleadas y empleados del sector público y privado. Aumento del salario mínimo. ",
+            "Levantamiento y consolidación una economía solidaria y sostenible mediante incentivos para la creación de micro-empresas familiares y comunitarias para el manejo de material reciclable y compostable, y para el diseño y la elaboración de nuevos productos ",
+            "Creación de marcos legales para que las comunidades se conviertan en custodios de los recursos naturales y puedan organizar proyectos ecoturísticos ",
+            "Creación de corredores ecológicos a lo largo de las principales cuencas hidrográficas de Caguas para prevenir la erosión, escorrentías y sedimentación; protección de las cuencas hidrográficas; reforestación urbana y rural "
+          ],
+          "biografia": [
+            "Maritza es natural y residente de Caguas, y producto del sistema de educación pública del país. Posee un bachillerato en Comunicaciones con una especialidad en Redacción para los medios de comunicación de la Universidad del Sagrado Corazón; una maestría en Estudios latinoamericanos y caribeños de la State University of New York en Albany; y un doctorado en Historia de Puerto Rico y el Caribe de la Universidad de Puerto Rico, Recinto de Río Piedras. ",
+            "Durante los pasados 25 años, Maritza se ha desempeñado como profesora universitaria impartiendo cursos en ciencias sociales, sociología, estudios internacionales, humanidades e historia en: la UPR Recintos de Río Piedras y Bayamón; Beijing Huijia Private School en Beijing, China (una institución educativa privada afiliada al International Baccalaureate de la UNESCO); en el Instituto Salomé leña en la República Dominicana; yen la Universidad del Sagrado Corazón. También ha colaborado en la redacción de libros de texto sobre Historia de Puerto Rico, las Américas y el mundo, yen la investigación para documentales. ",
+            "Además de su formación académica y trayectoria profesional, Maritza es una activista por los derechos humanos, por una sociedad más justa y democrática, y por la protección de nuestro ambiente. Es miembro de Amnistía Internacional, el Sierra Club y la Red Interuniversitaria Feminista de Investigación y Educación en Género; es Observadora del Colegio de Abogados y Abogadas de Puerto Rico, Amiga de Para la Naturaleza, Capitana de Costas de Scuba Dogs, y contribuidora del proyecto de ciencia y red social en línea iNaturalist. Es aficionada a la fotografía y disfruta de hacer snorkeling y kayaking. ",
+            "Preocupada por la dirección que lleva Puerto Rico, Maritza tomó la decisión de aspirar a una posición en la Legislatura por el MVC con el propósito de poner su conocimiento y experiencia en la construcción de un Puerto Rico más solidario, justo, equitativo donde se respete la diversidad humana y natural. Maritza aspira a la construcción de un país donde se valore el conocimiento de diversos saberes (comunitarios, técnicos, profesionales y académicos) en la toma de decisiones que impactan tanto nuestro bienestar individual como colectivo."
+          ]
+        },
+        {
+          "key": "juanherrera",
+          "pueblo": "yabucoa",
+          "candidatura": "Legislador Municipal Yabucoa",
+          "nombre": "Juan Angel Herrera Rodríguez ",
+          "contacto": {
+            "email": "juanherreramvc@gmail.com",
+            "fb": "juanherreramvc",
+            "ig": "herreramvc20",
+            "twitter": "juanherreramvc"
+          },
+          "planDeTrabajo": [
+            "Desarrollo económico para el casco urbano",
+            "Fomentar el desarrollo agrícola",
+            "Conservación del medio ambiente y protección de recursos naturales",
+            "Ampliar los servicios para las personas mayores",
+            "Desarrollo de los programas de recreación y deportes, de servicios sociales y a la comunidad",
+            "Fiscalizar el uso de presupuesto adecuadamente",
+            "Fortalecer la seguridad pública, el sistema de salud pública y el servicio de reciclaje"
+          ],
+          "biografia": [
+            "Juan Angel nació en 1995 en el barrio Camino Nuevo de Yabucoa, donde aún reside. Se graduó de la escuela superior vocacional Teodoro Aguilar Mora donde fue presidente del programa SkiIIsUSA, y recién obtuvo su bachillerato en Administración de Empresas con concentración en Comercio Internacional de la UPR, Recinto de Humacao. Durante los años 2015 y 2016 fue presidente del Capítulo Universitario de la Cámara de Comercio de Puerto Rico en dicho recinto, y en 2018, fue elegido presidente a nivel de Puerto Rico del Capítulo Universitario de la Cámara de Comercio. ",
+            "Desde joven, Juan Angel se ha enfocado en la labor comunitaria yen el desarrollo educativo y empresarial de jóvenes en Puerto Rico. Ingresó a la organización Civil Air Patrol U.S. Air Force Auxiliary donde se desarrolló para ser líder dentro de un marco de disciplina y valores. Durante sus más de 5 años con esta organización, también se capacitó en áreas como el manejo de emergencias, lo cual le sirvió para apoyar a las comunidades de Yabucoa y el resto de Puerto Rico en emergencias y desastres naturales. ",
+            "En su corta pero fructífera vida como líder juvenil y empresarial, Juan Angel ha tenido la dicha de poder impactar a muchas personas en Puerto Rico, teniendo siempre como norte ayudar a fomentar un cambio para que sea posible el desarrollo económico y social del país. Por ello, adicional a lo aquí delineado en su plan de trabajo, se propone impulsar el desarrollo empresarial para Yabucoa mediante ayudas directas para las PYMES y los agricultores, y fomentar la economía azul y la industria pesquera. Por su compromiso con los distintos sectores de la economía y las diversas comunidades en Yabucoa, Juan Angel Herrera será un extraordinario legislador municipal. "
+          ]
+        },
+        {
+          "key": "alemarcano",
+          "pueblo": "laspiedras",
+          "candidatura": "Legisladora Municipal Las Piedras",
+          "nombre": "Alejandra Marcano Fonseca",
+          "contacto": {
+            "email": "alejandramarcanoMVC@gmail.com",
+            "fb": "alejandramarcanomvc",
+            "ig": "alejandramarcanomvc",
+            "twitter": "alemarcanomvc"
+          },
+          "planDeTrabajo": [
+            "Ser una portavoz efectiva del pueblo, llevando el mensaje sobre las necesidades de las distintas comunidades",
+            "Fiscalizar y velar que tanto los fondos como las ayudas lleguen pronta y adecuadamente a la gente y sean utilizadas según estipuladas",
+            "Velar por el desarrollo del pueblo en el ámbito de la educación, la salud y todo lo que afecte directa e indirectamente a nuestra comunidad",
+            "Comprometida 100% con la Agenda Urgente del Movimiento Victoria Ciudadana"
+          ],
+          "biografia": [
+            "Alejandra nació en Río Piedras el 21 de noviembre del 1986 y se crió en Gurabo. Mientras estuvo en escuela elemental y superior, perteneció al club de ambientalistas.. En el 2010, culminó un bachillerato en Administración de Empresas, con concentración en Gerencia en la Universidad del Turabo. Durante los cuatro años de su carrera universitaria, perteneció al grupo de abanderadas de la Universidad, y también fue tutora de español por dos años de nivel intermedia y superior.",
+            "En el 2012, decidió con su esposo mudarse a Texas buscando un mejor porvenir y nuevas oportunidades. No obstante, en el 2014, regresaron pues su verdadero anhelo era buscar su futuro y criar a sus hijos en Puerto Rico. Así es como llegó al pueblo de Las Piedras.",
+            "En Las Piedras se desarrolló de formas que aportaron a la comunidad. Fue madre voluntaria por tres años en el Centro Montones del Taller Educativo de Caguas Inc. Programa Head Start, y participó por un año como presidenta del Comité Política Normativa (CPN). Junto a otros padres del centro, se reunía con el personal administrativo para velar por el bien de los niños y que, a su vez, todo se hiciera correctamente para así continuar ayudando a la comunidad educativa.",
+            "En el 2016, al escuchar a Alexandra Lúgaro, se motivó y activó como voluntaria en su campaña para la gobernación y sirvió de funcionaria de colegio. En el 2019, se unió al paro nacional por las injusticias y engaños del gobierno. Y entonces dio el paso decisivo de unirse al Movimiento Victoria Ciudadana y aspirar como candidata a la Legislatura Municipal por el pueblo de Las Piedras. Su motivación: luchar por un mejor Puerto Rico y por el futuro de sus dos hijos. Es por eso que estará para servir y no para servirse."
+          ]
+        },
+        {
+          "key": "leonelortiz",
+          "pueblo": "gurabo",
+          "candidatura": "Legislador Municipal Gurabo",
+          "nombre": "Leonel Ortiz Reyes ",
+          "contacto": {
+            "email": "leonelguraboMVC@Inail.com",
+            "fb": "leonelgurabo",
+            "ig": "leonelgurabo",
+            "twitter": "leonelgurabo"
+          },
+          "planDeTrabajo": [
+            "La gente de Gurabo merece estar mejor informada acerca de las gestiones del gobierno municipal. Para ello, propone establecer en la Internet canales formales donde informará lo relacionado a cómo se invierte el dinero público en contrataciones y proyectos. Apoyará las iniciativas correctas y fiscalizará efectivamente a la administración municipal. ",
+            "El comercio en Gurabo tiene mucho potencial. Propone un proyecto que colabore con las empresas e impulse el desarrollo económico donde los jóvenes tengan un rol importante aportando ideas innovadoras. ",
+            "Comprometido con el ambiente, propone impulsar el plan 'Reduce, Reusa, Recicla' donde se eduque para reciclar en los hogares y comercios y todos tengan un contenedor para el reciclaje. "
+          ],
+          "biografia": [
+            "Padre, humanista, empresario, gerente, artista plástico, diseñador gráfico, rotulista y oriundo con mucho orgullo de Gurabo, 'Pueblo de Las Escaleras' y 'Cuna del Mapeyé'. Leonel es producto del sistema de educación pública, e hizo su bachillerato en Administración de Empresas con concentración en Gerencia de la UPR, Recinto de Río Piedras. Luego en la Universidad del Turabo, realizó estudios posgraduados en formación de empresarismo.",
+            "Trabajó 13 años en una compañía líder mundial en productos de consumo donde se dedicó a la venta, mercadeo, y entrenamiento a empleados, y donde recibió alrededor de 1200 horas de adiestramientos y decenas de certificados y reconocimientos. En el 2013 estableció su empresa de promoción dedicada a la creación de marca, diseño gráfico, rótulos e impresos cuyo objetivo es ayudar a las pequeñas y medianas empresas para que se distingan, y logren igualdad social y desarrollo económico.",
+            "Leonel practica la filosofía humanista donde los valores, el pensamiento crítico, la lógica y la razón son la base para llegar a la verdad. Colabora con organizaciones que ayudan al necesitado, grupos de comerciantes y de la comunidad. Por entender que la mala administración y corrupción amenazan a Puerto Rico, aspira a ser legislador municipal por el Movimiento Victoria Ciudadana en su pueblo de Gurabo. Cree que cuando uno pone por delante la honestidad y la razón en pro de la humanidad, se puede empujar la rueda de la historia hacia la prosperidad y una mejor calidad de vida."
+          ]
+        },
+        {
+          "key": "annieponce",
+          "pueblo": "humacao",
+          "candidatura": "Legisladora Municipal Humacao",
+          "nombre": "Annie Ponce Rosa",
+          "contacto": {
+            "email": "annieponceMVC@gmail.com",
+            "fb": "annieponceMVC",
+            "ig": "annieponceMVC",
+            "twitter": "annieponceMVC"
+          },
+          "planDeTrabajo": [
+            "Promover alianzas fuera de líneas partidistas que adelanten proyectos de beneficio para el Municipio y su gente ",
+            "Fiscalizar efectivamente que los procesos y proyectos del Municipio se lleven a cabo con la rigurosidad y transparencia que exige la sana administración pública ",
+            "Ayudar a las distintas comunidades de Humacao a adelantar y a hacer posible la realización de proyectos que respondan a sus necesidades individuales "
+          ],
+          "biografia": [
+            "Ana Esther ('Annie') Ponce Rosa nació y creció en San Juan, donde estudió sus grados primarios y secundarios. Comenzó su educación universitaria en la UPR, Recinto de Río Piedras donde cursó 3 años en el Departamento de Biología. En 1975 se trasladó a Humacao junto a su esposo el Dr. Rómulo Suero (Q.E.P.D.) donde este se estableció como cirujano general. Por varios años administró la oficina médica de su esposo y se dedicó a ser madre a tiempo completo de sus tres hijos.",
+            "Posteriormente, completó un bachillerato en Administración de Empresas con concentración en contabilidad y un Iris Doctor de la Escuela de Derecho de la Universidad de Puerto Rico. Ha trabajado siempre por cuenta propia. Es abuela de 7 nietos que van desde los 3 a los 24 años de edad. Sobre todo por ellos, sueña con un Puerto Rico donde las familias no tengan que separarse para buscar un mejor porvenir.",
+            "Annie nunca había estado envuelta en la política, pero la situación económica y la falta de gobernanza del país la llevó a dar un paso al frente y presentarse como candidata a la Legislatura Municipal de Humacao por el MVC. Al leer la Agenda Urgente se convenció de que quienes componen el Movimiento, no empece sus diferentes preferencias de estatus, tienen un compromiso serio con el país para adelantar soluciones a los problemas económicos, sociales y políticos. Es imprescindible un gobierno honesto y libre de corrupción."
+          ]
+        },
+        {
+          "key": "claradejesus",
+          "pueblo": "caguas",
+          "candidatura": "Legisladora Municipal Caguas",
+          "nombre": "Clara De Jesús",
+          "contacto": {
+            "email": "claradejesus2020@gmail.com",
+            "fb": "ClaradeJesusMVC",
+            "ig": "ClaradeJesusMVC",
+            "twitter": "ClaradeJesusMVC"
+          },
+          "planDeTrabajo": [
+            "Devolver las calles del casco urbano de Caguas al pueblo. la administración municipal ha privatizado de facto las calles a través de la implantación de parquímetros que generan más ingresos para un ente privado que para el Municipio. ",
+            "Viabilizar el resurgimiento de los servicios de transportación pública para todos los barrios del municipio. ",
+            "Impulsar el desarrollo de centros de educación y cuidado de salud en I as zonas rurales de Caguas. ",
+            "Relocalización y ampliación de la Biblioteca y el Archivo Histórico de Caguas para que niños, niñas, jóvenes y adultos puedan realizar sus investigaciones y tareas en un espacio adecuado así como tener libre acceso al internet. "
+          ],
+          "biografia": [
+            "Clara nació en la Base Aérea Ramey en Aguadilla cuando su papá se desempeñaba como militar en la Fuerza Aérea de los Estados Unidos. Teniendo pocos años, la familia se trasladó a San Germán donde Clara creció y vivió hasta graduarse de escuela superior. Obtuvo un bachillerato en Biología de Washington University en la ciudad de San Luis, Misuri y posteriormente un doctorado en odontología en dicha universidad. Hizo la especialidad en endodoncia en la Universidad de Pennsylvania en Filadelfia. Luego de trabajar en Nueva York por 7 años, regresó a Puerto Rico en 1997 y desde entonces reside en Caguas. En el año 2000, estableció oficina propia para ejercer su profesión de endodoncista.",
+            "Desde joven, Clara aprendió de su madre el deber de servir y ayudar a los menos afortunados. Por años ha colaborado con ella trabajando y aportando de distintas maneras como: con ayuda a mujeres maltratadas, a fondas de cocina para personas sin hogar, proveyendo muebles a familias necesitadas, entre otras obras.",
+            "Mujer de múltiples intereses, Clara practica yoga y kitesurfing, es autodidacta en medicina natural, se desenvuelve en francés e italiano, y es una lectora voraz.",
+            "En 2016, al escuchar a Alexandra Lúgaro hablar en contra del inversionismo político, se motivó e inscribió para votar por primera vez, y a servir de funcionaria de colegio para la entonces candidata independiente a la gobernación. Igualmente, motivada, se unió como voluntaria a la campaña primarista en Puerto Rico del senador Bernie Sanders.",
+            "Hoy, más convencida que nunca en la capacidad, honestidad y preparación de Alexandra Lúgaro para ser gobernadora, y en los principios éticos y la agenda urgente del MVC, Clara forma parte del extraordinario equipo de mujeres y hombres de Victoria Ciudadana que traerán el cambio para trabajar por un mejor Puerto Rico."
+          ]
+        }
+      ]
     },
     {
       "number": 8,
