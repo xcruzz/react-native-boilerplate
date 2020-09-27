@@ -5,6 +5,60 @@ import { colors } from 'theme'
 const deviceSize = Dimensions.get('window')
 const orientation = '90deg'
 
+const welcomeScreen = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  text: {
+    fontSize: 18,
+    marginBottom: 0,
+    color: colors.white,
+    textAlign: 'center',
+    fontFamily: 'HelveticaNeue-Light',
+  },
+  head: {
+    fontSize: 18,
+    textAlign: 'center',
+    color: 'white',
+    alignContent: 'center',
+    paddingTop: 20,
+    fontFamily: 'HelveticaNeue-Bold',
+  },
+  modalView: {
+    //margin: 12,
+    backgroundColor: colors.black,
+    borderRadius: 20,
+    //padding: 10,
+    alignItems: 'center',
+    shadowColor: colors.darkGray,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 1.25,
+    shadowRadius: 5.84,
+    elevation: 5,
+  },
+  modalImage: {
+    width: deviceSize.width,
+    height: 570,
+    flex: 1,
+  },
+  centeredView: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  cta: {
+    flex: 0,
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
+})
+
 const alugaro = StyleSheet.create({
   root: {
     flex: 1,
@@ -440,4 +494,5 @@ export default {
   newsFeed,
   agendaUrgente,
   districtInfo,
+  welcomeScreen,
 }

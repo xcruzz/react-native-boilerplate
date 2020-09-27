@@ -13,6 +13,7 @@ export const images = {
   logo_oro: require('../../assets/images/mvclogo/mvcLogoOro.png'),
   logo_blanco: require('../../assets/images/mvclogo/blancoiris7.png'),
   logo_arcoiris: require('../../assets/images/mvclogo/blancoiris1.png'),
+  welcome_screen: require('../../assets/images/welcome_screen.png'),
 
   victoria_icon: require('../../assets/victoria_icon.png'),
   victoria_icon_gold: require('../../assets/victoria_icon_gold.png'),
