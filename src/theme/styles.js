@@ -27,10 +27,8 @@ const welcomeScreen = StyleSheet.create({
     fontFamily: 'HelveticaNeue-Bold',
   },
   modalView: {
-    //margin: 12,
     backgroundColor: colors.black,
     borderRadius: 20,
-    //padding: 10,
     alignItems: 'center',
     shadowColor: colors.darkGray,
     shadowOffset: {
@@ -40,6 +38,7 @@ const welcomeScreen = StyleSheet.create({
     shadowOpacity: 1.25,
     shadowRadius: 5.84,
     elevation: 5,
+    paddingVertical: 30,
   },
   modalImage: {
     width: deviceSize.width,
@@ -98,9 +97,22 @@ const alugaro = StyleSheet.create({
     marginVertical: 5,
     marginBottom: 10,
   },
-  backgroundImg: {
-    width: 350,
-    height: 140,
+  verb: {
+    color: colors.white,
+    fontSize: 16,
+  },
+  tile: {
+    width: 200,
+    height: 120,
+    marginVertical: 10,
+  },
+  separator: {
+    alignSelf: 'center',
+    height: 1,
+    width: '70%',
+    backgroundColor: colors.white,
+    marginVertical: 10,
+    marginBottom: 20,
   },
 })
 

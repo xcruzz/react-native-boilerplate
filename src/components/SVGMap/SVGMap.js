@@ -9,11 +9,25 @@ import { Picker } from '@react-native-community/picker'
 
 const deviceSize = Dimensions.get('window')
 const styles = globalStyles.mapPage
-const x = 265
-const y = -105
-const scale = 2.25
-const width = deviceSize.height * 0.92
-const height = deviceSize.width * 0.7
+
+const fullScreenDimensions = {
+  x: 265,
+  y: -105,
+  scale: 2.25,
+  width: deviceSize.height * 0.92,
+  height: deviceSize.width * 0.7,
+}
+
+const tabBarScreenDimensions = {
+  x: 285,
+  y: -105,
+  scale: 2.2,
+  width: deviceSize.height * 0.92,
+  height: deviceSize.width * 0.7,
+}
+
+const dim = fullScreenDimensions
+
 const defaultTown = 'Presiona un Pueblo'
 
 export default class SVGMap extends React.Component {
@@ -68,6 +82,8 @@ export default class SVGMap extends React.Component {
   }
 
   render() {
+    let dim = tabBarScreenDimensions
+
     return (
       <View style={styles.main}>
         <Text></Text>
@@ -98,7 +114,7 @@ export default class SVGMap extends React.Component {
           </Picker>
         </View>
         <View>
-          <Svg width={width} height={height}>
+          <Svg width={dim.width} height={dim.height}>
             {this.state.towns.map((town, i) => {
               return (
                 <G
@@ -106,9 +122,9 @@ export default class SVGMap extends React.Component {
                   stroke={this.state.gTownOutline}
                   stroke-width={this.state.gStrokeWidth * 0.01}
                   fill={this.state.towns[i].activeFill}
-                  x={x}
-                  y={y}
-                  scale={scale}
+                  x={dim.x}
+                  y={dim.y}
+                  scale={dim.scale}
                   key={town.key}
                   onPressIn={() => {
                     this.updateSelection(town.key, i)
@@ -125,7 +141,7 @@ export default class SVGMap extends React.Component {
             title="Regresar"
             onPressNavigate={this.state.props.pNavigation}
             navigationProps={{
-              to: 'Home',
+              to: 'ALugaro',
               from: 'Map',
             }}
           />
@@ -138,6 +154,7 @@ export default class SVGMap extends React.Component {
               from: 'Map',
               townKey: this.state.selectedTownK,
             }}
+            width={200}
           />
         </View>
         <Text></Text>

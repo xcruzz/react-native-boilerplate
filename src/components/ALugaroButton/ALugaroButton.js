@@ -55,11 +55,13 @@ const ALugaroButton = ({
   navigationProps,
   isDisabled,
   isDark,
+  onPress,
 }) => {
   return (
     <View style={styles.root}>
       <TouchableOpacity
         onPress={() => {
+          onPress()
           if (!isDisabled)
             if (onPressURL) {
               NetInfo.fetch().then((state) => {
@@ -89,6 +91,7 @@ const ALugaroButton = ({
 
 ALugaroButton.propTypes = {
   title: PropTypes.string,
+  onPress: PropTypes.func,
   onPressURL: PropTypes.string,
   onPressNavigate: PropTypes.object,
   navigationProps: PropTypes.object,
@@ -98,6 +101,7 @@ ALugaroButton.propTypes = {
 
 ALugaroButton.defaultProps = {
   title: null,
+  onPress: () => {},
   onPressURL: null,
   onPressNavigate: null,
   navigationProps: null,

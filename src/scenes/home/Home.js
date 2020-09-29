@@ -4,27 +4,17 @@ import AgendaUrgente from '../../components/AgendaUrgente'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 
-import {
-  Text,
-  View,
-  StatusBar,
-  ImageBackground,
-  Image,
-  Button,
-  ScrollView,
-  Modal,
-} from 'react-native'
+import { Text, View, StatusBar, ScrollView, Modal } from 'react-native'
 import { images, colors } from 'theme'
 
 const styles = globalStyles.alugaro
 const welcomeScreen = globalStyles.welcomeScreen
 export default class Home extends React.Component {
-  // const Home = ({ navigation }) => (
   componentDidMount() {}
 
   constructor(props) {
     super(props)
-    this.state = { modalVisible: false, props: props }
+    this.state = { isModalActive: true, props: props }
   }
 
   render() {
@@ -32,7 +22,7 @@ export default class Home extends React.Component {
       <View style={styles.au_root}>
         <StatusBar barStyle="light-content" />
         <Text style={styles.verb} />
-        <ScrollView style={{ flex: 1 }}>
+        <ScrollView>
           <AgendaUrgente />
           <Text />
         </ScrollView>
@@ -44,11 +34,9 @@ export default class Home extends React.Component {
           <View style={welcomeScreen.centeredView}>
             <ScrollView>
               <View style={welcomeScreen.modalView}>
-                <Text>{'\n\n'}</Text>
                 <Text style={welcomeScreen.head}>
-                  PUERTORRIQUEÑOS{'\n'}Y{'\n'}PUERTORRIQUEÑAS
+                  PUERTORRIQUEÑOS{'\n'}Y{'\n'}PUERTORRIQUEÑAS{'\n'}
                 </Text>
-                <Text>{'\n'}</Text>
                 <Text style={welcomeScreen.text}>
                   El próximo 3 de noviembre tenemos la oportunidad de acabar con
                   el bipartidismo y comenzar a trabajar en los cambios que son
@@ -68,7 +56,6 @@ export default class Home extends React.Component {
                   styles={welcomeScreen.modalImage}
                   imgSource={images.welcome_screen}
                 />
-                <Text>{'\n\n'}</Text>
                 <AButton
                   title="Continuar"
                   onPress={() => {
@@ -83,7 +70,6 @@ export default class Home extends React.Component {
                     from: 'WelcomeScreen',
                   }}
                 />
-                <Text />
               </View>
             </ScrollView>
           </View>

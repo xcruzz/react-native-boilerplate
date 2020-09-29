@@ -49,6 +49,8 @@ export const images = {
   distritoS_logoVI: require('../../assets/candidatxs/VIb.png'),
   distritoS_logoVII: require('../../assets/candidatxs/VIIb.png'),
   distritoS_logoVIII: require('../../assets/candidatxs/VIIIb.png'),
+  PRTowns: require('../../assets/candidatxs/PRTowns.png'),
+  candidatxsButton: require('../../assets/alugaro/candidatxsFrame.png'),
 }
 
 // image preloading
