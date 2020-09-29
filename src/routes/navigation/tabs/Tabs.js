@@ -10,7 +10,7 @@ import {
   HomeNavigator,
   MapNavigator,
   ALugaroNavigator,
-  NewsFeedNavigator,
+  CandidatxsNavigator,
 } from '../stacks'
 
 const styles = globalStyles.navigation
@@ -26,11 +26,11 @@ const TabNavigator = createBottomTabNavigator(
     },
     MapTab: {
       screen: MapNavigator,
-      navigationOptions: { title: 'Candidatxs' },
+      navigationOptions: { title: 'Mapa' },
     },
-    NewsFeedTab: {
-      screen: NewsFeedNavigator,
-      navigationOptions: { title: 'Noticias' },
+    CandidatxsTab: {
+      screen: CandidatxsNavigator,
+      navigationOptions: { title: 'Candidatxs' },
     },
   },
   {
@@ -66,13 +66,13 @@ const TabNavigator = createBottomTabNavigator(
                 solid
               />
             )
-          case 'NewsFeedTab':
+          case 'CandidatxsTab':
             return (
-              <Image
-                style={styles.nav_icon}
-                source={
-                  focused ? images.newsfeed_icon_white : images.newsfeed_icon
-                }
+              <FontIcon
+                name="users"
+                color={focused ? colors.victoryGold : colors.gray}
+                size={20}
+                solid
               />
             )
           default:

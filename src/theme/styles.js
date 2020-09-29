@@ -485,6 +485,38 @@ const districtInfo = StyleSheet.create({
   },
 })
 
+const candibrowser = StyleSheet.create({
+  root: {
+    flex: 1,
+    backgroundColor: colors.white,
+    marginLeft: 10,
+    marginRight: 10,
+  },
+  head: {
+    fontSize: 26,
+    fontFamily: 'HelveticaNeue-Light',
+    paddingStart: 10,
+    backgroundColor: colors.victoryGold,
+  },
+  tiles: { flex: 0, flexDirection: 'column', justifyContent: 'space-around' },
+  rows: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    backgroundColor: colors.black,
+  },
+  tile: {
+    width: 100,
+    height: 100,
+    backgroundColor: colors.gray,
+  },
+  separator: {
+    alignSelf: 'center',
+    height: 2,
+    width: '95%',
+    backgroundColor: colors.white,
+  },
+})
+
 export default {
   detailsPage,
   drawerMenu,
@@ -499,4 +531,5 @@ export default {
   agendaUrgente,
   districtInfo,
   welcomeScreen,
+  candibrowser,
 }

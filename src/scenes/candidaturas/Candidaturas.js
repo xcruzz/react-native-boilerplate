@@ -13,7 +13,11 @@ const Candidaturas = ({ navigation }) => {
     return (
       <View style={styles.root}>
         <StatusBar barStyle="light-content" />
-        <TownInfo townKey={townKey} />
+        {
+          <TownInfo townKey={townKey} />
+          /*<DistrictInfo townKey={townKey} />
+        <NationalInfo townKey={townKey} /> */
+        }
       </View>
     )
   }

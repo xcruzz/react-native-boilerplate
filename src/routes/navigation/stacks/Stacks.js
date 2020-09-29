@@ -9,8 +9,9 @@ import Details from 'scenes/details'
 import Map from 'scenes/map'
 import ALugaro from 'scenes/alugaro'
 import NewsFeed from 'scenes/newsfeed'
-import Candidaturas from 'scenes/candidaturas'
 import Articulo from 'scenes/articulo'
+import CandiBrowser from 'scenes/candibrowser'
+import Candidaturas from 'scenes/candidaturas'
 
 const styles = globalStyles.stacks
 
@@ -60,9 +61,36 @@ export const ALugaroNavigator = createStackNavigator({
   ALugaro: {
     screen: ALugaro,
     navigationOptions: ({ navigation }) => ({
-      title: 'LÚGARO 2020',
+      title: 'Lúgaro 2020',
       headerLeft: <HeaderLeft navigation={navigation} />,
       headerTitle: <HeaderTitle />,
+      ...navigationProps,
+    }),
+  },
+  Map: {
+    screen: Map,
+    navigationOptions: ({ navigation }) => ({
+      headerShown: false,
+      title: 'Regresar',
+      headerLeft: <HeaderLeft navigation={navigation} />,
+      headerTitle: <HeaderTitle />,
+      from: 'ALugaroNavigator',
+      ...navigationProps,
+    }),
+  },
+  CandiBrowser: {
+    screen: CandiBrowser,
+    navigationOptions: ({ navigation }) => ({
+      title: 'Regresar',
+      headerLeft: <HeaderLeft navigation={navigation} />,
+      headerTitle: <HeaderTitle />,
+      ...navigationProps,
+    }),
+  },
+  Candidaturas: {
+    screen: Candidaturas,
+    navigationOptions: ({ navigation }) => ({
+      title: 'Candidaturas',
       ...navigationProps,
     }),
   },
@@ -80,8 +108,27 @@ export const NewsFeedNavigator = createStackNavigator({
   },
   Articulo: {
     screen: Articulo,
-    navigationOptions: () => ({
+    navigationOptions: ({ navigation }) => ({
       title: 'Artículo',
+      ...navigationProps,
+    }),
+  },
+})
+
+export const CandidatxsNavigator = createStackNavigator({
+  CandiBrowser: {
+    screen: CandiBrowser,
+    navigationOptions: ({ navigation }) => ({
+      title: 'Regresar',
+      headerLeft: <HeaderLeft navigation={navigation} />,
+      headerTitle: <HeaderTitle />,
+      ...navigationProps,
+    }),
+  },
+  Candidaturas: {
+    screen: Candidaturas,
+    navigationOptions: () => ({
+      title: 'Candidaturas',
       ...navigationProps,
     }),
   },

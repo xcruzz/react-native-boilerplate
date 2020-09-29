@@ -40,6 +40,15 @@ export const images = {
   newsfeed_icon_white: require('../../assets/newsfeed/newsfeed_icon_white.png'),
 
   distritoS7: require('../../assets/candidatxs/distritoS_7.png'),
+
+  distritoS_logoI: require('../../assets/candidatxs/Ib.png'),
+  distritoS_logoII: require('../../assets/candidatxs/IIb.png'),
+  distritoS_logoIII: require('../../assets/candidatxs/IIIb.png'),
+  distritoS_logoIV: require('../../assets/candidatxs/IVb.png'),
+  distritoS_logoV: require('../../assets/candidatxs/Vb.png'),
+  distritoS_logoVI: require('../../assets/candidatxs/VIb.png'),
+  distritoS_logoVII: require('../../assets/candidatxs/VIIb.png'),
+  distritoS_logoVIII: require('../../assets/candidatxs/VIIIb.png'),
 }
 
 // image preloading

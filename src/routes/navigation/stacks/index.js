@@ -3,5 +3,6 @@ import {
   HomeNavigator,
   MapNavigator,
   NewsFeedNavigator,
+  CandidatxsNavigator,
 } from './Stacks'
-export { ALugaroNavigator, HomeNavigator, MapNavigator, NewsFeedNavigator }
+export { ALugaroNavigator, HomeNavigator, MapNavigator, CandidatxsNavigator }
