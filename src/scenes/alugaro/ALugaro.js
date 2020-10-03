@@ -1,16 +1,15 @@
 import SocialBar from '../../components/SocialBar'
-import ImgButton from '../../components/ImgButton'
 import AButton from '../../components/ALugaroButton'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import {
   TouchableOpacity,
-  Button,
   Text,
   View,
   StatusBar,
   Image,
-  ImageBackground,
+  Linking,
+  Platform,
 } from 'react-native'
 import { images } from 'theme'
 import { ScrollView } from 'react-native-gesture-handler'
@@ -25,23 +24,35 @@ const ALugaro = ({ navigation }) => {
 
       <ScrollView>
         <View style={styles.root}>
-          <ImgButton
-            styles={styles.logo}
-            onPressURL="https://www.alexandralugaro2020.com/"
-            imgSource={images.alugaro_2020}
-          />
-          <Image style={styles.display_lugaro} source={images.lugaro_work} />
           <TouchableOpacity
             onPress={() => {
-              navigation.navigate('Map', {
-                from: 'ALugaro',
-              })
+              Linking.openURL('https://www.alexandralugaro2020.com/')
             }}
           >
-            <Image style={styles.tile} source={images.PRTowns} />
+            <Image style={styles.logo} source={images.alugaro_2020} />
           </TouchableOpacity>
-          <Text style={styles.verb}>{'Busca tus candidatos en el mapa'}</Text>
-          <View style={styles.separator} />
+          <Image style={styles.display_lugaro} source={images.lugaro_work} />
+
+          {Platform.OS === 'ios' ? (
+            <View>
+              <TouchableOpacity
+                onPress={() => {
+                  navigation.navigate('Map', {
+                    from: 'ALugaro',
+                  })
+                }}
+              >
+                <Image style={styles.tile} source={images.PRTowns} />
+              </TouchableOpacity>
+              <Text style={styles.verb}>
+                {'Busca tus candidatos en el mapa'}
+              </Text>
+              <View style={styles.separator} />
+            </View>
+          ) : (
+            <View />
+          )}
+
           <TouchableOpacity
             onPress={() => {
               navigation.navigate('CandiBrowser', {

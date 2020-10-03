@@ -1,10 +1,17 @@
-import ImgButton from '../../components/ImgButton'
 import AButton from '../../components/ALugaroButton'
 import AgendaUrgente from '../../components/AgendaUrgente'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 
-import { Text, View, StatusBar, ScrollView, Modal } from 'react-native'
+import {
+  Image,
+  Text,
+  View,
+  StatusBar,
+  ScrollView,
+  Modal,
+  Platform,
+} from 'react-native'
 import { images } from 'theme'
 
 import AsyncStorage from '@react-native-community/async-storage'
@@ -77,15 +84,21 @@ export default class Home extends React.Component {
                   (incluyendo alcaldes y legisladores municiples) y la Agenda
                   Ciudadana del MVC, con la cual se comprometieron a trabajar
                   todo ellos, Espero que esta información te sea de beneficio
-                  mientras evalúas quiénes son los mejores candidatos.
+                  mientras evalúas quiénes son los mejores candidatos.{'\n'}
                 </Text>
-                <ImgButton
-                  styles={welcomeScreen.signature}
-                  imgSource={images.lugaro_signature}
-                />
-                <ImgButton
-                  styles={welcomeScreen.modalImage}
-                  imgSource={images.welcome_screen}
+                {Platform.OS === 'ios' ? (
+                  <Image
+                    styles={welcomeScreen.signature}
+                    imgSource={images.lugaro_signature}
+                  />
+                ) : (
+                  <Text style={welcomeScreen.text}>
+                    - Alexandra Lúgaro Aponte {'\n'}
+                  </Text>
+                )}
+                <Image
+                  style={welcomeScreen.modalImage}
+                  source={images.welcome_screen}
                 />
                 <AButton
                   title="Continuar"

@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Text, View } from 'react-native'
-import ImgButton from '../../components/ImgButton'
+import { Linking, Image, Text, View, TouchableOpacity } from 'react-native'
 import { images } from 'theme'
 
 const styles = {
@@ -22,38 +21,46 @@ const SocialBar = ({ fbHandle, twitterHandle, igHandle, emailAddr }) => {
   return (
     <View style={styles.root}>
       {fbHandle ? (
-        <ImgButton
-          styles={styles.icon}
-          onPressURL={`https://www.facebook.com/${fbHandle}`}
-          imgSource={images.fb_icon}
-        />
+        <TouchableOpacity
+          onPress={() => {
+            Linking.openURL(`https://www.facebook.com/${fbHandle}`)
+          }}
+        >
+          <Image style={styles.icon} source={images.fb_icon} />
+        </TouchableOpacity>
       ) : (
         <Text />
       )}
       {twitterHandle ? (
-        <ImgButton
-          styles={styles.icon}
-          onPressURL={`https://twitter.com/${twitterHandle}`}
-          imgSource={images.twitter_icon}
-        />
+        <TouchableOpacity
+          onPress={() => {
+            Linking.openURL(`https://www.facebook.com/${twitterHandle}`)
+          }}
+        >
+          <Image style={styles.icon} source={images.twitter_icon} />
+        </TouchableOpacity>
       ) : (
         <Text />
       )}
       {igHandle ? (
-        <ImgButton
-          styles={styles.icon}
-          onPressURL={`https://www.instagram.com/${igHandle}`}
-          imgSource={images.ig_icon}
-        />
+        <TouchableOpacity
+          onPress={() => {
+            Linking.openURL(`https://www.facebook.com/${igHandle}`)
+          }}
+        >
+          <Image style={styles.icon} source={images.ig_icon} />
+        </TouchableOpacity>
       ) : (
         <Text />
       )}
       {emailAddr != null ? (
-        <ImgButton
-          styles={styles.icon}
-          onPressURL={`mailto:${emailAddr}`}
-          imgSource={images.email_icon}
-        />
+        <TouchableOpacity
+          onPress={() => {
+            Linking.openURL(`mailto:${emailAddr}`)
+          }}
+        >
+          <Image style={styles.icon} source={images.email_icon} />
+        </TouchableOpacity>
       ) : (
         <Text />
       )}
