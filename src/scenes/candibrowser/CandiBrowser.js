@@ -2,8 +2,9 @@ import PropTypes from 'prop-types'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import DistrictGrid from '../../components/DistrictGrid'
-import NationalGrid from '../../components/NationalGrid'
+import NationalList from '../../components/NationalList'
 import { View, StatusBar } from 'react-native'
+import { ScrollView } from 'react-native-gesture-handler'
 
 const styles = globalStyles.candibrowser
 
@@ -11,8 +12,10 @@ const CandiBrowser = ({ navigation }) => (
   <View style={styles.root}>
     <StatusBar barStyle="light-content" />
     <View>
-      <DistrictGrid navigation={navigation}></DistrictGrid>
-      {/* <NationalGrid></NationalGrid> */}
+      <ScrollView>
+        <NationalList />
+        <DistrictGrid navigation={navigation}></DistrictGrid>
+      </ScrollView>
     </View>
   </View>
 )

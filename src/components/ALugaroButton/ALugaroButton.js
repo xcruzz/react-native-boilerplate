@@ -66,11 +66,11 @@ const ALugaroButton = ({
               NetInfo.fetch().then((state) => {
                 if (state.isConnected || !onPressNavigation) {
                   Linking.openURL(onPressURL)
-                } else {
+                } else if (onPressNavigate) {
                   onPressNavigation.navigate(onPressNavigate, navigationProps)
                 }
               })
-            } else {
+            } else if (onPressNavigate) {
               onPressNavigate.navigate(navigationProps.to, navigationProps)
             }
           onPress()

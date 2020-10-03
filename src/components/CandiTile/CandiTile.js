@@ -1,19 +1,131 @@
 import PropTypes from 'prop-types'
-import SocialBar from '../SocialBar'
 import globalStyles from '../../theme/styles'
 import React from 'react'
-import { Image, Text, View } from 'react-native'
+import {
+  StyleSheet,
+  Image,
+  Text,
+  View,
+  Modal,
+  ScrollView,
+  Dimensions,
+} from 'react-native'
 import mvcdb from '../../../assets/candidatxs/candidatxsDev.json'
+import { TouchableOpacity } from 'react-native-gesture-handler'
+import AButton from '../ALugaroButton'
+import CandiProfile from '../CandiProfile'
+import { colors } from 'theme'
+
+const deviceSize = Dimensions.get('window')
 
 const candidatxs = mvcdb.candidatxs
-const styles = globalStyles.candiTile
+const styles = StyleSheet.create({
+  holder: {
+    flex: 1,
+    // flexDirection: 'column',
+    backgroundColor: colors.white,
+    // width: '100%',
+    justifyContent: 'flex-start',
+  },
+  bholder: {
+    backgroundColor: colors.black,
+    height: 60,
+    marginBottom: 20,
+    //justifyContent: 'flex-end',
+  },
+  candName: {
+    // fontFamily: 'AvenirNext-Bold',
+    fontSize: 20,
+    // color: colors.black,
+    // paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 30,
+    // textAlignVertical: 'center',
+    // textAlign: 'right',
+  },
+  candNameModal: {
+    // fontFamily: 'AvenirNext-Bold',
+    fontSize: 38,
+    color: colors.black,
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 20,
+    textAlign: 'right',
+  },
+  candTitle: {
+    alignSelf: 'flex-end',
+    fontSize: 12,
+    marginEnd: 10,
+    // // fontFamily: 'AvenirNextCondensed-Regular',
+  },
+  candTitleModal: {
+    alignSelf: 'flex-end',
+    fontSize: 16,
+    // // fontFamily: 'AvenirNextCondensed-Regular',
+  },
+  candidatureBar: {
+    alignSelf: 'flex-end',
+    width: '100%',
+    backgroundColor: colors.victoryGold,
+    shadowColor: colors.black,
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    paddingRight: 5,
+  },
+  candidatureBarModal: {
+    alignSelf: 'center',
+    height: 34,
+    alignContent: 'flex-end',
+    justifyContent: 'center',
+    textAlign: 'right',
+    width: deviceSize.width * 0.98,
+    backgroundColor: colors.victoryGold,
+    shadowColor: colors.black,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    marginTop: 10,
+    marginBottom: 15,
+    elevation: 5,
+  },
+  separator: {
+    alignSelf: 'center',
+    height: 2,
+    width: '100%',
+    backgroundColor: colors.victoryGold,
+  },
+  profileRow: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    backgroundColor: colors.white,
+  },
+  profilePicDim: {
+    width: 75,
+    height: 75,
+  },
+  modalView: {
+    alignItems: 'center',
+    flex: 1,
+    justifyContent: 'center',
+  },
+})
 
 export default class CandiTile extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       props: props,
-      key: props.candidateKey,
+      candidateKey: props.candidateKey,
+      isModalBackButtonActive: false,
+      isModalActive: false,
       candidate: candidatxs.find((c) => {
         return c.key == props.candidateKey
       }),
@@ -22,36 +134,20 @@ export default class CandiTile extends React.Component {
 
   render() {
     return (
-      //Name
       <View style={styles.holder}>
-        <View>
-          <Text style={styles.candName}>{this.state.candidate.nombre}</Text>
-        </View>
-        {
-          //Candidature
-        }
-        <View style={styles.candidatureBar}>
-          <Text style={styles.candTitle}>
-            {this.state.candidate.candidatura.toUpperCase()}
-          </Text>
-        </View>
-        {
-          //Biography
-        }
-        <View>
-          <Text style={styles.textB}>Biografía</Text>
-          <Text />
-          <Text style={styles.content}>
-            {this.state.candidate.biografia.map((i, n) => {
-              return n != 0 ? '\n\n' + i : i
-            })}
-          </Text>
-        </View>
-        {
-          //Profile Pic
-          this.state.candidate.photo.imgUri.length ? (
+        <TouchableOpacity
+          onPress={() => {
+            this.setState({
+              ...this.state,
+              isModalActive: true,
+            })
+          }}
+        >
+          <View style={styles.profileRow}>
             <View style={styles.profilePic}>
-              <Text />
+              <Text style={styles.candName}>{this.state.candidate.nombre}</Text>
+            </View>
+            <View style={styles.profilePic}>
               <Image
                 style={styles.profilePicDim}
                 source={{
@@ -59,52 +155,70 @@ export default class CandiTile extends React.Component {
                 }}
               />
             </View>
-          ) : (
-            <Text />
-          )
-        }
-        {
-          //Candidate Plan
-        }
-        <View style={styles.box}>
-          {this.state.candidate.planDeTrabajo ? (
-            <Text style={styles.boxTB}>{'Plan de Trabajo\n'}</Text>
-          ) : (
-            <View style={{ height: 0 }} />
-          )}
-          {this.state.candidate.planDeTrabajo ? (
-            this.state.candidate.planDeTrabajo.map((i) => {
-              return (
-                <Text key={`pdtt${i}`} style={styles.boxT}>
-                  {'• ' + i + '\n'}
-                </Text>
-              )
-            })
-          ) : (
-            <View style={{ height: 0 }} />
-          )}
-
-          {
-            //Social media links
-          }
-          <SocialBar
-            fbHandle={this.state.candidate.contacto.fb}
-            twitterHandle={this.state.candidate.contacto.twitter}
-            igHandle={this.state.candidate.contacto.ig}
-            emailAddr={this.state.candidate.contacto.email}
-          />
-        </View>
-        <Text />
-        <View style={styles.separator} />
+          </View>
+          <View style={styles.candidatureBar}>
+            <Text style={styles.candTitle}>
+              {this.state.candidate.candidatura.toUpperCase()}
+            </Text>
+          </View>
+          <Text />
+        </TouchableOpacity>
+        <Modal
+          fullScreen={false}
+          animationType="fade"
+          transparent={false}
+          visible={this.state.isModalActive}
+        >
+          <View style={styles.holder}>
+            <View>
+              <Text style={styles.candNameModal}>
+                {this.state.candidate.nombre}
+              </Text>
+            </View>
+            <View style={styles.candidatureBarModal}>
+              <Text style={styles.candTitleModal}>
+                {this.state.candidate.candidatura.toUpperCase()}
+              </Text>
+            </View>
+            <ScrollView
+              onScroll={(n) => {
+                this.setState({
+                  ...this.state,
+                  isModalBackButtonActive: true,
+                })
+              }}
+            >
+              <View style={styles.modalView}>
+                <CandiProfile
+                  renderHeader={false}
+                  candidateKey={this.state.candidateKey}
+                />
+              </View>
+            </ScrollView>
+            {this.state.isModalBackButtonActive && (
+              <View style={styles.bholder}>
+                <AButton
+                  title="Regresar"
+                  onPress={() => {
+                    this.setState({
+                      ...this.state,
+                      isModalActive: false,
+                    })
+                  }}
+                />
+              </View>
+            )}
+          </View>
+        </Modal>
       </View>
     )
   }
 }
 
 CandiTile.propTypes = {
-  key: PropTypes.number,
+  candidateKey: PropTypes.string,
 }
 
 CandiTile.defaultProps = {
-  key: -1,
+  candidateKey: -1,
 }

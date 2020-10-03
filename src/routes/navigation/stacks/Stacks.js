@@ -90,7 +90,7 @@ export const ALugaroNavigator = createStackNavigator({
   Candidaturas: {
     screen: Candidaturas,
     navigationOptions: ({ navigation }) => ({
-      title: 'Candidaturas',
+      title: 'Candidatxs',
       ...navigationProps,
     }),
   },
@@ -128,7 +128,7 @@ export const CandidatxsNavigator = createStackNavigator({
   Candidaturas: {
     screen: Candidaturas,
     navigationOptions: () => ({
-      title: 'Candidaturas',
+      title: 'Candidatxs',
       ...navigationProps,
     }),
   },

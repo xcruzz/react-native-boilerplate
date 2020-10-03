@@ -56,6 +56,12 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     marginTop: 7,
   },
+  separator: {
+    alignSelf: 'center',
+    height: 2,
+    width: '100%',
+    backgroundColor: colors.victoryGold,
+  },
 })
 
 export default class DistrictGrid extends React.Component {
@@ -87,9 +93,10 @@ export default class DistrictGrid extends React.Component {
     return (
       <View>
         <ScrollView>
-          <Text style={styles.head}>
-            Conoce los candidatos de cada Distrito Senatorial
-          </Text>
+          <Text />
+          <View style={styles.separator} />
+          <Text style={styles.head}>Distrito Senatoriales</Text>
+          <View style={styles.separator} />
           <View style={styles.root}>
             {this.renderTile('Distrito I', images.distritoS_logoI, 'sanjuan')}
             {this.renderTile('Distrito II', images.distritoS_logoII, 'bayamon')}
