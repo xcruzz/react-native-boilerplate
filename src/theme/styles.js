@@ -529,6 +529,41 @@ const candibrowser = StyleSheet.create({
     backgroundColor: colors.white,
   },
 })
+const townCandidates = StyleSheet.create({
+  header: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+  },
+  title: {
+    fontSize: 26,
+    marginBottom: 0,
+    fontFamily: 'AvenirNext-Regular',
+  },
+  logo: {
+    width: 30,
+    height: 34,
+    marginBottom: 5,
+    marginRight: 10,
+  },
+
+  center: {
+    alignSelf: 'center',
+    paddingTop: 5,
+    // paddingRight: 10,
+    // paddingLeft: 10,
+    paddingBottom: 20,
+    fontSize: 25,
+    fontFamily: 'AvenirNextCondensed-Regular',
+  },
+  content: {
+    paddingRight: 10,
+    paddingLeft: 10,
+    fontSize: 22,
+    fontFamily: 'AvenirNextCondensed-Regular',
+    textAlign: 'left',
+  },
+})
 const candiTile = StyleSheet.create({
   holder: {
     flex: 1,
@@ -605,41 +640,6 @@ const candiTile = StyleSheet.create({
   profilePicDim: {
     width: 230,
     height: 230,
-  },
-  content: {
-    paddingRight: 10,
-    paddingLeft: 10,
-    fontSize: 22,
-    fontFamily: 'AvenirNextCondensed-Regular',
-    textAlign: 'left',
-  },
-})
-const townCandidates = StyleSheet.create({
-  header: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'row',
-  },
-  title: {
-    fontSize: 26,
-    marginBottom: 0,
-    fontFamily: 'AvenirNext-Regular',
-  },
-  logo: {
-    width: 30,
-    height: 34,
-    marginBottom: 5,
-    marginRight: 10,
-  },
-
-  center: {
-    alignSelf: 'center',
-    paddingTop: 5,
-    // paddingRight: 10,
-    // paddingLeft: 10,
-    paddingBottom: 20,
-    fontSize: 25,
-    fontFamily: 'AvenirNextCondensed-Regular',
   },
   content: {
     paddingRight: 10,
