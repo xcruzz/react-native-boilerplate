@@ -45,6 +45,7 @@ const welcomeScreen = StyleSheet.create({
     height: 570,
     flex: 1,
   },
+  signature: { width: 243, height: 44, marginVertical: 20 },
   centeredView: {
     flex: 1,
     justifyContent: 'center',

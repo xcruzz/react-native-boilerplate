@@ -5,16 +5,44 @@ import globalStyles from '../../theme/styles'
 import React from 'react'
 
 import { Text, View, StatusBar, ScrollView, Modal } from 'react-native'
-import { images, colors } from 'theme'
+import { images } from 'theme'
 
-const styles = globalStyles.alugaro
+import AsyncStorage from '@react-native-community/async-storage'
+
 const welcomeScreen = globalStyles.welcomeScreen
+const styles = globalStyles.alugaro
+const isFirst = 'first_time'
+
 export default class Home extends React.Component {
-  componentDidMount() {}
+  async componentDidMount() {
+    AsyncStorage.getItem(isFirst)
+      .then((value) => {
+        if (value) {
+          this.state.props.navigation.navigate('ALugaro')
+          this.setState({ ...this.state, isModalActive: false, loading: false })
+        } else
+          this.setState({ ...this.state, isModalActive: true, loading: false })
+      })
+      .catch((e) => {
+        this.setState({ ...this.state, isModalActive: true, loading: false })
+      })
+  }
+
+  _onDone = () => {
+    AsyncStorage.setItem(isFirst, isFirst)
+      .then(() => {
+        this.setState({ isModalActive: false })
+      })
+      .catch((e) =>
+        alert(
+          `Failed to set [${isFirst}] data to storage ${JSON.stringify(e)}`,
+        ),
+      )
+  }
 
   constructor(props) {
     super(props)
-    this.state = { isModalActive: true, props: props }
+    this.state = { isModalActive: false, props: props }
   }
 
   render() {
@@ -27,8 +55,8 @@ export default class Home extends React.Component {
           <Text />
         </ScrollView>
         <Modal
-          animationType="slide"
-          transparent={true}
+          animationType="fade"
+          transparent={false}
           visible={this.state.isModalActive}
         >
           <View style={welcomeScreen.centeredView}>
@@ -50,8 +78,11 @@ export default class Home extends React.Component {
                   Ciudadana del MVC, con la cual se comprometieron a trabajar
                   todo ellos, Espero que esta información te sea de beneficio
                   mientras evalúas quiénes son los mejores candidatos.
-                  {'\n\n -Alexandra Lúgaro \n'}
                 </Text>
+                <ImgButton
+                  styles={welcomeScreen.signature}
+                  imgSource={images.lugaro_signature}
+                />
                 <ImgButton
                   styles={welcomeScreen.modalImage}
                   imgSource={images.welcome_screen}
@@ -59,10 +90,7 @@ export default class Home extends React.Component {
                 <AButton
                   title="Continuar"
                   onPress={() => {
-                    this.setState({
-                      ...this.state,
-                      isModalActive: false,
-                    })
+                    this._onDone()
                   }}
                   onPressNavigate={this.state.props.navigation}
                   navigationProps={{

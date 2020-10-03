@@ -61,7 +61,6 @@ const ALugaroButton = ({
     <View style={styles.root}>
       <TouchableOpacity
         onPress={() => {
-          onPress()
           if (!isDisabled)
             if (onPressURL) {
               NetInfo.fetch().then((state) => {
@@ -74,6 +73,7 @@ const ALugaroButton = ({
             } else {
               onPressNavigate.navigate(navigationProps.to, navigationProps)
             }
+          onPress()
         }}
         style={
           isDisabled
