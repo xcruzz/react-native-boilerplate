@@ -1,7 +1,8 @@
 import globalStyles from '../../../theme/styles'
 import React from 'react'
-import { createStackNavigator } from 'react-navigation-stack'
+import { createStackNavigator, HeaderBackButton } from 'react-navigation-stack'
 import { colors } from 'theme'
+import Text from 'react-native'
 import HeaderLeft from './HeaderLeft'
 import HeaderTitle from './HeaderTitle'
 import Home from 'scenes/home'
@@ -12,6 +13,7 @@ import NewsFeed from 'scenes/newsfeed'
 import Articulo from 'scenes/articulo'
 import CandiBrowser from 'scenes/candibrowser'
 import Candidaturas from 'scenes/candidaturas'
+import { color } from 'react-native-reanimated'
 
 const styles = globalStyles.stacks
 
@@ -50,8 +52,21 @@ export const MapNavigator = createStackNavigator({
   },
   Candidaturas: {
     screen: Candidaturas,
-    navigationOptions: () => ({
-      title: 'Candidatos',
+    navigationOptions: ({ navigation }) => ({
+      title: 'Candidatxs',
+      headerBackTitleVisible: true,
+      left: 'Regresar',
+      headerLeft: (
+        <HeaderBackButton
+          onPress={() => {
+            navigation.navigate('Map')
+          }}
+          title="Regresar"
+          backTitleVisible={true}
+          tintColor={'white'}
+        ></HeaderBackButton>
+      ),
+      // headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
@@ -73,8 +88,6 @@ export const ALugaroNavigator = createStackNavigator({
     navigationOptions: ({ navigation }) => ({
       headerShown: false,
       title: 'Regresar',
-      headerLeft: <HeaderLeft navigation={navigation} />,
-      headerTitle: <HeaderTitle />,
       from: 'ALugaroNavigator',
       ...navigationProps,
     }),
@@ -82,8 +95,8 @@ export const ALugaroNavigator = createStackNavigator({
   CandiBrowser: {
     screen: CandiBrowser,
     navigationOptions: ({ navigation }) => ({
-      title: 'Regresar',
-      headerLeft: <HeaderLeft navigation={navigation} />,
+      title: 'Candidatxs',
+      //headerLeft: <HeaderLeft navigation={navigation} />,
       headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
@@ -102,7 +115,7 @@ export const NewsFeedNavigator = createStackNavigator({
     screen: NewsFeed,
     navigationOptions: ({ navigation }) => ({
       title: 'Noticias',
-      headerLeft: <HeaderLeft navigation={navigation} />,
+      headerLeft: <HeaderLeft navigation={{ navigation }} />,
       headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),

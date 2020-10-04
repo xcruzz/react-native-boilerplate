@@ -31,26 +31,22 @@ const DrawerMenu = ({ navigation }) => (
     <View style={styles.main}>
       <TouchableOpacity
         onPress={() => {
-          NetInfo.fetch().then((state) => {
-            navigation.navigate('Home', {
-              from: 'DrawerMenu',
-            })
-          })
-        }}
-      >
-        <Text style={styles.head}>AGENDA URGENTE</Text>
-      </TouchableOpacity>
-
-      <Text />
-
-      <TouchableOpacity
-        onPress={() => {
           navigation.navigate('ALugaro', {
             from: 'DrawerMenu',
           })
         }}
       >
-        <Text style={styles.head}>LÚGARO 2020</Text>
+        <Text style={styles.head}>Lúgaro 2020</Text>
+      </TouchableOpacity>
+      <Text />
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('Home', {
+            from: 'DrawerMenu',
+          })
+        }}
+      >
+        <Text style={styles.head}>Agenda Urgente</Text>
       </TouchableOpacity>
       <Text />
       <TouchableOpacity
@@ -60,7 +56,17 @@ const DrawerMenu = ({ navigation }) => (
           })
         }}
       >
-        <Text style={styles.head}>MAPA DE CANDIDATXS</Text>
+        <Text style={styles.head}>Mapa de Candidatxs</Text>
+      </TouchableOpacity>
+      <Text />
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('CandiBrowser', {
+            from: 'DrawerMenu',
+          })
+        }}
+      >
+        <Text style={styles.head}>Conoce todxs los Candidatxs</Text>
       </TouchableOpacity>
       <Text />
     </View>
