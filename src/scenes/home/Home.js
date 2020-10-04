@@ -5,8 +5,6 @@ import React from 'react'
 
 import { Text, View, StatusBar, ScrollView } from 'react-native'
 
-const styles = globalStyles.alugaro
-
 export default class Home extends React.Component {
   async componentDidMount() {}
 
@@ -16,9 +14,8 @@ export default class Home extends React.Component {
 
   render() {
     return (
-      <View style={styles.au_root}>
+      <View>
         <StatusBar barStyle="light-content" />
-        <Text style={styles.verb} />
         <ScrollView>
           <AgendaUrgente />
           <Text />

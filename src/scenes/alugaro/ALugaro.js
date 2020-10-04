@@ -13,7 +13,7 @@ import {
   StyleSheet,
   Dimensions,
 } from 'react-native'
-import { images, colors, fonts } from 'theme'
+import { images, colors } from 'theme'
 import { ScrollView } from 'react-native-gesture-handler'
 import AsyncStorage from '@react-native-community/async-storage'
 const deviceSize = Dimensions.get('window')
