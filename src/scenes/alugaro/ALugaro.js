@@ -132,7 +132,11 @@ export default class ALugaro extends React.Component {
             <View style={styles.separator} />
             <TouchableOpacity
               onPress={() => {
-                Linking.openURL('https://www.alexandralugaro2020.com/')
+                this.setState({
+                  ...this.state,
+                  isModalActive: true,
+                  loading: false,
+                })
               }}
             >
               <Image
