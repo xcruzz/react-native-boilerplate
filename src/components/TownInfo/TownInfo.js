@@ -1,4 +1,4 @@
-import DistrictInfo from '../DistrictInfo'
+import TownCandidates from '../TownCandidates'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import { Image, Text, View, Dimensions } from 'react-native'
@@ -14,15 +14,12 @@ const TownInfo = ({ townKey }) => {
   })
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.title}>{selectedTown.name}</Text>
-        <Image style={styles.logo} source={images['logo_negro']} />
-      </View>
-      {selectedTown.distritoS.map((dno, i) => {
-        return <DistrictInfo key={i} districtNumber={dno} />
-      })}
+      <TownCandidates townKey={townKey} />
+      {/* 
+        <NationalCandidates />
+        <DistrictCandidates /> 
+      */}
     </View>
   )
 }
-
 export default TownInfo

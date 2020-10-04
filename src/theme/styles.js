@@ -563,5 +563,6 @@ export default {
   districtInfo,
   welcomeScreen,
   candibrowser,
+  townCandidates,
   candiProfile,
 }
