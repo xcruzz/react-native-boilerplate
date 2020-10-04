@@ -169,11 +169,17 @@ const mapPage = StyleSheet.create({
     height: 44,
     backgroundColor: colors.darkGray,
     borderColor: colors.white,
-    borderWidth: 1,
+    borderWidth: 0.5,
   },
   onePickerItem: {
     height: 45,
     color: colors.white,
+  },
+  separator: {
+    alignSelf: 'center',
+    height: 5,
+    width: '75%',
+    backgroundColor: colors.victoryGold,
   },
 })
 

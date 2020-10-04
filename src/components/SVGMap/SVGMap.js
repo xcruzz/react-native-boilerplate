@@ -74,7 +74,7 @@ export default class SVGMap extends React.Component {
       selectedTownK: defaultTown,
       selectedTownN: defaultTown,
       gTownFill: colors.black,
-      gTownActiveFill: colors.white,
+      gTownActiveFill: colors.victoryGold,
       gTownOutline: colors.white,
       gStrokeWidth: '.11',
       gTransform: '0.0 0.0',
@@ -86,7 +86,7 @@ export default class SVGMap extends React.Component {
 
     return (
       <View style={styles.main}>
-        <Text></Text>
+        <Text />
         <View style={styles.foot}>
           <Picker
             style={styles.onePicker}
@@ -157,7 +157,7 @@ export default class SVGMap extends React.Component {
             width={200}
           />
         </View>
-        <Text></Text>
+        <Text />
       </View>
     )
   }
