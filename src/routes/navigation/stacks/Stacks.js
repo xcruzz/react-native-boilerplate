@@ -26,7 +26,7 @@ export const HomeNavigator = createStackNavigator({
     screen: Home,
     navigationOptions: ({ navigation }) => ({
       title: 'Inicio',
-      headerLeft: <HeaderLeft navigation={navigation} />,
+      //headerLeft: <HeaderLeft navigation={navigation} />,
       headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
@@ -64,6 +64,7 @@ export const ALugaroNavigator = createStackNavigator({
       title: 'Lúgaro 2020',
       headerLeft: <HeaderLeft navigation={navigation} />,
       headerTitle: <HeaderTitle />,
+      headerShown: false,
       ...navigationProps,
     }),
   },
@@ -120,7 +121,7 @@ export const CandidatxsNavigator = createStackNavigator({
     screen: CandiBrowser,
     navigationOptions: ({ navigation }) => ({
       title: 'Regresar',
-      headerLeft: <HeaderLeft navigation={navigation} />,
+      //headerLeft: <HeaderLeft navigation={navigation} />,
       headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),

@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, Image } from 'react-native'
+import { StyleSheet, Image, View } from 'react-native'
 import { images } from 'theme'
 
 const styles = StyleSheet.create({
@@ -15,7 +15,9 @@ const styles = StyleSheet.create({
 })
 
 const HeaderTitle = () => (
-  <Image source={images.victoria_icon_white} style={styles.logo} />
+  <View style={{ flex: 1, alignItems: 'center' }}>
+    <Image source={images.logo_blanco} style={styles.logo} />
+  </View>
 )
 
 HeaderTitle.propTypes = {}

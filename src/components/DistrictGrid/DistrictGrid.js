@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   },
   verb: {
     color: '#000',
-    fontFamily: 'HelveticaNeue-Light',
+    //fontFamily: 'HelveticaNeue-Light',
     fontSize: 18,
     alignSelf: 'center',
     marginTop: 7,

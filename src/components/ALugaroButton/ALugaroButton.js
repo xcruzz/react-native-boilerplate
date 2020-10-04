@@ -1,30 +1,30 @@
 import NetInfo from '@react-native-community/netinfo'
-import { colors } from 'theme'
+import { colors, fonts } from 'theme'
 import React from 'react'
 import PropTypes from 'prop-types'
 import { View, TouchableOpacity, Text, Linking } from 'react-native'
 
 const styles = {
   button: {
-    backgroundColor: colors.white,
-    paddingVertical: 10,
+    backgroundColor: colors.victoryGold,
+    paddingVertical: 1,
     paddingHorizontal: 16,
     borderRadius: 20,
-    width: 200,
+    width: 150,
     alignItems: 'center',
     marginVertical: 10,
   },
   buttonDark: {
     backgroundColor: colors.black,
-    paddingVertical: 10,
+    paddingVertical: 1,
     paddingHorizontal: 16,
     borderRadius: 20,
-    width: 200,
+    width: 150,
     alignItems: 'center',
   },
   disabled: {
     backgroundColor: colors.gray,
-    paddingVertical: 10,
+    paddingVertical: 1,
     paddingHorizontal: 16,
     borderRadius: 20,
     width: 200,
@@ -38,13 +38,15 @@ const styles = {
   },
   verbDark: {
     color: '#fff',
-    fontFamily: 'HelveticaNeue-Light',
-    fontSize: 18,
+    fontFamily: fonts.NeuePlak.Bold,
+    fontSize: 16,
+    paddingBottom: 3,
   },
   verb: {
-    color: '#000',
-    fontFamily: 'HelveticaNeue-Light',
-    fontSize: 18,
+    color: colors.black,
+    fontFamily: fonts.NeuePlak.Black,
+    fontSize: 16,
+    paddingBottom: 3,
   },
 }
 

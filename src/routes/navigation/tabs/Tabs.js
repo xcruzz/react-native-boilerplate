@@ -16,13 +16,13 @@ import {
 const styles = globalStyles.navigation
 const IOSNavigator = createBottomTabNavigator(
   {
-    HomeTab: {
-      screen: HomeNavigator,
-      navigationOptions: { title: 'Agenda Urgente' },
-    },
     ALugaroTab: {
       screen: ALugaroNavigator,
       navigationOptions: { title: 'Lúgaro 2020' },
+    },
+    HomeTab: {
+      screen: HomeNavigator,
+      navigationOptions: { title: 'Agenda Urgente' },
     },
     MapTab: {
       screen: MapNavigator,
@@ -95,13 +95,13 @@ const IOSNavigator = createBottomTabNavigator(
 
 const AndroidNavigator = createBottomTabNavigator(
   {
-    HomeTab: {
-      screen: HomeNavigator,
-      navigationOptions: { title: 'Agenda Urgente' },
-    },
     ALugaroTab: {
       screen: ALugaroNavigator,
       navigationOptions: { title: 'Lúgaro 2020' },
+    },
+    HomeTab: {
+      screen: HomeNavigator,
+      navigationOptions: { title: 'Agenda Urgente' },
     },
     CandidatxsTab: {
       screen: CandidatxsNavigator,

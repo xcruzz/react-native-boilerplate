@@ -4,7 +4,7 @@ import globalStyles from '../../theme/styles'
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Dimensions, View, Text, Image } from 'react-native'
-import candidatxs from '../../../assets/candidatxs/candidatxs.json'
+import candidatxs from '../../../assets/candidatxs/candidatxsDev.json'
 import { ScrollView } from 'react-native-gesture-handler'
 import { images } from 'theme'
 

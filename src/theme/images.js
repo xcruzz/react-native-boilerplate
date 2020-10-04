@@ -13,7 +13,7 @@ export const images = {
   logo_oro: require('../../assets/images/mvclogo/mvcLogoOro.png'),
   logo_blanco: require('../../assets/images/mvclogo/blancoiris7.png'),
   logo_arcoiris: require('../../assets/images/mvclogo/blancoiris1.png'),
-  welcome_screen: require('../../assets/images/welcome_screen.png'),
+  welcome_screen: require('../../assets/images/welcome_screenAL.png'),
 
   victoria_icon: require('../../assets/victoria_icon.png'),
   victoria_icon_gold: require('../../assets/victoria_icon_gold.png'),
@@ -32,10 +32,10 @@ export const images = {
   lugaro_work: require('../../assets/alugaro/lugaro_work.jpg'),
   lugaro_signature: require('../../assets/alugaro/alugaro_signWhite.png'),
 
-  fb_icon: require('../../assets/social/fb_icon.png'),
-  twitter_icon: require('../../assets/social/twitter_icon.png'),
-  ig_icon: require('../../assets/social/ig_ico.png'),
-  email_icon: require('../../assets/social/email_icon.png'),
+  fb_icon: require('../../assets/social/fb_iconAL.png'),
+  twitter_icon: require('../../assets/social/twitter_iconAL.png'),
+  ig_icon: require('../../assets/social/ig_iconAL.png'),
+  email_icon: require('../../assets/social/email_iconAL.png'),
 
   newsfeed_icon: require('../../assets/newsfeed/newsfeed_icon.png'),
   newsfeed_icon_white: require('../../assets/newsfeed/newsfeed_icon_white.png'),

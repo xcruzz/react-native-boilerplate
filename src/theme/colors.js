@@ -9,7 +9,7 @@ const colors = {
   white: '#ffffff',
   darkGray: '#090909',
   lightGray: '#f7f7fb',
-  victoryGold: '#cc9933',
+  victoryGold: '#fecd07ff',
 }
 
 export default colors

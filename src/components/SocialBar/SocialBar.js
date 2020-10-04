@@ -8,12 +8,11 @@ const styles = {
     flex: 0,
     flexDirection: 'row',
     justifyContent: 'center',
-    paddingTop: 8,
-    paddingBottom: 9,
   },
   icon: {
-    width: 60,
-    height: 30,
+    width: 40,
+    height: 40,
+    margin: 5,
   },
 }
 
@@ -31,24 +30,25 @@ const SocialBar = ({ fbHandle, twitterHandle, igHandle, emailAddr }) => {
       ) : (
         <Text />
       )}
-      {twitterHandle ? (
+
+      {igHandle ? (
         <TouchableOpacity
           onPress={() => {
-            Linking.openURL(`https://www.facebook.com/${twitterHandle}`)
+            Linking.openURL(`https://www.instagram.com/${igHandle}`)
           }}
         >
-          <Image style={styles.icon} source={images.twitter_icon} />
+          <Image style={styles.icon} source={images.ig_icon} />
         </TouchableOpacity>
       ) : (
         <Text />
       )}
-      {igHandle ? (
+      {twitterHandle ? (
         <TouchableOpacity
           onPress={() => {
-            Linking.openURL(`https://www.facebook.com/${igHandle}`)
+            Linking.openURL(`https://twitter.com/${twitterHandle}`)
           }}
         >
-          <Image style={styles.icon} source={images.ig_icon} />
+          <Image style={styles.icon} source={images.twitter_icon} />
         </TouchableOpacity>
       ) : (
         <Text />
