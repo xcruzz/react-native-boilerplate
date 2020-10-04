@@ -2628,6 +2628,34 @@
     },
     {
       "distritoS": 6,
+      "key": "josedanielchapa",
+      "photo": {
+        "imgUri": "https://www.dropbox.com/s/igpplum4vn96z0b/chapa%20rosario.png?raw=1"
+      },
+      "pueblo": null,
+      "candidatura": "Representante Distrito 28",
+      "nombre": "José Daniel (Chapa) Rodríguez",
+      "contacto": {
+        "email": "chaparepresentante2020@gmail.com",
+        "fb": "chaparepresentante",
+        "ig": null,
+        "twitter": null
+      },
+      "planDeTrabajo": [
+        "Modernizar las plantas, sistemas de bombas y distribución de la AAA",
+        "Crear, promover y viabilizar proyectos de desarrollo sustentable de economía social y solidaridad para rehabilitar los cascos urbanos de manera que sean el eje central y el núcleo económico y cultural de los pueblos",
+        "Instalación de nuevos generadors de energia y/o placas solares",
+        "Construcción de tanques de reserva y pozos de agua para emergencias",
+        "Acueductos comunales en pequeños sectores",
+        "Municipalizar servicios de la AAA",
+        "Leyes y proyectos para la protección ambiental de las cuencas de los ríos y quebradas."
+      ],
+      "biografia": [
+        "Soy José Daniel Rodríguez Rivera Chapa así me llaman mis amigos, apodo que llevo conmigo desde que jugaba béisbol cuando niño. También he practicado y dirigido los deportes de voleibol, baloncesto, atletismo, remo y actualmente participo de los torneos de la Federación Nacional de Dominó de Puerto Rico. Soy el mayor de tres hijos de Guille y Junior. Mis padres me enseñaron con ejemplos, los valores que hoy transmito a mi hijo y sobrinos. Soy el orgulloso padre de Fernando Luis un joven de 15 años de edad. Nací en Barranquitas en 1971 y he residido en el Barrio Palomas de Comerío toda mi vida. Soy Servidor Público en el Municipio de Comerío, por más de 20 años donde me he desempeñado como auxiliar administrativo en las áreas de Obras Públicas, Ornato, Reciclaje, Recreación, Deportes, Cultura, Turismo, Relaciones Públicas y Legislatura Municipal. Estas experiencias me han permitido adquirir conocimiento sobre la administración pública, las necesidades del pueblo y así poder contribuir con ideas y propuestas a que el servicio público sea uno Justo y de Excelencia. Apoyo para Puerto Rico la Agenda Urgente del Movimiento Victoria Ciudadana y para el Distrito #28 estaré presentando propuestas para el desarrollo en todas las áreas, teniendo como prioridad resolver las interrupciones diarias de los servicios de agua y luz que sufren varias comunidades en los pueblos de la montaña. Para combatir la pobreza y la desigualdad, a nivel nacional proponemos para los trabajadores, pensionados y envejecientes, la Canasta Básica Social. Mano a Mano con los agricultores haremos de los productos agrícolas el motor principal del desarrollo económico del distrito #28. Será mi prioridad el contacto con el pueblo, por tal motivo estaré en tu municipio varias veces al mes para dialogar contigo, con tu alcalde y juntos buscar soluciones a los problemas que afectan tu comunidad. Ese es mi compromiso"
+      ]
+    },
+    {
+      "distritoS": 6,
       "key": "cristiangonzalez",
       "photo": {
         "imgUri": "https://www.dropbox.com/s/kro8tv5mnm7uk18/cristiangonzalez2.png?raw=1"
