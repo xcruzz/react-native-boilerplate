@@ -152,7 +152,7 @@ export default class ALugaro extends React.Component {
           transparent={false}
           visible={this.state.isModalActive}
         >
-          <View style={welcomeScreen.centeredView}>
+          <View>
             <ScrollView>
               <View style={welcomeScreen.modalView}>
                 <Image

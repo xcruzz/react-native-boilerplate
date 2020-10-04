@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types'
-import globalStyles from '../../theme/styles'
 import React from 'react'
 import {
   StyleSheet,
@@ -10,7 +9,7 @@ import {
   ScrollView,
   Dimensions,
 } from 'react-native'
-import mvcdb from '../../../assets/candidatxs/candidatxsDev.json'
+import mvcdb from '../../../assets/candidatxs/candidatxs.json'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import AButton from '../ALugaroButton'
 import CandiProfile from '../CandiProfile'
@@ -22,29 +21,20 @@ const candidatxs = mvcdb.candidatxs
 const styles = StyleSheet.create({
   holder: {
     flex: 1,
-    // flexDirection: 'column',
     backgroundColor: colors.white,
-    // width: '100%',
     justifyContent: 'flex-start',
   },
   bholder: {
     backgroundColor: colors.black,
     height: 60,
     marginBottom: 20,
-    //justifyContent: 'flex-end',
   },
   candName: {
-    // fontFamily: 'AvenirNext-Bold',
     fontSize: 20,
-    // color: colors.black,
-    // paddingLeft: 10,
     paddingRight: 10,
     paddingTop: 30,
-    // textAlignVertical: 'center',
-    // textAlign: 'right',
   },
   candNameModal: {
-    // fontFamily: 'AvenirNext-Bold',
     fontSize: 38,
     color: colors.black,
     paddingLeft: 10,
@@ -56,12 +46,10 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-end',
     fontSize: 12,
     marginEnd: 10,
-    // // fontFamily: 'AvenirNextCondensed-Regular',
   },
   candTitleModal: {
     alignSelf: 'flex-end',
     fontSize: 16,
-    // // fontFamily: 'AvenirNextCondensed-Regular',
   },
   candidatureBar: {
     alignSelf: 'flex-end',
@@ -98,9 +86,8 @@ const styles = StyleSheet.create({
   },
   separator: {
     alignSelf: 'center',
-    height: 2,
-    width: '100%',
-    backgroundColor: colors.victoryGold,
+    height: 25,
+    backgroundColor: colors.white,
   },
   profileRow: {
     flexDirection: 'row',
@@ -170,6 +157,7 @@ export default class CandiTile extends React.Component {
           visible={this.state.isModalActive}
         >
           <View style={styles.holder}>
+            {Platform.OS === 'ios' && <View style={styles.separator} />}
             <View>
               <Text style={styles.candNameModal}>
                 {this.state.candidate.nombre}

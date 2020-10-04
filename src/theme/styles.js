@@ -6,114 +6,13 @@ const deviceSize = Dimensions.get('window')
 const orientation = '90deg'
 
 const welcomeScreen = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  text: {
-    fontSize: 18,
-    marginBottom: 0,
-    color: colors.white,
-    textAlign: 'center',
-    fontFamily: 'HelveticaNeue-Light',
-  },
-  head: {
-    fontSize: 18,
-    textAlign: 'center',
-    color: 'white',
-    alignContent: 'center',
-    paddingTop: 20,
-    fontFamily: 'HelveticaNeue-Bold',
-  },
   modalView: {
     backgroundColor: colors.black,
-    borderRadius: 20,
     alignItems: 'center',
-    shadowColor: colors.darkGray,
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 1.25,
-    shadowRadius: 5.84,
-    elevation: 5,
-    paddingVertical: 30,
   },
   modalImage: {
     width: deviceSize.width,
-    height: 570,
-    flex: 1,
-  },
-  signature: { width: 243, height: 44, marginVertical: 20 },
-  centeredView: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: 10,
-  },
-  cta: {
-    flex: 0,
-    flexDirection: 'row',
-    justifyContent: 'center',
-  },
-})
-
-const alugaro = StyleSheet.create({
-  root: {
-    flex: 1,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.black,
-  },
-  au_root: {
-    flex: 1,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.white,
-  },
-  agenda_urgente: { width: deviceSize.width, height: 4652 },
-  title: {
-    fontSize: 24,
-    marginBottom: 5,
-    paddingTop: 10,
-    fontFamily: 'HelveticaNeue-Light',
-    color: colors.white,
-  },
-  logo: {
-    width: 150,
-    height: 70,
-    marginVertical: 10,
-    marginBottom: 20,
-  },
-  display: {
-    width: deviceSize.width,
-    height: 157,
-  },
-  display_lugaro: {
-    width: deviceSize.width * 0.9,
-    height: 150,
-    marginVertical: 5,
-    marginBottom: 10,
-  },
-  verb: {
-    color: colors.white,
-    fontSize: 16,
-  },
-  tile: {
-    width: 200,
-    height: 120,
-    marginVertical: 10,
-  },
-  separator: {
-    alignSelf: 'center',
-    height: 1,
-    width: '70%',
-    backgroundColor: colors.white,
-    marginVertical: 10,
-    marginBottom: 20,
+    height: deviceSize.width * 1.95,
   },
 })
 
@@ -658,12 +557,11 @@ export default {
   mapPage,
   stacks,
   navigation,
-  alugaro,
   townInfo,
   newsFeed,
   agendaUrgente,
   districtInfo,
   welcomeScreen,
   candibrowser,
-  candiTile,
+  candiProfile,
 }

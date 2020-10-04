@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, View, ScrollView, StyleSheet } from 'react-native'
 import { colors } from 'theme'
 import CandiTile from '../CandiTile'
-import mvcdb from '../../../assets/candidatxs/candidatxsDev.json'
+import mvcdb from '../../../assets/candidatxs/candidatxs.json'
 
 const candidatxs = mvcdb.candidatxs
 

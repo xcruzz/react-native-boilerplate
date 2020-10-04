@@ -3,7 +3,7 @@ import SocialBar from '../SocialBar'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import { Image, Text, View } from 'react-native'
-import mvcdb from '../../../assets/candidatxs/candidatxsDev.json'
+import mvcdb from '../../../assets/candidatxs/candidatxs.json'
 
 const candidatxs = mvcdb.candidatxs
 const styles = globalStyles.candiProfile
