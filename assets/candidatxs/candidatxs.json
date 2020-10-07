@@ -2,7 +2,7 @@
   "pueblos": [
     {
       "key": "cajademuertos",
-      "distritoS": "",
+      "distritoS": null,
       "name": "",
       "activeFill": "#000000",
       "d": "m1.7666 155.28c0-1.1226 1.4862-2.787 2.4886-2.787 1.1585 0 0.55255 1.4728-0.98034 2.3829-1.5065 0.8944-1.5083 0.89488-1.5083 0.40416z"
@@ -58,21 +58,21 @@
     },
     {
       "key": "cayoluispena",
-      "distritoS": "",
+      "distritoS": null,
       "name": "",
       "activeFill": "#000000",
       "d": "m184.13 89.019c-0.83899-1.1348-1.005-2.0345-0.41185-2.2318 0.26549-0.08832 0.68533-0.30866 0.933-0.48964 0.24771-0.181 0.50401-0.27374 0.5696-0.20614 0.15708 0.16195 0.23622 1.179 0.2 2.5703-0.035 1.3442-0.4717 1.4651-1.2908 0.35729z"
     },
     {
       "key": "culebrita",
-      "distritoS": "",
+      "distritoS": null,
       "name": "",
       "activeFill": "#000000",
       "d": "m200.47 87.211c-0.49133-0.18775-1.5875-1.3354-1.5875-1.6621 0-0.38264 2.1061-0.86389 2.4676-0.56388 0.52294 0.434 0.26876 2.4635-0.30036 2.3985-0.10059-0.01138-0.36142-0.08914-0.5797-0.17254z"
     },
     {
       "key": "cayonorte",
-      "distritoS": "",
+      "distritoS": null,
       "name": "",
       "activeFill": "#000000",
       "d": "m195.38 83.273c-0.9199-0.48519-0.96694-1.355-0.0853-1.5763 0.76812-0.19278 1.3822-0.01323 2.255 0.65974 0.52253 0.40278 0.58695 0.57391 0.33179 0.88135-0.41484 0.49988-1.5893 0.51641-2.5016 0.03524z"
@@ -809,6 +809,7 @@
         "imgUri": "https://www.dropbox.com/s/2zx12fyqvadrdke/15-Manuel-Natal-Albelo-Alcalde-San-Juan-150x150%20%281%29.png?raw=1"
       },
       "pueblo": "sanjuan",
+      "alcalde": true,
       "candidatura": "Alcalde San Juan",
       "nombre": "Manuel Natal Albelo",
       "contacto": {
@@ -1909,6 +1910,7 @@
         "imgUri": "https://www.dropbox.com/s/efesoepwc3cz6j8/1P-Christian-Santiago-Alcalde-Municipio-Anasco%20%281%29.png?raw=1"
       },
       "pueblo": "anasco",
+      "alcalde": true,
       "candidatura": "Alcalde Municipio Añasco",
       "nombre": "Christian Santiago",
       "website": "http://www.christiansantiago.net/",
@@ -2582,6 +2584,7 @@
         "imgUri": "https://www.dropbox.com/s/9y4869e0wuhc8fh/ramonrodriguezponce.png?raw=1"
       },
       "pueblo": "ponce",
+      "alcalde": true,
       "candidatura": "Candidato para alcalde de Ponce",
       "nombre": "Ramón Rodríguez",
       "contacto": {
@@ -2661,6 +2664,7 @@
         "imgUri": "https://www.dropbox.com/s/kro8tv5mnm7uk18/cristiangonzalez2.png?raw=1"
       },
       "pueblo": "comerio",
+      "alcalde": true,
       "candidatura": "Alcalde de Comerío",
       "nombre": "Cristian González",
       "contacto": {
@@ -3355,7 +3359,7 @@
         "imgUri": "https://www.dropbox.com/s/zcuss4625tks180/enidseneriz.png?raw=1"
       },
       "pueblo": "rincon",
-      "isMayor": true,
+      "alcalde": true,
       "candidatura": "Alcaldía de Rincón",
       "nombre": "Enid Señeriz Ortiz",
       "contacto": {
@@ -3389,7 +3393,12 @@
         "ig": null,
         "twitter": null
       },
-      "planDeTrabajo": null,
+      "planDeTrabajo": [
+        "Establecer la Oficina de Servicios Integrados a la Edad Dorada para asegurar el envejecimiento digno y saludable de los ciudadanos de la tercera edad con un enfoque en servicios sociales y programación terapéutica.",
+        "stablecer alianzas con organizaciones y entidades para colaborar en un plan municipal de prevención y respuesta antes casos de salud mental, violencia domestica y violencia de género.",
+        "Desarrollar enlaces con universidades y entidades académicas para llevar a cabo estudios de la población e identificar áreas de necesidad de atención, desarrollo de programas y política pública.",
+        "Diseñar programación y talleres educativos, vocacionales, culturales y artísticos para niños, jóvenes, adultos y adultos mayores."
+      ],
       "biografia": [
         "Stephanie M. Soler Martínez es psicoterapeuta, artista y partidaria contra la violencia doméstica y violencia de género.",
         "En el 2013 obtuvo un bachillerato en Psicología con un grado menor en Biología de la Universidad de Puerto Rico, Recinto Universitario de Mayagüez (RUM) y luego una maestría en Consejería Clínica de Salud Mental y Terapias de Artes Expresivas de Lesley University en Cambridge, Massachusetts.",
@@ -3414,7 +3423,13 @@
         "ig": null,
         "twitter": null
       },
-      "planDeTrabajo": null,
+      "planDeTrabajo": [
+        "Ampliar los programas deportivos y recreativos para promover actividades de esparcimiento, desarrollo personal, prevención de enfermedades y entablar enlaces entre jóvenes y adultos mayores.",
+        "Desarrollar programas deportivos y recreativos para niños y jóvenes con diversidad funcional.",
+        "Mejorar las instalaciones deportivas existentes y maximizar su uso e impulsar el desarrollo de nuevas facilidades deportivas para las actividades para las cuales haya necesidad.",
+        "Activar los centros comunales como ejes de iniciativas para la educación, seguridad, vida activa y autogestión en alianza con las organizaciones comunitarias.",
+        "Realizar un estudio de viabilidad para la creación de una ciclo vía en áreas de las carreteras que cumplan con los requisitos de espacio para salvaguardar la seguridad de los ciclistas."
+      ],
       "biografia": [
         "Realizó un bachillerato en Enseñanza de la Educación Física y un grado menor en música en la Universidad de Puerto Rico, Recinto de Cayey y luego una maestría en Análisis Científico del Movimiento del Cuerpo Humano en la Universidad Interamericana de Puerto Rico, Recinto de San Germán con sede en el Albergue Olímpico de Salinas.",
         "Se desempeñó como maestra de educación física general y adaptada en el Departamento de Educación y en Colegios privados. En el 1997 comenzó a trabajar en el Departamento de Educación Física del Recinto Universitario de Mayagüez de la Universidad de Puerto Rico. En el 1999 fue admitida a la Universidad del Estado de la Florida (FSU) donde culminó un Ph.D. en Pedagogía de la Educación Física con especialidad en Educación Física Adaptada. Además, posee la certificación de educador físico adaptado (C.A.P.E. por sus siglas en inglés).",
@@ -3437,7 +3452,11 @@
         "ig": null,
         "twitter": null
       },
-      "planDeTrabajo": null,
+      "planDeTrabajo": [
+        "Proteger la Reserva Marina Tres Palmas mediante acuerdos colaborativos con DRNA, organizaciones sin fines de lucro y comunitarias.",
+        "Analizar y diseñar soluciones a problemas en las playas, tales como el recogido de basura y escombros, erosión y accesos.",
+        "En alianzas con profesionales de la transportación en el sector académico, realizar estudios de tráfico y analizar la viabilidad de varias alternativas para mejorar las condiciones del flujo vehicular."
+      ],
       "biografia": [
         "Dr. Andrés Romeu Cotchett es oceanógrafo químico, ebanista y líder en el campo de conservación y protección del medio ambiente en Puerto Rico.",
         "Completó su bachillerato en el Recinto Universitario de Mayagüez (Magna Cum Laude) y luego cursó estudios de maestría en el Departamento de Ciencias Marinas. Fue parte del equipo fundador del Programa Sea Grant en el RUM, y de ahí salió a la Universidad de Texas A&M a completar un doctorado en oceanografía, con concentración en química y geoquímica.",
@@ -3461,7 +3480,10 @@
         "ig": null,
         "twitter": null
       },
-      "planDeTrabajo": null,
+      "planDeTrabajo": [
+        "Establecer la Oficina de Educación con la intención de crear enlaces, fortalecer los servicios de las escuelas de la comunidad y programas innovadores.",
+        "Creación de programas empresariales en coordinación con la Oficina de Desarrollo Económico dirigido a jóvenes con el propósito de prepararlos hacia un futuro vanguardista."
+      ],
       "biografia": [
         "Myriam A. Pérez Cruz es educadora, cantautora y líder comunitaria. Posee un bachillerato en Educación Musical de la Universidad Interamericana Recinto de San Germán y una maestría en Administración y Supervisión Escolar de la Universidad de Phoenix.",
         "Posee 28 años de experiencia en el sistema educativo de Puerto Rico, 20 de ellos como directora escolar y ocho como maestra en la sala de clases. Por un año laboró como maestra en el sistema educativo del Salvation Army en Austin Texas, con niños sin hogar y por dos años como Directora Escolar y colaboradora en la acreditación de First Bilingual School en Aguadilla, PR.",
@@ -3484,7 +3506,10 @@
         "ig": null,
         "twitter": null
       },
-      "planDeTrabajo": null,
+      "planDeTrabajo": [
+        "Desarrollar un Plan de Seguridad y Bienestar Integral para la Policía Municipal que incluya la adquisición de equipos y talleres de capacitación enfocados al enlace comunitario, prevención y acción temprana.",
+        "Expandir y mejorar el sistema de transportación pública por nuestras comunidades, escuelas y lugares turísticos para los ciudadanos y visitantes."
+      ],
       "biografia": [
         "Luis Torres del Valle es investigador, equestre y partidario de donación de órganos. En el 1974, ingresó a las fuerzas armadas de Estados Unidos luego de cursar estudios primarios en el sistema de educación pública en Yauco. Una vez culminó su servicio militar, regresó a Puerto Rico para avanzar su educación mientras trabajaba en varias empresas a tiempo medio. Se mudó al estado de Nueva York en 1978 en busqueda de oportunidades de empleo para mantener a su nueva familia. Allí ingresó a la Policia Estatal de Nueva York (NYSP), donde sirvió honorablemente por 21 años. Trabajó como patrullero por 5 años, luego ascendió a Investigador y fue asignado al Cuerpo de Investigaciones Criminales (BCI) donde tuvo la oportunidad de trabajar casos de homicidios, lavado de dinero, crimen de cuello blanco, y por último, el ataque terrorista de 9/11 a las Torres Gemelas (World Trade Center).",
         "Forzado al retiro por razones de salud, se mudó a Pennsylvania en el 2002 donde recibió un trasplante del hígado y parte del intestino. En el 2007 fue nombrado a la Junta Consejera del Gobernador de Pennsylvania de Donaciones de Órganos y Tejidos (Pennsylvania Governors Advisory Committee on Organ and Tissue Donation), siendo el primer hispano en ocupar esa posición donde represento a pacientes en espera de y quienes recibieron transplantes de órganos. Simultáneamente, fue nombrado a la Junta de Política Médica del Gift of Life Donor Program (Gift of Life Medical Policy Board). En ambos cuerpos fue partícipe en la creación y cabildeo de legislación, la cual hoy día facilita el proceso de registro para ser donante y provee acceso electrónico al mismo para todos los empleados estatales de Pennsylvania. Dicha legislación también provee seguimiento y apoyo a familiares de donantes hasta hoy día.",
