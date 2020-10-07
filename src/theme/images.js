@@ -26,8 +26,8 @@ export const images = {
   alugaro_arco_white: require('../../assets/alugaro/arco_icon_white.png'),
   alugaro_2020: require('../../assets/alugaro/Lugaro2020.png'),
   victoria_final: require('../../assets/alugaro/victoria_final.png'),
-  lugaro_work: require('../../assets/alugaro/lugaro_work.jpg'),
-  lugaro_signature: require('../../assets/alugaro/alugaro_signWhite.png'),
+  defiendeelvoto: require('../../assets/alugaro/defiendeelvoto.png'),
+  programadegobierno: require('../../assets/alugaro/programadegobierno.png'),
 
   fb_icon: require('../../assets/social/fb_iconAL.png'),
   twitter_icon: require('../../assets/social/twitter_iconAL.png'),
@@ -49,6 +49,7 @@ export const images = {
   distritoS_logoVIII: require('../../assets/candidatxs/VIIIb.png'),
   PRTowns: require('../../assets/candidatxs/PRTowns.png'),
   candidatxsButton: require('../../assets/alugaro/candidatxsFrame.png'),
+  candidatxsMapHeader: require('../../assets/candidatxs/MapHeader.png'),
 }
 
 // image preloading

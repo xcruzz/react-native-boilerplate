@@ -2,13 +2,70 @@ import AButton from '../../components/ALugaroButton'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import { Svg, Path, G } from 'react-native-svg'
-import { colors } from 'theme'
-import prtowns from '../../../assets/candidatxs/PRTowns.json'
-import { Dimensions, View, Text } from 'react-native'
+import { colors, images, fonts } from 'theme'
+import mvcdb from '../../../assets/candidatxs/candidatxs.json'
+import {
+  StyleSheet,
+  Dimensions,
+  View,
+  Text,
+  Image,
+  TouchableOpacity,
+} from 'react-native'
 import { Picker } from '@react-native-community/picker'
-
+import { ScrollView } from 'react-native-gesture-handler'
+const orientation = '0deg'
 const deviceSize = Dimensions.get('window')
-const styles = globalStyles.mapPage
+const styles = StyleSheet.create({
+  main: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'stretch',
+    justifyContent: 'center',
+    backgroundColor: colors.black,
+    transform: [{ rotate: orientation }],
+  },
+  foot: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: deviceSize.width,
+  },
+  header: {
+    flexDirection: 'column',
+    justifyContent: 'space-around',
+    flex: 0,
+    alignItems: 'center',
+  },
+  onePicker: {
+    width: 240,
+    height: 56,
+  },
+  onePickerItem: {
+    height: 55,
+    color: colors.white,
+    fontFamily: fonts.NeuePlak.Black,
+    fontSize: 28,
+  },
+  separator: {
+    alignSelf: 'center',
+    height: 2,
+    width: '65%',
+    backgroundColor: colors.victoryGold,
+    marginTop: 5,
+  },
+  headerImg: {
+    marginVertical: 20,
+    alignSelf: 'center',
+    width: deviceSize.width * 0.6,
+    height: deviceSize.width * 0.6 * 0.735,
+  },
+  display_lugaro: {
+    alignSelf: 'center',
+    width: 150,
+    height: 68,
+    marginTop: 25,
+  },
+})
 
 const fullScreenDimensions = {
   x: 265,
@@ -16,17 +73,19 @@ const fullScreenDimensions = {
   scale: 2.25,
   width: deviceSize.height * 0.92,
   height: deviceSize.width * 0.7,
+  scrollOffSet: 0,
 }
 
 const tabBarScreenDimensions = {
-  x: 285,
+  x: 265,
   y: -105,
-  scale: 2.2,
+  scale: 2.35,
   width: deviceSize.height * 0.92,
   height: deviceSize.width * 0.7,
+  scrollOffSet: 100,
 }
 
-const dim = fullScreenDimensions
+const dim = tabBarScreenDimensions
 
 const defaultTown = 'Presiona un Pueblo'
 
@@ -68,15 +127,16 @@ export default class SVGMap extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      props: props,
-      towns: prtowns.pueblos.sort((a, b) => (a.name > b.name ? 1 : -1)),
+      navigation: props.navigation,
+      towns: mvcdb.pueblos.sort((a, b) => (a.name > b.name ? 1 : -1)),
       selectedTownI: 1,
       selectedTownK: defaultTown,
       selectedTownN: defaultTown,
       gTownFill: colors.black,
       gTownActiveFill: colors.victoryGold,
+      gTownActiveOutline: colors.victoryGold,
       gTownOutline: colors.white,
-      gStrokeWidth: '.11',
+      gStrokeWidth: '.01',
       gTransform: '0.0 0.0',
     }
   }
@@ -86,8 +146,10 @@ export default class SVGMap extends React.Component {
 
     return (
       <View style={styles.main}>
-        <Text />
-        <View style={styles.foot}>
+        <View style={{ height: 25 }} />
+        <Image style={styles.headerImg} source={images.candidatxsMapHeader} />
+        <Image style={styles.separator} source={images.ySeprator} />
+        <View style={styles.header}>
           <Picker
             style={styles.onePicker}
             itemStyle={styles.onePickerItem}
@@ -97,7 +159,7 @@ export default class SVGMap extends React.Component {
             }}
           >
             <Picker.Item
-              label="Lista de Pueblos"
+              label="MUNICIPIO"
               value={defaultTown}
               key={defaultTown}
             />
@@ -105,7 +167,7 @@ export default class SVGMap extends React.Component {
               if (town.name)
                 return (
                   <Picker.Item
-                    label={town.name}
+                    label={town.name.toUpperCase()}
                     value={town.key}
                     key={town.key}
                   />
@@ -113,33 +175,47 @@ export default class SVGMap extends React.Component {
             })}
           </Picker>
         </View>
-        <View>
-          <Svg width={dim.width} height={dim.height}>
-            {this.state.towns.map((town, i) => {
-              return (
-                <G
-                  transform={`translate(${this.state.gTransform})`}
-                  stroke={this.state.gTownOutline}
-                  stroke-width={this.state.gStrokeWidth * 0.01}
-                  fill={this.state.towns[i].activeFill}
-                  x={dim.x}
-                  y={dim.y}
-                  scale={dim.scale}
-                  key={town.key}
-                  onPressIn={() => {
-                    this.updateSelection(town.key, i)
-                  }}
-                >
-                  <Path id={town.key} d={town.d} />
-                </G>
-              )
-            })}
-          </Svg>
-        </View>
+        <Image style={styles.separator} source={images.ySeprator} />
+        <Text />
+        <ScrollView
+          horizontal={true}
+          initialListSize={0}
+          contentOffset={{ x: dim.scrollOffSet }}
+        >
+          <View>
+            <Svg width={dim.width} height={dim.height}>
+              {this.state.towns.map((town, i) => {
+                return (
+                  <G
+                    transform={`translate(${this.state.gTransform})`}
+                    stroke={this.state.gTownOutline}
+                    stroke-width={this.state.gStrokeWidth * 0.01}
+                    fill={this.state.towns[i].activeFill}
+                    x={dim.x}
+                    y={dim.y}
+                    scale={dim.scale}
+                    key={town.key}
+                    onPressIn={() => {
+                      if (town.distritoS !== null) {
+                        console.log(town)
+                        this.updateSelection(town.key, i)
+                      } else {
+                        console.log(town.key)
+                      }
+                    }}
+                  >
+                    <Path id={town.key} d={town.d} />
+                  </G>
+                )
+              })}
+            </Svg>
+          </View>
+        </ScrollView>
+
         <View style={styles.foot}>
           <AButton
             title="Regresar"
-            onPressNavigate={this.state.props.pNavigation}
+            onPressNavigate={this.state.navigation}
             navigationProps={{
               to: 'ALugaro',
               from: 'Map',
@@ -147,7 +223,7 @@ export default class SVGMap extends React.Component {
           />
           <AButton
             title={this.state.selectedTownN}
-            onPressNavigate={this.state.props.pNavigation}
+            onPressNavigate={this.state.navigation}
             isDisabled={this.state.selectedTownK == defaultTown}
             navigationProps={{
               to: 'Candidaturas',
@@ -157,7 +233,20 @@ export default class SVGMap extends React.Component {
             width={200}
           />
         </View>
-        <Text />
+        <View>
+          <TouchableOpacity
+            onPress={() => {
+              this.setState({
+                ...this.state,
+                isModalActive: true,
+                loading: false,
+              })
+            }}
+          >
+            <Image style={styles.display_lugaro} source={images.alugaro_2020} />
+          </TouchableOpacity>
+        </View>
+        <View style={{ height: 25 }} />
       </View>
     )
   }

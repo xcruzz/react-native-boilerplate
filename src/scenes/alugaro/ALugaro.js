@@ -8,10 +8,10 @@ import {
   View,
   StatusBar,
   Image,
-  Linking,
   Platform,
   StyleSheet,
   Dimensions,
+  Linking,
 } from 'react-native'
 import { images, colors } from 'theme'
 import { ScrollView } from 'react-native-gesture-handler'
@@ -23,12 +23,13 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     backgroundColor: colors.black,
+    width: deviceSize.width,
   },
   logo: {
     width: 62,
     height: 70,
-    marginVertical: 10,
-    marginBottom: 20,
+    marginTop: 45,
+    marginBottom: 10,
   },
   display_lugaro: {
     width: 150,
@@ -37,8 +38,9 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   tile: {
-    width: deviceSize.width * 0.98,
-    height: deviceSize.width * 0.98 * 0.608,
+    width: deviceSize.width * 0.65,
+    height: deviceSize.width * 0.65 * 1.005,
+    marginVertical: 10,
   },
   separator: {
     height: 30,
@@ -85,11 +87,11 @@ export default class ALugaro extends React.Component {
     return (
       <View style={styles.root}>
         <StatusBar barStyle="light-content" />
-        <View style={styles.separator} />
+        {/* <View style={styles.separator} /> */}
+        <Image style={styles.logo} source={images.logo_blanco} />
         <ScrollView>
           <View style={styles.root}>
-            <View style={styles.separator} />
-            <Image style={styles.logo} source={images.logo_blanco} />
+            {/* <View style={styles.separator} /> */}
             {Platform.OS === 'ios' ? (
               <View>
                 <TouchableOpacity
@@ -114,22 +116,49 @@ export default class ALugaro extends React.Component {
             >
               <Image style={styles.tile} source={images.candidatxsButton} />
             </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {
+                this.state.props.navigation.navigate('Details', {
+                  from: 'ALugaro',
+                  articleKey: 'programadegobierno',
+                })
+              }}
+            >
+              <Image style={styles.tile} source={images.programadegobierno} />
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {
+                Linking.openURL('http://www.defiendeelvoto.com/')
+              }}
+            >
+              <Image style={styles.tile} source={images.defiendeelvoto} />
+            </TouchableOpacity>
             <SocialBar
               fbHandle="alugaro"
               twitterHandle="alexandralugaro"
               igHandle="alexandralugaro"
             />
-            <View style={{ flexDirection: 'row' }}>
-              <AButton
-                title="Defiende el Voto"
-                onPressURL="https://www.defiendeelvoto.com/"
-              />
+            <View
+              style={{
+                flexDirection: 'row',
+                width: '100%',
+              }}
+            >
               <AButton
                 title="Haz tu donación"
                 onPressURL="https://secure.qgiv.com/for/cala"
               />
+              <AButton
+                title="Mensaje de Alexandra"
+                onPress={() => {
+                  this.setState({
+                    ...this.state,
+                    isModalActive: true,
+                    loading: false,
+                  })
+                }}
+              />
             </View>
-            <View style={styles.separator} />
             <TouchableOpacity
               onPress={() => {
                 this.setState({
@@ -145,7 +174,6 @@ export default class ALugaro extends React.Component {
               />
             </TouchableOpacity>
           </View>
-          <View style={styles.separator} />
         </ScrollView>
         {
           //Modal - Welcome Message

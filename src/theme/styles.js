@@ -3,7 +3,6 @@ import { Dimensions, StyleSheet } from 'react-native'
 import { colors } from 'theme'
 
 const deviceSize = Dimensions.get('window')
-const orientation = '90deg'
 
 const welcomeScreen = StyleSheet.create({
   modalView: {
@@ -36,11 +35,6 @@ const stacks = StyleSheet.create({
   logo: {
     width: 32,
     height: 32,
-  },
-  logo90: {
-    width: 32,
-    height: 32,
-    transform: [{ rotate: orientation }],
   },
 })
 
@@ -140,46 +134,6 @@ const activeDisplay = StyleSheet.create({
   logo: {
     width: 108,
     height: 120,
-  },
-})
-
-const mapPage = StyleSheet.create({
-  root: {
-    flex: 1,
-    alignItems: 'center',
-    backgroundColor: colors.black,
-  },
-  main: {
-    flex: 1,
-    flexDirection: 'column',
-    alignItems: 'stretch',
-    justifyContent: 'center',
-    backgroundColor: colors.black,
-    transform: [{ rotate: orientation }],
-  },
-  foot: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    flex: 0,
-    alignItems: 'center',
-    backgroundColor: colors.black,
-  },
-  onePicker: {
-    width: 200,
-    height: 44,
-    backgroundColor: colors.darkGray,
-    borderColor: colors.white,
-    borderWidth: 0.5,
-  },
-  onePickerItem: {
-    height: 45,
-    color: colors.white,
-  },
-  separator: {
-    alignSelf: 'center',
-    height: 5,
-    width: '75%',
-    backgroundColor: colors.victoryGold,
   },
 })
 
@@ -560,7 +514,6 @@ export default {
   drawerMenu,
   articlePage,
   activeDisplay,
-  mapPage,
   stacks,
   navigation,
   townInfo,

@@ -1,0 +1,182 @@
+{
+  "article": "PROPUESTA DEL PROGRAMA DE GOBIERNO",
+  "intro": [
+    "Documento síntesis de los insumos analíticos y de propuestas generadas por las redes de talentos y saberes del MVC"
+  ],
+  "capitulos": [
+    {
+      "título": "Template",
+      "contenido": [
+        { "verbs": [""] },
+        { "bullets": [""] },
+        { "numberedList": [""] },
+        { "header": [""] },
+        { "numberedTitle": { "i": 0, "verb": "" } }
+      ]
+    },
+    {
+      "título": "Introducción",
+      "contenido": [
+        {
+          "verbs": [
+            "Esta propuesta programática que presenta el Movimiento Victoria Ciudadana a la consideración del pueblo de Puerto Rico, de cara a las elecciones del próximo 3 de noviembre, busca dar respuesta al reclamo general de un cambio urgente. Llevamos más de una década de estancamiento económico; hemos acumulado una deuda pública de sobre 70,000 millones de dólares por incompetencia, ilegalidad y abuso de autoridad de pasados gobernantes; sufrimos todavía la devastación y muertes que generaron los huracanes Irma y María en 2017, los terremotos a principios del 2020 y seguimos inmersos en la pandemia de Covid-19 desde marzo. Pandemia, que, como los desastres anteriores, ha sido muy mal manejada y ha cobrado ya sobre 650 vidas. El cúmulo de dificultades es resultado de múltiples factores, entre los cuales sobresalen la incompetencia, la corrupción y la vulnerabilidad general de buena parte de la población del país por los altos niveles de pobreza y desigualdad que persisten.",
+            "En simultáneo, se verifica una profunda descomposición en los dos partidos que han gobernado a Puerto Rico en los últimos setenta años. Contagiados con el veneno de la corrupción y paralizados por la incapacidad de gestionar el aparato gubernamental profesionalmente, en función del bien común, han sido incapaces de generar estrategias e instrumentar soluciones para superar la crisis estructural del país. En su lugar, han adoptado políticas neoliberales de privatización, recortes de servicios, austeridad presupuestaria, así como medidas anti obreras y patronales. El resultado es una coyuntura cargada de penuria, incertidumbre y desconfianza.",
+            "Puerto Rico vive un momento histórico; está por atravesar un umbral que definirá su futuro. Hay indicios de que se trata de un momento de eclosión, donde un nuevo orden económico, social y político lucha por brotar, mientras el viejo orden se niega a morir. El nuevo repudia las profundas desigualdades e injusticias que día a día marcan la vida cotidiana. Clama ante la falta de trabajo y ante la precarización laboral impuesta por políticas neoliberales; se estremece ante la pobreza generalizada y las desigualdades exacerbadas; repudia con toda su fuerza una deuda pública agobiante, que no se ha auditado y que no puede pagarse; condena las múltiples formas de violencia, la persistente violación de derechos humanos, la degradación del medioambiente y también la poca democracia que nos queda.",
+            "El viejo orden político, caracterizado por el colonialismo, las políticas neoliberales y el bipartidismo que fue anquilosándose, corrompiéndose y acabó abusando del poder cada vez que lo ejerció, parece estar terminando sus días. La renuncia del gobernador Ricardo Rosselló, a poco más de la mitad del cuatrienio, fue una señal de una sociedad que se hartó de la política del abuso. Los reiterados casos de corrupción gubernamental en el cuatrienio, así como la impericia generalizada de la administración que siguió, de Pedro Pierluisi y de Wanda Vázquez, hicieron colapsar el funcionamiento de casi todas las agencias gubernamentales. En un mes, llegaremos al proceso electoral con una economía estancada, la infraestructura del país colapsada, las instituciones públicas inoperantes y en estado calamitoso. Los dos partidos responsables de esta debacle histórica siguen enarbolando su visión neoliberal como si nada hubiera pasado.",
+            "Puerto Rico necesita refundarse, regenerar instituciones, prácticas, hacer nuevas lecturas críticas de su historia reciente y mirar al futuro con confianza. Contamos con importantes activos y ventajas estratégicas que viabilizan oportunidades, a pesar de que estemos en medio de una pandemia que marca un antes y un después en todo el mundo y que tengamos un altísimo nivel de vulnerabilidad general. Tenemos una ubicación geográfica estratégica, entre las Américas, Europa, África y el Caribe, con un clima privilegiado y una belleza natural indiscutible; tenemos una impresionante riqueza cultural, que atraviesa e integra lo caribeño, lo latinoamericano y nuestra diáspora en Estados Unidos. Tenemos profesionales bien formados, excelentes trabajadores y trabajadoras, recintos universitarios de calibre mundial y comprometidos con la transformación de Puerto Rico. Existe un Tercer Sector muy grande, de sobre 4,000 organizaciones que ha mostrado ser muy efectivo en atender las emergencias causadas por los desastres naturales recientes y que día a día trabaja en comunidades vulnerables y promueve una cultura de trabajo autónomo basado en la autogestión, el apoderamiento comunitario, la solidaridad y el emprendimiento social.",
+            "Este programa contiene políticas, programas y visiones que nos permiten recuperar la esperanza sobre bases reales y concretas. Tenemos capacidad colectiva de actuar para erradicar la indolencia de gobiernos que ejercieron impunemente prácticas como el nepotismo, el clientelismo y el favoritismo en la concesión de contratos y prebendas. Gobiernos que usaron los mecanismos neoliberales de la privatización, desreglamentación, la eliminación de protecciones laborales, la reducción de impuestos al gran capital y los recortes al sector público, con el resultado de haber profundizado la brecha social, hasta llegar al deshonroso sitial de ser el tercer país más desigual del mundo. La negligencia en el cumplimiento de deberes ministeriales y la insensibilidad hacia el dolor humano son hoy señas de identidad del bipartidismo que precisamos derrotar.",
+            "Con el insumo de más de 150 encuentros, reuniones y consultas en las que han participado a lo largo de diez meses más de 1,200 personas por medio de nuestras 16 Redes de Saberes y Talentos, 8 Redes Territoriales Distritales, la Red de la Diáspora y el Comité Nacional Transitorio, se ha preparado esta propuesta dirigida a refundar a Puerto Rico. Miles de horas de trabajo solidario de investigación, análisis, debates y discusiones en la Red de Redes, en la membresía del Movimiento Victoria Ciudadana y en el Comité Nacional Transitorio, precedieron la redacción de este documento, que es una síntesis de muchos trabajos realizados.",
+            "El Movimiento Victoria Ciudadana presenta aquí una estrategia integral y sinérgica para acometer la multidimensional crisis que enfrentamos. Partimos de la noción básica de desarrollo humano sustentable (DHS) para marcar la orientación general en materia de políticas económicas, sociales, ambientales y culturales. Nuestra Agenda Urgente, el documento fundacional del Movimiento, sentó los lineamientos de las tres encomiendas que asumimos con su creación: el rescate de las instituciones públicas; la reconstrucción social, económica, ambiental y fiscal; y la descolonización de Puerto Rico. Este programa de gobierno profundiza en cada uno de esos ámbitos y presenta metas, objetivos puntuales y acciones estratégicas en cada ámbito.",
+            "El desarrollo humano sustentable es un enfoque centrado en las personas y en una sana relación con la naturaleza, que busca asegurar prosperidad para toda la sociedad, a partir del trabajo digno y adecuadamente remunerado, del respeto a los derechos humanos y de la activa participación de la población en su diseño e instrumentación. Desde esa visión del desarrollo, que pone el énfasis en la búsqueda del bien común, podremos asegurar educación, salud y vivienda de calidad para toda la población, consolidar un sistema de justicia imparcial y garantizar una sociedad que evolucione con equidad y bienestar general, con un mínimo de privaciones y de vulnerabilidad.",
+            "Este paradigma, o ruta de guía para el desarrollo, supone un cambio en la forma de gobernar, que comienza privilegiando el diálogo con los diversos actores de una sociedad y la búsqueda de acuerdos macros para afirmar la gobernabilidad democrática. Puerto Rico tiene enormes posibilidades de incrementar su bienestar colectivo, la prosperidad económica y la convivencia usando ese marco teórico, así como los principios que sostienen esa visión. El DHS provee los instrumentos para trazar una ruta hacia la creación de un clima de oportunidades reales para toda la población y una sociedad que valore la equidad en todas sus dimensiones.",
+            "El colonialismo, la ideología neoliberal, así como el bipartidismo han desvirtuado la esencia de la política en Puerto Rico y han llevado a que mucha gente la considere como algo despreciable. No se educa a la población para que reconozca y ejerza sus derechos; no se reitera el deber de fiscalización que tiene la ciudadanía para asegurar el bien público; nunca se ha legislado para afirmar la participación ciudadana protagónica que brinde sustancia a la democracia y al desarrollo de la conciencia. Nuestra persistente corrupción no es debida a unas pocas manzanas podridas en los partidos que nos han gobernado, sino a un sistema ideológico, político-clientelar y electoralmente bipartidista de facto. Por ello, el acercamiento del Movimiento de Victoria Ciudadana busca atender en simultáneo todos esos factores a través de una estrategia integral.",
+            "Llegó el momento de recuperar la POLÍTICA como la forma mediante la cual podremos acordar propuestas, visiones, formas de organización de la vida, el trabajo, el ocio, los ideales, las leyes, las costumbres y las normas de convivencia. Transformaremos la política en un ámbito de encuentro libre, creativo, inspirador, en el que todas las personas sientan que su opinión es tomada en consideración en los procesos de concertación sobre el presente y el futuro. Con tu compromiso, lo haremos.",
+            "!El cambio va!"
+          ]
+        }
+      ]
+    },
+    {
+      "título": "CAPÍTULO 1: COMBATE A LA CORRUPCIÓN CON UN GOBIERNO ABIERTO, TRANSPARENTE, ÁGIL, EFICAZ Y EFICIENTE",
+      "contenido": [
+        {
+          "verbs": [
+            "El Movimiento Victoria Ciudadana se ha comprometido con el rescate de las instituciones públicas de Puerto Rico y con el combate frontal a la corrupción. Le asegura al país que constituiría un gobierno al servicio de las necesidades del pueblo.",
+            "La gestión pública en Puerto Rico se ha ido deteriorando progresivamente hasta llegar a un nivel inaceptable. La desconfianza en el gobierno central, en la legislatura y en las personas que ocupan cargos públicos está en sus niveles máximos históricos, con más de un 80% de desaprobación. El colapso de la confianza ciudadana en el gobierno debe atenderse con urgencia porque ha minado la capacidad de gestión, profundizado las desigualdades de acceso a servicios y dificultado seriamente el desarrollo económico y social.",
+            "Según analizado por la Red de Gobierno, Planificación y Administración Pública del MVC, la desconfianza hacia el gobierno proviene de cinco procesos o fuentes principales, a saber:"
+          ]
+        },
+        {
+          "numberedList": [
+            "Las múltiples formas de corrupción que persisten en la gestión pública en Puerto Rico y el excesivo uso de “personal de confianza”, por contrato, que no cumple con los principios de reclutamiento por mérito.",
+            "La incapacidad del proceso actual de generar informes periódicos veraces, auditorías y presupuestos anuales, para establecer prioridades que atiendan las necesidades reales del país y diseñar un proceso de ejecución con equidad, transparencia y participación ciudadana.",
+            "La ineficiencia y pobre calidad de los servicios gubernamentales de informatización/ digitalización, que han supuesto un gran despilfarro de recursos por falta de visión, de continuidad en las inversiones imprescindibles, de corrupción partidista, ausencia de mantenimiento y por no haber incorporado al ámbito científico-académico en su diseño, ni considerado las necesidades de la población.",
+            "El progresivo y azaroso crecimiento de estructuras, programas y proyectos del gobierno de Puerto Rico y del Gobierno Federal en Puerto Rico, sin articulaciones adecuadas con las estructuras e iniciativas en los diversos niveles de acción.",
+            "La poca descentralización operativa del gobierno de Puerto Rico, la ausencia de espacios de participación ciudadana en las diversas esferas de la gestión gubernamental y la ausencia de controles y procesos eficientes y eficaces que tengan a la ciudadanía en el centro y que respondan a mejores prácticas establecidas por los sectores, servicios y agencias."
+          ]
+        },
+        {
+          "verbs": [
+            "Para estos problemas se han generado las siguientes propuestas y compromisos, que serán asumidos por los legisladores y las legisladoras del Movimiento Victoria Ciudadana, tanto a nivel de Cámara y Senado, como por las legislaturas municipales y el Poder Ejecutivo al ganar la gobernación."
+          ]
+        },
+        {
+          "numberedTitle": {
+            "i": 1,
+            "verb": "ATAJAR LA CORRUPCIÓN Y ERRADICAR LA IMPUNIDAD"
+          }
+        },
+        {
+          "bullets": [
+            "En los primeros 100 días de gobierno se lanzará un esfuerzo gigante de prevención, detección y penalización de delitos de corrupción, que partirá con Órdenes Ejecutivas de acción inmediata y la radicación de proyectos de ley ordenando cambios en legislación para dar más garras a los organismos de control y generar nuevos ámbitos de fiscalización y penalización de la corrupción en todas las dependencias del gobierno de Puerto Rico. Estas medidas tendrán como meta primordial el procesamiento oportuno y contundente de los actos de corrupción.",
+            "Se establecerá un sistema de mérito en la función pública al asumir la Gobernación, mediante convocatorias abiertas, publicadas en portal de Internet, con definición de los cargos vacantes, presentación de calificaciones, selección por jurado e informe público de cada concurso. ¡Se acabó el colocar políticos quemados como funcionarias y funcionarios públicos, porque eso ha sido una perversa forma de corrupción!",
+            "Se limitarán los cargos de confianza en todo el sector público a un porciento que se fijará entre el 3% y el 8% por agencia o dependencia, evaluando cada situación particular. Hoy encontramos agencias donde una tercera parte de su empleomanía ocupa puestos “de confianza”, que son más bien de lealtad político-partidista, y que luego se convierten en cargos de carrera sin tener los méritos para ello.",
+            "Establecer un tope salarial a las funcionarias y los funcionarios públicos. ¡Se acabó el abuso de sueldos y sobresueldos para personas favorecidas por pertenecer al partido en el poder!",
+            "Despolitizar el Gobierno. Se prohibirán las gestiones partidistas dentro de las agencias tales como la coordinación de eventos, petición de favores políticos, distribución, recogido, compra y venta de material para recaudar fondos y los procesos de verificación de participación del funcionariado en eventos partidistas.",
+            "Penalizar el uso de influencias, el chantaje político y/o la confabulación para procurar la contratación o remoción de una persona en un puesto de trabajo sin un debido proceso de evaluación de mérito o desempeño.",
+            "Tope a los contratos de servicio, según una escala de compensación justa y uniforme, a establecerse por orden ejecutiva o legislación.",
+            "Analizar meticulosamente todos los contratos firmados por el gobierno de Puerto Rico desde enero de 2019 y evaluar el avance en los trabajos que suponen los mismos, para afirmarlos, enmendarlos o cancelarlos, según se concluya. Se procederá con la cancelación del contrato de privatización de la AEE con el consorcio canadiense-estadounidense LUMA, que llevaría a la eventual desaparición de la Autoridad. Esta será tanto una tarea legislativa como del Ejecutivo.",
+            "Revisar la ley aprobada que permitió la designación por diez años de la funcionaria de compras del gobierno, sin que tenga las calificaciones imprescindibles para ese cargo.",
+            "Desarrollar un andamiaje tecnológico integrado. Este permitirá mantener al día y difundir, mediante una aplicación gratuita, información referente a nombramientos, salarios, contratos y subastas en el Gobierno de Puerto Rico. Igualmente presentará información sobre donativos a campañas y comités políticos; datos sobre corporaciones registradas en Puerto Rico y determinaciones y resoluciones de la Oficina de Ética Gubernamental. El sistema integrado formará parte de las herramientas gubernamentales para el control de la corrupción y el nepotismo. También permitirá monitorear, identificar e investigar posibles esquemas de corrupción. El sistema a diseñar debe contribuir también a mantener la información financiera al día y en forma abierta al escrutinio ciudadano, minimizar los procesos contables manuales, agilizar los cierres mensuales, monitorear el gasto público por instancia administrativa y rubros, completar estados financieros y hacer auditorías, tener una pantalla a la mano de información sobre contratos en distintas dependencias gubernamentales y monitorear su cumplimiento.",
+            "Desarrollar una aplicación para hacer divulgación proactiva de las oportunidades de contratación en el gobierno. Mediante este sistema se anunciarán las convocatorias a cargos públicos, los requisitos y condiciones del mismo y se conocerán los criterios que se usarán para la evaluación. También se informará los resultados de cada concurso.",
+            "En su compromiso con un gobierno abierto, en los portales gubernamentales se divulgará todo lo que se hace, las propuestas que se solicitan y se dará cuenta del cumplimiento de metas y objetivos, todo ello facilitado por el andamiaje tecnológico previsto. Los municipios con autoridades electas del MVC también deberán instalar dicho sistema.",
+            "Se creará una División Interagencial Anticorrupción que contará con oficiales de cumplimiento, responsables de velar por la sana administración pública, la prevención de la corrupción y la divulgación de información. En particular, serán responsables de revisar y verificar transacciones específicas de la Rama Ejecutiva como: i) contratos que asciendan a más de $100,000; ii) contratos que asciendan a más de $25,000 en períodos de emergencia; iii) reclutamientos, contratos y compras con fondos federales asignados a Puerto Rico por declaraciones de emergencia; y iv) nombramientos en año electoral. Sus nombramientos serán responsabilidad del gobernador o gobernadora, basándose en criterios y perfiles recomendados por la Escuela de Administración Pública de la Universidad de Puerto Rico, la Comisión de Derechos Civiles, el Instituto de Estadísticas de Puerto Rico y entidades de la sociedad civil dedicadas a estos temas.",
+            "En aras de combatir las puertas giratorias en el Gobierno de Puerto Rico, se prohibirá por ley el cabildeo de parte del gobernador o la gobernadora, de quienes ejerzan la jefatura de agencias gubernamentales, de integrantes del poder legislativo y de otros funcionarios y funcionarias de alto nivel por un periodo de cuatro años después de su renuncia, destitución o fecha en que dejaron de ocupar un cargo. Con ello se busca evitar que la gestión gubernamental se utilice para adelantar intereses privados.",
+            "Como medida contra el inversionismo político, se prohibirán por ley los donativos políticos por parte de contratistas gubernamentales. Será ilegal que una persona que sostenga un contrato con el Gobierno de Puerto Rico haga donativos a un partido político, candidato o candidata, comité de campaña o comité autorizado durante la vigencia de la relación contractual."
+          ]
+        },
+        {
+          "numberedTitle": {
+            "i": 2,
+            "verb": "DISCIPLINA FISCAL Y ADMINISTRATIVA"
+          }
+        },
+        {
+          "bullets": [
+            "El MVC tiene un compromiso firme con hacer un gobierno que cuide y use bien sus magros recursos; los dirigirá a los principales objetivos colectivos de revitalizar la economía y atajar el imparable crecimiento de la pobreza y la desigualdad que hemos visto en la última década. Todo el funcionariado electo del MVC asumen el compromiso de custodiar y vigilar el buen uso de los recursos del pueblo de Puerto Rico.",
+            "Se revisarán los procesos de compra en todo el aparato gubernamental. No solo se han convertido en focos de corrupción, sino de fuga de recursos y de pago de bienes y servicios a sobreprecio. Habrá mayores controles en compras de emergencias, y en las compras de los diferentes tipos de servicio, donde hoy se otorgan y renuevan contratos por montos exorbitantes que no formaron parte de procesos competitivos. Se someterá́ legislación a esos fines y todos los funcionarios electos de MVC están obligados a vigilar dichos procesos.",
+            "Se brindarán adiestramientos a funcionarias y funcionarios públicos responsables del área de administración y finanzas en las posiciones ejecutivas/administrativas. Igualmente, las legisladoras y los legisladores electos deberán requerir de los cuerpos legislativos informes veraces, transparentes y en tiempo y deberán convertirse en fiscales de la gestión pública.",
+            "La previsión, la prevención y la transparencia son tres factores que buscaremos inculcar en toda la población, pero muy especialmente en nuestro funcionariado de servicio público. La previsión nos permite estimar costos y asegurar los recursos que serán necesarios para eventos imprevistos y tener los protocolos listos y practicados para cuando llegue la necesidad de usarlos. La prevención buscará reducir vulnerabilidades de todo tipo, porque no hacerlo incrementará dramáticamente los costos. Nuestro equipo de legisladoras y legisladores también deberán ser modelo de esa tríada de principios.",
+            "Puerto Rico Digital: es proyecto estratégico para desarrollar un gobierno accesible, abierto y transparente y consolidar la entrada en la era digital con peso y talentos propios con atención a la brecha digital. Este proyecto iniciaría creando un inventario de empresas nativas que privilegien el uso de tecnologías que se puedan ensamblar en Puerto Rico y de recursos de servicios locales accesibles a toda la población. Se pondrá en vigor el reglamento que exige que los decretos de exención a empresarios y comerciantes extranjeros no solo estén atados a empleos directos generados, sino también a la contratación de empresas nativas para servicios esenciales disponibles en Puerto Rico. Para la conceptualización, planificación y desarrollo de este proyecto se recabará el apoyo de la facultad de la Universidad de Puerto Rico (UPR) dedicada a la investigación y desarrollo en ciencias e ingeniería de computación, ciberseguridad, ingeniería de computadoras e ingeniería de software.",
+            "Se buscará por vía ejecutiva y legislativa que PREPANET se convierta en un puntal del desarrollo y sirva de proveedor de Internet a familias, gobierno, escuelas y plazas públicas. Internet será considerado un derecho humano y un servicio esencial. Se ofrecerán en línea la mayor cantidad de servicios gubernamentales posible. Se establecerán programas de formación digital con perspectiva de género para todas las edades.",
+            "Para todo proyecto de tecnología se deberán evaluar opciones de código abierto que permitan reducir los costos de licenciamiento. Todo proceso de renovación de contratos de software o servicio “en la nube” tipo “commodity” deberá conllevar un análisis del costo total de la inversión, considerando más de un proveedor o alternativa sin costo. El gobierno deberá sacar provecho de alternativas gratuitas donde esté garantizada la seguridad e integridad de la información."
+          ]
+        },
+        {
+          "numberedTitle": {
+            "i": 3,
+            "verb": "GOBIERNO PARITARIO: REGIONALIZACIÓN Y DESCENTRALIZACIÓN"
+          }
+        },
+        {
+          "bullets": [
+            "Se generará un proyecto de distribución geográfica de servicios gubernamentales, basada en distritos senatoriales y descentralización de ámbitos de gestión hacia éstos y los municipios. Este proceso se hará sin menoscabar los derechos ni beneficios de los trabajadores y las trabajadoras, manteniendo la negociación colectiva que existan y se diseñará con participación de las organizaciones sindicales. Una vez el mismo esté listo se someterá como proyecto legislativo a ser adoptado como eje del esfuerzo de regionalización y descentralización. Con este proyecto se buscará lograr i) mayor eficacia y transparencia en servicios que no pueden darse por vía digital; ii) apuntalar desarrollo económico local con perspectiva de género; iii) reducir el éxodo poblacional; iv) asegurar la participación ciudadana en todos los niveles de toma de decisiones e v) instaurar sistemas estadísticos para el monitoreo de gastos y evaluación de resultados.",
+            "Gobierno paritario. Se promoverá que más mujeres, personas negras, jóvenes, personas adultas mayores, inmigrantes, personas con diversidad funcional, e integrantes de comunidades LGBTTQI+ integren elservicio público sobre la base de sus méritos, descartando toda forma de discriminación."
+          ]
+        },
+        {
+          "numberedTitle": {
+            "i": 4,
+            "verb": "NUEVO DIÁLOGO CON ESTADOS UNIDOS SOBRE EL USO DE FONDOS FEDERALES"
+          }
+        },
+        {
+          "bullets": [
+            "Se gestionará un nuevo diálogo y negociación con las agencias del gobierno federal para asegurar que los fondos federales atiendan las prioridades de desarrollo de Puerto Rico, se articulen adecuadamente con los proyectos financiados por el gobierno de Puerto Rico y se usen bien. Se llevará estrategia de desarrollo con prioridades claras e inventario de programas federales en curso para asociarlos a la estrategia, con el compromiso de controlar que todas las instancias del sistema gubernamental cumplan con los acuerdos de cada programa. Para ello se diseñará un sistema de monitoreo y de evaluación y se pondrá en marcha la profesionalización de la gestión de dichos recursos, en el marco del sistema de mérito en el reclutamiento.",
+            "Generaremos inventarios de todos los fondos federales previstos para 2021-2024 a fin de asociarlos a las prioridades de desarrollo de Puerto Rico, negociando cambios de orientación con el gobierno federal, si fuera necesario. El gobierno del MVC generará esta información y la compartirá sistemáticamente con la ciudadanía a través de las redes sociales y los medios de comunicación.",
+            "Aseguraremos que los mecanismos de monitoreo y evaluación de progreso, impacto y resultados de cada programa federal, del gobierno de Puerto Rico, o del ámbito municipal se pongan en práctica, no meramente como un requisito formal de los programas, sino como el sustento de las decisiones para asignar recursos."
+          ]
+        },
+        {
+          "numberedTitle": {
+            "i": 5,
+            "verb": "APOYAR EL INTERCAMBIO REGIONAL E INTERNACIONAL QUE PUEDA AYUDAR A PUERTO RICO EN LA SOLUCIÓN DE SUS MÚLTIPLES PROBLEMAS"
+          }
+        },
+        {
+          "verbs": [
+            "Puerto Rico no ha tenido una política sistemática de participación en espacios de diálogo e intercambio internacional; más bien ha sido errática su presencia en foros internacionales de economía, estadísticas, salud, justicia, educación, urbanismo, cambio climático y otros tantos temas. En términos generales, los intercambios internacionales son una extraordinaria fuente de aprendizaje, de ampliar miradas de conocer otras culturas y visiones de mundo y de hacernos más receptivos a la diversidad. En el ámbito de gestión gubernamental en América Latina hay varios espacios de singular importancia con los cuales Puerto Rico debe mantener relaciones. Por ejemplo, el Centro Latinoamericano de Administración para el Desarrollo (CLAD), que realiza seminarios, cursos en línea, congresos profesionales y, además, tiene un programa de formación permanente de funcionarios públicos de la región a través de su Escuela Iberoamericana de Administración y Políticas Públicas. En la Escuela se ofrecen cursos virtuales dirigidos a mejorar las capacidades profesionales de los funcionarios públicos en temas como evaluación de políticas y programas; gestión de la participación ciudadana en las políticas públicas; elementos esenciales y estrategias para asegurar un gobierno abierto; gobernanza de la inteligencia artificial en la gestión pública, entre otros.",
+            "Desde 1988 Puerto Rico fue aceptado como miembro asociado de algunos organismos regionales como la Comisión Económica de América Latina y el Caribe (CEPAL) y la Organización Panamericana de la Salud (OPS), los cuales son los principales centros regionales de investigación, análisis, difusión y formación en temas de economía y salud, respectivamente. Lamentablemente, la extrema politización que existe en Puerto Rico actúa en detrimento de aprovechar estos recursos para mejorar nuestra gestión pública. Esos organismos, además, proveen un espacio de intercambio de experiencias para las organizaciones sociales de la región, que también contribuye a mejorar sus capacidades de participación y fiscalización. El gobierno del MVC buscará actualizar relaciones con estos organismos y otros que puedan contribuir a mejorar nuestras capacidades de gestión pública."
+          ]
+        },
+        {
+          "numberedTitle": {
+            "i": 6,
+            "verb": "PRESUPUESTO TRANSPARENTE, PARTICIPATIVO, POR RESULTADOS Y CON PERSPECTIVA DE GÉNERO"
+          }
+        },
+        {
+          "bullets": [
+            "El proceso presupuestario de Puerto Rico tiene que cambiar radicalmente para asegurar que se atiendan prioridades reales de la población, así como las necesidades de infraestructura para el desarrollo. El presupuesto estará orientado hacia la reducción de la pobreza; la corrección de las exclusiones y desigualdades más severas; buscará estimular la educación preparativa, la economía social solidaria, la cultura y la investigación científica y tecnológica, que son las prioridades que se ha fijado el MVC desde su fundación en sus amplios diálogos con la ciudadanía y con las organizaciones sociales y profesionales.",
+            "En el transcurso del cuatrienio iremos generando espacios de participación ciudadana para generar un nuevo protocolo de preparación presupuestaria.",
+            "Se buscará conciliar las aspiraciones colectivas que encarna el MVC y la realidad macroeconómica y financiera de Puerto Rico hoy."
+          ]
+        },
+        {
+          "numberedTitle": {
+            "i": 7,
+            "verb": "UNA URGENTE REFORMA DEL SISTEMA POLÍTICO-ELECTORAL"
+          }
+        },
+        {
+          "bullets": [
+            "Además de las acciones descritas en este documento para instrumentarse por el MVC al llegar a la legislatura o al poder ejecutivo, se atenderá la necesidad de generar un proyecto de ley para derogar el código electoral impuesto desde el Senado. El mismo debe ser preparado por una comisión multisectorial y multipartidista del más alto nivel.",
+            "Dicha Comisión trabajará en forma independiente, con recursos asignados por el Poder Ejecutivo y deberá rendir un informe de consenso entre sus integrantes sobre lo que debe ser el nuevo ordenamiento electoral, junto con un anteproyecto de ley dirigido a derogar la Ley Núm. 58 de 20 de junio de 2020, conocida como “Código Electoral de Puerto Rico de 2020”.",
+            "En dicha comisión, quién o quienes representen al MVC presentarán propuestas a tenor con lo dispuesto en nuestra Agenda Urgente, a saber: propuestas que requerirán enmienda constitucional, como lo son las de la segunda vuelta, referéndum revocatorio, representación proporcional, limitación de renovación en cargos e iniciativa ciudadana directa, así como aquellas que se podrán hacer por legislación, tales como las alianzas y candidaturas coligadas, facilitación del proceso de inscripción de partidos y retención de franquicia electoral, inscripción automática de electores, iniciativas ciudadanas indirectas y la modificación de sistema de listas para efectos de votos íntegros. Además, sugerirá y avalará todas aquellas medidas que el colectivo del MVC considere prudentes y necesarias para asegurar el derecho electoral de la población, procesos de votación limpios, ágiles y confiables y un manejo público impecable del sistema electoral de Puerto Rico. Esta nueva Ley electoral debe incluir el financiamiento público y equitativo de campañas que elimine el inversionismo político. Una de las primeras medidas que implementaríamos, contenida en el proyecto RESCATE será prohibir los donativos a partidos o candidatos políticos por parte de contratistas gubernamentales, al igual que ocurre en otras jurisdicciones."
+          ]
+        },
+        {
+          "numberedTitle": {
+            "i": 8,
+            "verb": "UN GOBIERNO LAICO"
+          }
+        },
+        {
+          "verbs": [
+            "La Constitución del Estado Libre Asociado de Puerto Rico afirma que no se establecerá religión oficial alguna, que habrá completa separación de Iglesia y Estado, que el sistema de educación pública será enteramente no sectario y que no se destinarán propiedad ni fondos públicos para el sostenimiento de escuelas o instituciones educativas que no sean las del Estado (incluidas las religiosas). A pesar de ello, en la práctica esos principios no se siguen. En el gobierno del Movimiento Victoria Ciudadana las entidades gubernamentales en Puerto Rico, así como sus operaciones y actividades, tendrán una naturaleza laica y no actuarán en forma alguna que tenga como propósito, objetivo o efecto adelantar alguna idea religiosa, ya sea general o particular. Las entidades gubernamentales no podrán llevar a cabo transacciones o actividades incluyendo contrataciones u otros negocios jurídicos, que tenga como propósito, objetivo o efecto adelantar alguna idea o credo religioso."
+          ]
+        }
+      ]
+    }
+  ]
+}
