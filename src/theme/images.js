@@ -10,22 +10,19 @@ export const svgs = {
 // png/jpeg
 export const images = {
   logo_negro: require('../../assets/images/mvclogo/mvcLogoNegro.png'),
-  logo_oro: require('../../assets/images/mvclogo/mvcLogoOro.png'),
   logo_blanco: require('../../assets/images/mvclogo/blancoiris7.png'),
   logo_arcoiris: require('../../assets/images/mvclogo/blancoiris1.png'),
   welcome_screen: require('../../assets/images/welcome_screenAL.png'),
+  ySeparator: require('../../assets/images/ySeparator.png'),
 
-  victoria_icon: require('../../assets/victoria_icon.png'),
-  victoria_icon_gold: require('../../assets/victoria_icon_gold.png'),
+  victoria_icon_grey: require('../../assets/victoria_icon_grey.png'),
   victoria_icon_white: require('../../assets/victoria_icon_white.png'),
   spinner_arcoiris: require('../../assets/images/spinnerL.gif'),
   loader_blancoiris: require('../../assets/images/loader_blancoiris.gif'),
 
-  alugaro_arco: require('../../assets/alugaro/arco_icon.png'),
-  alugaro_arco_gold: require('../../assets/alugaro/arco_icon_gold.png'),
+  alugaro_arco_grey: require('../../assets/alugaro/arco_icon_grey.png'),
   alugaro_arco_white: require('../../assets/alugaro/arco_icon_white.png'),
   alugaro_2020: require('../../assets/alugaro/Lugaro2020.png'),
-  victoria_final: require('../../assets/alugaro/victoria_final.png'),
   defiendeelvoto: require('../../assets/alugaro/defiendeelvoto.png'),
   programadegobierno: require('../../assets/alugaro/programadegobierno.png'),
 
@@ -33,11 +30,6 @@ export const images = {
   twitter_icon: require('../../assets/social/twitter_iconAL.png'),
   ig_icon: require('../../assets/social/ig_iconAL.png'),
   email_icon: require('../../assets/social/email_iconAL.png'),
-
-  newsfeed_icon: require('../../assets/newsfeed/newsfeed_icon.png'),
-  newsfeed_icon_white: require('../../assets/newsfeed/newsfeed_icon_white.png'),
-
-  distritoS7: require('../../assets/candidatxs/distritoS_7.png'),
 
   distritoS_logoI: require('../../assets/candidatxs/Ib.png'),
   distritoS_logoII: require('../../assets/candidatxs/IIb.png'),

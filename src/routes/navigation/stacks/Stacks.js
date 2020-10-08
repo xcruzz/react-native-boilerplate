@@ -9,7 +9,6 @@ import Home from 'scenes/home'
 import Details from 'scenes/details'
 import Map from 'scenes/map'
 import ALugaro from 'scenes/alugaro'
-import NewsFeed from 'scenes/newsfeed'
 import Articulo from 'scenes/articulo'
 import CandiBrowser from 'scenes/candibrowser'
 import Candidaturas from 'scenes/candidaturas'
@@ -108,22 +107,10 @@ export const ALugaroNavigator = createStackNavigator({
       ...navigationProps,
     }),
   },
-})
-
-export const NewsFeedNavigator = createStackNavigator({
-  NewsFeed: {
-    screen: NewsFeed,
-    navigationOptions: ({ navigation }) => ({
-      title: 'Noticias',
-      headerLeft: <HeaderLeft navigation={{ navigation }} />,
-      headerTitle: <HeaderTitle />,
-      ...navigationProps,
-    }),
-  },
-  Articulo: {
-    screen: Articulo,
-    navigationOptions: ({ navigation }) => ({
-      title: 'Artículo',
+  Details: {
+    screen: Details,
+    navigationOptions: () => ({
+      //title: 'Detalles',
       ...navigationProps,
     }),
   },
