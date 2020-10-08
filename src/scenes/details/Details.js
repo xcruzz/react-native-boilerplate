@@ -1,6 +1,7 @@
 import globalStyles from '../../theme/styles'
 import { ScrollView } from 'react-native-gesture-handler'
 import AgendaUrgente from 'components/AgendaUrgente'
+import ProgramaDeGobierno from 'components/ProgramaDeGobierno'
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Text, View, StatusBar } from 'react-native'
@@ -17,7 +18,13 @@ const Details = ({ navigation }) => {
         <Text style={styles.verb} />
         <Text style={styles.title}>VICTORIA CIUDADANA</Text>
         {
-          articleKey == 'agenda_urgente' ? <AgendaUrgente /> : <Text></Text>
+          articleKey == 'programadegobierno' ? (
+            <ProgramaDeGobierno />
+          ) : articleKey == 'agenda_urgente' ? (
+            <AgendaUrgente />
+          ) : (
+            <Text></Text>
+          )
           //You can add more Article components here
           //Leave the empty <Text> as last always (default) and queue new option on top
           //eg. `articleKey == 'new_key' ? <NewArticleComponent /> :`
