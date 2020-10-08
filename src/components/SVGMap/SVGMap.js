@@ -1,9 +1,9 @@
 import AButton from '../../components/ALugaroButton'
-import globalStyles from '../../theme/styles'
 import React from 'react'
 import { Svg, Path, G } from 'react-native-svg'
 import { colors, images, fonts } from 'theme'
 import mvcdb from '../../../assets/candidatxs/candidatxs.json'
+import ActiveLogo from '../../components/ActiveLogo'
 import {
   StyleSheet,
   Dimensions,
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     marginVertical: 20,
     alignSelf: 'center',
     width: deviceSize.width * 0.6,
-    height: deviceSize.width * 0.6 * 0.735,
+    height: deviceSize.width * 0.6 * 0.3665,
   },
   display_lugaro: {
     alignSelf: 'center',
@@ -147,6 +147,7 @@ export default class SVGMap extends React.Component {
     return (
       <View style={styles.main}>
         <View style={{ height: 25 }} />
+        <ActiveLogo />
         <Image style={styles.headerImg} source={images.candidatxsMapHeader} />
         <Image style={styles.separator} source={images.ySeprator} />
         <View style={styles.header}>
@@ -196,12 +197,8 @@ export default class SVGMap extends React.Component {
                     scale={dim.scale}
                     key={town.key}
                     onPressIn={() => {
-                      if (town.distritoS !== null) {
-                        console.log(town)
+                      if (town.distritoS !== null)
                         this.updateSelection(town.key, i)
-                      } else {
-                        console.log(town.key)
-                      }
                     }}
                   >
                     <Path id={town.key} d={town.d} />

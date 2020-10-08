@@ -1,5 +1,6 @@
 import SocialBar from '../../components/SocialBar'
 import AButton from '../../components/ALugaroButton'
+import ActiveLogo from '../../components/ActiveLogo'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import {
@@ -87,11 +88,10 @@ export default class ALugaro extends React.Component {
     return (
       <View style={styles.root}>
         <StatusBar barStyle="light-content" />
-        {/* <View style={styles.separator} /> */}
-        <Image style={styles.logo} source={images.logo_blanco} />
+        <View style={{ height: 5 }} />
+        <ActiveLogo />
         <ScrollView>
           <View style={styles.root}>
-            {/* <View style={styles.separator} /> */}
             {Platform.OS === 'ios' ? (
               <View>
                 <TouchableOpacity

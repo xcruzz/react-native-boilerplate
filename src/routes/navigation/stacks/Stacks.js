@@ -75,9 +75,6 @@ export const ALugaroNavigator = createStackNavigator({
   ALugaro: {
     screen: ALugaro,
     navigationOptions: ({ navigation }) => ({
-      title: 'Lúgaro 2020',
-      headerLeft: <HeaderLeft navigation={navigation} />,
-      headerTitle: <HeaderTitle />,
       headerShown: false,
       ...navigationProps,
     }),
