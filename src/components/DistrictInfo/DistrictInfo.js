@@ -1,146 +1,135 @@
-import AButton from '../../components/ALugaroButton'
-import SocialBar from '../../components/SocialBar'
-import globalStyles from '../../theme/styles'
+import CandiTile from '../CandiTile'
 import React from 'react'
+import { View, Text, StyleSheet } from 'react-native'
+import mvcdb from '../../../assets/candidatxs/candidatxs.json'
+import { colors } from 'theme'
 import PropTypes from 'prop-types'
-import { Dimensions, View, Text, Image } from 'react-native'
-import candidatxs from '../../../assets/candidatxs/candidatxs.json'
-import { ScrollView } from 'react-native-gesture-handler'
-import { images } from 'theme'
 
-const styles = globalStyles.districtInfo
-const deviceSize = Dimensions.get('window')
+const styles = StyleSheet.create({
+  root: {
+    flex: 0,
+    justifyContent: 'center',
+    paddingTop: 8,
+    paddingBottom: 9,
+    backgroundColor: colors.white,
+  },
+  column: {
+    flex: 0,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    paddingTop: 8,
+    paddingBottom: 9,
+    backgroundColor: 'purple',
+  },
+  head: {
+    fontSize: 26,
+    textAlign: 'center',
+    marginVertical: 10,
+    color: 'black',
+  },
+  button: {
+    backgroundColor: 'white',
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    borderRadius: 20,
+    width: 200,
+    alignItems: 'center',
+    marginVertical: 10,
+  },
+  verb: {
+    color: '#000',
+    //fontFamily: 'HelveticaNeue-Light',
+    fontSize: 18,
+    alignSelf: 'center',
+    marginTop: 7,
+  },
+  separator: {
+    alignSelf: 'center',
+    height: 2,
+    width: '100%',
+    backgroundColor: colors.victoryGold,
+  },
+})
 
-const DistrictInfo = (props) => {
-  const currentDistrict = candidatxs.porDistritoSenatorial.find((ds) => {
-    return ds.number == props.districtNumber
-  })
-  if (currentDistrict.candidatxs != null) {
+export default class DistrictInfo extends React.Component {
+  constructor(props) {
+    super(props)
+    let currentDistricts = null
+
+    if (props.townKey && props.townKey != '') {
+      let town = []
+      town = mvcdb.pueblos.find((p) => {
+        return p.key == props.townKey
+      })
+      currentDistricts = town.distritoS.map((ds) => {
+        return {
+          number: ds,
+          name: mvcdb.distritosS.find((d) => {
+            return d.number === ds
+          }).name,
+          candidates: mvcdb.candidatxs.filter((c) => {
+            return c.distritoS === ds && c.pueblo === null
+          }),
+        }
+      })
+    } else if (props.districtNumber && props.districtNumber != '') {
+      currentDistricts = {
+        number: props.districtNumber,
+        name: mvcdb.distritosS.find((d) => {
+          return d.number === props.districtNumber
+        }).name,
+        candidates: mvcdb.candidatxs
+          .filter((c) => {
+            return c.distritoS === props.districtNumber && c.pueblo === null
+          })
+          .map((i) => {
+            return { key: i.key }
+          }),
+      }
+      currentDistricts = [currentDistricts]
+    }
+
+    this.state = {
+      isTownScope: props.townKey != null,
+      displayHeader: props.displayHeader,
+      currentDistricts: currentDistricts,
+    }
+  }
+
+  render() {
     return (
-      <View style={styles.holder}>
-        <View style={styles.center}>
-          <Text style={styles.content}>
-            {`Distrito Senatorial ` + currentDistrict.name}
-          </Text>
-        </View>
-        <View style={styles.separator} />
-        <ScrollView>
-          {currentDistrict.candidatxs.map((candidate, i) => {
+      <View style={styles.root}>
+        <View style={styles.root}>
+          {this.state.currentDistricts.map((d, i) => {
             return (
-              <View key={candidate.key + i} style={styles.holder}>
-                <Text key={`t0${i}`} />
-                <Text key={`t00${i}`} />
-                <View key={`vn${i}`} style={styles.rightView}>
-                  <Text key={`tn${i}`} style={styles.candName}>
-                    {candidate.nombre}
-                  </Text>
-                </View>
-                <Text key={`t1${i}`} />
-                <View key={`vcb${i}`} style={styles.candidatureBar}>
-                  <Text key={`tcb${i}`} style={styles.candTitle}>
-                    {candidate.candidatura.toUpperCase()}
-                  </Text>
-                </View>
-                <Text key={`t2${i}`} />
-                <Text key={`t3${i}`} />
-                <View key={`biov${i}`}>
-                  <Text key={`biot${i}`} style={styles.textB}>
-                    Biografía
-                  </Text>
-                  <Text key={`t11${i}`} />
-                  <Text key={`bio${i}`} style={styles.content}>
-                    {candidate.biografia.map((i) => {
-                      return i + '\n\n'
-                    })}
-                  </Text>
-                </View>
-                <View key={`pdtv${i}`} style={styles.box}>
-                  {candidate.planDeTrabajo ? (
-                    <Text key={`pdt${i}`} style={styles.boxTB}>
-                      {'Plan de Trabajo\n'}
-                    </Text>
-                  ) : (
-                    <View key={`bv1${i}`} style={{ height: 0 }} />
-                  )}
-                  {candidate.planDeTrabajo ? (
-                    candidate.planDeTrabajo.map((i) => {
-                      return (
-                        <Text key={`pdtt${i}`} style={styles.boxT}>
-                          {'• ' + i + '\n'}
-                        </Text>
-                      )
-                    })
-                  ) : (
-                    <View key={`bv2${i}`} style={{ height: 0 }} />
-                  )}
-                  <SocialBar
-                    key={`SB${i}`}
-                    fbHandle={candidate.contacto.fb}
-                    twitterHandle={candidate.contacto.twitter}
-                    igHandle={candidate.contacto.ig}
-                    emailAddr={candidate.contacto.email}
-                  />
-                  <Text key={`tb1${i}`} />
-                </View>
-                <Text />
-                <View key={`sp${i}`} style={styles.separator} />
+              <View key={`vcd-${i}`}>
+                {this.state.displayHeader && (
+                  <Text
+                    key={`dst-${i}`}
+                    style={styles.head}
+                  >{`Distrito Senatorial ${d.name}`}</Text>
+                )}
+                <View key={`vst-${i}`} style={styles.separator} />
+                {d.candidates.map((c, i) => {
+                  return <CandiTile key={i} candidateKey={c.key} />
+                })}
               </View>
             )
           })}
-          <Text />
-          <AButton
-            title="Haz tu donación"
-            onPressURL="https://www.mvcpr.org/donativos/"
-            isDark={true}
-          />
-          <Text />
-          <View style={styles.separator} />
-          <Text style={styles.center}>Fin</Text>
-        </ScrollView>
-        <Text></Text>
-      </View>
-    )
-  } else if (currentDistrict.content != null) {
-    return (
-      <View style={styles.holder}>
-        <View style={styles.center}>
-          <Text style={styles.content}>
-            {`Distrito Senatorial ` + currentDistrict.name}
-          </Text>
         </View>
-        <View style={styles.separator} />
-        <ScrollView>
-          <Text />
-          <Image
-            style={{
-              width: deviceSize.width * 0.98,
-              height: currentDistrict.content.imgHeight,
-            }}
-            source={images[currentDistrict.content.image]}
-          />
-        </ScrollView>
-      </View>
-    )
-  } else {
-    return (
-      <View style={styles.holder}>
-        <View style={styles.center}>
-          <Text style={styles.content}>
-            {`Distrito Senatorial ` + currentDistrict.name}
-          </Text>
-        </View>
-        <View style={styles.separator} />
       </View>
     )
   }
 }
 
 DistrictInfo.propTypes = {
-  number: PropTypes.number,
+  townKey: PropTypes.string,
+  districtNumber: PropTypes.number,
+  displayHeader: PropTypes.bool,
 }
 
 DistrictInfo.defaultProps = {
-  number: 0,
+  townKey: '',
+  districtNumber: -1,
+  displayHeader: true,
 }
-
-export default DistrictInfo

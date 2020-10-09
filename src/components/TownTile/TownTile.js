@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import {
   StyleSheet,
-  Image,
+  // Image,
   Text,
   View,
   Modal,
@@ -11,13 +12,12 @@ import {
 import mvcdb from '../../../assets/candidatxs/candidatxs.json'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import AButton from '../ALugaroButton'
-import Animage from '../Animage'
-import CandiProfile from '../CandiProfile'
-import { colors, images } from 'theme'
+import TownInfo from '../TownInfo'
+import { colors } from 'theme'
 
 const deviceSize = Dimensions.get('window')
 
-const candidatxs = mvcdb.candidatxs
+// const candidatxs = mvcdb.candidatxs
 const styles = StyleSheet.create({
   holder: {
     flex: 1, //must
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     paddingRight: 10,
     paddingTop: 30,
   },
-  candNameModal: {
+  townNameModal: {
     fontSize: 38,
     color: colors.black,
     paddingLeft: 10,
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     backgroundColor: colors.white,
   },
-  profilePicDim: {
+  townSVGDim: {
     width: 75,
     height: 75,
   },
@@ -105,15 +105,14 @@ const styles = StyleSheet.create({
   },
 })
 
-export default class CandiTile extends React.Component {
+export default class TownTile extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      candidateKey: props.candidateKey,
-      isModalBackButtonActive: false,
       isModalActive: false,
-      candidate: candidatxs.find((c) => {
-        return c.key == props.candidateKey
+      townKey: props.townKey,
+      town: mvcdb.pueblos.find((t) => {
+        return t.key == props.townKey
       }),
     }
   }
@@ -131,26 +130,8 @@ export default class CandiTile extends React.Component {
         >
           <View style={styles.profileRow}>
             <View style={styles.profilePic}>
-              <Text style={styles.candName}>{this.state.candidate.nombre}</Text>
+              <Text style={styles.candName}>{this.state.town.name}</Text>
             </View>
-            <View style={styles.profilePic}>
-              <Animage
-                thumbnailSource={images.victoria_icon_grey}
-                source={{
-                  uri: this.state.candidate.photo.imgUri,
-                }}
-                style={{
-                  width: styles.profilePicDim.width,
-                  height: styles.profilePicDim.height,
-                }}
-                resizeMode="cover"
-              />
-            </View>
-          </View>
-          <View style={styles.candidatureBar}>
-            <Text style={styles.candTitle}>
-              {this.state.candidate.candidatura.toUpperCase()}
-            </Text>
           </View>
           <Text />
         </TouchableOpacity>
@@ -163,14 +144,7 @@ export default class CandiTile extends React.Component {
           <View style={styles.holder}>
             {Platform.OS === 'ios' && <View style={styles.separator} />}
             <View>
-              <Text style={styles.candNameModal}>
-                {this.state.candidate.nombre}
-              </Text>
-            </View>
-            <View style={styles.candidatureBarModal}>
-              <Text style={styles.candTitleModal}>
-                {this.state.candidate.candidatura.toUpperCase()}
-              </Text>
+              <Text style={styles.townNameModal}>{this.state.town.name}</Text>
             </View>
             <ScrollView
               onScroll={(n) => {
@@ -181,10 +155,7 @@ export default class CandiTile extends React.Component {
               }}
             >
               <View style={styles.modalView}>
-                <CandiProfile
-                  renderHeader={false}
-                  candidateKey={this.state.candidateKey}
-                />
+                <TownInfo townKey={this.state.townKey} />
               </View>
             </ScrollView>
             {this.state.isModalBackButtonActive && (
@@ -205,4 +176,11 @@ export default class CandiTile extends React.Component {
       </View>
     )
   }
+}
+TownTile.propTypes = {
+  townKey: PropTypes.string,
+}
+
+TownTile.defaultProps = {
+  townKey: '',
 }

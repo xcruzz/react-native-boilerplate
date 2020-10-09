@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import {
   TouchableOpacity,
   Image,
@@ -8,10 +7,7 @@ import {
   ScrollView,
   StyleSheet,
 } from 'react-native'
-import ImgButton from '../ImgButton'
 import { images, colors } from 'theme'
-import AButton from '../../components/ALugaroButton'
-import { ceil } from 'react-native-reanimated'
 
 const styles = StyleSheet.create({
   root: {
@@ -68,18 +64,18 @@ export default class DistrictGrid extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      props: props,
+      navigation: props.navigation,
     }
   }
 
-  renderTile(title, imageSrc, townKey) {
+  renderTile(title, imageSrc, districtNumber) {
     return (
       <View style={styles.column}>
         <TouchableOpacity
           onPress={() => {
-            this.state.props.navigation.navigate('Candidaturas', {
+            this.state.navigation.navigate('Candidaturas', {
               from: 'DistrictGrid',
-              townKey: townKey,
+              districtNumber: districtNumber,
             })
           }}
         >
@@ -98,36 +94,20 @@ export default class DistrictGrid extends React.Component {
           <Text style={styles.head}>Distrito Senatoriales</Text>
           <View style={styles.separator} />
           <View style={styles.root}>
-            {this.renderTile('Distrito I', images.distritoS_logoI, 'sanjuan')}
-            {this.renderTile('Distrito II', images.distritoS_logoII, 'bayamon')}
+            {this.renderTile('Distrito I', images.distritoS_logoI, 1)}
+            {this.renderTile('Distrito II', images.distritoS_logoII, 2)}
           </View>
           <View style={styles.root}>
-            {this.renderTile(
-              'Distrito III',
-              images.distritoS_logoIII,
-              'arecibo',
-            )}
-            {this.renderTile(
-              'Distrito IV',
-              images.distritoS_logoIV,
-              'aguadilla',
-            )}
+            {this.renderTile('Distrito III', images.distritoS_logoIII, 3)}
+            {this.renderTile('Distrito IV', images.distritoS_logoIV, 4)}
           </View>
           <View style={styles.root}>
-            {this.renderTile('Distrito V', images.distritoS_logoV, 'ponce')}
-            {this.renderTile('Distrito VI', images.distritoS_logoVI, 'guayama')}
+            {this.renderTile('Distrito V', images.distritoS_logoV, 5)}
+            {this.renderTile('Distrito VI', images.distritoS_logoVI, 6)}
           </View>
           <View style={styles.root}>
-            {this.renderTile(
-              'Distrito VII',
-              images.distritoS_logoVII,
-              'humacao',
-            )}
-            {this.renderTile(
-              'Distrito VIII',
-              images.distritoS_logoVIII,
-              'carolina',
-            )}
+            {this.renderTile('Distrito VII', images.distritoS_logoVII, 7)}
+            {this.renderTile('Distrito VIII', images.distritoS_logoVIII, 8)}
           </View>
         </ScrollView>
       </View>

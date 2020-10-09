@@ -37,18 +37,14 @@ export default class NationalList extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      props: props,
       candidates: candidatxs.filter((c) => {
         return c.pueblo == 'nacional'
       }),
     }
-    // console.log('candidates')
-    // console.log(JSON.stringify(this.state.candidates))
   }
 
   render() {
     return (
-      // <ScrollView>
       <View>
         <Text />
         <View style={styles.separator} />
@@ -60,7 +56,6 @@ export default class NationalList extends React.Component {
           })}
         </View>
       </View>
-      // </ScrollView>
     )
   }
 }

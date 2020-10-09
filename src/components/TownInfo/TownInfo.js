@@ -1,24 +1,18 @@
 import TownCandidates from '../TownCandidates'
+import DistrictInfo from '../DistrictInfo'
 import globalStyles from '../../theme/styles'
 import React from 'react'
-import { Image, Text, View, Dimensions } from 'react-native'
-import { images } from 'theme'
-import prtowns from '../../../assets/candidatxs/PRTowns.json'
+import { View } from 'react-native'
+import mvcdb from '../../../assets/candidatxs/candidatxs.json'
 
-const pueblos = prtowns.pueblos
+const pueblos = mvcdb.pueblos
 const styles = globalStyles.townInfo
 
-const TownInfo = ({ townKey }) => {
-  const selectedTown = pueblos.find((x) => {
-    return x.key == townKey
-  })
+const TownInfo = (props) => {
   return (
     <View style={styles.container}>
-      <TownCandidates townKey={townKey} />
-      {/* 
-        <NationalCandidates />
-        <DistrictCandidates /> 
-      */}
+      <TownCandidates townKey={props.townKey} />
+      <DistrictInfo townKey={props.townKey} />
     </View>
   )
 }

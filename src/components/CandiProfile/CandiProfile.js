@@ -1,20 +1,104 @@
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import SocialBar from '../SocialBar'
-import globalStyles from '../../theme/styles'
+import { colors, images } from 'theme'
 import React from 'react'
-import { Image, Text, View } from 'react-native'
+import { Dimensions, StyleSheet, Image, Text, View } from 'react-native'
 import mvcdb from '../../../assets/candidatxs/candidatxs.json'
+import Animage from '../Animage'
+const deviceSize = Dimensions.get('window')
 
 const candidatxs = mvcdb.candidatxs
-const styles = globalStyles.candiProfile
+const styles = StyleSheet.create({
+  holder: {
+    flexDirection: 'column',
+    backgroundColor: colors.white,
+    width: '100%',
+  },
+  candName: {
+    // fontFamily: 'AvenirNext-Bold',
+    fontSize: 36,
+    color: colors.black,
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 20,
+    textAlign: 'right',
+  },
+  candTitle: {
+    alignSelf: 'flex-end',
+    fontSize: 16,
+    paddingEnd: 10,
+    // // fontFamily: 'AvenirNextCondensed-Regular',
+  },
+  candidatureBar: {
+    alignSelf: 'center',
+    height: 34,
+    alignContent: 'flex-end',
+    justifyContent: 'center',
+    textAlign: 'right',
+    width: deviceSize.width * 0.98,
+    backgroundColor: colors.victoryGold,
+    shadowColor: colors.black,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    marginTop: 10,
+    marginBottom: 15,
+    elevation: 5,
+  },
+  separator: {
+    alignSelf: 'center',
+    height: 1,
+    width: '95%',
+    backgroundColor: colors.victoryGold,
+  },
+  textB: { marginTop: 10, fontSize: 24, paddingLeft: 10 },
+  boxT: {
+    paddingStart: 10,
+    fontSize: 20,
+    color: colors.white,
+    paddingLeft: 10,
+    // // fontFamily: 'AvenirNextCondensed-Regular',
+  },
+  boxTB: {
+    paddingStart: 10,
+    fontSize: 24,
+    color: colors.white,
+    paddingLeft: 10,
+    // fontFamily: 'AvenirNextCondensed-Bold',
+  },
+  box: {
+    backgroundColor: colors.black,
+    color: colors.white,
+    paddingLeft: 10,
+    borderTopWidth: 10,
+  },
+  profilePic: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    backgroundColor: colors.white,
+  },
+  profilePicDim: {
+    width: 220,
+    height: 220,
+  },
+  content: {
+    paddingRight: 10,
+    paddingLeft: 10,
+    fontSize: 20,
+    // // fontFamily: 'AvenirNextCondensed-Regular',
+    textAlign: 'left',
+  },
+})
 
 export default class CandiProfile extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      props: props,
-      candidateKey: props.candidateKey,
-      renderHeader: props.renderHeader,
+      candidateKey: props.candidateKey == null ? -1 : props.candidateKey,
+      renderHeader: props.renderHeader == null ? true : props.renderHeader,
       candidate: candidatxs.find((c) => {
         return c.key == props.candidateKey
       }),
@@ -48,11 +132,22 @@ export default class CandiProfile extends React.Component {
         {this.state.candidate.photo.imgUri.length ? (
           <View style={styles.profilePic}>
             <Text />
-            <Image
+            {/* <Image
               style={styles.profilePicDim}
               source={{
                 uri: this.state.candidate.photo.imgUri,
               }}
+            /> */}
+            <Animage
+              thumbnailSource={images.victoria_icon_grey}
+              source={{
+                uri: this.state.candidate.photo.imgUri,
+              }}
+              style={{
+                width: styles.profilePicDim.width,
+                height: styles.profilePicDim.height,
+              }}
+              resizeMode="cover"
             />
           </View>
         ) : (
@@ -82,18 +177,19 @@ export default class CandiProfile extends React.Component {
             emailAddr={this.state.candidate.contacto.email}
           />
         </View>
+        <Text />
         {this.state.renderHeader && <View style={styles.separator} />}
       </View>
     )
   }
 }
 
-CandiProfile.propTypes = {
-  candidateKey: PropTypes.string,
-  renderHeader: PropTypes.bool,
-}
+// CandiProfile.propTypes = {
+//   candidateKey: PropTypes.string,
+//   renderHeader: PropTypes.bool,
+// }
 
-CandiProfile.defaultProps = {
-  candidateKey: -1,
-  renderHeader: true,
-}
+// CandiProfile.defaultProps = {
+//   candidateKey: -1,
+//   renderHeader: true,
+// }

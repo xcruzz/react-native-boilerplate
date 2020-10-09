@@ -1,6 +1,6 @@
 'use-strict'
 import { Dimensions, StyleSheet } from 'react-native'
-import { colors } from 'theme'
+import { colors, fonts } from 'theme'
 
 const deviceSize = Dimensions.get('window')
 
@@ -28,6 +28,22 @@ const detailsPage = StyleSheet.create({
     marginBottom: 20,
     color: colors.black,
     textAlign: 'center',
+  },
+  center: {
+    alignSelf: 'center',
+    paddingTop: 5,
+    // paddingRight: 10,
+    // paddingLeft: 10,
+    paddingBottom: 20,
+    fontSize: 25,
+    // // fontFamily: 'AvenirNextCondensed-Regular',
+  },
+  separator: {
+    alignSelf: 'center',
+    height: 2,
+    width: '65%',
+    backgroundColor: colors.victoryGold,
+    marginTop: 5,
   },
 })
 
@@ -146,7 +162,7 @@ const agendaUrgente = StyleSheet.create({
     backgroundColor: colors.white,
   },
   header: {
-    fontFamily: 'HelveticaNeue-Light',
+    // fontFamily: 'HelveticaNeue-Light',
     textAlign: 'center',
     //fontWeight: 'bold',
     fontSize: 45,
@@ -155,7 +171,7 @@ const agendaUrgente = StyleSheet.create({
     paddingRight: 10,
   },
   title: {
-    fontFamily: 'HelveticaNeue-Light',
+    // fontFamily: 'HelveticaNeue-Light',
     textAlign: 'center',
     fontSize: 22,
     //color: 'green',
@@ -167,7 +183,7 @@ const agendaUrgente = StyleSheet.create({
     paddingRight: 10,
     paddingLeft: 10,
     fontSize: 18,
-    fontFamily: 'HelveticaNeue-Light',
+    // fontFamily: 'HelveticaNeue-Light',
   },
   center: {
     //color: 'blue',
@@ -175,7 +191,7 @@ const agendaUrgente = StyleSheet.create({
     paddingLeft: 10,
     fontSize: 18,
     textAlign: 'center',
-    fontFamily: 'HelveticaNeue-Medium',
+    // fontFamily: 'HelveticaNeue-Medium',
   },
   topic: {
     //color: 'purple',
@@ -184,7 +200,7 @@ const agendaUrgente = StyleSheet.create({
     fontSize: 18,
     textAlign: 'left',
     fontWeight: 'bold',
-    fontFamily: 'HelveticaNeue-Medium',
+    // fontFamily: 'HelveticaNeue-Medium',
   },
 })
 
@@ -197,7 +213,7 @@ const newsFeed = StyleSheet.create({
     backgroundColor: colors.white,
   },
   header: {
-    fontFamily: 'HelveticaNeue-Light',
+    // fontFamily: 'HelveticaNeue-Light',
     fontWeight: 'bold',
     fontSize: 28,
     color: colors.black,
@@ -208,7 +224,7 @@ const newsFeed = StyleSheet.create({
     paddingRight: 10,
     paddingLeft: 10,
     fontSize: 18,
-    fontFamily: 'HelveticaNeue-Light',
+    // fontFamily: 'HelveticaNeue-Light',
   },
   center: {
     alignSelf: 'center',
@@ -217,7 +233,7 @@ const newsFeed = StyleSheet.create({
     paddingLeft: 10,
     paddingBottom: 5,
     fontSize: 20,
-    fontFamily: 'HelveticaNeue-Light',
+    // fontFamily: 'HelveticaNeue-Light',
   },
   title: {
     fontSize: 22,
@@ -258,7 +274,7 @@ const townInfo = StyleSheet.create({
   title: {
     fontSize: 26,
     marginBottom: 20,
-    fontFamily: 'HelveticaNeue-Light',
+    // fontFamily: 'HelveticaNeue-Light',
   },
   verb: {
     fontSize: 18,
@@ -287,17 +303,17 @@ const districtInfo = StyleSheet.create({
     paddingLeft: 10,
     paddingBottom: 5,
     fontSize: 20,
-    fontFamily: 'AvenirNextCondensed-Regular',
+    // // fontFamily: 'AvenirNextCondensed-Regular',
   },
   content: {
     paddingRight: 10,
     paddingLeft: 10,
     fontSize: 22,
-    fontFamily: 'AvenirNextCondensed-Regular',
+    // // fontFamily: 'AvenirNextCondensed-Regular',
     textAlign: 'left',
   },
   candName: {
-    fontFamily: 'AvenirNext-Bold',
+    // fontFamily: 'AvenirNext-Bold',
     fontSize: 38,
     color: colors.black,
     paddingLeft: 10,
@@ -308,7 +324,7 @@ const districtInfo = StyleSheet.create({
     alignSelf: 'flex-end',
     fontSize: 22,
     paddingEnd: 10,
-    fontFamily: 'AvenirNextCondensed-Regular',
+    // // fontFamily: 'AvenirNextCondensed-Regular',
   },
   candidatureBar: {
     alignSelf: 'center',
@@ -340,14 +356,14 @@ const districtInfo = StyleSheet.create({
     fontSize: 28,
     color: colors.white,
     paddingLeft: 10,
-    fontFamily: 'AvenirNextCondensed-Regular',
+    // // fontFamily: 'AvenirNextCondensed-Regular',
   },
   boxTB: {
     paddingStart: 10,
     fontSize: 29,
     color: colors.white,
     paddingLeft: 10,
-    fontFamily: 'AvenirNextCondensed-Bold',
+    // fontFamily: 'AvenirNextCondensed-Bold',
   },
   box: {
     backgroundColor: colors.black,
@@ -366,7 +382,7 @@ const candibrowser = StyleSheet.create({
   },
   head: {
     fontSize: 26,
-    fontFamily: 'HelveticaNeue-Light',
+    // fontFamily: 'HelveticaNeue-Light',
     paddingStart: 10,
     backgroundColor: colors.victoryGold,
   },
@@ -388,126 +404,92 @@ const candibrowser = StyleSheet.create({
     backgroundColor: colors.white,
   },
 })
-const townCandidates = StyleSheet.create({
-  header: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'row',
-  },
-  title: {
-    fontSize: 26,
-    marginBottom: 0,
-    fontFamily: 'AvenirNext-Regular',
-  },
-  logo: {
-    width: 30,
-    height: 34,
-    marginBottom: 5,
-    marginRight: 10,
-  },
-
-  center: {
-    alignSelf: 'center',
-    paddingTop: 5,
-    // paddingRight: 10,
-    // paddingLeft: 10,
-    paddingBottom: 20,
-    fontSize: 25,
-    fontFamily: 'AvenirNextCondensed-Regular',
-  },
-  content: {
-    paddingRight: 10,
-    paddingLeft: 10,
-    fontSize: 22,
-    fontFamily: 'AvenirNextCondensed-Regular',
-    textAlign: 'left',
-  },
-})
-const candiTile = StyleSheet.create({
-  holder: {
-    flex: 1,
-    flexDirection: 'column',
-    backgroundColor: colors.white,
-    width: '100%',
-  },
-  candName: {
-    fontFamily: 'AvenirNext-Bold',
-    fontSize: 38,
-    color: colors.black,
-    paddingLeft: 10,
-    paddingRight: 10,
-    paddingTop: 20,
-    textAlign: 'right',
-  },
-  candTitle: {
-    alignSelf: 'flex-end',
-    fontSize: 22,
-    paddingEnd: 10,
-    fontFamily: 'AvenirNextCondensed-Regular',
-  },
-  candidatureBar: {
-    alignSelf: 'center',
-    height: 34,
-    alignContent: 'flex-end',
-    justifyContent: 'center',
-    textAlign: 'right',
-    width: deviceSize.width * 0.98,
-    backgroundColor: colors.victoryGold,
-    shadowColor: colors.black,
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    marginTop: 10,
-    marginBottom: 15,
-    elevation: 5,
-  },
-  separator: {
-    alignSelf: 'center',
-    height: 1,
-    width: '95%',
-    backgroundColor: colors.victoryGold,
-  },
-  textB: { marginTop: 10, fontSize: 24, paddingLeft: 10 },
-  boxT: {
-    paddingStart: 10,
-    fontSize: 28,
-    color: colors.white,
-    paddingLeft: 10,
-    fontFamily: 'AvenirNextCondensed-Regular',
-  },
-  boxTB: {
-    paddingStart: 10,
-    fontSize: 29,
-    color: colors.white,
-    paddingLeft: 10,
-    fontFamily: 'AvenirNextCondensed-Bold',
-  },
-  box: {
-    backgroundColor: colors.black,
-    color: colors.white,
-    paddingLeft: 10,
-    borderTopWidth: 10,
-  },
-  profilePic: {
-    flexDirection: 'row',
-    justifyContent: 'flex-end',
-    backgroundColor: colors.white,
-  },
-  profilePicDim: {
-    width: 230,
-    height: 230,
-  },
-  content: {
-    paddingRight: 10,
-    paddingLeft: 10,
-    fontSize: 22,
-    fontFamily: 'AvenirNextCondensed-Regular',
-    textAlign: 'left',
-  },
-})
+// const townCandidates
+// const candiProfile = StyleSheet.create({
+//   holder: {
+//     flex: 1,
+//     flexDirection: 'column',
+//     backgroundColor: colors.white,
+//     width: '100%',
+//   },
+//   candName: {
+//     // fontFamily: 'AvenirNext-Bold',
+//     fontSize: 38,
+//     color: colors.black,
+//     paddingLeft: 10,
+//     paddingRight: 10,
+//     paddingTop: 20,
+//     textAlign: 'right',
+//   },
+//   candTitle: {
+//     alignSelf: 'flex-end',
+//     fontSize: 16,
+//     paddingEnd: 10,
+//     // // fontFamily: 'AvenirNextCondensed-Regular',
+//   },
+//   candidatureBar: {
+//     alignSelf: 'center',
+//     height: 34,
+//     alignContent: 'flex-end',
+//     justifyContent: 'center',
+//     textAlign: 'right',
+//     width: deviceSize.width * 0.98,
+//     backgroundColor: colors.victoryGold,
+//     shadowColor: colors.black,
+//     shadowOffset: {
+//       width: 0,
+//       height: 2,
+//     },
+//     shadowOpacity: 0.25,
+//     shadowRadius: 3.84,
+//     marginTop: 10,
+//     marginBottom: 15,
+//     elevation: 5,
+//   },
+//   separator: {
+//     alignSelf: 'center',
+//     height: 1,
+//     width: '95%',
+//     backgroundColor: colors.victoryGold,
+//   },
+//   textB: { marginTop: 10, fontSize: 24, paddingLeft: 10 },
+//   boxT: {
+//     paddingStart: 10,
+//     fontSize: 28,
+//     color: colors.white,
+//     paddingLeft: 10,
+//     // // fontFamily: 'AvenirNextCondensed-Regular',
+//   },
+//   boxTB: {
+//     paddingStart: 10,
+//     fontSize: 29,
+//     color: colors.white,
+//     paddingLeft: 10,
+//     // fontFamily: 'AvenirNextCondensed-Bold',
+//   },
+//   box: {
+//     backgroundColor: colors.black,
+//     color: colors.white,
+//     paddingLeft: 10,
+//     borderTopWidth: 10,
+//   },
+//   profilePic: {
+//     flexDirection: 'row',
+//     justifyContent: 'flex-end',
+//     backgroundColor: colors.white,
+//   },
+//   profilePicDim: {
+//     width: 230,
+//     height: 230,
+//   },
+//   content: {
+//     paddingRight: 10,
+//     paddingLeft: 10,
+//     fontSize: 22,
+//     // // fontFamily: 'AvenirNextCondensed-Regular',
+//     textAlign: 'left',
+//   },
+// })
 
 export default {
   detailsPage,
@@ -522,6 +504,6 @@ export default {
   districtInfo,
   welcomeScreen,
   candibrowser,
-  townCandidates,
-  candiProfile,
+  // townCandidates,
+  // candiProfile,
 }
