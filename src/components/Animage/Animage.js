@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     top: 0,
   },
   container: {
-    backgroundColor: colors.whit,
+    backgroundColor: colors.white,
   },
 })
 
@@ -35,7 +35,7 @@ class Animage extends React.Component {
   }
 
   render() {
-    const { thumbnailSource, source, style, ...props } = this.props
+    const { thumbnailSource, source, bh, bw, style, ...props } = this.props
 
     return (
       <View style={styles.container}>
@@ -43,10 +43,9 @@ class Animage extends React.Component {
           {...props}
           source={thumbnailSource}
           style={{
-            height: style.height * 0.5 + 10,
-            width: style.width * 0.5 + 3,
+            height: bh,
+            width: bw,
             opacity: this.thumbnailAnimated,
-            margin: style.height * 0.25 - 10,
           }}
           onLoad={this.handleThumbnailLoad}
         />

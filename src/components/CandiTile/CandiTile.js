@@ -135,10 +135,12 @@ export default class CandiTile extends React.Component {
             </View>
             <View style={styles.profilePic}>
               <Animage
-                thumbnailSource={images.victoria_icon_grey}
+                thumbnailSource={images.victoria_icon_grey_x}
                 source={{
                   uri: this.state.candidate.photo.imgUri,
                 }}
+                bh={styles.profilePicDim.width}
+                bw={styles.profilePicDim.width}
                 style={{
                   width: styles.profilePicDim.width,
                   height: styles.profilePicDim.height,

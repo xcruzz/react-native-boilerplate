@@ -132,17 +132,13 @@ export default class CandiProfile extends React.Component {
         {this.state.candidate.photo.imgUri.length ? (
           <View style={styles.profilePic}>
             <Text />
-            {/* <Image
-              style={styles.profilePicDim}
-              source={{
-                uri: this.state.candidate.photo.imgUri,
-              }}
-            /> */}
             <Animage
-              thumbnailSource={images.victoria_icon_grey}
+              thumbnailSource={images.victoria_icon_grey_x}
               source={{
                 uri: this.state.candidate.photo.imgUri,
               }}
+              bh={styles.profilePicDim.width}
+              bw={styles.profilePicDim.width}
               style={{
                 width: styles.profilePicDim.width,
                 height: styles.profilePicDim.height,

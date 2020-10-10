@@ -16,6 +16,7 @@ export const images = {
   ySeparator: require('../../assets/images/ySeparator.png'),
 
   victoria_icon_grey: require('../../assets/victoria_icon_grey.png'),
+  victoria_icon_grey_x: require('../../assets/victoria_icon_grey_x.png'),
   victoria_icon_white: require('../../assets/victoria_icon_white.png'),
   spinner_arcoiris: require('../../assets/images/spinnerL.gif'),
   loader_blancoiris: require('../../assets/images/loader_blancoiris.gif'),
