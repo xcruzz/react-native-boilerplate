@@ -1,6 +1,6 @@
 import React from 'react'
-import { Text, View, ScrollView, StyleSheet } from 'react-native'
-import { colors } from 'theme'
+import { Text, View, StyleSheet } from 'react-native'
+import { colors, fonts } from 'theme'
 import CandiTile from '../CandiTile'
 import mvcdb from '../../../assets/candidatxs/candidatxs.json'
 
@@ -15,15 +15,11 @@ const styles = StyleSheet.create({
     paddingBottom: 9,
     backgroundColor: colors.white,
   },
-  icon: {
-    width: 145,
-    height: 145,
-    marginHorizontal: 10,
-  },
   head: {
     fontSize: 26,
     textAlign: 'center',
-    marginVertical: 10,
+    marginBottom: 5,
+    fontFamily: fonts.NeuePlak.Bold,
   },
   separator: {
     alignSelf: 'center',

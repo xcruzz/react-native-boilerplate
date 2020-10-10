@@ -10,7 +10,7 @@ const styles = {
     paddingVertical: 1,
     paddingHorizontal: 5,
     borderRadius: 20,
-    width: 165,
+    width: 170,
     alignItems: 'center',
     marginVertical: 10,
   },

@@ -130,7 +130,9 @@ const AndroidNavigator = createBottomTabNavigator(
               <Image
                 style={styles.nav_icon}
                 source={
-                  focused ? images.victoria_icon_white : images.victoria_icon
+                  focused
+                    ? images.victoria_icon_white
+                    : images.victoria_icon_grey
                 }
               />
             )

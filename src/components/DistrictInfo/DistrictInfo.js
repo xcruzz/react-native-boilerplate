@@ -2,7 +2,7 @@ import CandiTile from '../CandiTile'
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import mvcdb from '../../../assets/candidatxs/candidatxs.json'
-import { colors } from 'theme'
+import { colors, fonts } from 'theme'
 import PropTypes from 'prop-types'
 
 const styles = StyleSheet.create({
@@ -13,42 +13,20 @@ const styles = StyleSheet.create({
     paddingBottom: 9,
     backgroundColor: colors.white,
   },
-  column: {
-    flex: 0,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    paddingTop: 8,
-    paddingBottom: 9,
-    backgroundColor: 'purple',
-  },
   head: {
     fontSize: 26,
     textAlign: 'center',
-    marginVertical: 10,
     color: 'black',
-  },
-  button: {
-    backgroundColor: 'white',
-    paddingVertical: 10,
-    paddingHorizontal: 16,
-    borderRadius: 20,
-    width: 200,
-    alignItems: 'center',
-    marginVertical: 10,
-  },
-  verb: {
-    color: '#000',
-    //fontFamily: 'HelveticaNeue-Light',
-    fontSize: 18,
-    alignSelf: 'center',
-    marginTop: 7,
+    marginBottom: 5,
+    fontFamily: fonts.NeuePlak.Bold,
   },
   separator: {
     alignSelf: 'center',
     height: 2,
-    width: '100%',
+    width: '95%',
     backgroundColor: colors.victoryGold,
   },
+  space: { height: 40 },
 })
 
 export default class DistrictInfo extends React.Component {
@@ -99,20 +77,28 @@ export default class DistrictInfo extends React.Component {
   render() {
     return (
       <View style={styles.root}>
-        <View style={styles.root}>
+        <View>
           {this.state.currentDistricts.map((d, i) => {
             return (
               <View key={`vcd-${i}`}>
                 {this.state.displayHeader && (
-                  <Text
-                    key={`dst-${i}`}
-                    style={styles.head}
-                  >{`Distrito Senatorial ${d.name}`}</Text>
+                  <View>
+                    <View key={`vst-${i}`} style={styles.separator} />
+                    <Text
+                      key={`dst-${i}`}
+                      style={styles.head}
+                    >{`Distrito Senatorial ${d.name}`}</Text>
+                  </View>
                 )}
+
                 <View key={`vst-${i}`} style={styles.separator} />
+
                 {d.candidates.map((c, i) => {
                   return <CandiTile key={i} candidateKey={c.key} />
                 })}
+                {i == 0 && this.state.currentDistricts.length > 1 && (
+                  <View style={styles.space} />
+                )}
               </View>
             )
           })}

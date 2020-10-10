@@ -1,6 +1,5 @@
-// import PropTypes from 'prop-types'
 import SocialBar from '../SocialBar'
-import { colors, images } from 'theme'
+import { colors, images, fonts } from 'theme'
 import React from 'react'
 import { Dimensions, StyleSheet, Image, Text, View } from 'react-native'
 import mvcdb from '../../../assets/candidatxs/candidatxs.json'
@@ -15,7 +14,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   candName: {
-    // fontFamily: 'AvenirNext-Bold',
+    fontFamily: fonts.NeuePlak.Black,
     fontSize: 36,
     color: colors.black,
     paddingLeft: 10,
@@ -27,7 +26,7 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-end',
     fontSize: 16,
     paddingEnd: 10,
-    // // fontFamily: 'AvenirNextCondensed-Regular',
+    fontFamily: fonts.NeuePlak.Bold,
   },
   candidatureBar: {
     alignSelf: 'center',
@@ -54,20 +53,25 @@ const styles = StyleSheet.create({
     width: '95%',
     backgroundColor: colors.victoryGold,
   },
-  textB: { marginTop: 10, fontSize: 24, paddingLeft: 10 },
+  textB: {
+    marginTop: 10,
+    fontSize: 22,
+    paddingLeft: 10,
+    fontFamily: fonts.NeuePlak.WideExtraBlack,
+  },
   boxT: {
     paddingStart: 10,
     fontSize: 20,
     color: colors.white,
     paddingLeft: 10,
-    // // fontFamily: 'AvenirNextCondensed-Regular',
+    fontFamily: fonts.NeuePlak.Bold,
   },
   boxTB: {
     paddingStart: 10,
     fontSize: 24,
     color: colors.white,
     paddingLeft: 10,
-    // fontFamily: 'AvenirNextCondensed-Bold',
+    fontFamily: fonts.NeuePlak.Black,
   },
   box: {
     backgroundColor: colors.black,
@@ -88,7 +92,7 @@ const styles = StyleSheet.create({
     paddingRight: 10,
     paddingLeft: 10,
     fontSize: 20,
-    // // fontFamily: 'AvenirNextCondensed-Regular',
+    fontFamily: fonts.NeuePlak.Regular,
     textAlign: 'left',
   },
 })

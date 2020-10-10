@@ -1,6 +1,6 @@
 import TownInfo from 'components/TownInfo'
 import DistrictInfo from 'components/DistrictInfo'
-import { colors } from 'theme'
+import { colors, fonts } from 'theme'
 import React from 'react'
 import NationalList from '../../components/NationalList'
 import { StyleSheet, Text, View, StatusBar } from 'react-native'
@@ -20,6 +20,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginVertical: 10,
     color: 'black',
+    marginBottom: 5,
+    fontFamily: fonts.NeuePlak.Bold,
   },
   separator: {
     alignSelf: 'center',
@@ -27,6 +29,7 @@ const styles = StyleSheet.create({
     width: '90%',
     backgroundColor: colors.victoryGold,
   },
+  space: { height: 10 },
 })
 
 export default class Candidaturas extends React.Component {
@@ -54,7 +57,7 @@ export default class Candidaturas extends React.Component {
             <ScrollView>
               <NationalList />
               <TownInfo townKey={this.state.townKey} />
-              <Text />
+
               <AButton
                 title="Haz tu donación"
                 onPressURL="https://www.mvcpr.org/donativos/"
@@ -74,6 +77,7 @@ export default class Candidaturas extends React.Component {
               <View style={styles.separator} />
             </View>
             <ScrollView>
+              <View style={styles.space} />
               {mvcdb.pueblos
                 .filter((p) => {
                   return p.distritoS

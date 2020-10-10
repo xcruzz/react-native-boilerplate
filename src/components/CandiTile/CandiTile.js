@@ -1,7 +1,6 @@
 import React from 'react'
 import {
   StyleSheet,
-  Image,
   Text,
   View,
   Modal,
@@ -13,14 +12,14 @@ import { TouchableOpacity } from 'react-native-gesture-handler'
 import AButton from '../ALugaroButton'
 import Animage from '../Animage'
 import CandiProfile from '../CandiProfile'
-import { colors, images } from 'theme'
+import { colors, images, fonts } from 'theme'
 
 const deviceSize = Dimensions.get('window')
 
 const candidatxs = mvcdb.candidatxs
 const styles = StyleSheet.create({
   holder: {
-    flex: 1, //must
+    flex: 1,
     backgroundColor: colors.white,
     justifyContent: 'flex-start',
   },
@@ -33,6 +32,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     paddingRight: 10,
     paddingTop: 30,
+    fontFamily: fonts.NeuePlak.Regular,
   },
   candNameModal: {
     fontSize: 38,
@@ -41,15 +41,18 @@ const styles = StyleSheet.create({
     paddingRight: 10,
     paddingTop: 20,
     textAlign: 'right',
+    fontFamily: fonts.NeuePlak.Black,
   },
   candTitle: {
     alignSelf: 'flex-end',
     fontSize: 12,
     marginEnd: 10,
+    fontFamily: fonts.NeuePlak.Bold,
   },
   candTitleModal: {
     alignSelf: 'flex-end',
     fontSize: 16,
+    fontFamily: fonts.NeuePlak.Bold,
   },
   candidatureBar: {
     alignSelf: 'flex-end',
@@ -71,6 +74,7 @@ const styles = StyleSheet.create({
     alignContent: 'flex-end',
     justifyContent: 'center',
     textAlign: 'right',
+    paddingRight: 8,
     width: deviceSize.width * 0.98,
     backgroundColor: colors.victoryGold,
     shadowColor: colors.black,
@@ -84,7 +88,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     elevation: 5,
   },
-  separator: {
+  space: {
     alignSelf: 'center',
     height: 25,
     backgroundColor: colors.white,
@@ -163,7 +167,7 @@ export default class CandiTile extends React.Component {
           visible={this.state.isModalActive}
         >
           <View style={styles.holder}>
-            {Platform.OS === 'ios' && <View style={styles.separator} />}
+            {Platform.OS === 'ios' && <View style={styles.space} />}
             <View>
               <Text style={styles.candNameModal}>
                 {this.state.candidate.nombre}
@@ -175,6 +179,7 @@ export default class CandiTile extends React.Component {
               </Text>
             </View>
             <ScrollView
+              scrollEventThrottle={32}
               onScroll={(n) => {
                 this.setState({
                   ...this.state,

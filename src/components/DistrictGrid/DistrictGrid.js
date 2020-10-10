@@ -7,7 +7,7 @@ import {
   ScrollView,
   StyleSheet,
 } from 'react-native'
-import { images, colors } from 'theme'
+import { images, colors, fonts } from 'theme'
 
 const styles = StyleSheet.create({
   root: {
@@ -34,28 +34,20 @@ const styles = StyleSheet.create({
   head: {
     fontSize: 26,
     textAlign: 'center',
-    marginVertical: 10,
-  },
-  button: {
-    backgroundColor: colors.white,
-    paddingVertical: 10,
-    paddingHorizontal: 16,
-    borderRadius: 20,
-    width: 200,
-    alignItems: 'center',
-    marginVertical: 10,
+    marginBottom: 5,
+    fontFamily: fonts.NeuePlak.Bold,
   },
   verb: {
-    color: '#000',
-    //fontFamily: 'HelveticaNeue-Light',
+    color: colors.black,
+    fontFamily: fonts.NeuePlak.Bold,
     fontSize: 18,
     alignSelf: 'center',
-    marginTop: 7,
+    marginTop: 5,
   },
   separator: {
     alignSelf: 'center',
     height: 2,
-    width: '100%',
+    width: '95%',
     backgroundColor: colors.victoryGold,
   },
 })
