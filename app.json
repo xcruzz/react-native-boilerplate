@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splashAL.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -26,7 +26,8 @@
       "icon": "./assets/icon.png",
       "splash": {
         "backgroundColor": "#000000"
-      }
+      },
+      "package": "org.mvcpr.app"
     },
     "packagerOpts": {
       "config": "metro.config.js",
