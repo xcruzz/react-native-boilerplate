@@ -16,7 +16,9 @@ const Details = ({ navigation }) => {
       <StatusBar barStyle="light-content" />
       <ScrollView>
         <Text style={styles.verb} />
-        <Text style={styles.title}>VICTORIA CIUDADANA</Text>
+        <Text style={styles.title}>
+          {'Movimiento Victoria Ciudadana'.toUpperCase()}
+        </Text>
         {
           articleKey == 'programadegobierno' ? (
             <ProgramaDeGobierno />

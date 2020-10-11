@@ -1,18 +1,15 @@
 import globalStyles from '../../../theme/styles'
 import React from 'react'
+import Platform from 'react-native'
 import { createStackNavigator, HeaderBackButton } from 'react-navigation-stack'
 import { colors } from 'theme'
-import Text from 'react-native'
-import HeaderLeft from './HeaderLeft'
 import HeaderTitle from './HeaderTitle'
 import Home from 'scenes/home'
 import Details from 'scenes/details'
 import Map from 'scenes/map'
 import ALugaro from 'scenes/alugaro'
-import Articulo from 'scenes/articulo'
 import CandiBrowser from 'scenes/candibrowser'
 import Candidaturas from 'scenes/candidaturas'
-import { color } from 'react-native-reanimated'
 
 const styles = globalStyles.stacks
 
@@ -26,8 +23,6 @@ export const HomeNavigator = createStackNavigator({
   Home: {
     screen: Home,
     navigationOptions: ({ navigation }) => ({
-      title: 'Inicio',
-      //headerLeft: <HeaderLeft navigation={navigation} />,
       headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
@@ -46,15 +41,16 @@ export const MapNavigator = createStackNavigator({
     screen: Map,
     navigationOptions: () => ({
       headerShown: false,
+      headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
   Candidaturas: {
     screen: Candidaturas,
     navigationOptions: ({ navigation }) => ({
-      title: 'Candidatxs',
+      title: 'Candidaturas',
       headerBackTitleVisible: true,
-      left: 'Regresar',
+      left: '',
       headerLeft: (
         <HeaderBackButton
           onPress={() => {
@@ -62,10 +58,9 @@ export const MapNavigator = createStackNavigator({
           }}
           title="Regresar"
           backTitleVisible={true}
-          tintColor={'white'}
-        ></HeaderBackButton>
+          tintColor={colors.white}
+        />
       ),
-      // headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
@@ -76,6 +71,7 @@ export const ALugaroNavigator = createStackNavigator({
     screen: ALugaro,
     navigationOptions: ({ navigation }) => ({
       headerShown: false,
+      headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
@@ -91,23 +87,36 @@ export const ALugaroNavigator = createStackNavigator({
   CandiBrowser: {
     screen: CandiBrowser,
     navigationOptions: ({ navigation }) => ({
-      title: 'Candidatxs',
-      //headerLeft: <HeaderLeft navigation={navigation} />,
+      title: 'Lúgaro 2020',
       headerTitle: <HeaderTitle />,
+      headerLeft:
+        Platform.OS === 'ios' ? (
+          <HeaderBackButton
+            onPress={() => {
+              navigation.navigate('Map')
+            }}
+            title="Regresar"
+            backTitleVisible={false}
+            tintColor={colors.white}
+          />
+        ) : null,
       ...navigationProps,
     }),
   },
   Candidaturas: {
     screen: Candidaturas,
     navigationOptions: ({ navigation }) => ({
-      title: 'Candidatxs',
+      title: 'Candidaturas',
+      headerLeft: null,
+      headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
   Details: {
     screen: Details,
     navigationOptions: () => ({
-      //title: 'Detalles',
+      headerLeft: null,
+      headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
@@ -117,16 +126,16 @@ export const CandidatxsNavigator = createStackNavigator({
   CandiBrowser: {
     screen: CandiBrowser,
     navigationOptions: ({ navigation }) => ({
-      title: 'Regresar',
-      //headerLeft: <HeaderLeft navigation={navigation} />,
+      headerLeft: null,
       headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
   Candidaturas: {
     screen: Candidaturas,
-    navigationOptions: () => ({
-      title: 'Candidatxs',
+    navigationOptions: ({ navigation }) => ({
+      headerLeft: null,
+      headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },

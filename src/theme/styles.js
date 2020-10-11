@@ -25,9 +25,10 @@ const detailsPage = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    marginBottom: 20,
+    marginBottom: 10,
     color: colors.black,
     textAlign: 'center',
+    fontFamily: fonts.NeuePlak.Black,
   },
   center: {
     alignSelf: 'center',
@@ -392,93 +393,6 @@ const candibrowser = StyleSheet.create({
     backgroundColor: colors.white,
   },
 })
-// const townCandidates
-// const candiProfile = StyleSheet.create({
-//   holder: {
-//     flex: 1,
-//     flexDirection: 'column',
-//     backgroundColor: colors.white,
-//     width: '100%',
-//   },
-//   candName: {
-//     // fontFamily: 'AvenirNext-Bold',
-//     fontSize: 38,
-//     color: colors.black,
-//     paddingLeft: 10,
-//     paddingRight: 10,
-//     paddingTop: 20,
-//     textAlign: 'right',
-//   },
-//   candTitle: {
-//     alignSelf: 'flex-end',
-//     fontSize: 16,
-//     paddingEnd: 10,
-//     // // fontFamily: 'AvenirNextCondensed-Regular',
-//   },
-//   candidatureBar: {
-//     alignSelf: 'center',
-//     height: 34,
-//     alignContent: 'flex-end',
-//     justifyContent: 'center',
-//     textAlign: 'right',
-//     width: deviceSize.width * 0.98,
-//     backgroundColor: colors.victoryGold,
-//     shadowColor: colors.black,
-//     shadowOffset: {
-//       width: 0,
-//       height: 2,
-//     },
-//     shadowOpacity: 0.25,
-//     shadowRadius: 3.84,
-//     marginTop: 10,
-//     marginBottom: 15,
-//     elevation: 5,
-//   },
-//   separator: {
-//     alignSelf: 'center',
-//     height: 1,
-//     width: '95%',
-//     backgroundColor: colors.victoryGold,
-//   },
-//   textB: { marginTop: 10, fontSize: 24, paddingLeft: 10 },
-//   boxT: {
-//     paddingStart: 10,
-//     fontSize: 28,
-//     color: colors.white,
-//     paddingLeft: 10,
-//     // // fontFamily: 'AvenirNextCondensed-Regular',
-//   },
-//   boxTB: {
-//     paddingStart: 10,
-//     fontSize: 29,
-//     color: colors.white,
-//     paddingLeft: 10,
-//     // fontFamily: 'AvenirNextCondensed-Bold',
-//   },
-//   box: {
-//     backgroundColor: colors.black,
-//     color: colors.white,
-//     paddingLeft: 10,
-//     borderTopWidth: 10,
-//   },
-//   profilePic: {
-//     flexDirection: 'row',
-//     justifyContent: 'flex-end',
-//     backgroundColor: colors.white,
-//   },
-//   profilePicDim: {
-//     width: 230,
-//     height: 230,
-//   },
-//   content: {
-//     paddingRight: 10,
-//     paddingLeft: 10,
-//     fontSize: 22,
-//     // // fontFamily: 'AvenirNextCondensed-Regular',
-//     textAlign: 'left',
-//   },
-// })
-
 export default {
   detailsPage,
   drawerMenu,
@@ -492,6 +406,4 @@ export default {
   districtInfo,
   welcomeScreen,
   candibrowser,
-  // townCandidates,
-  // candiProfile,
 }

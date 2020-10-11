@@ -1,4 +1,3 @@
-import globalStyles from '../../theme/styles'
 import React from 'react'
 import PropTypes from 'prop-types'
 import { View, StatusBar, StyleSheet } from 'react-native'

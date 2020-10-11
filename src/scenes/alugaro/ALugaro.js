@@ -89,7 +89,7 @@ export default class ALugaro extends React.Component {
       <View style={styles.root}>
         <StatusBar barStyle="light-content" />
         <View style={{ height: 5 }} />
-        <ActiveLogo />
+        <ActiveLogo isHeader={false} />
         <ScrollView>
           <View style={styles.root}>
             {Platform.OS === 'ios' ? (

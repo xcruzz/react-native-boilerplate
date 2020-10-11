@@ -121,7 +121,7 @@ const AndroidNavigator = createBottomTabNavigator(
               <Image
                 style={styles.nav_icon}
                 source={
-                  focused ? images.alugaro_arco_white : images.alugaro_arco
+                  focused ? images.alugaro_arco_white : images.alugaro_arco_grey
                 }
               />
             )

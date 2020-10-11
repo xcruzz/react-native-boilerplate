@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, TouchableOpacity, Text, View, Image } from 'react-native'
+import { StyleSheet, TouchableOpacity, View, Image } from 'react-native'
 import { images } from 'theme'
 
 const styles = StyleSheet.create({
@@ -7,12 +7,17 @@ const styles = StyleSheet.create({
     flex: 0,
     alignItems: 'center',
     justifyContent: 'center',
+    width: '100%',
   },
   logo: {
     width: 54,
     height: 60,
-    marginTop: 25,
-    marginBottom: 10,
+    marginTop: Platform.OS !== 'ios' ? 0 : 25,
+    marginBottom: 5,
+  },
+  headerLogo: {
+    width: 32,
+    height: 38,
   },
 })
 
@@ -21,6 +26,7 @@ export default class ActiveLogo extends React.Component {
     super(props)
     this.state = {
       onPress: this.nextLogo,
+      logoStyle: props.isHeader ? styles.headerLogo : styles.logo,
       logos: [
         images.logo_arcoiris,
         images.spinner_arcoiris,
@@ -45,7 +51,10 @@ export default class ActiveLogo extends React.Component {
     return (
       <View style={styles.container}>
         <TouchableOpacity onPress={this.state.onPress}>
-          <Image style={styles.logo} source={this.state.activityDisplay.img} />
+          <Image
+            style={this.state.logoStyle}
+            source={this.state.activityDisplay.img}
+          />
         </TouchableOpacity>
       </View>
     )

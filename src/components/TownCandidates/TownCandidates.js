@@ -81,7 +81,7 @@ export default class TownCandidates extends React.Component {
           this.state.selectedTownCandidates.length > 0 && (
             <View style={{ alignItems: 'center' }}>
               <View style={styles.separator} />
-              <Text style={styles.title}>{'Candidatos Municipales'}</Text>
+              <Text style={styles.title}>{'Candidaturas Municipales'}</Text>
               <View style={styles.separator} />
             </View>
           )}

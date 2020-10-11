@@ -44,7 +44,7 @@ export default class NationalList extends React.Component {
       <View>
         <Text />
         <View style={styles.separator} />
-        <Text style={styles.head}>Candidatos Nacionales</Text>
+        <Text style={styles.head}>Candidaturas Nacionales</Text>
         <View style={styles.separator} />
         <View style={styles.root}>
           {this.state.candidates.map((c, i) => {
