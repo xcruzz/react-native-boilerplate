@@ -19,6 +19,15 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "permissions": [],
+      "versionCode": 4,
+      "backgroundColor": "#000000",
+      "icon": "./assets/icon.png",
+      "splash": {
+        "backgroundColor": "#000000"
+      }
+    },
     "packagerOpts": {
       "config": "metro.config.js",
       "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]

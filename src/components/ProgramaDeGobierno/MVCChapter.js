@@ -154,10 +154,7 @@ export default class MVCChapter extends React.Component {
               }}
             >
               <View style={styles.holder}>
-                {/* {console.log('chapter')} */}
-                {/* {console.log(JSON.stringify(this.state.chapter))} */}
                 {this.state.chapter.contenido.map((element, i) => {
-                  // console.log(JSON.stringify(element))
                   if (element.verbs)
                     return element.verbs.map((e, i) => {
                       return (
