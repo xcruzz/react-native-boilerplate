@@ -93,7 +93,6 @@ const defaultTown = 'Presiona un Pueblo'
 
 export default class SVGMap extends React.Component {
   updateSelection(key) {
-    console.log(`Update To: ${key}`)
     if (key == this.state.selectedTownK) return
     let towns = this.state.towns
       towns.map((t) => {
@@ -125,8 +124,6 @@ export default class SVGMap extends React.Component {
   }
   constructor(props) {
     super(props)
-console.log("constructor")
-console.log(JSON.stringify(props))
 
     this.state = {
       navigation: props.navigation,
@@ -144,7 +141,6 @@ console.log(JSON.stringify(props))
     this.state.towns.map((t) => {
         t.activeFill = this.state.gTownFill
     })
-    console.log(this.state.selectedTownK)
   }
 
   render() {
