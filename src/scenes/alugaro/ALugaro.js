@@ -43,6 +43,11 @@ const styles = StyleSheet.create({
     height: deviceSize.width * 0.65 * 1.005,
     marginVertical: 10,
   },
+  tile2: {
+    width: deviceSize.width * 0.75,
+    height: deviceSize.width * 0.75 * 0.733,
+    marginVertical: 10,
+  },
   separator: {
     height: 30,
     backgroundColor: colors.black,
@@ -50,7 +55,7 @@ const styles = StyleSheet.create({
 })
 
 const welcomeScreen = globalStyles.welcomeScreen
-const isFirst = 'mvcApp:v4.10.10'
+const isFirst = 'mvcApp:v5.10.12'
 
 export default class ALugaro extends React.Component {
   async componentDidMount() {
@@ -88,7 +93,6 @@ export default class ALugaro extends React.Component {
     return (
       <View style={styles.root}>
         <StatusBar barStyle="light-content" />
-        <View style={{ height: 5 }} />
         <ActiveLogo isHeader={false} />
         <ScrollView>
           <View style={styles.root}>
@@ -114,7 +118,7 @@ export default class ALugaro extends React.Component {
                 })
               }}
             >
-              <Image style={styles.tile} source={images.candidatxsButton} />
+              <Image style={styles.tile2} source={images.candidatxsButton} />
             </TouchableOpacity>
             <TouchableOpacity
               onPress={() => {

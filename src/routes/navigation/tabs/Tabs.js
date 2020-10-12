@@ -30,7 +30,7 @@ const IOSNavigator = createBottomTabNavigator(
     },
     CandidatxsTab: {
       screen: CandidatxsNavigator,
-      navigationOptions: { title: 'Candidatxs' },
+      navigationOptions: { title: 'Candidaturas' },
     },
   },
   {
@@ -89,7 +89,7 @@ const IOSNavigator = createBottomTabNavigator(
           backgroundColor: colors.darkGray,
         },
       },
-      tabBarVisible: navigation.state.routeName != 'MapTab',
+      tabBarVisible: true,//navigation.state.routeName != 'MapTab',
       swipeEnabled: false,
     }),
   },

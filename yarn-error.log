@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add react-native-horizontal-scroll-picker
+  /usr/local/bin/node /usr/local/bin/yarnpkg add reactn
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin
@@ -14,17 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://artifactory.nordstrom.com/artifactory/api/npm/npm/react-native-horizontal-scroll-picker: not_found
-      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66830:18)
-      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140464:22)
-      at Request.emit (events.js:210:5)
-      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141436:10)
-      at Request.emit (events.js:210:5)
-      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141358:12)
-      at Object.onceWrapper (events.js:299:28)
-      at IncomingMessage.emit (events.js:215:7)
-      at endReadableNT (_stream_readable.js:1183:12)
-      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+  Error: EACCES: permission denied, unlink '/Users/cfg8/MVC Dev/MVCBeta/node_modules/.yarn-integrity'
 
 npm manifest: 
   {
@@ -40,6 +30,8 @@ npm manifest:
       "test": "node_modules/.bin/jest --passWithNoTests"
     },
     "dependencies": {
+      "@react-native-community/async-storage": "^1.12.0",
+      "@react-native-community/netinfo": "^5.9.7",
       "@react-native-community/picker": "^1.8.0",
       "accordion-collapse-react-native": "^0.3.2",
       "axios": "^0.19.0",
@@ -61,7 +53,7 @@ npm manifest:
       "react-native-svg-transformer": "^0.14.3",
       "react-native-vector-icons": "^6.6.0",
       "react-native-web": "~0.11.7",
-      "react-native-wheel-picker": "^1.2.0",
+      "react-native-webview": "^10.9.0",
       "react-navigation": "^4.0.10",
       "react-navigation-drawer": "^2.2.2",
       "react-navigation-stack": "^1.9.3",
@@ -2388,6 +2380,13 @@ Lockfile:
       native-url "^0.2.6"
       schema-utils "^2.6.5"
   
+  "@react-native-community/async-storage@^1.12.0":
+    version "1.12.1"
+    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/@react-native-community/async-storage/-/async-storage-1.12.1.tgz#25f821b4f6b13abe005ad67e47c6f1cee9f27b24"
+    integrity sha1-JfghtPaxOr4AWtZ+R8bxzunyeyQ=
+    dependencies:
+      deep-assign "^3.0.0"
+  
   "@react-native-community/cli-debugger-ui@^4.9.0":
     version "4.9.0"
     resolved "https://registry.yarnpkg.com/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-4.9.0.tgz#4177764ba69243c97aa26829d59d9501acb2bd71"
@@ -2508,6 +2507,11 @@ Lockfile:
       strip-ansi "^5.2.0"
       sudo-prompt "^9.0.0"
       wcwidth "^1.0.1"
+  
+  "@react-native-community/netinfo@^5.9.7":
+    version "5.9.7"
+    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/@react-native-community/netinfo/-/netinfo-5.9.7.tgz#769c6b306ea6bbaa1c4a3fffdd183d0cfc30ed7e"
+    integrity sha1-dpxrMG6mu6ocSj//3Rg9DPww7X4=
   
   "@react-native-community/picker@^1.8.0":
     version "1.8.0"
@@ -13040,10 +13044,13 @@ Lockfile:
       prop-types "^15.6.0"
       react-timer-mixin "^0.13.4"
   
-  react-native-wheel-picker@^1.2.0:
-    version "1.2.0"
-    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/react-native-wheel-picker/-/react-native-wheel-picker-1.2.0.tgz#0503e37b3326856724501679bdf5697e0dd247a6"
-    integrity sha1-BQPjezMmhWckUBZ5vfVpfg3SR6Y=
+  react-native-webview@^10.9.0:
+    version "10.9.0"
+    resolved "https://artifactory.nordstrom.com/artifactory/api/npm/npm/react-native-webview/-/react-native-webview-10.9.0.tgz#a45998f82ab1bbbbfde22b8b155394772610157a"
+    integrity sha1-pFmY+Cqxu7v94iuLFVOUdyYQFXo=
+    dependencies:
+      escape-string-regexp "2.0.0"
+      invariant "2.2.4"
   
   "react-native@https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz":
     version "0.62.2"

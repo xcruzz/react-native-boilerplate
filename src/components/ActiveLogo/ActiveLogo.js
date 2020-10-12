@@ -1,49 +1,56 @@
 import React from 'react'
-import { StyleSheet, TouchableOpacity, View, Image } from 'react-native'
+import { Platform, Dimensions, StyleSheet, TouchableOpacity, View, Image } from 'react-native'
 import { images } from 'theme'
 
+const deviceSize = Dimensions.get('window')
 const styles = StyleSheet.create({
   container: {
-    flex: 0,
+    flex: 0, 
     alignItems: 'center',
     justifyContent: 'center',
     width: '100%',
+    marginTop: 15 + (Platform.OS === 'ios' && deviceSize.height > 800  ? 5 : 0)
   },
   logo: {
-    width: 54,
-    height: 60,
-    marginTop: Platform.OS !== 'ios' ? 0 : 25,
+    width: deviceSize.height*.0749,
+    height: deviceSize.height*.0749,
+    marginTop: 5 + (Platform.OS === 'ios' && deviceSize.height > 800 ? 5 : 0),
     marginBottom: 5,
   },
   headerLogo: {
-    width: 32,
-    height: 38,
+    flex: 0,
+    width:  deviceSize.height*.049,
+    height: deviceSize.height*.049,
+    marginBottom: 5 + (Platform.OS === 'ios' ? deviceSize.height > 800 ? 20 :10 : 0), 
   },
 })
 
 export default class ActiveLogo extends React.Component {
   constructor(props) {
     super(props)
+    let logos = [
+      images.victoria_icon_bmBlack,
+      images.victoria_icon_bmLGBTQ,
+      images.victoria_icon_bmPurple,
+      images.victoria_icon_bmLugaro,
+      images.victoria_icon_bmWhite
+    ]
     this.state = {
       onPress: this.nextLogo,
       logoStyle: props.isHeader ? styles.headerLogo : styles.logo,
-      logos: [
-        images.logo_arcoiris,
-        images.spinner_arcoiris,
-        images.victoria_icon_white,
-      ],
-      activityDisplay: { i: -1, img: images.victoria_icon_white },
+      logos: logos,
+      activeLogo: { i: 0, img: logos[0] },
     }
   }
 
   nextLogo = () => {
     let next =
-      this.state.activityDisplay.i > this.state.logos.length - 2
+      this.state.activeLogo.i > this.state.logos.length - 2
         ? 0
-        : this.state.activityDisplay.i + 1
+        : this.state.activeLogo.i + 1
     this.setState({
       ...this.state,
-      activityDisplay: { i: next, img: this.state.logos[next] },
+      activeLogo: { i: next, img: this.state.logos[next] },
     })
   }
 
@@ -53,7 +60,7 @@ export default class ActiveLogo extends React.Component {
         <TouchableOpacity onPress={this.state.onPress}>
           <Image
             style={this.state.logoStyle}
-            source={this.state.activityDisplay.img}
+            source={this.state.activeLogo.img}
           />
         </TouchableOpacity>
       </View>

@@ -3,8 +3,8 @@
     "name": "VictoriaCiudadana",
     "slug": "victoriaciudadana",
     "privacy": "public",
-    "platforms": ["ios", "android", "web"],
-    "version": "4.10.10",
+    "platforms": ["ios"],
+    "version": "5.10.12",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {

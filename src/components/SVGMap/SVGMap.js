@@ -8,12 +8,12 @@ import {
   StyleSheet,
   Dimensions,
   View,
-  Text,
   Image,
   TouchableOpacity,
 } from 'react-native'
 import { Picker } from '@react-native-community/picker'
 import { ScrollView } from 'react-native-gesture-handler'
+
 const orientation = '0deg'
 const deviceSize = Dimensions.get('window')
 const styles = StyleSheet.create({
@@ -22,66 +22,68 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'stretch',
     justifyContent: 'center',
-    backgroundColor: colors.black,
     transform: [{ rotate: orientation }],
   },
   foot: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     width: deviceSize.width,
+    height: deviceSize.height*.085
   },
   header: {
     flexDirection: 'column',
     justifyContent: 'space-around',
-    flex: 0,
     alignItems: 'center',
   },
   onePicker: {
+    flex: 1,
     width: 240,
-    height: 56,
+    height: 40,
+    backgroundColor: colors.victoryGold
   },
   onePickerItem: {
-    height: 55,
+    flex: 0,
+    height: deviceSize.height*.07,
     color: colors.white,
     fontFamily: fonts.NeuePlak.Black,
-    fontSize: 28,
+    fontSize: deviceSize.height > 800 ? 28 : 20,
   },
-  separator: {
+  separatorU: {
+    flex: 0,
     alignSelf: 'center',
     height: 2,
     width: '65%',
     backgroundColor: colors.victoryGold,
-    marginTop: 5,
+  },
+  separator: {
+    flex: 0,
+    alignSelf: 'center',
+    height: 2,
+    width: '65%',
+    backgroundColor: colors.victoryGold,
+    marginTop: deviceSize.height > 800 ? 60 : 50,
+    marginBottom: deviceSize.height < 800 ? 10 : 0,
   },
   headerImg: {
-    marginVertical: 20,
+    marginVertical: 12,
     alignSelf: 'center',
-    width: deviceSize.width * 0.6,
-    height: deviceSize.width * 0.6 * 0.3665,
+    width: deviceSize.height * 0.35,
+    height: deviceSize.height * 0.35 * 0.28,
   },
   display_lugaro: {
     alignSelf: 'center',
-    width: 150,
-    height: 68,
-    marginTop: 25,
+    width: deviceSize.height*.08 * 2.2,
+    height: deviceSize.height*.08,
+    marginTop: 2,
   },
 })
 
-const fullScreenDimensions = {
-  x: 265,
-  y: -105,
-  scale: 2.25,
-  width: deviceSize.height * 0.92,
-  height: deviceSize.width * 0.7,
-  scrollOffSet: 0,
-}
-
 const tabBarScreenDimensions = {
-  x: 265,
-  y: -105,
-  scale: 2.35,
-  width: deviceSize.height * 0.92,
-  height: deviceSize.width * 0.7,
+  x: deviceSize.height > 800 ?320:265,
+  y: -125,
+  scale: deviceSize.height > 800 ? 2.75 : 2.35, 
+  width: deviceSize.width * (deviceSize.height > 800 ? 2.36:2),
+  height: deviceSize.width * 2.36 + .4,
   scrollOffSet: 100,
 }
 
@@ -91,15 +93,12 @@ const defaultTown = 'Presiona un Pueblo'
 
 export default class SVGMap extends React.Component {
   updateSelection(key) {
+    console.log(`Update To: ${key}`)
     if (key == this.state.selectedTownK) return
     let towns = this.state.towns
-    if (this.state.selectedTownK != defaultTown) {
       towns.map((t) => {
-        if (t.key == this.state.selectedTownK) {
           t.activeFill = this.state.gTownFill
-        }
       })
-    }
 
     let newIndex = 1
     if (key != defaultTown) {
@@ -126,6 +125,9 @@ export default class SVGMap extends React.Component {
   }
   constructor(props) {
     super(props)
+console.log("constructor")
+console.log(JSON.stringify(props))
+
     this.state = {
       navigation: props.navigation,
       towns: mvcdb.pueblos.sort((a, b) => (a.name > b.name ? 1 : -1)),
@@ -139,6 +141,10 @@ export default class SVGMap extends React.Component {
       gStrokeWidth: '.01',
       gTransform: '0.0 0.0',
     }
+    this.state.towns.map((t) => {
+        t.activeFill = this.state.gTownFill
+    })
+    console.log(this.state.selectedTownK)
   }
 
   render() {
@@ -146,10 +152,9 @@ export default class SVGMap extends React.Component {
 
     return (
       <View style={styles.main}>
-        <View style={{ height: 25 }} />
         <ActiveLogo />
         <Image style={styles.headerImg} source={images.candidatxsMapHeader} />
-        <Image style={styles.separator} source={images.ySeprator} />
+        <View style={styles.separatorU}/>
         <View style={styles.header}>
           <Picker
             style={styles.onePicker}
@@ -176,8 +181,7 @@ export default class SVGMap extends React.Component {
             })}
           </Picker>
         </View>
-        <Image style={styles.separator} source={images.ySeprator} />
-        <Text />
+        <View style={styles.separator}/>
         <ScrollView
           horizontal={true}
           initialListSize={0}

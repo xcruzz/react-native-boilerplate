@@ -13,11 +13,15 @@ export const images = {
   logo_blanco: require('../../assets/images/mvclogo/blancoiris7.png'),
   logo_arcoiris: require('../../assets/images/mvclogo/blancoiris1.png'),
   welcome_screen: require('../../assets/images/welcome_screenAL.png'),
-  ySeparator: require('../../assets/images/ySeparator.png'),
-
+  
   victoria_icon_grey: require('../../assets/victoria_icon_grey.png'),
   victoria_icon_grey_x: require('../../assets/victoria_icon_grey_x.png'),
+  victoria_icon_bmLugaro: require('../../assets/victoria_icon_bmLugaro.png'),
   victoria_icon_white: require('../../assets/victoria_icon_white.png'),
+  victoria_icon_bmWhite: require('../../assets/victoria_icon_bmWhite.png'),
+  victoria_icon_bmPurple: require('../../assets/victoria_icon_bmPurple.png'),
+  victoria_icon_bmLGBTQ: require('../../assets/victoria_icon_bmLGBTQ.png'),
+  victoria_icon_bmBlack: require('../../assets/victoria_icon_batman.png'),
   spinner_arcoiris: require('../../assets/images/spinnerL.gif'),
   loader_blancoiris: require('../../assets/images/loader_blancoiris.gif'),
 
