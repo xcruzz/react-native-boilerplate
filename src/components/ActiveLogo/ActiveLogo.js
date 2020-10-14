@@ -12,15 +12,15 @@ const styles = StyleSheet.create({
     marginTop: 15 + (Platform.OS === 'ios' && deviceSize.height > 800  ? 5 : 0)
   },
   logo: {
-    width: deviceSize.height*.0749,
-    height: deviceSize.height*.0749,
-    marginTop: 5 + (Platform.OS === 'ios' && deviceSize.height > 800 ? 5 : 0),
-    marginBottom: 5,
+    width: deviceSize.width*.8,
+    height: deviceSize.width*.8*.19,
+    marginTop: 15 + (Platform.OS === 'ios' && deviceSize.height > 800 ? 5 : 0),
+    marginBottom: 0,
   },
   headerLogo: {
     flex: 0,
-    width:  deviceSize.height*.049,
-    height: deviceSize.height*.049,
+    width:  deviceSize.width*.5,
+    height: deviceSize.width*.5*.19,
     marginBottom: 5 + (Platform.OS === 'ios' ? deviceSize.height > 800 ? 20 :10 : 0), 
   },
 })
@@ -29,11 +29,7 @@ export default class ActiveLogo extends React.Component {
   constructor(props) {
     super(props)
     let logos = [
-      images.victoria_icon_bmBlack,
-      images.victoria_icon_bmLGBTQ,
-      images.victoria_icon_bmPurple,
-      images.victoria_icon_bmLugaro,
-      images.victoria_icon_bmWhite
+      images.alugaro_sloganRow, 
     ]
     this.state = {
       onPress: this.nextLogo,

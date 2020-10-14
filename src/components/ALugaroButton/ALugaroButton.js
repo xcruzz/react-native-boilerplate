@@ -2,7 +2,9 @@ import NetInfo from '@react-native-community/netinfo'
 import { colors, fonts } from 'theme'
 import React from 'react'
 import PropTypes from 'prop-types'
-import { View, TouchableOpacity, Text, Linking } from 'react-native'
+import { View, TouchableOpacity, Text, Linking, Dimensions } from 'react-native'
+const deviceSize = Dimensions.get('window')
+
 
 const styles = {
   button: {
@@ -10,16 +12,16 @@ const styles = {
     paddingVertical: 1,
     paddingHorizontal: 5,
     borderRadius: 20,
-    width: 180,
+    width:  deviceSize.width *.42,
     alignItems: 'center',
     marginVertical: 10,
   },
   buttonDark: {
     backgroundColor: colors.black,
     paddingVertical: 1,
-    paddingHorizontal: 5,
+    paddingHorizontal: 1,
     borderRadius: 20,
-    width: 165,
+    width: 170,
     alignItems: 'center',
     marginVertical: 10,
   },
@@ -41,13 +43,13 @@ const styles = {
   verbDark: {
     color: colors.white,
     fontFamily: fonts.NeuePlak.Bold,
-    fontSize: 16,
+    fontSize: deviceSize.height > 800 ? 15 : 13,
     paddingBottom: 3,
   },
   verb: {
     color: colors.black,
     fontFamily: fonts.NeuePlak.Bold,
-    fontSize: 16,
+    fontSize: deviceSize.height > 800 ? 15 : 13,
     paddingBottom: 3,
   },
 }

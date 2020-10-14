@@ -50,14 +50,12 @@ const IOSNavigator = createBottomTabNavigator(
             )
           case 'HomeTab':
             return (
-              <Image
-                style={styles.nav_icon}
-                source={
-                  focused
-                    ? images.victoria_icon_white
-                    : images.victoria_icon_grey
-                }
-              />
+              <FontIcon
+                name="scroll"
+                color={focused ? colors.victoryGold : colors.gray}
+                size={20}
+                solid
+               />
             )
           case 'MapTab':
             return (
@@ -127,14 +125,12 @@ const AndroidNavigator = createBottomTabNavigator(
             )
           case 'HomeTab':
             return (
-              <Image
-                style={styles.nav_icon}
-                source={
-                  focused
-                    ? images.victoria_icon_white
-                    : images.victoria_icon_grey
-                }
-              />
+              <FontIcon
+                name="scroll"
+                color={focused ? colors.victoryGold : colors.gray}
+                size={20}
+                solid
+               />
             )
           case 'CandidatxsTab':
             return (
