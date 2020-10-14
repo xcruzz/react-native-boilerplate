@@ -28,7 +28,7 @@
       "splash": {
         "backgroundColor": "#000000"
       },
-      "package": "com.victoriaciudadana.app"
+      "package": "org.mvcpr.app"
     },
     "packagerOpts": {
       "config": "metro.config.js",
