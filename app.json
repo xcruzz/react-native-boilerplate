@@ -4,7 +4,7 @@
     "slug": "lugaro2020",
     "privacy": "public",
     "platforms": ["ios"],
-    "version": "1.10.13",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -18,6 +18,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "ios": {
+      "bundleIdentifier": "org.mvcpr",
+      "buildNumber": "4"
+    },
     "packagerOpts": {
       "config": "metro.config.js",
       "sourceExts": [
