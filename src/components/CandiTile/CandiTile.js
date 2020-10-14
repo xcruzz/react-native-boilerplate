@@ -26,7 +26,6 @@ const styles = StyleSheet.create({
   bholder: {
     backgroundColor: colors.black,
     height: 60,
-    marginBottom: 20,
   },
   candName: {
     fontSize: 20,
