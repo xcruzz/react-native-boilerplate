@@ -3,7 +3,9 @@
     "name": "VictoriaCiudadana",
     "slug": "victoriaciudadana",
     "privacy": "public",
-    "platforms": ["ios"],
+    "platforms": [
+      "android"
+    ],
     "version": "5.10.12",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,13 +17,29 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "permissions": [],
+      "versionCode": 4,
+      "backgroundColor": "#000000",
+      "icon": "./assets/icon.png",
+      "splash": {
+        "backgroundColor": "#000000"
+      },
+      "package": "com.victoriaciudadana.app"
     },
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
-    }
+      "sourceExts": [
+        "js",
+        "jsx",
+        "svg",
+        "ts",
+        "tsx"
+      ]
+    },
+    "description": ""
   }
 }
