@@ -4,7 +4,7 @@
     "slug": "victoriaciudadana",
     "privacy": "public",
     "platforms": ["ios"],
-    "version": "5.10.12",
+    "version": "1.10.13",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
