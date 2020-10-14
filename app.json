@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Lugaro 20202",
-    "slug": "lugaro2020",
+    "name": "Lugaro 2020",
+    "slug": "victoriaciudadana",
     "privacy": "public",
     "platforms": ["ios"],
     "version": "1.0.0",
@@ -20,7 +20,7 @@
     ],
     "ios": {
       "bundleIdentifier": "org.mvcpr",
-      "buildNumber": "4"
+      "buildNumber": "5"
     },
     "packagerOpts": {
       "config": "metro.config.js",
