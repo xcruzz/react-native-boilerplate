@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "VictoriaCiudadana",
-    "slug": "victoriaciudadana",
+    "name": "Lugaro 2020",
+    "slug": "lugaro2020",
     "privacy": "public",
     "platforms": [
       "android"
     ],
-    "version": "6.10.14",
+    "version": "7.10.14",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -22,7 +22,7 @@
     ],
     "android": {
       "permissions": [],
-      "versionCode": 6,
+      "versionCode": 7,
       "backgroundColor": "#000000",
       "icon": "./assets/icon.png",
       "splash": {
