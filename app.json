@@ -6,7 +6,7 @@
     "platforms": [
       "android"
     ],
-    "version": "7.10.14",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -22,13 +22,13 @@
     ],
     "android": {
       "permissions": [],
-      "versionCode": 7,
+      "versionCode": 1,
       "backgroundColor": "#000000",
       "icon": "./assets/icon.png",
       "splash": {
         "backgroundColor": "#000000"
       },
-      "package": "org.mvcpr.app"
+      "package": "com.alexandralugaro2020.app"
     },
     "packagerOpts": {
       "config": "metro.config.js",
@@ -40,6 +40,6 @@
         "tsx"
       ]
     },
-    "description": ""
+    "description": "A través de esta aplicación podrás repasar las biografías de candidatos a posiciones principales, alcaldías, legislatura y legislaturas municipales del MVC. Todos comprometidos con la Agenda Urgente. "
   }
 }

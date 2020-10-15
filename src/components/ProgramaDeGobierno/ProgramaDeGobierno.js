@@ -32,7 +32,7 @@ const chapters = [
   { title: 'Economía', chapterKey: 'C2' },
   { title: 'Pobreza', chapterKey: 'C3' },
   { title: 'Justicia', chapterKey: 'C4' },
-  { title: 'Racismo / Xenofopia', chapterKey: 'C5' },
+  { title: 'Racismo / Xenofobia', chapterKey: 'C5' },
   { title: 'Trabajo', chapterKey: 'C6' },
   { title: 'Salud', chapterKey: 'C7' },
   { title: 'Educación', chapterKey: 'C8' },
