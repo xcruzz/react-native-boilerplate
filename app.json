@@ -6,7 +6,7 @@
     "platforms": [
       "android"
     ],
-    "version": "1.0.1",
+    "version": "5.10.20",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -22,7 +22,7 @@
     ],
     "android": {
       "permissions": [],
-      "versionCode": 1,
+      "versionCode": 5,
       "backgroundColor": "#000000",
       "icon": "./assets/icon.png",
       "splash": {

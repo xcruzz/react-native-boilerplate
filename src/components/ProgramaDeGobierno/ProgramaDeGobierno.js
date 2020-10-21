@@ -31,7 +31,7 @@ const chapters = [
   { title: 'Corrupción', chapterKey: 'C1' },
   { title: 'Economía', chapterKey: 'C2' },
   { title: 'Pobreza', chapterKey: 'C3' },
-  { title: 'Justicia', chapterKey: 'C4' },
+  { title: 'Diversidad', chapterKey: 'C4' },
   { title: 'Racismo / Xenofobia', chapterKey: 'C5' },
   { title: 'Trabajo', chapterKey: 'C6' },
   { title: 'Salud', chapterKey: 'C7' },
@@ -44,7 +44,8 @@ const chapters = [
   { title: 'Juventud', chapterKey: 'C14' },
   { title: 'Comunicación', chapterKey: 'C15' },
   { title: 'Ecología', chapterKey: 'C16' },
-  { title: 'Diaspora', chapterKey: 'C17' },
+  { title: 'Descolonización', chapterKey: 'C17' },
+  { title: 'Diáspora', chapterKey: 'C18' },
 ]
 
 export default class ProgramaDeGobierno extends React.Component {
