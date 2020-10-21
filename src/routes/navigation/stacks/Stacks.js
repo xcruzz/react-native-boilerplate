@@ -48,7 +48,7 @@ export const MapNavigator = createStackNavigator({
   Candidaturas: {
     screen: Candidaturas,
     navigationOptions: ({ navigation }) => ({
-      title: 'Candidaturas',
+      title: '',
       headerBackTitleVisible: true,
       left: '',
       headerLeft: (

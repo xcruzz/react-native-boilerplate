@@ -1,20 +1,26 @@
 {
   "titulo": "CAPÍTULO 2: LA ESTRATEGIA ECONÓMICA BASADA EN DESARROLLO HUMANO SOSTENIBLE",
   "contenido": [
-    { "verbs": [""] },
+    { "verbs": [
+        "El Movimiento Victoria Ciudadana busca transformar las bases de la economía de Puerto Rico, llevándola a una economía integrada, dinámica y sinérgica, en armonía con la naturaleza y el medioambiente, sustentada en los principios del Desarrollo Humano Sustentable. Gestaremos un Puerto Rico inclusivo y solidario, donde se respeten plenamente los derechos económicos, sociales, culturales y ambientales necesarios para una vida digna y libre: el derecho al trabajo, a la seguridad social, la salud, la educación, la alimentación, el agua, la vivienda, un medio ambiente saludable y el acceso a la tecnología.",
+        "Seremos un gobierno proactivo y facilitador de un desarrollo económico y social que priorice el bienestar de las personas y que esté en permanente diálogo con comunidades, organizaciones sociales, así como con los sectores de investigación, desarrollo e innovación para inyectar dinamismo a la economía. Visualizamos alianzas fuertes con el sector universitario, especialmente con la Universidad de Puerto Rico por su carácter de bien público, así como con el movimiento cooperativista, las asociaciones profesionales, empresariales y gremiales, para llevar adelante un esfuerzo gigante de refundación y revitalización económica, que permita engranar ecosistemas innovadores a nivel central, regional y municipal.",
+        "Restituiremos y ampliaremos los derechos laborales recortados por pasados gobiernos, asegurando el derecho al trabajo en condiciones dignas de salario, jornada y licencias. Reconocemos y promoveremos el derecho a la organización de los trabajadores y las trabajadoras del sector público y privado como unos de los pilares de una sociedad democrática, para que puedan defender sus condiciones laborales y de vida. Nos aseguraremos de eliminar cualquier traba existente a la libre asociación y organización gremial, en cualquier espacio, incluyendo la rama judicial y los municipios.",
+        "Como principio general, rechazamos las políticas de privatización de servicios esenciales y de bienes públicos, que los someten a la lógica de la competencia y el lucro privado. Velaremos por un estado de derecho que funcione, en diálogo amplio y honesto con la diversidad de sectores sociales, laborales y empresariales, a fin de generar normativas claras, razonables y coherentes, establecidas para asegurar el bien común. Cuidaremos a la población, al medioambiente y la reputación global de nuestro país, que tan mancillada está. Devolver la confianza en la gestión pública será nuestro norte y el mejor aliciente a la recuperación económica.",
+        "Hemos analizado y confirmado que podremos financiar un sistema de salud universal con pagador único para asegurar servicios a toda la población. La educación será también prioridad presupuestaria. El capítulo sobre salud en este programa brinda información detallada de cómo lo haremos. El gobierno estimulará la creación de puestos de trabajo y todos los programas de incentivos tendrán que cumplir con este objetivo.",
+        "Pondremos énfasis en atajar la alta tasa y las múltiples formas de evasión contributiva; en una reforma contributiva progresiva, revisaremos los subsidios empresariales, así como todos los instrumentos que tiene un gobierno para generar y distribuir ingresos, a fin de recuperar los dineros que se pierden por mala gestión u orientación de las políticas. Se buscará fortalecer el proceso de actualización del catastro de propiedades de alto valor para reajustar las contribuciones que pagan las empresas y grandes corporaciones. Fortaleciendo ese mecanismo podrá ir bajándose paulatinamente el IVU, un impuesto regresivo que hace que las personas que menos ganan aporten por ese impuesto una mayor proporción de sus ingresos que aquellas con ingresos mayores.",
+        "Finalmente, en este documento hemos incorporado algunas propuestas e ideas desarrolladas por una diversidad de personas que vive en Puerto Rico y en la diáspora y que provienen de una multiplicidad de trasfondos, en muchos casos laborando en esfuerzos multisectoriales para promover nuestro progreso colectivo y que resultan totalmente compatibles con la visión del Movimiento Victoria Ciudadana. Entre otras, recogemos siete “Principios Rectores” propuestos por la Sociedad Puertorriqueña de Planificación, que constituyen bases fundamentales para una visión estratégica de desarrollo integral para Puerto Rico, a ser gestada tanto por el gobierno, el empresariado y la sociedad civil. Estos principios, elaborados en el documento El país que queremos son: i) Democracia participativa; ii) Transparencia; iii) Solidaridad; iv) Justicia; v) Sostenibilidad; vi) Innovación, Emprendimiento y Disposición al Cambio y; vii) Perspectiva global. Estos principios reafirman el compromiso auténtico y la concertación de visiones para encaminarnos hacia un desarrollo humano sustentable que integre todos los sectores y regiones del país e interconecte, desde una nueva perspectiva, a Puerto Rico con el mundo."
+
+    ] },
     { "header": ["METAS GENERALES"] },
-    {
-      "numberedList": [
-        "Refundar la economía sobre la base del trabajo digno y la generación de riqueza que permita obtener recursos para el fisco, los municipios y los trabajadores y las trabajadoras. Promoveremos la creación de empleos con salario mínimo y condiciones que permitan vivir por encima del nivel de pobreza y con salarios superiores en industrias cuya capacidad económica lo permita.",
-        "Generar una estrategia sinérgica, donde un esfuerzo gubernamental tenga impacto sobre diversos objetivos en simultáneo o secuencialmente, así como eslabonamientos entre iniciativas económicas y cadenas que agreguen valor.",
+    { "numberedList": [
+        "Refundar la economía sobre la base del trabajo digno y la generación de riqueza que permita obtener recursos para el fisco, los municipios y los trabajadores y las trabajadoras. Promoveremos la creación de empleos con salario mínimo y condiciones que permitan vivir por encima del nivel de pobreza y con salarios superiores en industrias cuya capacidad económica lo permita.", 
+        "Generar una estrategia sinérgica, donde un esfuerzo gubernamental tenga impacto sobre diversos objetivos en simultáneo o secuencialmente, así como eslabonamientos entre iniciativas económicas y cadenas que agreguen valor.", 
         "Reactivar el mercado de trabajo y generar programas de recalificación laboral, así como de especialización en ocupaciones innovadoras; establecer mecanismos de intercambio rápido de información sobre oportunidades de trabajo, por ejemplo, en un portal de Puerto Rico Trabaja. Se fomentarán proyectos de equidad y de base comunitaria para atajar las brechas generadas por el discrimen por raza, nacionalidad, identidad de género, orientación sexual, diversidad funcional y otras formas de discriminación social.",
         "Recuperar la confianza ciudadana y empresarial en la gestión pública de los organismos que competen a la economía y desempeñar activamente el papel de ente dialogador, promotor y facilitador del crecimiento económico y el desarrollo pleno. El gobierno complementará y brindará servicios a las empresas existentes, comprometiéndose a no favorecerlas o penalizarlas por razones ideológicas o político- partidista.",
         "Atajar el crecimiento de la pobreza y de la desigualdad social a través de un plan nacional de lucha contra la pobreza que fomentará micro, mini y pequeñas empresas a nivel distrital y municipal, reduciendo el desempleo y aumentando la capacidad de la ciudadanía de procurarse ingresos mediante la autogestión. Entre otros recursos, para poner en marcha dicho plan, se utilizará el producto de la recaudación de impuestos evadidos."
-      ]
-    },
+    ] },
     { "header": ["OBJETIVOS DE LA ESTRATEGIA ECONÓMICA"] },
-    {
-      "numberedList": [
+    { "numberedList": [
         "Poner en marcha el programa Puerto Rico Trabaja, que brindará formación en nuevas ocupaciones innovadoras y actualización de destrezas para el mundo del trabajo actual. Este programa se realizará en alianza con escuelas vocacionales, universidades, municipios y otras instituciones públicas.",
         "Promover la diversificación y expansión de la producción de bienes y servicios para el mercado interno, incluyendo alcanzar soberanía alimentaria a través del proyecto Creación de ecosistema productivo con base agroecológica, con impacto significativo de sustitución de importaciones y eslabonamientos a las industrias de turismo, gastronomía y cultura.",
         "Hacer una revisión cabal de la concesión de créditos fiscales, exenciones y beneficios, utilizando como guía el Primer Informe de Gastos de Puerto Rico (Puerto Rico Expenditures Report), que contiene datos fundamentales para realizar este análisis. Algunos de los principales beneficiarios de estos créditos son, además de las multinacionales extranjeras que están en Puerto Rico, grandes productores exportadores.",
@@ -24,11 +30,9 @@
         "Estableceremos incentivos para que las empresas aumenten la proporción de personas que provienen de sectores de pobreza, especialmente mujeres, personas negras, comunidad dominicana, personas LGBTTIQ+ y jóvenes. Lo mismo aplicará a lasagencias de gobierno.",
         "Financiar un sistema universal de salud con pagador único y asegurar recursos paramejorar el sistema educativo público y la UPR. Los detalles de esta propuesta están en el capítulo de salud.",
         "Poner en marcha los diez proyectos estratégicos, que se describen más adelante."
-      ]
-    },
+      ] },
     { "header": ["INSTRUMENTOS"] },
-    {
-      "numberedList": [
+    { "numberedList": [
         "Buscar la paralización de cualquier pago de la deuda pública en virtud de la situación de emergencia generalizada que hay en Puerto Rico.",
         "Política de acción afirmativa: comprarle al de aquí, para que crezca, esto incluye a las compras del gobierno. Además, se generarán campañas educativas para crear conciencia en las personas de lo que significa comprar producción local. Se diseñarán incentivos para los comerciantes locales y considerará este factor en los programas de subvenciones empresariales.",
         "Conceder incentivos por generación de empleos a empresas puertorriqueñas, especialmente PyMEs, lo que no existe hoy.",
@@ -41,35 +45,18 @@
         "Garantía de que los servicios esenciales y los planes de retiro y pensiones, seránantepuestas a cualquier pago en los procesos de renegociación de la deuda.",
         "Reglamentación de inversión externa según los objetivos de desarrollo (laborales, ambientales, reinversión, compras locales, transferencia de destrezas y tecnología). Negociación y renegociación de decretos para nuevas empresas y para las existentes, afirmando el interés de que se queden en Puerto Rico y produzcan riqueza en condiciones de responsabilidad social.",
         "Exigir al Congreso de los Estados Unidos, como corresponsable de la crisis actual, eldesembolso ágil de los recursos para la reconstrucción económica."
-      ]
-    },
-    {
-      "header": [
-        "PLAN DE ACCIÓN - DIEZ PROYECTOS ESTRATÉGICOS PARA EL CUATRIENIO"
-      ]
-    },
-    {
-      "numberedTitle": {
-        "i": 1,
-        "verb": "Recuperación de la infraestructura colapsada e impulso a las energías alternativas."
-      }
-    },
-    {
-      "verbs": [
+      ] },
+    { "header": ["PLAN DE ACCIÓN - DIEZ PROYECTOS ESTRATÉGICOS PARA EL CUATRIENIO"] },
+    { "numberedTitle": { "i": 1, "verb": "Recuperación de la infraestructura colapsada e impulso a las energías alternativas." } },
+    { "verbs": [
         "Se impulsará especialmente la energía solar y la hidroeléctrica con un modelo de distribución de costos y de producción energética para hacer viable el proyecto en el corto y mediano plazo. Se utilizará como punto de partida las propuestas de Queremos Sol. Nuestra meta es que en cuatro años tengamos 10% de energía renovable, 20% en 8 años, 50% en 15 años y el 100% para el 2050. Impulsaremos el reciclaje y la reducción de vertederos de residuos sólidos, la reparación y dragado de embalses y represas, el reacondicionamiento de puertos, carreteras y puentes, así como la identificación de calles y carreteras para lograr un sistema de direcciones veraz, actualizado y eficiente.",
         "Recuperar, rehabilitar, renovar y hacer más eficiente la infraestructura de Puerto Rico es el primer paso de la estrategia de desarrollo económico del MVC. Estados Unidos ha trasladado un importante fondo para la reconstrucción de infraestructura que deberá ser utilizado con criterios sumamente rigurosos para: i) optimizar su uso; ii) asegurar que nadie convierta esos fondos en una tómbola de premios y corrupción; iii) que los trabajos a realizar respondan a las prioridades y a las necesidades reales de la gente, al bien común y no a proyectos fantasiosos o a intereses particulares; iv) que las licitaciones de proyectos sean abiertas, transparentes y públicas; v) que se privilegien empresas, trabajadores y trabajadoras locales en lo máximo posible para que comience a dinamizarse la economía de inmediato; y vi) que haya una supervisión meticulosa de todos los trabajos a realizar.",
         "La precaria situación económica del área Sur de la isla, agravada aún más por los daños a la infraestructura producidos por los terremotos de 2020, plantea la necesidad urgente de reactivar la actividad económica de la región. Como base para otros proyectos regionales, el Movimiento Victoria Ciudadana se propone fomentar el desarrollo del Puerto de Ponce, fuera de las influencias de las agendas partidistas y la burocracia gubernamental. El Puerto de Ponce debe enfocarse como un proyecto de desarrollo económico basado en ventajas competitivas sostenibles y con la flexibilidad necesaria para mantenerse a la vanguardia de las tendencias nacionales e internacionales. Deberá, además, crear zonas comerciales sinérgicas con la infraestructura portuaria capaz de generar oportunidades de negocios para nuestros empresarios. El Puerto de Ponce deberá servir, en este sentido, como un eje generador de actividad económica que minimice la dependencia excesiva del puerto de San Juan, como entrada, casi exclusiva, de carga a la isla.",
         "Para atender adecuadamente los problemas urgentes de infraestructura, el MVC establecerá un Consejo de Políticas de Infraestructura de la Gobernación en el cual participarán: i) las diversas agencias gubernamentales y corporaciones públicas relacionadas con los asuntos de infraestructura, así como personal del Departamento de Recursos Naturales; ii) las unidades de los recintos de la UPR que tengan competencias en las distintas áreas en estos temas; iii) representantes de organizaciones ambientalistas y ecologistas, de gremios y de sindicatos de sectores de infraestructura, así como otras organizaciones de la sociedad civil que trabajan con estos temas. Su misión será ayudar a sentar prioridades, asesorar en el diálogo con el grupo de representantes federales responsables por los recursos para la reconstrucción y asegurar la instalación de mecanismos de monitoreo y evaluación de cada proyecto a realizar."
-      ]
+      ] 
     },
-    {
-      "numberedTitle": {
-        "i": 2,
-        "verb": "Creación de nuevo ecosistema productivo con base agroecológica para la Soberanía Alimentaria."
-      }
-    },
-    {
-      "verbs": [
+    { "numberedTitle": { "i": 2, "verb": "Creación de nuevo ecosistema productivo con base agroecológica para la Soberanía Alimentaria." } },
+    { "verbs": [
         "Pondremos en marcha un proyecto que aspira fortalecer y articular la producción agroecológica con otros sectores económicos. El mismo busca generar 1,000 fincas de producción agroecológica familiar diversificada, de 20 cuerdas en promedio cada una, en cuatro años. Si esa producción solamente sirviera para sustituir el 5% de las importaciones anuales de alimentos, se podría inyectar $988 millones a nuestra economía. Además, reducirá significativamente el gasto en alimentos de las familias y personas productoras y generará ingresos de otros servicios y productos interrelacionados, como serían la elaboración de alimentos con dichos insumos.",
         "El proyecto contempla también la creación de centros municipales de clasificación de residuos domésticos y seis plantas regionales de producción de composta. Ello reducirá significativamente el actual volumen de depósitos en los vertederos del país que están en estado crítico. Busca estimular el turismo rural y comunitario, la elaboración artesanal y manufacturera de alimentos, así como el sector de la gastronomía, entre otras iniciativas derivadas de este esfuerzo multidimensional. Se buscará también el establecimiento de mercados fijos para la venta de la producción de alimentos, que podría incluir también de artesanías.",
         "Se fomentará el uso de estrategias agroecológicas para el manejo de las fincas, especialmente en cuanto a control de plagas y fertilización, dando especial atención a la biodiversidad, el cuidado de los suelos y el manejo de aguas desde perspectivas agro- ecosistémicas. Además, se prohibirá el uso de productos tóxicos y prácticas que sean destructoras de los recursos naturales o residualmente dañinos para las personas o la naturaleza.",
@@ -77,127 +64,65 @@
         "Será política pública que los establecimientos de distribución (hospitales, escuelas) y venta de comida tengan como prioridad el uso de alimentos locales que promuevan la salud de la población y protejan contra enfermedades crónicas o degenerativas que son epidémicas en Puerto Rico.",
         "Se promoverá el derecho a la alimentación, la salud, el acceso a la tierra para quien la siembra, el territorio como espacio para la gestión de la agricultura, la protección y respeto hacia los conocimientos tradicionales y locales, la agricultura comunitaria y familiar, el intercambio y uso libre de semillas, la integralidad cultural, la defensa de la producción local ante las importaciones, la libertad de transporte de mercancías por mar y aire y el control reglamentario nacional de calidad, producción, prioridades dietéticas y distribución de los alimentos.",
         "Se generará e implementará un plan nacional estratégico de contingencia como respuesta al creciente riesgo de un colapso del sistema financiero/económico global y una ruptura parcial o total de la cadena global de suministros de alimentos y recursos. La actual crisis mundial, así como los recientes huracanes y terremotos son evidencia de la importancia de desarrollar un plan nacional para enfrentar tan importante riesgo. Es un hecho que, por la exigua producción local de alimentos (se presume que menos del 10% de lo que se consume), el pueblo de Puerto Rico depende de las importaciones para la subsistencia. Por un cúmulo de causas de prácticas dañinas y naturales en progreso, la importación de alimentos puede reducirse a niveles críticos y en un extremo, súbitamente suspenderse por completo.",
-        "El proyecto para la Soberanía Alimentaria realizará una campaña intensiva, empleando técnicas modernas de comunicación, promoción y mercadeo, para la creación de huertos caseros y comunitarios que provean una producción básica de alimentos para el consumo familiar. La actividad sería ejecutada sistemáticamente y a nivel nacional, con el objetivo de lograr una sustentabilidad alimentaria mínima, dentro del más corto plazo posible. Este proyecto propone establecer almacenes de granos, semillas, así como recursos energéticos y herramientas. Además, se propone la creación de una red de organización y distribución de estos recursos. Incluye, también, el empleo de un cuerpo de promotores, calculado en 300, con adiestramiento y apoyo de una campaña intensa de promoción y publicidad. Tendrán como objetivo promover, educar y asistir directamente a los hogares y comunidades en la creación de huertos caseros, comunitarios y urbanos.",
+        "El proyecto para la Soberanía Alimentaria realizará una campaña intensiva, empleando técnicas modernas de comunicación, promoción y mercadeo, para la creación de huertos caseros y comunitarios que provean una producción básica de alimentos para el consumo familiar. La actividad sería ejecutada sistemáticamente y a nivel nacional, con el objetivo de lograr una sustentabilidad alimentaria mínima, dentro del más corto plazo posible.",
+        "Este proyecto propone establecer almacenes de granos, semillas, así como recursos energéticos y herramientas. Además, se propone la creación de una red de organización y distribución de estos recursos. Incluye, también, el empleo de un cuerpo de promotores, calculado en 300, con adiestramiento y apoyo de una campaña intensa de promoción y publicidad. Tendrán como objetivo promover, educar y asistir directamente a los hogares y comunidades en la creación de huertos caseros, comunitarios y urbanos.",
         "Muchos de los componentes del proyecto pueden y deben organizarse con modelos asociativos de producción como el cooperativismo o las empresas de trabajadores/as- dueños/as. El cooperativismo está hoy en una condición propicia para acoger un proyecto de esta naturaleza y en su preparación final se buscará el asesoramiento del Instituto de Cooperativismo de la UPR-RP, de la Liga de Cooperativas, de la Comisión de Desarrollo Cooperativo de Puerto Rico (CDCOOP) y de FIDECOOP."
-      ]
+      ] 
     },
-    {
-      "numberedTitle": {
-        "i": 3,
-        "verb": "Crear un Centro de Evaluación y Validación para la Administración de Drogas y Alimentos (FDA en inglés)."
-      }
-    },
-    {
-      "verbs": [
+    { "numberedTitle": { "i": 3, "verb": "Crear un Centro de Evaluación y Validación para la Administración de Drogas y Alimentos (FDA en inglés)." } },
+    { "verbs": [
         "El Centro será de productos biofarmacéuticos, de dispositivos médicos (oftálmicos, cardiovasculares, ortopédicos y de sistemas de transmisión de vasculares y gástricos), de alimentos y otros productos de consumo regulados. Puerto Rico cuenta con una de las oficinas más grandes de FDA a nivel mundial y un amplio sector de servicios de evaluación, valoración de procesos y procedimientos, así como especialistas ambientales, laborales y legales vinculados a la calidad de dichos productos.",
         "Los costos relacionados con estos procesos de evaluación y aprobación de productos para consumo son multimillonarios. Hasta que Puerto Rico no pueda sustituirlos, debe utilizar el ecosistema del FDA y empresas nativas que le sirven tanto para valorar los productos nativos para la exportación a los EE. UU. y otros países, como para el consumo interno.",
         "Desde nuestro archipiélago, se podrían evaluar y validar los productos de salud y agrícolas que provienen de la América Latina, previo a entrar en territorio estadounidense. Esto, reduciría la cantidad de productos que entran por los 29 puertos de Texas y los 15 de Florida, de camino al resto del país. Dichos productos, podrían embarcarse desde San Juan mediante las compañías de transporte marítimo estadounidenses entre Jacksonville, Brownsville y Houston y San Juan, que regresan con solamente un 20%-30% de carga, lo cual reduciría significativamente los costos de exportación para los productos nativos.",
         "Además, la legislación en proceso para convertir a San Juan en un puerto de trasbordo aéreo fuera de la Ley de Cabotaje, como el que opera en Anchorage, Alaska, permitiría el desembarco de productos de camino a Europa que podría aprovechar el trasbordo para dejar parte de la mercancía para el mercado de Puerto Rico.",
         "Tanto desde San Juan hacia los puertos marítimos de Texas y Florida, como desde los aeropuertos de Puerto Rico capaces de servir como puertos de trasbordo, se podrían transportar productos provenientes de la América Latina hacia Europa que requieran o sus compradores prefieran que sean aprobados por la FDA. La distribución de productos provenientes de la América Latina, en el mercado local, representaría también una oportunidad para comerciantes locales."
-      ]
+      ] 
     },
-    {
-      "numberedTitle": {
-        "i": 4,
-        "verb": "Promoción de un sector de industrias culturales y apoyo al desarrollo de mercados distritales permanentes. "
-      }
-    },
-    {
-      "verbs": [
-        "Impulsaremos una política de expansión del acceso a creación cultural y al disfrute de bienes culturales mediante la articulación de los presupuestos municipales, del Instituto de Cultura Puertorriqueña y otras entidades culturales públicas. Junto con la agroecología y el turismo, esta iniciativa multidimensional se constituirá en un nuevo sector económico clave y podrá brindar mercados culturales y agrícolas en forma permanente y distribuidos en todo el país."
-      ]
-    },
-    {
-      "numberedTitle": {
-        "i": 5,
-        "verb": "Impulso a la producción de medicamentos, especialmente genéricos y de productos básicos de droguería."
-      }
-    },
-    {
-      "verbs": [
-        "Buscaremos expandir, complementar y formar una cadena de valor con el sector de biofármacos. La política del MVC será estimular la expansión de ese sector, estableciendo reglamentación que beneficie a la población en Puerto Rico. Exploraremos la producción de medicamentos genéricos de uso común, así como de productos básicos de droguería, tales como alcohol, agua oxigenada y otros de primera necesidad, como parte de un esfuerzo de comenzar a construir soberanía sanitaria. Promoveremos también la industria de cáñamo, estimulando la generación de valor agregado en elaboración de medicamentos y de fibras textiles, cuerdas, semillas, aceites, biocombustibles, lubricantes, bioplásticos y materiales de bioconstrucción de alta resistencia."
-      ]
-    },
-    {
-      "numberedTitle": {
-        "i": 6,
-        "verb": "Construcción de vivienda social para poner fin a la crítica situación de la vivienda en Puerto Rico y estimular el sector de la construcción."
-      }
-    },
-    {
-      "verbs": [
-        "Impulsaremos una estrategia articulada con los recursos del Departamento de la Vivienda Federal y FEMA para asegurar hogares adecuados a toda la población usando políticas de acción afirmativa para proveer oportunidades a personas sin techo, personas LGBTTIQ+, mujeres, personas negras, comunidad dominicana, personas con diversidad funcional, familias diversas y corregir las actuales desigualdades. En esa dirección se pondrán en marcha las siguientes acciones: i) otorgar títulos de propiedad a familias que vienen buscando ese amparo durante años; ii) fortalecer el mecanismo de fideicomiso de tierras para determinados proyectos de interés social; iii) reparar y renovar viviendas que esperan desde el Huracán María y también de los sismos del sur, negociando con los municipios la expropiación de propiedades abandonadas en los cascos urbanos para revitalizarlas como viviendas multi- familiares y para pequeños negocios; e iv) impulsar la construcción de nueva vivienda social cooperativa. Se utilizará el Plan de Uso de Terrenos para asegurar la correcta designación de terrenos de valor agrícola y ecológico y se respetarán esas designaciones en el proceso de otorgación de permisos en concordancia con el mapa de inundaciones de 100 años."
-      ]
-    },
-    {
-      "numberedTitle": {
-        "i": 7,
-        "verb": "Afirmar a Puerto Rico como un centro de servicios: de ingeniería, finanzas, tecnología y de transporte aéreo."
-      }
-    },
-    {
-      "verbs": [
+    { "numberedTitle": { "i": 4, "verb": "Promoción de un sector de industrias culturales y apoyo al desarrollo de mercados distritales permanentes. " } },
+    { "verbs": ["Impulsaremos una política de expansión del acceso a creación cultural y al disfrute de bienes culturales mediante la articulación de los presupuestos municipales, del Instituto de Cultura Puertorriqueña y otras entidades culturales públicas. Junto con la agroecología y el turismo, esta iniciativa multidimensional se constituirá en un nuevo sector económico clave y podrá brindar mercados culturales y agrícolas en forma permanente y distribuidos en todo el país."] },
+    { "numberedTitle": { "i": 5, "verb": "Impulso a la producción de medicamentos, especialmente genéricos y de productos básicos de droguería." } },
+    { "verbs": ["Buscaremos expandir, complementar y formar una cadena de valor con el sector de biofármacos. La política del MVC será estimular la expansión de ese sector, estableciendo reglamentación que beneficie a la población en Puerto Rico. Exploraremos la producción de medicamentos genéricos de uso común, así como de productos básicos de droguería, tales como alcohol, agua oxigenada y otros de primera necesidad, como parte de un esfuerzo de comenzar a construir soberanía sanitaria. Promoveremos también la industria de cáñamo, estimulando la generación de valor agregado en elaboración de medicamentos y de fibras textiles, cuerdas, semillas, aceites, biocombustibles, lubricantes, bioplásticos y materiales de bioconstrucción de alta resistencia."] },
+    { "numberedTitle": { "i": 6, "verb": "Construcción de vivienda social para poner fin a la crítica situación de la vivienda en Puerto Rico y estimular el sector de la construcción." } },
+    { "verbs": ["Impulsaremos una estrategia articulada con los recursos del Departamento de la Vivienda Federal y FEMA para asegurar hogares adecuados a toda la población usando políticas de acción afirmativa para proveer oportunidades a personas sin techo, personas LGBTTIQ+, mujeres, personas negras, comunidad dominicana, personas con diversidad funcional, familias diversas y corregir las actuales desigualdades. En esa dirección se pondrán en marcha las siguientes acciones: i) otorgar títulos de propiedad a familias que vienen buscando ese amparo durante años; ii) fortalecer el mecanismo de fideicomiso de tierras para determinados proyectos de interés social; iii) reparar y renovar viviendas que esperan desde el Huracán María y también de los sismos del sur, negociando con los municipios la expropiación de propiedades abandonadas en los cascos urbanos para revitalizarlas como viviendas multi- familiares y para pequeños negocios; e iv) impulsar la construcción de nueva vivienda social cooperativa. Se utilizará el Plan de Uso de Terrenos para asegurar la correcta designación de terrenos de valor agrícola y ecológico y se respetarán esas designaciones en el proceso de otorgación de permisos en concordancia con el mapa de inundaciones de 100 años."] },
+    { "numberedTitle": { "i": 7, "verb": "Afirmar a Puerto Rico como un centro de servicios: de ingeniería, finanzas, tecnología y de transporte aéreo." } },
+    { "verbs": [
         "La expansión de servicios técnicos y profesionales es muy factible de estimular y de encauzar en Puerto Rico por la calidad de los recursos humanos que tenemos en diversos campos. Puerto Rico puede convertirse en un centro de exportación de servicios de ingeniería y tecnologías de alta complejidad. La calidad de las personas egresadas de los programas de ingeniería en Puerto Rico ha sido reconocida por las mejores y más prestigiosas empresas y agencias federales que regresan a Puerto Rico a reclutar nuestro talento año tras año. A través del tiempo, muchos de los ingenieros e ingenieras que han sido reclutados por estas empresas ocupan ahora posiciones de poder e influencia, que pueden usar para traer parte de las operaciones de sus empresas a Puerto Rico. Mediante un programa de colaboración con la diáspora, se localizarán a estas personas para estimularles y proveerles herramientas para llevar a cabo este propósito. Nos enfocaremos en el reclutamiento de empresas que tengan productos y servicios de alta complejidad tecnológica, que requieran una extensa curva de aprendizaje, para que los recursos no sean fácilmente reemplazables cuando las condiciones políticas y económicas provoquen la emigración de empresas a otras jurisdicciones.",
         "También vislumbramos estimular la innovación y el desarrollo de nuevas plataformas tecnológicas en Puerto Rico que rinden servicios a la banca y a los negocios internacionales, que nos ubican ya como un centro reconocido por la excelencia. Esta innovación tendrá como norte el desarrollo de tecnologías accesibles a toda la población.",
         "Aprovecharemos haber sido eximidos de la ley de cabotaje por dos años por disposición del Departamento de Transportación de los Estados Unidos, para definir en consulta con personas expertas un proyecto que permita la construcción de un eje (hub) de transporte aéreo, de carga y de personas. La localización geográfica de Puerto Rico es perfecta para atender y potenciar la industria de servicios de reparación y mantenimiento de aeronaves.",
-        "En la actualidad ese segmento industrial está atendido por empresas cuyo servicio se divide en tres áreas principales, a saber: i) las ofrecidas a naves de gran tamaño, por ejemplo: Boeing, Airbus; ii) los servicios prestados a las naves conocidas como `Business Jets`; y iii) los que se ofrecen a la aviación general (naves pequeñas) y helicópteros. Existen algunos proveedores que atienden las demandas de servicio en esta industria cuyas operaciones están localizadas en Aguadilla (1), San Juan (4) y en la antigua Base Naval conocida como Roosevelt Road en el pueblo de Ceiba (1). La empresa con base de operación en Aguadilla brinda exclusivamente servicios a aviones de gran tamaño. Las otras cinco proveen servicios a aviones `Business Jets o pequeños.",
+        "En la actualidad ese segmento industrial está atendido por empresas cuyo servicio se divide en tres áreas principales, a saber: i) las ofrecidas a naves de gran tamaño, por ejemplo: Boeing, Airbus; ii) los servicios prestados a las naves conocidas como “Business Jets”; y iii) los que se ofrecen a la aviación general (naves pequeñas) y helicópteros. Existen algunos proveedores que atienden las demandas de servicio en esta industria cuyas operaciones están localizadas en Aguadilla (1), San Juan (4) y en la antigua Base Naval conocida como Roosevelt Road en el pueblo de Ceiba (1). La empresa con base de operación en Aguadilla brinda exclusivamente servicios a aviones de gran tamaño. Las otras cinco proveen servicios a aviones “Business Jets” o pequeños.",
         "En la industria de la aviación existe una gran demanda de servicio internacional para aviones pequeños, principalmente desde Centro y Sur América. Por su localización, Puerto Rico puede convertirse en ese centro de servicio ideal.",
         "Además, la isla cuenta con dos localidades con mucho potencial para su desarrollo máximo, el aeropuerto de Punta Borinquén en Aguadilla y el aeropuerto de Ceiba (Roosevelt Roads), ambas instalaciones físicas poseen una extraordinaria extensión de espacio e infraestructura perfecta para hacer crecer esta industria. Estas dos instalaciones físicas junto a las existentes en San Juan pueden convertirse en los ejes para potenciar esta industria.",
         "Crear un centro de reparaciones de aeronáutica y naves marítimas livianas en la región oeste de Puerto Rico. Las empresas de aeronáutica estadounidenses llevan más de diez años reclutando profesionales de la ingeniería eléctrica, mecánica e industrial para realizar investigaciones y procesos de reingeniería de aviones y otros vehículos relacionados en el área oeste. La NASA ha reclutado y trasladado clases graduandas completas de UPR Mayagüez, para trabajar en los diversos centros de investigación y desarrollo de dicha agencia. Estos reclutamientos demuestran, no solo talento de nuestra facultad y estudiantado, sino el potencial de ofrecer servicios relacionados a varias empresas de aeronáutica.",
         "La ex base de la fuerza aérea en Aguadilla, Punta Borinquén, permite el almacenaje de aviones (se solían aparcar bombarderos B-52 durante la Guerra Fría) y con amplias instalaciones físicas y hangares, que se podrían convertir en centros de reparación y servicios para componentes de naves de gran tamaño (Boeing’s de la serie 7 como el francés Airbus 380 y los Legacy Business Jets de la brasileña Embraer). Sin embargo, tal vez la mayor oportunidad reside en la reparación y de servicios de la amplia gama de aviones pequeños estadounidenses (Cessnas, Icon, Beechcraft, Cirrus, Eclipse y Pilatus, entre otros) y pequeños jets brasileños (Legacy, Phenom y Praetor). Hay una escasez de centros de reparación y servicios para los miles de aviones que existen en Centro América y el Caribe. Al presente, muchos de estos aviones tienen que volarlos o transportarlos desarmados a Florida y Texas para brindarles servicios. La UPR Mayagüez tiene el potencial de ampliar y desarrollar sus ofrecimientos de aeronáutica para las entidades y recursos humanos que brindarían dichos servicios en la base aérea de Punta Borinquén.",
         "Esta iniciativa complementaría el establecimiento del centro de trasbordo aéreo libre de la Ley de Cabotaje, al permitirle a las aerolíneas latinoamericanas y europeas contar con un centro de reparación y servicios en un punto intermedio entre Centro, Sur América, Europa, el Oriente Cercano y Norteamérica. Demás está decir que el establecimiento de estas instalaciones físicas redundaría en la contratación de personal complementario desde computación hasta mantenimiento, contaduría y recursos humanos."
-      ]
+      ] 
     },
-    {
-      "numberedTitle": {
-        "i": 8,
-        "verb": "Generar un programa de amnistía de deudas y de capacitación para la formalización de 2,000 pequeñas empresas e iniciativas de negocios que hoy operan sin permisos."
-      }
-    },
-    {
-      "verbs": [
-        "El alto grado de la informalidad y la precariedad de los trabajos, talleres y negocios debe dar paso a su integración en la economía formal. Ello se puede lograr con un paquete de medidas que articuladamente permitan la cancelación de las multas que deberían pagar quienes así operan por no estar legalizados. A quienes deseen entrar en el programa de amnistía se les ofrecerá un curso de formación empresarial y garantía de una línea de consulta gratuita por temas de contabilidad, legales, de manejo de compras e inventarios, entre otros, durante tres años para asegurar su sostenibilidad en el tiempo. Del análisis preliminar realizado, estimamos que podrían formalizarse unas 500 empresas por año, convirtiéndolas en negocios formales y sujetos de crédito, lo que le permite participar en numerosos programas de crédito a PyMEs y así ampliar o consolidar sus operaciones."
-      ]
-    },
-    {
-      "numberedTitle": {
-        "i": 9,
-        "verb": "Crear un Centro de Innovación Social en la Base de Roosevelt Roads."
-      }
-    },
-    {
-      "verbs": [
+    { "numberedTitle": { "i": 8, "verb": "Generar un programa de amnistía de deudas y de capacitación para la formalización de 2,000 pequeñas empresas e iniciativas de negocios que hoy operan sin permisos." } },
+    { "verbs": ["El alto grado de la informalidad y la precariedad de los trabajos, talleres y negocios debe dar paso a su integración en la economía formal. Ello se puede lograr con un paquete de medidas que articuladamente permitan la cancelación de las multas que deberían pagar quienes así operan por no estar legalizados. A quienes deseen entrar en el programa de amnistía se les ofrecerá un curso de formación empresarial y garantía de una línea de consulta gratuita por temas de contabilidad, legales, de manejo de compras e inventarios, entre otros, durante tres años para asegurar su sostenibilidad en el tiempo. Del análisis preliminar realizado, estimamos que podrían formalizarse unas 500 empresas por año, convirtiéndolas en negocios formales y sujetos de crédito, lo que le permite participar en numerosos programas de crédito a PyMEs y así ampliar o consolidar sus operaciones."] },
+    { "numberedTitle": { "i": 9, "verb": "Crear un Centro de Innovación Social en la Base de Roosevelt Roads." } },
+    { "verbs": [
         "El complejo de Roosevelt Roads en Ceiba ha sido objeto de estudios millonarios que no han rendido frutos y la mayor parte de las instalaciones físicas sigue deteriorándose, sin darle un buen uso. Tras consultas con organizaciones sociales de la región nos proponemos estudiar la posibilidad de crear allí un centro de innovación social, donde facultad científica, estudiantes, inventores/as, líderes comunitarios, profesionales, empresariales y de organizaciones sociales que buscan soluciones a los problemas de Puerto Rico, puedan interactuar para generar las mismas. El  Centro será clave para el desarrollo y la articulación de capacidades sociales y de innovación que alimenten el desarrollo humano sustentable en Puerto Rico. Ese Centro deberá tener como primera función ayudar a afinar las propuestas aquí contenidas y generar laboratorios de ideas, incubadoras de negocios, programas de formación, dirigidos todos a innovar y a estimular la economía de Puerto Rico y la integración social.",
         "En la sede de Roosevelt Roads podría ubicarse también, una vez hechos los estudios de viabilidad, un centro de reparaciones de pequeñas embarcaciones. En Puerto Rico hay decenas de miles de embarcaciones de diversas envergaduras que utilizan las marinas de Culebra, Fajardo, Mayagüez, Ponce, Vieques, San Juan Bay, Club Náutico de San Juan y Cangrejos Yacht Club en San Juan y hay escasez de este servicio. Los tres establecimientos locales (Sea Fox Boats en San Juan, Industrial & Marine Service y Wally Castro en Fajardo) son insuficientes para atender la demanda. La creación de unas instalaciones educativas de adiestramiento y reparaciones en tierra (dry-dock) en las antiguas instalaciones físicas de Roosevelt Roads en Ceiba, podría atender no solo las necesidades de nuestras islas, sino también las de las Islas Vírgenes y el resto del Caribe.",
         "En la misma base de Roosevelt Roads, y como complemento del Centro de Innovación Social, se ubicaría el décimo proyecto estratégico; la creación del Centro para el Desarrollo de la Economía Digital que se describe a continuación:"
-      ]
+      ] 
     },
-    {
-      "numberedTitle": {
-        "i": 10,
-        "verb": "Se creará un Centro para el Desarrollo de la Economía Digital, , que servirá para diversificar la economía, y aumentar la cantidad de empleos que puedan ser realizados desde Puerto Rico hacia cualquier lugar del mundo, aún en tiempos de pandemia."
-      }
-    },
-    {
-      "bullets": [
+    { "numberedTitle": { "i": 10, "verb": "Se creará un Centro para el Desarrollo de la Economía Digital, , que servirá para diversificar la economía, y aumentar la cantidad de empleos que puedan ser realizados desde Puerto Rico hacia cualquier lugar del mundo, aún en tiempos de pandemia." } },
+    { "bullets": [
         "El Centro brindará herramientas para promover el establecimiento de empresas innovadoras, aumentar la exportación de productos y servicios y que la ciudadanía que necesite trabajo urgentemente pueda ofrecer sus servicios en línea.",
         "Participarán economistas que realizarán investigaciones del mercado global en línea para identificar oportunidades únicas de empleo y exportación de productos y servicios desde Puerto Rico, a base a la oferta, demanda, comportamiento de consumo y tendencias globales.",
         "Se proveerá mentoría para que la ciudadanía y clase empresarial ideen productos y soluciones innovadoras mediante el uso de técnicas de pensamiento de diseño (Design Thinking).",
         "Se enseñarán destrezas de mercadeo digital y proveerá mentoría a empresario y empresarias para exportar productos y servicios por medio de canales digitales.",
         "Se harán alianzas con entidades gubernamentales, sin fines de lucro, embajadas, entre otras, para lograr los propósitos del Centro."
-      ]
+      ] 
     },
     { "header": ["OTRAS INICIATIVAS IMPORTANTES EN LA ESTRATEGIA ECONÓMICA"] },
     { "header": ["DEUDA PÚBLICA Y SERVICIOS VITALES"] },
-    {
-      "numberedList": [
+    { "numberedList": [
         "Con relación a la crisis fiscal generada por la deuda pública, el MVC preservará los servicios esenciales y las garantías sociales, anteponiéndolas a cualquier pago, en los procesos de renegociación de la deuda. Se seguirá insistiendo en la cancelación de la deuda ilegal, ilegítima e insostenible y reforzaremos los esfuerzos de auditoría ciudadana de la misma y fijación de responsabilidades, donde correspondan, a quienes nos endeudaron.",
         "Reiteramos nuestro rechazo a la Junta de Control Fiscal y sus políticas de austeridad, que atentan contra nuestras necesidades sociales y de recuperación económica. Por tal motivo detendremos el desembolso de fondos del pueblo para la operación de la Junta de Control Fiscal."
-      ]
-    },
+      ] },
     { "header": ["ADMINISTRACIÓN TRIBUTARIA"] },
-    {
-      "numberedList": [
+    { "numberedList": [
         "Se dará atención muy especial al funcionamiento del Departamento de Hacienda, dadas las denuncias de esquemas de corrupción y favoritismo que funcionan allí. Hay que simplificar, además, la intricada madeja de burocracia y culminar el proceso de informatización que se ha iniciado, a fin de brindar un servicio óptimo a la ciudadanía.",
         "Se emprenderá un seguimiento de los negocios que incurren en la práctica de cobrar el Impuesto sobre Ventas y Uso (IVU) y no remitirlo al Gobierno.",
         "El Movimiento Victoria Ciudadana se compromete a eliminar el impuesto al inventario y compensar a los municipios por los ingresos dejados de percibir otorgándoles un porcentaje de lo recaudado por el concepto de Impuesto sobre Ventas y Uso. A cambio de dicho porcentaje, la rama ejecutiva delegará algunas de sus competencias a los municipios. Dado el carácter isleño de Puerto Rico y el hecho de que muchos fenómenos naturales suelen aislarnos, es indispensable asegurar abastos en Puerto Rico de alimentos y artículos de primera necesidad.",
@@ -207,7 +132,7 @@
         "Explorar nuevas tributaciones, como un impuesto especial sobre las compras de lujo -autos, embarcaciones, joyas, o helicópteros-, así como a las ganancias de las máquinas traganíqueles y a los casinos.",
         "Usar todos los instrumentos legales que tiene un gobierno para generar y distribuir ingresos.",
         "No hay que perder de vista que el proyecto político-social del Movimiento Victoria Ciudadana incluye poner en marcha un proceso de descolonización jurídica de Puerto Rico mediante una Asamblea Constitucional de Estatus. Para la economía ello es de altísima relevancia puesto que muchas de nuestras dificultades están relacionadas directamente con la condición territorial y colonial. Por ejemplo, las limitaciones al mercadeo de bienes y servicios por la ley de cabotaje, la fuertísima presencia y competencia de empresas multinacionales en nuestro mercado minorista que hacen sumamente difícil el crecimiento de las empresas nativas, las exigencias de autorizaciones de nuevos productos farmacéuticos y de alimentos envasados por parte de organismos federales son apenas una muestra de las barreras que impone la condición colonial. Por ello, la estrategia económica ha sido pensada como una de construcción de capacidades y de auto sostenimiento, porque en cualquiera de las opciones que triunfe la consulta final de estatus, Puerto Rico debe tener una economía sana, sólida, diversa, e incluyente."
-      ]
+      ] 
     }
   ]
 }

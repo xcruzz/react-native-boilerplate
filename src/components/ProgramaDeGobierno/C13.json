@@ -1,96 +1,58 @@
 {
   "titulo": "CAPÍTULO 13: ACTIVIDAD Y EDUCACIÓN FÍSICA, RECREACIÓN Y DEPORTES",
   "contenido": [
-    {
-      "verbs": [
+    { "verbs": [
         "Desde la cultura griega el ejercicio físico siempre estuvo relacionado a una mente sana, a un cuerpo sano y al bienestar general de las personas. Esta larga evolución llevó a que la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) definiera la educación física, la actividad física y los deportes como parte del patrimonio inmaterial de la humanidad. Bajo esta definición se incluye el juego físico, el esparcimiento, la danza, así como los deportes y los juegos organizados, informales, competitivos, tradicionales e indígenas. Todos cumplen una función primordial y holística en la formación de las personas, que se traduce en bienestar colectivo de una sociedad. Entre otras contribuciones, están la salud física, mental y emocional de las personas; la prevención de enfermedades y la reducción de costos en sistemas de salud; la mejora en el uso del tiempo, el esparcimiento y el ocio creativo; la cohesión e integración social, el desarrollo de autoestima, liderazgo, valores, la retención escolar y prevención de la delincuencia, así como mejorar la capacidad de trabajo en equipo.",
         "La Ley Orgánica del Departamento de Recreación y Deportes (Ley Núm. 8 de 8 de enero de 2004), enmendada en 19 ocasiones, provee un marco razonable para el desarrollo de este ámbito. Resulta muy interesante confirmar que en nuestras primeras leyes en este ámbito la recreación se pensó relacionada al movimiento corporal, concepto que debe recuperarse.",
         "Puerto Rico tiene recursos humanos preparados, así como organizaciones y facilidades físicas para el desarrollo de programas, proyectos y actividades relacionadas con el movimiento físico en todos sus aspectos. Desafortunadamente, muchas veces ha faltado el interés y la voluntad de los partidos gobernantes para valorar y asignar los recursos que esta área amerita y necesita para convertirse en un puntal del bienestar personal y colectivo en la ruta de un desarrollo humano sostenible para Puerto Rico.",
         "El sedentarismo de una sociedad cuesta mucho. Cuesta vidas; cuesta en servicios médicos; cuesta en reducción de la productividad y ganancias producto del trabajo y, sobre todo, cuesta en felicidad personal y familiar. Incorporar la actividad física al conjunto de políticas públicas de salud, de desarrollo social, así como de regeneración de la economía de Puerto Rico, tiene muchísimo sentido. En los Estados Unidos de América se ha estimado que un dólar que se invierta en actividades físicas se traduce en un ahorro de tres dólares con veinte centavos en el gasto médico.",
         "Y a ello deben agregarse los beneficios que hemos mencionado en otras dimensiones.",
         "Por ello, invertir en infraestructura, educación y promoción de la actividad física y el deporte es una buena decisión."
-      ]
-    },
+    ] },
     { "header": ["METAS DEL SECTOR"] },
-    {
-      "verbs": [
-        "El Movimiento Victoria Ciudadana propone las siguientes metas para orientar la política pública de recreación y deportes:"
-      ]
-    },
-    {
-      "numberedList": [
+    { "verbs": ["El Movimiento Victoria Ciudadana propone las siguientes metas para orientar la política pública de recreación y deportes:"] },
+    { "numberedList": [
         "Reconocer el ejercicio físico como un aliado y promotor del desarrollo humano sostenible y proyectar inversiones en este rubro que sean proporcionales a los beneficios económicos y sociales que se estime se derivarán de las mismas.",
         "Descentralizar y democratizar la actividad física, la recreación, los deportes y educación física en las escuelas y las comunidades.",
         "Asegurar que todas las personas pueden tener acceso a actividad física desde la infancia hasta el final de sus vidas, asegurando que ésta se incorpora como elemento valioso de una vida sana, saludable, alegre y de provecho para toda la sociedad."
-      ]
-    },
+    ] },
     { "header": ["OBJETIVOS PUNTUALES"] },
-    {
-      "numberedList": [
+    { "numberedList": [
         "Fortalecer el Instituto Puertorriqueño Deporte y Recreación, entidad pública que trabaja con diversas organizaciones deportivas y sociales y que ofrece capacitación y adiestramiento de líderes recreo-deportivos, entrenadores deportivos, oficiales deportivos e instructores de aptitud física.",
         "Promover el empresarismo recreo-deportivo en comunidades rurales y urbanas aprovechando los recursos naturales locales y facilitando que el sector privado (grandes, medianas, pequeñas empresas, cooperativas, ONG, etc.) invierta en el desarrollo de iniciativas lúdicas de actividad física, de recreación y de deportes.",
         "Generar proyectos de deporte comunitario y de deporte urbano, que afiancen el sentido de pertenencia y la identidad vecinal.",
         "Recaudar recursos para impulsar el sector a través de impuestos a determinados productos que inhiben o limitan la actividad física (por ejemplo, el tabaco, el alcohol, los refrescos, etc.)."
-      ]
-    },
+    ] },
     { "header": ["PLAN DE ACCIÓN"] },
-    {
-      "numberedList": [
+    { "numberedTitle": { "i": 1, "verb": "Deporte 100x35" } },
+    { "verbs": ["Dirigido a incrementar, elevar el rango y dar visibilidad al deporte como herramienta multisectorial y multifuncional para el beneficio de la sociedad. Este proyecto llevará adelante las siguientes acciones:"] },
+    { "bullets": [
         "Establecer conexión, consultar a todas las federaciones, el Comité Olímpico de Puerto Rico, la Federación y Asociación de Alcaldes y otras entidades afines al deporte organizado, para generar mancomunadamente una hoja de ruta para el deporte en Puerto Rico.",
         "Promover y asignar recursos para programas deportivos en comunidades, escuelas, espacios abiertos, así como en empresas públicas y privadas en los 78 municipios.",
         "Revisar y actualizar el currículo de deportes y formar nuevos gestores, gestoras, educadoras y educadores deportivos de acuerdo con el mismo. Hacer que la ley se cumpla con todos sus componentes.",
         "Identificar ámbitos de posible mercadeo deportivo para contribuir a movilizar la economía a través del deporte en eventos escolares, regionales, nacionales e internacionales, evaluando el impacto que va teniendo el mismo en la economía local."
-      ]
-    },
-    { "numberedTitle": { "i": 1, "verb": "Deporte 100x35" } },
-    {
-      "verbs": [
-        "Dirigido a incrementar, elevar el rango y dar visibilidad al deporte como herramienta multisectorial y multifuncional para el beneficio de la sociedad. Este proyecto llevará adelante las siguientes acciones:"
-      ]
-    },
-    {
-      "bullets": [
-        "Promover y asignar recursos para programas deportivos en comunidades, escuelas, espacios abiertos, así como en empresas públicas y privadas en los 78 municipios.",
-        "Revisar y actualizar el currículo de deportes y formar nuevos gestores, gestoras, educadoras y educadores deportivos de acuerdo con el mismo. Hacer que la ley se cumpla con todos sus componentes.",
-        "Identificar ámbitos de posible mercadeo deportivo para contribuir a movilizar la economía a través del deporte en eventos escolares, regionales, nacionales e internacionales, evaluando el impacto que va teniendo el mismo en la economía local."
-      ]
-    },
+    ] },
     { "numberedTitle": { "i": 2, "verb": "Escuelas en Acción" } },
-    {
-      "verbs": [
-        "Buscaremos convertir la educación física en una materia importante en el Departamento de Educación para mejorar el desempeño escolar y seguramente reducir la proporción de estudiantes clasificados como de educación especial, lo que en Puerto Rico representa cerca del 40% de quienes asisten al sistema público."
-      ]
-    },
-    {
-      "bullets": [
+    { "verbs": ["Buscaremos convertir la educación física en una materia importante en el Departamento de Educación para mejorar el desempeño escolar y seguramente reducir la proporción de estudiantes clasificados como de educación especial, lo que en Puerto Rico representa cerca del 40% de quienes asisten al sistema público."] },
+    { "bullets": [
         "Establecer una revisión periódica del currículo de enseñanza atemperándolo a nuestras realidades y redefiniendo la función de la clase con respecto a los demás conceptos de este plan.",
         "Organizar diálogos y consultas con las Universidades que den los cursos para así establecer una guía revisada y contar con la academia para forjar los cambios y modificaciones que merece el programa junto con las actualizaciones de este.",
         "Revisar la Ley que establece la Educación Física en las escuelas para adaptarlas a las necesidades de la sociedad y elevar el concepto como uno de prioridad para nuestro país.",
         "Establecer un sistema gradual de enseñanza de educación física por niveles, desde el preescolar hasta el 12mo grado y más allá."
-      ]
-    },
+    ] },
     { "numberedTitle": { "i": 3, "verb": "Ciudades Activas" } },
-    {
-      "verbs": [
-        "Desarrollar un país físicamente activo pensando en la gente como centro y reconstruyendo ciudades para hacerlas físicamente activas en infraestructura y mentalidad."
-      ]
-    },
-    {
-      "bullets": [
+    { "verbs": ["Desarrollar un país físicamente activo pensando en la gente como centro y reconstruyendo ciudades para hacerlas físicamente activas en infraestructura y mentalidad."] },
+    { "bullets": [
         "Preparar guías básicas para el desarrollo urbano pensado en el concepto de la actividad física como norte, que a su vez se traduce en una sociedad más movida, saludable y más activa.",
+
         "Organizar las comunidades para la elaboración de programas y proyectos comunitarios solidarios para la implementación y ejecución de actividades físicas continuas y que estimule a la activación y unión de la ciudadanía.",
+        "Implementar un mecanismo de publicidad de la importancia y de más beneficios de la Actividad Física y demás conceptos afines a ésta para que sea un país físicamente orientado, activo y saludable.",
         "Incentivar a las empresas que desarrollen programas y espacios para la realización de actividad física como parte de su beneficio a sus empleados y empleadas.",
         "Consultar a la ciudadanía, las comunidades y agencias pertinentes sobre el proceso de revitalización, recuperación, mantenimiento o construcción con el objetivo de asignar fondos para recuperar y mantener estos espacios en las condiciones adecuadas."
-      ]
-    },
+    ] },
     { "numberedTitle": { "i": 4, "verb": "Recreación 360" } },
-    {
-      "verbs": [
-        "Implementar y desarrollar el concepto de la recreación en todas las etapas de la vida del ser humano."
-      ]
-    },
-    {
-      "bullets": [
+    { "verbs": ["Implementar y desarrollar el concepto de la recreación en todas las etapas de la vida del ser humano."] },
+    { "bullets": [
         "Definir y expandir el concepto de la recreación en la sociedad.",
         "Revitalizar los programas de recreación en los diferentes centros, pueblos, entidades gubernamentales y privadas. (En consulta con las comunidades)",
         "Establecer escuelas parentales y de voluntariado para atender la educación motriz integrada y adaptada de 0-8 años.",
@@ -101,24 +63,10 @@
         "Revisar y expandir el currículo de recreación para el beneficio y bienestar de la ciudadanía.",
         "Hacer de la recreación una herramienta de mercado para el público nacional e internacional utilizando la naturaleza, la gastronomía y la agricultura como áreas a desarrollar como concepto recreativo.",
         "Consultas a las personas, comunidades y profesionales sobre el proceso de desarrollo y creación de programas y proyectos que impacten las diferentes comunidades."
-      ]
-    },
+    ] },
     { "numberedTitle": { "i": 5, "verb": "Enfoque Interagencial" } },
-    {
-      "verbs": [
-        "Entre otros, con participación del Departamento de Educación, Departamento de Salud, Instituto de Cultura, Turismo, Banco de Desarrollo Económico, Centro de Diabetes, Compañía de Turismo y Exportación de PR, Fomento Industrial, Parques Nacionales, Consejo de Educación de PR, Agricultura, Fomento Económico y Junta de Planificación."
-      ]
-    },
-    {
-      "numberedTitle": {
-        "i": 6,
-        "verb": "Intercambios recreativos y deportivos"
-      }
-    },
-    {
-      "verbs": [
-        "Apoyar que el Departamento de Recreación y Deportes participe en intercambios recreativos y deportivos en el Caribe."
-      ]
-    }
+    { "verbs": ["Entre otros, con participación del Departamento de Educación, Departamento de Salud, Instituto de Cultura, Turismo, Banco de Desarrollo Económico, Centro de Diabetes, Compañía de Turismo y Exportación de PR, Fomento Industrial, Parques Nacionales, Consejo de Educación de PR, Agricultura, Fomento Económico y Junta de Planificación."] },
+    { "numberedTitle": { "i": 6, "verb": "Intercambios recreativos y deportivos" } },
+    { "verbs": ["Apoyar que el Departamento de Recreación y Deportes participe en intercambios recreativos y deportivos en el Caribe."] }
   ]
 }
