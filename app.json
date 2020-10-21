@@ -20,7 +20,7 @@
     ],
     "ios": {
       "bundleIdentifier": "org.mvcpr",
-      "buildNumber": "6"
+      "buildNumber": "7"
     },
     "packagerOpts": {
       "config": "metro.config.js",
