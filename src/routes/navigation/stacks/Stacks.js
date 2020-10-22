@@ -139,4 +139,23 @@ export const CandidatxsNavigator = createStackNavigator({
       ...navigationProps,
     }),
   },
+  Details: {
+    screen: Details,
+    navigationOptions: () => ({
+      headerShown: false,
+      headerLeft:
+        Platform.OS === 'ios' ? (
+          <HeaderBackButton
+            onPress={() => {
+              navigation.navigate('Map')
+            }}
+            title="Regresar"
+            backTitleVisible={false}
+            tintColor={colors.white}
+          />
+        ) : null,
+      //headerTitle: <HeaderTitle />,
+      ...navigationProps,
+    }),
+  },
 })

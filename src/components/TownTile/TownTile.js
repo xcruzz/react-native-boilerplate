@@ -61,6 +61,7 @@ export default class TownTile extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      navigation : props.navigation,
       isModalActive: false,
       townKey: props.townKey,
       town: mvcdb.pueblos.find((t) => {
@@ -76,61 +77,24 @@ export default class TownTile extends React.Component {
           isDark={true}
           title={this.state.town.name}
           onPress={() => {
-            this.setState({
-              ...this.state,
-              isModalActive: true,
+            this.state.navigation.navigate('Details', {
+              from: 'TownTile',
+              articleKey: 'town_tile',
+              townKey: this.state.townKey,
+              townName: this.state.town.name
             })
           }}
         />
-        <Modal
-          fullScreen={false}
-          animationType="fade"
-          transparent={false}
-          visible={this.state.isModalActive}
-        >
-          <View style={styles.holder}>
-            {Platform.OS === 'ios' && <View style={styles.space} />}
-            <View style={styles.header}>
-              <Image style={styles.logo} source={images['logo_negro']} />
-              <Text style={styles.title}>{this.state.town.name}</Text>
-            </View>
-
-            <ScrollView
-              scrollEventThrottle={32}
-              onScroll={(n) => {
-                this.setState({
-                  ...this.state,
-                  isModalBackButtonActive: true,
-                })
-              }}
-            >
-              <View style={styles.modalView}>
-                <TownInfo renderHeader={false} townKey={this.state.townKey} />
-              </View>
-            </ScrollView>
-            {this.state.isModalBackButtonActive && (
-              <View style={styles.bholder}>
-                <AButton
-                  title="Regresar"
-                  onPress={() => {
-                    this.setState({
-                      ...this.state,
-                      isModalActive: false,
-                    })
-                  }}
-                />
-              </View>
-            )}
-          </View>
-        </Modal>
       </View>
     )
   }
 }
 TownTile.propTypes = {
   townKey: PropTypes.string,
+  navigation: PropTypes.object,
 }
 
 TownTile.defaultProps = {
   townKey: '',
+  navigation: null
 }

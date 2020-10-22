@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   },
   chapTitleModal: {
     fontSize: 23,
-    paddingTop: Platform.OS === 'ios' ? 25 : 5,
+    //paddingTop: Platform.OS === 'ios' ? 25 : 5,
     paddingVertical: 5,
     textAlign: 'center',
     fontFamily: fonts.NeuePlak.Black,
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
   },
-  space: { height: 10 },
+  space: { height: 20, backgroundColor: colors.black },
 })
 
 export default class MVCChapter extends React.Component {
@@ -132,18 +132,18 @@ export default class MVCChapter extends React.Component {
           }}
         />
         <Modal
-          fullScreen={false}
+          fullScreen={true}
           animationType="fade"
           transparent={false}
           visible={this.state.isModalActive}
         >
           <View style={styles.holder}>
             {Platform.OS === 'ios' && <View style={styles.space} />}
-            <View>
+            {/* <View> */}
               <Text style={styles.chapTitleModal}>
                 {this.state.chapter.titulo}
               </Text>
-            </View>
+            {/* </View> */}
             <ScrollView
               scrollEventThrottle={32}
               onScroll={() => {

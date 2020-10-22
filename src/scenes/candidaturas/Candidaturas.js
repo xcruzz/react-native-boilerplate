@@ -38,6 +38,7 @@ export default class Candidaturas extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      navigation: props.navigation,
       districtNumber: props.navigation.state.params.districtNumber,
       districtName: !props.navigation.state.params.townKey
         ? mvcdb.distritosS.find((d) => {
@@ -93,7 +94,7 @@ export default class Candidaturas extends React.Component {
                       return c.pueblo && c.pueblo === dt.key
                     })
                   )
-                    return <TownTile key={i} townKey={dt.key} />
+                    return <TownTile navigation={this.state.navigation} key={i} townKey={dt.key} />
                 })}
 
               <DistrictInfo
