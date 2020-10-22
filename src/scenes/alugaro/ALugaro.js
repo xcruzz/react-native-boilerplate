@@ -43,6 +43,11 @@ const styles = StyleSheet.create({
     height: deviceSize.width * 0.65 * 1.005,
     marginVertical: 10,
   },
+  tileM: {
+    width: deviceSize.width * 0.85,
+    height: deviceSize.width * 0.85 * 0.704,
+    marginVertical: 10,
+  },
   tile2: {
     width: deviceSize.width * 0.75,
     height: deviceSize.width * 0.75 * 0.733,
@@ -55,7 +60,7 @@ const styles = StyleSheet.create({
 })
 
 const welcomeScreen = globalStyles.welcomeScreen
-const isFirst = 'mvcApp:v7.10.21'
+const isFirst = 'mvcApp:v8.10.22'
 
 export default class ALugaro extends React.Component {
   async componentDidMount() {
@@ -105,7 +110,7 @@ export default class ALugaro extends React.Component {
                     })
                   }}
                 >
-                  <Image style={styles.tile} source={images.PRTowns} />
+                  <Image style={styles.tileM} source={images.PRTowns} />
                 </TouchableOpacity>
               </View>
             ) : (
