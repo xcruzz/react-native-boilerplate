@@ -1,6 +1,6 @@
 import globalStyles from '../../../theme/styles'
 import React from 'react'
-import { View, Image, Platform } from 'react-native'
+import { View, Image } from 'react-native'
 import { createBottomTabNavigator } from 'react-navigation-tabs'
 import FontIcon from 'react-native-vector-icons/FontAwesome5'
 import { colors, images } from 'theme'
@@ -22,7 +22,7 @@ const IOSNavigator = createBottomTabNavigator(
     },
     HomeTab: {
       screen: HomeNavigator,
-      navigationOptions: { title: 'Agenda Urgente' },
+      navigationOptions: { title: 'Propuestas' },
     },
     MapTab: {
       screen: MapNavigator,
@@ -55,7 +55,7 @@ const IOSNavigator = createBottomTabNavigator(
                 color={focused ? colors.victoryGold : colors.gray}
                 size={20}
                 solid
-               />
+              />
             )
           case 'MapTab':
             return (
@@ -87,7 +87,7 @@ const IOSNavigator = createBottomTabNavigator(
           backgroundColor: colors.darkGray,
         },
       },
-      tabBarVisible: true,//navigation.state.routeName != 'MapTab',
+      tabBarVisible: true, //navigation.state.routeName != 'MapTab',
       swipeEnabled: false,
     }),
   },
@@ -101,11 +101,11 @@ const AndroidNavigator = createBottomTabNavigator(
     },
     HomeTab: {
       screen: HomeNavigator,
-      navigationOptions: { title: 'Agenda Urgente' },
+      navigationOptions: { title: 'Propuestas' },
     },
     CandidatxsTab: {
       screen: CandidatxsNavigator,
-      navigationOptions: { title: 'Candidatxs' },
+      navigationOptions: { title: 'Candidaturas' },
     },
   },
   {
@@ -130,7 +130,7 @@ const AndroidNavigator = createBottomTabNavigator(
                 color={focused ? colors.victoryGold : colors.gray}
                 size={20}
                 solid
-               />
+              />
             )
           case 'CandidatxsTab':
             return (
@@ -159,5 +159,5 @@ const AndroidNavigator = createBottomTabNavigator(
   },
 )
 
-const TabNavigator = Platform.OS === 'ios' ? IOSNavigator : AndroidNavigator
+const TabNavigator = IOSNavigator
 export default TabNavigator

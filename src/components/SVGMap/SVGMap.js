@@ -3,13 +3,14 @@ import React from 'react'
 import { Svg, Path, G } from 'react-native-svg'
 import { colors, images, fonts } from 'theme'
 import mvcdb from '../../../assets/candidatxs/candidatxs.json'
-import ActiveLogo from '../../components/ActiveLogo'
 import {
   StyleSheet,
   Dimensions,
   View,
   Image,
   TouchableOpacity,
+  Text,
+  Platform,
 } from 'react-native'
 import { Picker } from '@react-native-community/picker'
 import { ScrollView } from 'react-native-gesture-handler'
@@ -28,7 +29,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     width: deviceSize.width,
-    height: deviceSize.height*.085
+    height: deviceSize.height * 0.085,
   },
   header: {
     flexDirection: 'column',
@@ -39,14 +40,22 @@ const styles = StyleSheet.create({
     flex: 1,
     width: 240,
     height: 40,
-    backgroundColor: colors.victoryGold
+    backgroundColor: colors.victoryGold,
   },
   onePickerItem: {
     flex: 0,
-    height: deviceSize.height*.07,
+    height: deviceSize.height * 0.07,
     color: colors.white,
     fontFamily: fonts.NeuePlak.Black,
     fontSize: deviceSize.height > 800 ? 28 : 20,
+  },
+  onePickerItemLabel: {
+    flex: 0,
+    marginTop: 5,
+    marginBottom: 7,
+    color: colors.white,
+    fontFamily: fonts.NeuePlak.Black,
+    fontSize: 25,
   },
   separatorU: {
     flex: 0,
@@ -61,8 +70,8 @@ const styles = StyleSheet.create({
     height: 2,
     width: '65%',
     backgroundColor: colors.victoryGold,
-    marginTop: deviceSize.height > 800 ? 60 : 50,
-    marginBottom: deviceSize.height < 800 ? 10 : 0,
+    marginTop: Platform.OS !== 'ios' ? 0 : deviceSize.height > 800 ? 60 : 50,
+    marginBottom: deviceSize.height < 800 ? 15 : 0,
   },
   headerImg: {
     marginVertical: 12,
@@ -72,18 +81,18 @@ const styles = StyleSheet.create({
   },
   display_lugaro: {
     alignSelf: 'center',
-    width: deviceSize.height*.08 * 2.2,
-    height: deviceSize.height*.08,
+    width: deviceSize.height * 0.08 * 2.2,
+    height: deviceSize.height * 0.08,
     marginTop: 2,
   },
 })
 
 const tabBarScreenDimensions = {
-  x: deviceSize.height > 800 ?320:265,
+  x: deviceSize.height > 800 ? 320 : 265,
   y: -125,
-  scale: deviceSize.height > 800 ? 2.75 : 2.35, 
-  width: deviceSize.width * (deviceSize.height > 800 ? 2.36:2),
-  height: deviceSize.width * 2.36 + .4,
+  scale: deviceSize.height > 800 ? 2.75 : 2.35,
+  width: deviceSize.width * (deviceSize.height > 800 ? 2.36 : 2),
+  height: deviceSize.width * 2.36 + 0.4,
   scrollOffSet: 100,
 }
 
@@ -95,9 +104,9 @@ export default class SVGMap extends React.Component {
   updateSelection(key) {
     if (key == this.state.selectedTownK) return
     let towns = this.state.towns
-      towns.map((t) => {
-          t.activeFill = this.state.gTownFill
-      })
+    towns.map((t) => {
+      t.activeFill = this.state.gTownFill
+    })
 
     let newIndex = 1
     if (key != defaultTown) {
@@ -117,6 +126,7 @@ export default class SVGMap extends React.Component {
       towns: towns,
       selectedTownI: key != defaultTown ? newIndex : 0,
       selectedTownK: key,
+      selectedTownName: key != defaultTown ? towns[newIndex].name : key,
       selectedTownN: key != defaultTown ? `Ver ${towns[newIndex].name}` : key,
     })
 
@@ -130,6 +140,7 @@ export default class SVGMap extends React.Component {
       towns: mvcdb.pueblos.sort((a, b) => (a.name > b.name ? 1 : -1)),
       selectedTownI: 1,
       selectedTownK: defaultTown,
+      selectedTownName: defaultTown,
       selectedTownN: defaultTown,
       gTownFill: colors.black,
       gTownActiveFill: colors.victoryGold,
@@ -139,7 +150,7 @@ export default class SVGMap extends React.Component {
       gTransform: '0.0 0.0',
     }
     this.state.towns.map((t) => {
-        t.activeFill = this.state.gTownFill
+      t.activeFill = this.state.gTownFill
     })
   }
 
@@ -148,36 +159,44 @@ export default class SVGMap extends React.Component {
 
     return (
       <View style={styles.main}>
-        <ActiveLogo />
         <Image style={styles.headerImg} source={images.candidatxsMapHeader} />
-        <View style={styles.separatorU}/>
-        <View style={styles.header}>
-          <Picker
-            style={styles.onePicker}
-            itemStyle={styles.onePickerItem}
-            selectedValue={this.state.selectedTownK}
-            onValueChange={(val, i) => {
-              this.updateSelection(val, i + 1)
-            }}
-          >
-            <Picker.Item
-              label="MUNICIPIO"
-              value={defaultTown}
-              key={defaultTown}
-            />
-            {this.state.towns.map((town, i) => {
-              if (town.name)
-                return (
-                  <Picker.Item
-                    label={town.name.toUpperCase()}
-                    value={town.key}
-                    key={town.key}
-                  />
-                )
-            })}
-          </Picker>
-        </View>
-        <View style={styles.separator}/>
+        <View style={styles.separatorU} />
+        {Platform.OS === 'ios' ? (
+          <View style={styles.header}>
+            <Picker
+              style={styles.onePicker}
+              itemStyle={styles.onePickerItem}
+              selectedValue={this.state.selectedTownK}
+              onValueChange={(val, i) => {
+                this.updateSelection(val, i + 1)
+              }}
+            >
+              <Picker.Item
+                label="MUNICIPIO"
+                value={defaultTown}
+                key={defaultTown}
+              />
+              {this.state.towns.map((town, i) => {
+                if (town.name)
+                  return (
+                    <Picker.Item
+                      label={town.name.toUpperCase()}
+                      value={town.key}
+                      key={town.key}
+                    />
+                  )
+              })}
+            </Picker>
+          </View>
+        ) : (
+          <View style={styles.header}>
+            <Text style={styles.onePickerItemLabel}>
+              {this.state.selectedTownName.toUpperCase()}
+            </Text>
+          </View>
+        )}
+
+        <View style={styles.separator} />
         <ScrollView
           horizontal={true}
           initialListSize={0}

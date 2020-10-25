@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   logo: {
     width: 154,
     height: 174,
-    marginBottom: 10,
+    marginVertical: 15,
   },
 })
 const chapters = [

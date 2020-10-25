@@ -15,39 +15,6 @@ const welcomeScreen = StyleSheet.create({
   },
 })
 
-const detailsPage = StyleSheet.create({
-  root: {
-    flex: 1,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.white,
-  },
-  title: {
-    fontSize: 24,
-    marginBottom: 10,
-    color: colors.black,
-    textAlign: 'center',
-    fontFamily: fonts.NeuePlak.Black,
-  },
-  center: {
-    alignSelf: 'center',
-    paddingTop: 5,
-    // paddingRight: 10,
-    // paddingLeft: 10,
-    paddingBottom: 20,
-    fontSize: 25,
-    // // fontFamily: 'AvenirNextCondensed-Regular',
-  },
-  separator: {
-    alignSelf: 'center',
-    height: 2,
-    width: '65%',
-    backgroundColor: colors.victoryGold,
-    marginTop: 5,
-  },
-})
-
 const stacks = StyleSheet.create({
   logo: {
     width: 32,
@@ -59,7 +26,6 @@ const drawerMenu = StyleSheet.create({
   root: {
     flex: 1,
     flexDirection: 'column',
-    paddingHorizontal: 10,
   },
   head: {
     flexDirection: 'row',
@@ -72,9 +38,16 @@ const drawerMenu = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     paddingLeft: 20,
+    backgroundColor: colors.black,
   },
   collapse: {
     paddingLeft: 4,
+  },
+  display_lugaro: {
+    width: 150,
+    height: 68,
+    marginVertical: 5,
+    marginBottom: 10,
   },
   collapseH: {
     flexDirection: 'row',
@@ -394,7 +367,6 @@ const candibrowser = StyleSheet.create({
   },
 })
 export default {
-  detailsPage,
   drawerMenu,
   articlePage,
   activeDisplay,
