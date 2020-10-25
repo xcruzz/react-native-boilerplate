@@ -1,6 +1,5 @@
 import SocialBar from '../../components/SocialBar'
 import AButton from '../../components/ALugaroButton'
-import ActiveLogo from '../../components/ActiveLogo'
 import globalStyles from '../../theme/styles'
 import React from 'react'
 import {
@@ -9,7 +8,6 @@ import {
   View,
   StatusBar,
   Image,
-  Platform,
   StyleSheet,
   Dimensions,
   Linking,
@@ -98,24 +96,19 @@ export default class ALugaro extends React.Component {
     return (
       <View style={styles.root}>
         <StatusBar barStyle="light-content" />
-        <ActiveLogo isHeader={false} />
         <ScrollView>
           <View style={styles.root}>
-            {Platform.OS === 'ios' ? (
-              <View>
-                <TouchableOpacity
-                  onPress={() => {
-                    this.state.props.navigation.navigate('Map', {
-                      from: 'ALugaro',
-                    })
-                  }}
-                >
-                  <Image style={styles.tileM} source={images.PRTowns} />
-                </TouchableOpacity>
-              </View>
-            ) : (
-              <View />
-            )}
+            <View>
+              <TouchableOpacity
+                onPress={() => {
+                  this.state.props.navigation.navigate('Map', {
+                    from: 'ALugaro',
+                  })
+                }}
+              >
+                <Image style={styles.tileM} source={images.PRTowns} />
+              </TouchableOpacity>
+            </View>
             <TouchableOpacity
               onPress={() => {
                 this.state.props.navigation.navigate('CandiBrowser', {
@@ -134,6 +127,16 @@ export default class ALugaro extends React.Component {
               }}
             >
               <Image style={styles.tile} source={images.programadegobierno} />
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {
+                this.state.props.navigation.navigate('Details', {
+                  from: 'ALugaro',
+                  articleKey: 'agenda_urgente',
+                })
+              }}
+            >
+              <Image style={styles.tile} source={images.agendaurgente} />
             </TouchableOpacity>
             <TouchableOpacity
               onPress={() => {

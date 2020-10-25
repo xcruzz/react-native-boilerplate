@@ -1,7 +1,6 @@
-import globalStyles from '../../../theme/styles'
 import React from 'react'
-import Platform from 'react-native'
-import { createStackNavigator, HeaderBackButton } from 'react-navigation-stack'
+import { View } from 'react-native'
+import { createStackNavigator } from 'react-navigation-stack'
 import { colors } from 'theme'
 import HeaderTitle from './HeaderTitle'
 import Home from 'scenes/home'
@@ -10,8 +9,7 @@ import Map from 'scenes/map'
 import ALugaro from 'scenes/alugaro'
 import CandiBrowser from 'scenes/candibrowser'
 import Candidaturas from 'scenes/candidaturas'
-
-const styles = globalStyles.stacks
+import ActiveLogo from '../../../components/ActiveLogo'
 
 const navigationProps = {
   headerTintColor: colors.white,
@@ -23,14 +21,22 @@ export const HomeNavigator = createStackNavigator({
   Home: {
     screen: Home,
     navigationOptions: ({ navigation }) => ({
-      headerTitle: <HeaderTitle />,
+      headerTitle: (
+        <ActiveLogo
+          onPress={() => {
+            navigation.goBack()
+          }}
+          isHeader={true}
+        />
+      ),
+      headerLeft: <View style={{ width: 0 }} />,
       ...navigationProps,
     }),
   },
   Details: {
     screen: Details,
     navigationOptions: () => ({
-      title: 'Detalles',
+      headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
@@ -39,28 +45,31 @@ export const HomeNavigator = createStackNavigator({
 export const MapNavigator = createStackNavigator({
   Map: {
     screen: Map,
-    navigationOptions: () => ({
-      headerShown: false,
-      headerTitle: <HeaderTitle />,
+    navigationOptions: ({ navigation }) => ({
+      headerTitle: (
+        <ActiveLogo
+          onPress={() => {
+            navigation.goBack()
+          }}
+          isHeader={true}
+        />
+      ),
+      headerLeft: <View style={{ width: 0 }} />,
       ...navigationProps,
     }),
   },
   Candidaturas: {
     screen: Candidaturas,
     navigationOptions: ({ navigation }) => ({
-      title: '',
-      headerBackTitleVisible: true,
-      left: '',
-      headerLeft: (
-        <HeaderBackButton
+      headerTitle: (
+        <ActiveLogo
           onPress={() => {
-            navigation.navigate('Map')
+            navigation.goBack()
           }}
-          title="Regresar"
-          backTitleVisible={true}
-          tintColor={colors.white}
+          isHeader={true}
         />
       ),
+      headerLeft: <View style={{ width: 0 }} />,
       ...navigationProps,
     }),
   },
@@ -70,7 +79,6 @@ export const ALugaroNavigator = createStackNavigator({
   ALugaro: {
     screen: ALugaro,
     navigationOptions: ({ navigation }) => ({
-      headerShown: false,
       headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
@@ -78,45 +86,60 @@ export const ALugaroNavigator = createStackNavigator({
   Map: {
     screen: Map,
     navigationOptions: ({ navigation }) => ({
-      headerShown: false,
-      title: 'Regresar',
-      from: 'ALugaroNavigator',
       ...navigationProps,
+      headerTitle: (
+        <ActiveLogo
+          onPress={() => {
+            navigation.goBack()
+          }}
+          isHeader={true}
+        />
+      ),
+      headerLeft: <View style={{ width: 0 }} />,
     }),
   },
   CandiBrowser: {
     screen: CandiBrowser,
     navigationOptions: ({ navigation }) => ({
-      title: 'Lúgaro 2020',
-      headerTitle: <HeaderTitle />,
-      headerLeft:
-        Platform.OS === 'ios' ? (
-          <HeaderBackButton
-            onPress={() => {
-              navigation.navigate('Map')
-            }}
-            title="Regresar"
-            backTitleVisible={false}
-            tintColor={colors.white}
-          />
-        ) : null,
+      headerTitle: (
+        <ActiveLogo
+          onPress={() => {
+            navigation.goBack()
+          }}
+          isHeader={true}
+        />
+      ),
+      headerLeft: <View style={{ width: 0 }} />,
       ...navigationProps,
     }),
   },
   Candidaturas: {
     screen: Candidaturas,
     navigationOptions: ({ navigation }) => ({
-      title: 'Candidaturas',
-      headerLeft: null,
-      headerTitle: <HeaderTitle />,
+      headerTitle: (
+        <ActiveLogo
+          onPress={() => {
+            navigation.goBack()
+          }}
+          isHeader={true}
+        />
+      ),
+      headerLeft: <View style={{ width: 0 }} />,
       ...navigationProps,
     }),
   },
   Details: {
     screen: Details,
-    navigationOptions: () => ({
-      headerLeft: null,
-      headerTitle: <HeaderTitle />,
+    navigationOptions: ({ navigation }) => ({
+      headerTitle: (
+        <ActiveLogo
+          onPress={() => {
+            navigation.goBack()
+          }}
+          isHeader={true}
+        />
+      ),
+      headerLeft: <View style={{ width: 0 }} />,
       ...navigationProps,
     }),
   },
@@ -126,35 +149,45 @@ export const CandidatxsNavigator = createStackNavigator({
   CandiBrowser: {
     screen: CandiBrowser,
     navigationOptions: ({ navigation }) => ({
-      headerLeft: null,
-      headerTitle: <HeaderTitle />,
+      headerTitle: (
+        <ActiveLogo
+          onPress={() => {
+            navigation.goBack()
+          }}
+          isHeader={true}
+        />
+      ),
+      headerLeft: <View style={{ width: 0 }} />,
       ...navigationProps,
     }),
   },
   Candidaturas: {
     screen: Candidaturas,
     navigationOptions: ({ navigation }) => ({
-      headerLeft: null,
-      headerTitle: <HeaderTitle />,
+      headerTitle: (
+        <ActiveLogo
+          onPress={() => {
+            navigation.goBack()
+          }}
+          isHeader={true}
+        />
+      ),
+      headerLeft: <View style={{ width: 0 }} />,
       ...navigationProps,
     }),
   },
   Details: {
     screen: Details,
-    navigationOptions: () => ({
-      headerShown: false,
-      headerLeft:
-        Platform.OS === 'ios' ? (
-          <HeaderBackButton
-            onPress={() => {
-              navigation.navigate('Map')
-            }}
-            title="Regresar"
-            backTitleVisible={false}
-            tintColor={colors.white}
-          />
-        ) : null,
-      //headerTitle: <HeaderTitle />,
+    navigationOptions: ({ navigation }) => ({
+      headerTitle: (
+        <ActiveLogo
+          onPress={() => {
+            navigation.goBack()
+          }}
+          isHeader={true}
+        />
+      ),
+      headerLeft: <View style={{ width: 0 }} />,
       ...navigationProps,
     }),
   },

@@ -51,7 +51,7 @@ const chaptersFiles = [
   { content: C17, chapterKey: 'C17' },
   { content: C18, chapterKey: 'C18' },
 ]
-
+const deviceSize = Dimensions.get('window')
 const styles = StyleSheet.create({
   holder: {
     flex: 1,
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   },
   chapTitleModal: {
     fontSize: 23,
-    //paddingTop: Platform.OS === 'ios' ? 25 : 5,
+    paddingTop: Platform.OS === 'ios' && deviceSize.height > 800 ? 25 : 0,
     paddingVertical: 5,
     textAlign: 'center',
     fontFamily: fonts.NeuePlak.Black,
@@ -138,12 +138,12 @@ export default class MVCChapter extends React.Component {
           visible={this.state.isModalActive}
         >
           <View style={styles.holder}>
-            {Platform.OS === 'ios' && <View style={styles.space} />}
-            {/* <View> */}
-              <Text style={styles.chapTitleModal}>
-                {this.state.chapter.titulo}
-              </Text>
-            {/* </View> */}
+            {Platform.OS === 'ios' && deviceSize.height < 800 && (
+              <View style={styles.space} />
+            )}
+            <Text style={styles.chapTitleModal}>
+              {this.state.chapter.titulo}
+            </Text>
             <ScrollView
               scrollEventThrottle={32}
               onScroll={() => {

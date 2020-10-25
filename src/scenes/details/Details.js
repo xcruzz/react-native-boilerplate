@@ -1,41 +1,50 @@
-import globalStyles from '../../theme/styles'
 import { ScrollView } from 'react-native-gesture-handler'
 import AgendaUrgente from 'components/AgendaUrgente'
 import ProgramaDeGobierno from 'components/ProgramaDeGobierno'
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Text, View, StatusBar, Platform, Image } from 'react-native'
+import {
+  Text,
+  View,
+  StatusBar,
+  Platform,
+  Image,
+  StyleSheet,
+} from 'react-native'
 import { images, fonts, colors } from 'theme'
 import TownInfo from 'components/TownInfo'
 
-const styles = globalStyles.detailsPage
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.white,
+  },
+})
 const ttStyle = {
   title: {
     fontSize: 26,
-    marginBottom: 0,
     alignSelf: 'center',
-    fontFamily: fonts.NeuePlak.CondExtraBlack,
-  },modalView: {
+    fontFamily: fonts.NeuePlak.Black,
+  },
+  modalView: {
     alignItems: 'center',
     flex: 1,
     justifyContent: 'center',
-  },holder: {
-    flex: 1, //must
-    backgroundColor: colors.white,
-    justifyContent: 'flex-start',
   },
-  space: {
-    alignSelf: 'center',
-    height: 25,
-    marginTop: 10,
-    backgroundColor: colors.white,
+  holder: {
+    flex: 1, //must
   },
   logo: {
     width: 30,
     height: 34,
     marginBottom: 5,
     marginRight: 10,
-  },header: {
+  },
+  header: {
+    marginBottom: Platform.OS === 'ios' ? 10 : 0,
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
@@ -48,39 +57,35 @@ const Details = ({ navigation }) => {
   return (
     <View style={styles.root}>
       <StatusBar barStyle="light-content" />
-      <ScrollView>
-        {/* <Text style={styles.verb} /> */}
-        {/* <Text style={styles.title}>
-          {'Movimiento Victoria Ciudadana'.toUpperCase()}
-        </Text> */}
-        {
-          articleKey == 'programadegobierno' ? (
+      {Platform.OS === 'ios' ? <Text style={styles.verb} /> : <View />}
+      {
+        articleKey == 'programadegobierno' ? (
+          <ScrollView>
             <ProgramaDeGobierno />
-          ) : articleKey == 'town_tile' ? (
-            <View style={ttStyle.holder}>
-            {Platform.OS === 'ios' && <View style={styles.space} />}
+          </ScrollView>
+        ) : articleKey == 'town_tile' ? (
+          <View style={ttStyle.holder}>
             <View style={ttStyle.header}>
               <Image style={ttStyle.logo} source={images['logo_negro']} />
               <Text style={ttStyle.title}>{townName}</Text>
             </View>
-            <ScrollView
-              scrollEventThrottle={32}              
-            >
-              <View style={styles.modalView}>
+            <ScrollView scrollEventThrottle={32}>
+              <View style={ttStyle.modalView}>
                 <TownInfo renderHeader={false} townKey={townKey} />
               </View>
             </ScrollView>
           </View>
-          ): articleKey == 'agenda_urgente' ? (
+        ) : articleKey == 'agenda_urgente' ? (
+          <ScrollView>
             <AgendaUrgente />
-          ) : (
-            <Text></Text>
-          )
-          //You can add more Article components here
-          //Leave the empty <Text> as last always (default) and queue new option on top
-          //eg. `articleKey == 'new_key' ? <NewArticleComponent /> :`
-        }
-      </ScrollView>
+          </ScrollView>
+        ) : (
+          <Text></Text>
+        )
+        //You can add more Article components here
+        //Leave the empty <Text> as last always (default) and queue new option on top
+        //eg. `articleKey == 'new_key' ? <NewArticleComponent /> :`
+      }
     </View>
   )
 }

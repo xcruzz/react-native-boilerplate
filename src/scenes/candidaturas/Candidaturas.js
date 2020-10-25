@@ -58,7 +58,6 @@ export default class Candidaturas extends React.Component {
             <ScrollView>
               <NationalList />
               <TownInfo townKey={this.state.townKey} />
-
               <AButton
                 title="Haz tu donación"
                 onPressURL="https://www.mvcpr.org/donativos/"
@@ -94,9 +93,14 @@ export default class Candidaturas extends React.Component {
                       return c.pueblo && c.pueblo === dt.key
                     })
                   )
-                    return <TownTile navigation={this.state.navigation} key={i} townKey={dt.key} />
+                    return (
+                      <TownTile
+                        navigation={this.state.navigation}
+                        key={i}
+                        townKey={dt.key}
+                      />
+                    )
                 })}
-
               <DistrictInfo
                 districtNumber={this.state.districtNumber}
                 displayHeader={false}

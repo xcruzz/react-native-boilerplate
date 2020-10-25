@@ -29,6 +29,7 @@ export const images = {
   alugaro_arco_white: require('../../assets/alugaro/arco_icon_white.png'),
   alugaro_2020: require('../../assets/alugaro/Lugaro2020.png'),
   defiendeelvoto: require('../../assets/alugaro/defiendeelvoto.png'),
+  agendaurgente: require('../../assets/alugaro/agendaurgente.png'),
   programadegobierno: require('../../assets/alugaro/programadegobierno.png'),
   alugaro_sloganRow: require('../../assets/alugaro/LugaroSlogan.png'),
   alugaro_sloganCol: require('../../assets/alugaro/ALugaroSlogan.png'),

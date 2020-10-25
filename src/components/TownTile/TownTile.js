@@ -1,20 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import {
-  StyleSheet,
-  Text,
-  View,
-  Modal,
-  ScrollView,
-  Dimensions,
-  Image,
-} from 'react-native'
+import { StyleSheet, View, Dimensions } from 'react-native'
 import mvcdb from '../../../assets/candidatxs/candidatxs.json'
 import AButton from '../ALugaroButton'
-import TownInfo from '../TownInfo'
-import { colors, images, fonts } from 'theme'
-
-const deviceSize = Dimensions.get('window')
+import { colors, fonts } from 'theme'
 
 const styles = StyleSheet.create({
   header: {
@@ -61,7 +50,7 @@ export default class TownTile extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      navigation : props.navigation,
+      navigation: props.navigation,
       isModalActive: false,
       townKey: props.townKey,
       town: mvcdb.pueblos.find((t) => {
@@ -81,7 +70,7 @@ export default class TownTile extends React.Component {
               from: 'TownTile',
               articleKey: 'town_tile',
               townKey: this.state.townKey,
-              townName: this.state.town.name
+              townName: this.state.town.name,
             })
           }}
         />
@@ -96,5 +85,5 @@ TownTile.propTypes = {
 
 TownTile.defaultProps = {
   townKey: '',
-  navigation: null
+  navigation: null,
 }
