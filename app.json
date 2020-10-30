@@ -1,12 +1,10 @@
 {
   "expo": {
     "name": "Lugaro 2020",
-    "slug": "lugaro2020",
+    "slug": "victoriaciudadana",
     "privacy": "public",
-    "platforms": [
-      "android"
-    ],
-    "version": "7.10.30",
+    "platforms": ["ios"],
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -20,15 +18,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "android": {
-      "permissions": [],
-      "versionCode": 7,
-      "backgroundColor": "#000000",
-      "icon": "./assets/icon.png",
-      "splash": {
-        "backgroundColor": "#000000"
-      },
-      "package": "com.alexandralugaro2020.app"
+    "ios": {
+      "bundleIdentifier": "org.mvcpr",
+      "buildNumber": "10"
     },
     "packagerOpts": {
       "config": "metro.config.js",
@@ -40,6 +32,6 @@
         "tsx"
       ]
     },
-    "description": "A través de esta aplicación podrás repasar las biografías de candidatos a posiciones principales, alcaldías, legislatura y legislaturas municipales del MVC. Todos comprometidos con la Agenda Urgente. "
+    "description": "Conoce los candidatos por el Movimiento Victoria Ciudadana en el 2020. A través de esta aplicación podrás repasar las biografías de candidatos y candidatas a posiciones principales, alcaldías, legislatura y legislaturas municipales del MVC."
   }
 }
