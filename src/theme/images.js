@@ -13,7 +13,7 @@ export const images = {
   logo_blanco: require('../../assets/images/mvclogo/blancoiris7.png'),
   logo_arcoiris: require('../../assets/images/mvclogo/blancoiris1.png'),
   welcome_screen: require('../../assets/images/welcome_screenAL.png'),
-  
+
   victoria_icon_grey: require('../../assets/victoria_icon_grey.png'),
   victoria_icon_grey_x: require('../../assets/victoria_icon_grey_x.png'),
   victoria_icon_bmLugaro: require('../../assets/victoria_icon_bmLugaro.png'),
@@ -32,7 +32,7 @@ export const images = {
   agendaurgente: require('../../assets/alugaro/agendaurgente.png'),
   programadegobierno: require('../../assets/alugaro/programadegobierno.png'),
   alugaro_sloganRow: require('../../assets/alugaro/LugaroSlogan.png'),
-  alugaro_sloganCol: require('../../assets/alugaro/ALugaroSlogan.png'),
+  alugaro_sloganRowB: require('../../assets/alugaro/LugaroSloganB.png'),
 
   fb_icon: require('../../assets/social/fb_iconAL.png'),
   twitter_icon: require('../../assets/social/twitter_iconAL.png'),

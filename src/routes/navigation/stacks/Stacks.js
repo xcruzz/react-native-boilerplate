@@ -20,16 +20,8 @@ const navigationProps = {
 export const HomeNavigator = createStackNavigator({
   Home: {
     screen: Home,
-    navigationOptions: ({ navigation }) => ({
-      headerTitle: (
-        <ActiveLogo
-          onPress={() => {
-            navigation.goBack()
-          }}
-          isHeader={true}
-        />
-      ),
-      headerLeft: <View style={{ width: 0 }} />,
+    navigationOptions: () => ({
+      headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
@@ -45,16 +37,8 @@ export const HomeNavigator = createStackNavigator({
 export const MapNavigator = createStackNavigator({
   Map: {
     screen: Map,
-    navigationOptions: ({ navigation }) => ({
-      headerTitle: (
-        <ActiveLogo
-          onPress={() => {
-            navigation.goBack()
-          }}
-          isHeader={true}
-        />
-      ),
-      headerLeft: <View style={{ width: 0 }} />,
+    navigationOptions: () => ({
+      headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },
@@ -78,7 +62,7 @@ export const MapNavigator = createStackNavigator({
 export const ALugaroNavigator = createStackNavigator({
   ALugaro: {
     screen: ALugaro,
-    navigationOptions: ({ navigation }) => ({
+    navigationOptions: () => ({
       headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
@@ -148,16 +132,8 @@ export const ALugaroNavigator = createStackNavigator({
 export const CandidatxsNavigator = createStackNavigator({
   CandiBrowser: {
     screen: CandiBrowser,
-    navigationOptions: ({ navigation }) => ({
-      headerTitle: (
-        <ActiveLogo
-          onPress={() => {
-            navigation.goBack()
-          }}
-          isHeader={true}
-        />
-      ),
-      headerLeft: <View style={{ width: 0 }} />,
+    navigationOptions: () => ({
+      headerTitle: <HeaderTitle />,
       ...navigationProps,
     }),
   },

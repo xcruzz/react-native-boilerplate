@@ -22,13 +22,13 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   logo: {
-    width: deviceSize.width * 0.68,
-    height: deviceSize.width * 0.68 * 0.19,
+    width: deviceSize.width * 0.7,
+    height: deviceSize.width * 0.7 * 0.1749,
     marginBottom: 20,
   },
   headerLogo: {
-    width: deviceSize.width * 0.68,
-    height: deviceSize.width * 0.68 * 0.19,
+    width: deviceSize.width * 0.7,
+    height: deviceSize.width * 0.7 * 0.1749,
     marginRight: Platform.OS !== 'ios' ? deviceSize.width / 5.6 : 0,
     marginBottom: 4 + (Platform.OS !== 'ios' ? 10 : 0),
   },
@@ -37,25 +37,16 @@ const styles = StyleSheet.create({
 export default class ActiveLogo extends React.Component {
   constructor(props) {
     super(props)
-    let logos = [images.alugaro_sloganRow]
     this.state = {
       onPress: props.onPress,
       logoStyle: props.isHeader ? styles.headerLogo : styles.logo,
       containerStyle: props.isHeader ? styles.containerH : styles.container,
-      logos: logos,
-      activeLogo: { i: 0, img: logos[0] },
+      activeLogo: {
+        img: props.isHeader
+          ? images.alugaro_sloganRowB
+          : images.alugaro_sloganRow,
+      },
     }
-  }
-
-  nextLogo = () => {
-    let next =
-      this.state.activeLogo.i > this.state.logos.length - 2
-        ? 0
-        : this.state.activeLogo.i + 1
-    this.setState({
-      ...this.state,
-      activeLogo: { i: next, img: this.state.logos[next] },
-    })
   }
 
   render() {
