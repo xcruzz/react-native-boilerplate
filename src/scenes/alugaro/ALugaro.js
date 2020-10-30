@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
 })
 
 const welcomeScreen = globalStyles.welcomeScreen
-const isFirst = 'mvcApp:v7.10.21'
+const isFirst = 'mvcApp:v7.10.31'
 
 export default class ALugaro extends React.Component {
   async componentDidMount() {
