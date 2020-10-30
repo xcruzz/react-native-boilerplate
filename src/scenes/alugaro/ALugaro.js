@@ -41,6 +41,11 @@ const styles = StyleSheet.create({
     height: deviceSize.width * 0.65 * 1.005,
     marginVertical: 10,
   },
+  tilePDG: {
+    width: deviceSize.width * 0.68,
+    height: deviceSize.width * 0.68 * 0.792,
+    marginTop: 10,
+  },
   tileM: {
     width: deviceSize.width * 0.85,
     height: deviceSize.width * 0.85 * 0.704,
@@ -126,7 +131,10 @@ export default class ALugaro extends React.Component {
                 })
               }}
             >
-              <Image style={styles.tile} source={images.programadegobierno} />
+              <Image
+                style={styles.tilePDG}
+                source={images.programadegobierno}
+              />
             </TouchableOpacity>
             <TouchableOpacity
               onPress={() => {

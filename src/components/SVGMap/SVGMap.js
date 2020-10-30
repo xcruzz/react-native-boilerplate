@@ -88,10 +88,12 @@ const styles = StyleSheet.create({
 })
 
 const tabBarScreenDimensions = {
-  x: deviceSize.height > 800 ? 320 : 265,
+  x: (deviceSize.height > 800 ? 320 : 265) + (Platform.OS !== 'ios' ? 10 : 0),
   y: -125,
   scale: deviceSize.height > 800 ? 2.75 : 2.35,
-  width: deviceSize.width * (deviceSize.height > 800 ? 2.36 : 2),
+  width:
+    (Platform.OS !== 'ios' ? 40 : 0) +
+    deviceSize.width * (deviceSize.height > 800 ? 2.36 : 2),
   height: deviceSize.width * 2.36 + 0.4,
   scrollOffSet: 100,
 }
