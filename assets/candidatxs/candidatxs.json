@@ -2005,6 +2005,27 @@
     },
     {
       "distritoS": 4,
+      "key": "reginaldorosado",
+      "photo": {
+        "imgUri": "https://www.dropbox.com/s/j8t6lmefdeg1izx/reginaldorosado.png?raw=1"
+      },
+      "pueblo": "mayaguez",
+      "candidatura": "Legislador Municipal Mayagüez",
+      "nombre": "Reginaldo Rosado Silva",
+      "contacto": {
+        "email": null,
+        "fb": null,
+        "ig": null,
+        "twitter": null
+      },
+      "planDeTrabajo": null,
+      "biografia": [
+        "Reginaldo Rosado es hijo de papá y mamá obreros, el menor de tres hermanos, mayagüezano, puertorriqueño y caribeñista. Compañero de vida de Karla y padre de Marcela Victoria. Fiel creyente en que el conocimiento es un instrumento de poder para combatir todo aquello que atenta contra la dignidad y los derechos humanos fundamentales. Posee un Bachillerato en Sociología de la Universidad de Puerto Rico, Recinto de Mayagüez al igual que una Maestría en Planificación de la Universidad de Puerto Rico en Río Piedras y un Doctorado en Historia de Puerto Rico y el Caribe del Centro de Estudios Avanzados de Puerto Rico y el Caribe en el Viejo San Juan. En la actualidad es Instructor de Ciencias Sociales de la Universidad de Puerto Rico, Recinto de Mayagüez (RUM) y de la Universidad Interamericana de Puerto Rico, Recinto de San Germán. Además, es Profesor Adjunto de Ciencias Sociales, Historia y Humanidades de la Universidad Carlos Albizu, Recinto de Mayagüez.",
+        "Ha sido activista por los derechos de los profesores sin plaza en el sistema de público, analista/comentarista político, líder estudiantil, conferenciante y locutor radial. Sus áreas de interés en investigación y política pública son el re-desarrollo de frentes de agua urbanos, la política de vivienda pública, y las prácticas neoliberales del estado que reproducen distintas representaciones de exclusión como son la pobreza y la desigualdad social en Puerto Rico. Cree firmemente en el proceso de descolonización de Puerto Rico, auditar la deuda pública, combatir de raíz el clientelismo e inversionísmo político -y sin duda alguna- ni un chavo para la Junta de Supervisión Fiscal impuesta por la Ley PROMESA."
+      ]
+    },
+    {
+      "distritoS": 4,
       "key": "hectoroo",
       "photo": {
         "imgUri": "https://www.dropbox.com/s/mc8k3w2n35816al/10P-Hector-Ortiz-Ortiz-Legislador-Municipal-Anasco-150x150%20%281%29.png?raw=1"
