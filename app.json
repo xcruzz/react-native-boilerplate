@@ -15,22 +15,14 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "bundleIdentifier": "org.mvcpr",
-      "buildNumber": "10"
+      "buildNumber": "11"
     },
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": [
-        "js",
-        "jsx",
-        "svg",
-        "ts",
-        "tsx"
-      ]
+      "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
     },
     "description": "Conoce los candidatos por el Movimiento Victoria Ciudadana en el 2020. A través de esta aplicación podrás repasar las biografías de candidatos y candidatas a posiciones principales, alcaldías, legislatura y legislaturas municipales del MVC."
   }
