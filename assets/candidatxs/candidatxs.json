@@ -701,7 +701,7 @@
         "Cancelación de la deuda",
         "Seguro de salud universal",
         "Restitución de los derechos y protecciones del trabajo",
-        "Aumento del salario mínimo", 
+        "Aumento del salario mínimo",
         "Un código civil que respeta los derechos humanos de todos y todas",
         "Transformación del sistema electoral"
       ],
@@ -795,7 +795,7 @@
       "biografia": [
         "José Bernardo Márquez es abogado, educador y líder comunitario. Obtuvo su Bachillerato en Sociología y su Juris Doctor en el Recinto de Río Piedras de la Universidad de Puerto Rico (UPR). Como servidor público, José Bernardo ha sido asesor legal de ramas gubernamentales independientes tales como el Tribunal Supremo de Puerto Rico y el Instituto de Estadísticas de Puerto Rico.",
         "Así mismo, ha sido investigador en temas de política pública para organizaciones cívicas y publicaciones jurídicas. De otra parte, José Bernardo siempre se ha destacado como líder comunitario en el barrio Pájaros de Toa Baja a través del proyecto educativo “No lo dejes caer”, el Maratón Abraham Rosa y la Iglesia Cristiana Discípulos de Cristo. Es también educador en temas de sociología y derecho en calidad de profesor universitario, tallerista y columnista. Sus publicaciones están disponibles en las plataformas electrónicas de El Nuevo Día, la Revista Jurídica UPR y Microjuris.",
-        "Actualmente, es candidato a Representante por Acumulación del Movimiento Victoria Ciudadana y promueve reformas democráticas, medidas anticorrupción y oportunidades laborales para la juventud. Es estadista y forma parte de Victoria Ciudadana como movimiento enfocado en un mejor gobierno, la defensa de los derechos humanos y el compromiso con un proceso descolonizador serio y vinculante."        
+        "Actualmente, es candidato a Representante por Acumulación del Movimiento Victoria Ciudadana y promueve reformas democráticas, medidas anticorrupción y oportunidades laborales para la juventud. Es estadista y forma parte de Victoria Ciudadana como movimiento enfocado en un mejor gobierno, la defensa de los derechos humanos y el compromiso con un proceso descolonizador serio y vinculante."
       ]
     },
     {
@@ -1479,6 +1479,31 @@
       ]
     },
     {
+      "distritoS": [1, 2],
+      "key": "cristianrosafuentes",
+      "photo": {
+        "imgUri": "https://www.dropbox.com/s/u5oyme709wqan7p/cristianrosafuentes.png?raw=1"
+      },
+      "pueblo": "guaynabo",
+      "candidatura": "Legislador Municipal Guaynabo",
+      "nombre": "Cristian O. Rosa Fuentes",
+      "contacto": {
+        "email": "cristianrosamvc@gmail.com",
+        "fb": "cristianrosafuentes",
+        "ig": null,
+        "twitter": null
+      },
+      "planDeTrabajo": null,
+      "biografia": [
+        "Cristian O Rosa Fuentes, es nacido y criado en Guaynabo. Tiene un bachillerato en Administración de Empresas con una concentración en Contabilidad de la Universidad de Puerto Rico Recinto de Rio Piedras. Es especialista en Contribuciones sobre ingresos, certificado por el Departamento de Hacienda de Puerto Rico.",
+        "Desde muy joven se desempeña como líder. Ha colaborado en programas de rehabilitación y cuidado, con organizaciones tales como Lucha Inc. e Iniciativa comunitaria. En el año 2003 participó como ayudante en un viaje misionero a la Ciudad de San Juan de los Morros en Venezuela, a la que se le llevo ayuda médica a personas con necesidades económicas. Para el 2004 fue nominado para recibir la Medalla de la Juventud. Recibió para ese mismo año la Medalla de la Gobernadora. Siempre ha sentido el deseo de servir.",
+        "Junto a su esposa, levantan una familia de tres niños, y su mayor deseo es que sus hijos puedan ser personas de bien para el país.",
+        "Actualmente se desempeña como Gerente de ventas en una tienda de venta de repuestos para autos en Guaynabo. Ha tenido la oportunidad de conocer las necesidades de los empleados del municipio, y de personas que han sentido el atropello por las pasadas administraciones.",
+        "Su deseo de alcanzar la justicia social, y mejorar la calidad de vida de las personas que viven en Guaynabo, lo motiva a aspirar a la candidatura como legislador municipal.",
+        "“Yo me comprometo a que cada decisión que se tome en la Legislatura sea una de justicia para todos y no para un grupito. En caso de que así no sea, le votaré en contra y le haré saber al pueblo”"
+      ]
+    },
+    {
       "distritoS": 2,
       "key": "alexrdzrdz",
       "photo": {
@@ -1558,7 +1583,7 @@
       "nombre": "Aramis Fernández",
       "contacto": {
         "email": null,
-        "fb": "Aramis2020",
+        "fb": null,
         "ig": null,
         "twitter": null
       },
@@ -2037,7 +2062,8 @@
         "email": "hectorcigar@gmail.com",
         "fb": null,
         "ig": null,
-        "twitter": null
+        "twitter": null,
+        "website": "https://www.christiansantiago.net/h%C3%A9ctor"
       },
       "planDeTrabajo": [
         "Servir con transparencia, ser la voz de todos",
@@ -2061,7 +2087,8 @@
         "email": "roberto_diazdiaz@yahoo.com",
         "fb": null,
         "ig": null,
-        "twitter": null
+        "twitter": null,
+        "website": "https://www.christiansantiago.net/roberto"
       },
       "planDeTrabajo": [
         "Educación pública: identificar las prioridades de las escuelas de Añasco y aportar ideas para mejorar la calidad de enseñanza de nuestros jóvenes",
@@ -2079,14 +2106,15 @@
       "photo": {
         "imgUri": "https://www.dropbox.com/s/l4g0dqauip0twof/9P-Elba-Rivera-Rodriguez-Legisladora-Municipal-Anasco-150x150%20%281%29.png?raw=1"
       },
-      "pueblo": "anazco",
+      "pueblo": "anasco",
       "candidatura": "Legisladora Municipal Añasco",
       "nombre": "Elba Rivera Rodríguez",
       "contacto": {
         "email": "ei.rivera@hotmail.com",
         "fb": null,
         "ig": null,
-        "twitter": null
+        "twitter": null,
+        "website": "https://www.christiansantiago.net/elba"
       },
       "planDeTrabajo": [
         "Fortaleciendo el sistema de enseñanza a uno más moderno, aclimatado a los nuevos tiempos. Necesitamos currículos de inclusión, educación especializada a nuestra comunidad de jóvenes con autismo y síndrome de Aspergerse.",
@@ -2112,7 +2140,8 @@
         "email": null,
         "fb": null,
         "ig": "drosas morales",
-        "twitter": "diana_drosas"
+        "twitter": "diana_drosas",
+        "website": "https://www.christiansantiago.net/diana"
       },
       "planDeTrabajo": [
         "Derechos laborales",
@@ -2187,7 +2216,8 @@
         "email": "camille02759x@gmail.com",
         "fb": null,
         "ig": null,
-        "twitter": null
+        "twitter": null,
+        "website": "https://www.christiansantiago.net/carmen"
       },
       "planDeTrabajo": [
         "La educación pública",
@@ -2210,9 +2240,9 @@
       "nombre": "Pedro G. Acevedo",
       "contacto": {
         "email": "pgacv2@gmail.com",
-        "fb": "pedroacevedogov",
-        "ig": "pedroacevedogov",
-        "twitter": "pedroacevedogov"
+        "fb": null,
+        "ig": null,
+        "twitter": null
       },
       "planDeTrabajo": [
         "Tecnología: Reducir el papeleo y las visitas a las oficinas del gobierno a través de sistemas de información integrados y transacciones en línea.",
@@ -2872,7 +2902,7 @@
       "nombre": "Xander Torres",
       "contacto": {
         "email": "xandertorressenador@gmail.com",
-        "fb": "xandertorressenador",
+        "fb": null,
         "ig": "xandertorresmvc",
         "twitter": null
       },
@@ -2963,7 +2993,7 @@
         "twitter": "maritzamaymi"
       },
       "planDeTrabajo": [
-        "Restitución y ampliación de las protecciones laborales para empleadas y empleados del sector público y privado", 
+        "Restitución y ampliación de las protecciones laborales para empleadas y empleados del sector público y privado",
         "Aumento del salario mínimo",
         "Levantamiento y consolidación una economía solidaria y sostenible mediante incentivos para la creación de micro-empresas familiares y comunitarias para el manejo de material reciclable y compostable, y para el diseño y la elaboración de nuevos productos",
         "Creación de marcos legales para que las comunidades se conviertan en custodios de los recursos naturales y puedan organizar proyectos ecoturísticos",
@@ -3347,7 +3377,7 @@
       "distritoS": 8,
       "key": "jesusdalmau",
       "photo": {
-        "imgUri": "https://www.dropbox.com/s/n5ipoa3g4quyduq/candidatxs.json?raw=1"
+        "imgUri": "https://www.dropbox.com/s/14l0fck2pqgj2mb/9P-Jesus-Dalmau-Legislador-municipal-para-Carolina-150x150%20%281%29.png?raw=1"
       },
       "pueblo": "carolina",
       "candidatura": "Legislador municipal para Carolina",
