@@ -3,10 +3,8 @@
     "name": "Lugaro 2020",
     "slug": "lugaro2020",
     "privacy": "public",
-    "platforms": [
-      "android"
-    ],
-    "version": "7.10.30",
+    "platforms": ["android"],
+    "version": "8.11.02",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,12 +15,10 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "permissions": [],
-      "versionCode": 7,
+      "versionCode": 8,
       "backgroundColor": "#000000",
       "icon": "./assets/icon.png",
       "splash": {
@@ -32,13 +28,7 @@
     },
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": [
-        "js",
-        "jsx",
-        "svg",
-        "ts",
-        "tsx"
-      ]
+      "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
     },
     "description": "A través de esta aplicación podrás repasar las biografías de candidatos a posiciones principales, alcaldías, legislatura y legislaturas municipales del MVC. Todos comprometidos con la Agenda Urgente. "
   }
